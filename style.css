@@ -1,0 +1,78 @@
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.github_button {
+    border-radius: 8px;
+    border: 1px solid #black;
+    background: #20873e;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.title {
+  font-family: 'Lora';
+  font-size: 4em !important;
+  color: #193a5c;
+  margin-top: 0.275em !important;
+  margin-bottom: 0.35em !important;
+}
+
+
+
+
+/*------------- Body and header text---------------- */
+
+.book.font-family-1 {
+  font-family: 'Karla', arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', arial, sans-serif;
+}
+
+div.warning{
+  border: 4px #e0471c;
+  border-style: solid;
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  background-color: #e8ebee;
+}
+
+div.warning{
+  background-image: url("resources/images/warning.png");
+}
+
+div.github{
+  border: 4px #000000;
+  border-style: solid;
+  padding: 1em;
+  margin: 1em 0;
+  padding-left: 100px;
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  min-height: 120px;
+  background-color: #e8ebee;
+}
+
+div.github{
+  background-image: url("resources/images/github.png");
+}
+
+
