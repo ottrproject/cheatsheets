@@ -15,9 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 <input type="checkbox"> afdafsd
 
-<rcorners1> adsfa </rcourners1>
-
-<github> test </github>
 
 [this is a link](https://www.itcrtraining.org/)
 
