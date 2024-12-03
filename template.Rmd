@@ -1,5 +1,6 @@
 ---
 title: "Untitled Cheatsheet"
+subtitle: 'subtitle'
 date: "2024-11-27"
 output: html_document
 css: style.css
@@ -9,6 +10,9 @@ css: style.css
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+::: {.title_block}
+Untitled Cheatsheet
+:::
 ## R Markdown
 
 <input type="checkbox"> adfasfd 
@@ -25,3 +29,9 @@ warning test
 :::{.github_button}
 Use this template
 :::
+
+<center>
+<a href="https://ottrproject.org">
+  <img src="resources/images/basic_otter_water.png" width = 30%>
+</a>
+</center>
