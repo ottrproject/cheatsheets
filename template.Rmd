@@ -1,6 +1,7 @@
 ---
-title: "Untitled Cheatsheet"
-subtitle: 'subtitle'
+title: |
+  <center> <u> Cheatsheet </u></center>
+  <center> <p style = "color:#986753;"> Setup </p></center>
 date: "2024-11-27"
 output: html_document
 css: style.css
@@ -9,6 +10,7 @@ css: style.css
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 
 ::: {.title_block}
 Untitled Cheatsheet
