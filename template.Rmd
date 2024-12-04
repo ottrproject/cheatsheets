@@ -15,6 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ::: {.title_block}
 Untitled Cheatsheet
 :::
+
 ## R Markdown
 
 <input type="checkbox"> adfasfd 
