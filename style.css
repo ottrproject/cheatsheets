@@ -1,7 +1,11 @@
+/*------------- checkbox alignment---------------- */
+
 ul {
   list-style-position: inside;
   padding-left: 0;
 }
+
+/*------------- GitHub boxes that look like the buttons on GitHub---------------- */
 
 .github_button {
     border-radius: 8px;
@@ -19,6 +23,7 @@ ul {
     cursor: pointer;
 }
 
+/*------------- box around title and title font ---------------- */
 
 .title {
   font-family: 'Avenir';
