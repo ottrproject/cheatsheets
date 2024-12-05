@@ -1,7 +1,7 @@
 ---
 title: |
-  <center> <u> Cheatsheet </u></center>
-  <center> <p style = "color:#986753;"> template </p></center>
+  <center> <u> OTTR Website Cheatsheet </u></center>
+  <center> <p style = "color:#986753;"> Setup </p></center>
 date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 css: style.css
@@ -12,11 +12,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-## R Markdown
+## Create your OTTR repository from the [OTTR_Template_Website repository](OTTR_Template_Website repository)
 
-<input type="checkbox"> adfasfd 
+<input type="checkbox"> In the upper right, _click on_ 
 
-<input type="checkbox"> afdafsd
+<input type="checkbox"> Set your repo to **Public**
 
 
 [this is a link](https://www.itcrtraining.org/)

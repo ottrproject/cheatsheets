@@ -43,22 +43,36 @@ ul {
 
 
 
-
-
-
-
 /*------------- Body and header text---------------- */
 
 .book.font-family-1 {
   font-family: 'Karla', arial, sans-serif;
 }
 
+/*------------- Change header color---------------- */
 
-
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: 'Lora', arial, sans-serif;
+  color:#5ca5ff;
 }
 
+/*------------- Change link color---------------- */
+
+a {
+  color: #0598a8;
+}
+
+/*------------- Numbering for header level 2 ---------------- */
+
+body {
+  counter-reset: h2;
+}
+h2::before {
+  counter-increment: h2;
+  content: counter(h2) ". ";
+}
+
+/*------------- add warning and github boxes---------------- */
 
 
 div.warning{
