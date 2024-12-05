@@ -1,6 +1,6 @@
 ---
 title: |
-  <center> <u> OTTR Website Cheatsheet </u></center>
+  <center> <u> OTTR Website </u></center>
   <center> <p style = "color:#986753;"> Setup </p></center>
 date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
