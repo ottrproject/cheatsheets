@@ -26,7 +26,7 @@ warning test
 :::
 
 :::{.github_button}
-Use this template
+<a href="http://stackoverflow.com"> Use this template</a>
 :::
 
 <center>
