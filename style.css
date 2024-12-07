@@ -34,13 +34,11 @@ input[type="checkbox"] {
 
 /*------------- button link color---------------- */
 
-a:button {
-  color: white;
+
+.github_button a:link{
+    color: #fff;
 }
 
-.button{
-    color: white !important;
-}
 
 /*------------- box around title and title font ---------------- */
 
