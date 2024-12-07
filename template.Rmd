@@ -29,6 +29,8 @@ warning test
 <a href="http://stackoverflow.com"> Use this template</a>
 :::
 
+<github_button> Use this template </github_button>
+
 <center>
 <a href="https://ottrproject.org">
   <img src="resources/images/basic_otter_water.png" width = 30%>
