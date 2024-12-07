@@ -1,9 +1,18 @@
-/*------------- checkbox alignment---------------- */
-
+/*------------- checkbox alignment for html checkbox---------------- */
 ul {
   list-style-position: inside;
   padding-left: 0;
+  font-weight: normal
 }
+
+
+
+/*------------- checkbox alignment for markdown checkbox---------------- */
+
+input[type="checkbox"] {
+        margin-right: 0.5ch;
+      }
+
 
 /*------------- GitHub boxes that look like the buttons on GitHub---------------- */
 
@@ -25,8 +34,12 @@ ul {
 
 /*------------- button link color---------------- */
 
-a:not(.button) {
+a:button {
   color: white;
+}
+
+.button{
+    color: white !important;
 }
 
 /*------------- box around title and title font ---------------- */

@@ -14,21 +14,46 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Create your OTTR repository from the [OTTR_Template_Website repository](OTTR_Template_Website repository)
 
-<input type="checkbox"> In the upper right, _click on_ 
+<input type="checkbox">  In the upper right, _click on_: <div class = "github_button"><a href="http://stackoverflow.com"> Use this template</a></div>
 
-<input type="checkbox"> Set your repo to **Public**
+<input type="checkbox">  Set your repo to **Public**
+
+## Enable workflow actions
+
+<input type="checkbox">  In your OTTR repository, go to **Settings** in the top navigation tabs
+
+<input type="checkbox">  Go to **Actions** (General) in the side navigation
+
+<input type="checkbox">   Under **Workflow permissions**
+
+1. <input type="checkbox"> Select **Read and write permissions**
+
+2. <input type="checkbox">  Check **Allow GitHub Actions to create and approve pull requests**
+
+3. <input type="checkbox">  Click **Save**
+
+## Set up your GitHub personal access token
+
+A. [Create a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+
+1. <input type="checkbox"> Click on your **profile photo** in the upper right
+
+2. <input type="checkbox">  Go to **Settings**
+
+3. <input type="checkbox">  Go to **Developer Settings** in the side navigation
+
+4. <input type="checkbox"> Select **Generate new token (classic)**
+
+5. <input type="checkbox"> Click 
+
+6. <input type="checkbox"> Copy the **personal access token 
 
 
-[this is a link](https://www.itcrtraining.org/)
 
-::: {.warning}
-warning test
-:::
+## Set up GitHub Pages
 
-:::{.github_button}
-Use this template
-:::
 
+## Enroll your OTTR repository for template updates
 <center>
 <a href="https://ottrproject.org">
   <img src="resources/images/basic_otter_water.png" width = 30%>
