@@ -36,7 +36,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 A. [Create a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
 
-1. <input type="checkbox"> Click on your **profile photo** in the upper right
+1. <input type="checkbox"> Click on your **profile photo** in the upper right <img src="resources/icons/profile_photo.png" alt="Paris" class = icon>
 
 2. <input type="checkbox">  Go to **Settings**
 

@@ -58,7 +58,13 @@ input[type="checkbox"] {
   margin: auto;
 }
 
+/*-----------icon------*/
 
+.icon{
+  width: 4%;
+}
+
+}
 
 /*------------- Body and header text---------------- */
 
