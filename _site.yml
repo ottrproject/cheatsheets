@@ -1,5 +1,5 @@
 name: ITN Software Cheatsheets
-output_dir: '../docs'
+output_dir: 'docs'
 navbar:
   title: ITN Software (OTTR, metricminer) Cheatsheets
   left:
