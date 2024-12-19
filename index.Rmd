@@ -14,9 +14,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-<input type="checkbox"> adfasfd 
+<input type="checkbox"> step 
 
-<input type="checkbox"> afdafsd
+<input type="checkbox"> step
 
 
 [this is a link](https://www.itcrtraining.org/)
