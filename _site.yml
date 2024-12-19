@@ -1,0 +1,21 @@
+name: OTTR Cheatsheets
+output_dir: 'docs'
+navbar:
+  title: cheatsheets
+  left:
+  - text: ""
+    href: index.html
+    icon: fa-home
+  - text: Website Setup
+    href: website_setup.html
+
+
+output:
+  html_document:
+    theme: cosmo
+    lib_dir: site_libs
+    self_contained: no
+    highlight: textmate
+    css: styles.css
+    includes:
+       in_header: resources/header.html
