@@ -12,7 +12,6 @@ navbar:
 
 output:
   html_document:
-    theme: cosmo
     lib_dir: site_libs
     self_contained: no
     highlight: textmate
