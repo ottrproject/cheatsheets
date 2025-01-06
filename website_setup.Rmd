@@ -42,7 +42,7 @@ A. [Create a personal access token](https://docs.github.com/en/authentication/ke
 
 <input type="checkbox"> Go to **Developer Settings** in the side navigation <img src="resources/icons/developer_settings.png" alt="developer settings icon" class = icon>
 
-<input type="checkbox"> Select **Generate new token (classic)** <img src="resources/icons/personal_access_tokens.png" alt="personal access token icon" class = icon>
+<input type="checkbox"> Select **Generate new token (classic)** <img src="resources/icons/personal_tokens.png" alt="personal access token icon" class = icon>
 
 <input type="checkbox"> Underneath **Select Scopes**, *check both* **repo** and **workflow**
 
