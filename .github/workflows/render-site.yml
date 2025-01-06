@@ -12,7 +12,7 @@ on:
     branches: [ main ]
     paths:
       - '**.Rmd'
-      - styles.css
+      - style.css
       - _site.yml
       - resources/images/*.png
       - resources/icons/*.png
