@@ -79,7 +79,6 @@ B. [Save the copied personal access token as a repository secret](https://docs.g
 
 <input type="checkbox"> at the bottom of the page, check **Enforce HTTPS**
 
-
 ## Enroll your OTTR repository for template updates
 
 <input type="checkbox"> Refer to our Template Updates Cheatsheet
