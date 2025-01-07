@@ -4,6 +4,6 @@ library(here)
 library(tidyverse)
 source(here("echo_chunks.R"))
 
-c(write_header("OTTR Websites", "Setup"),
-           write_use_template("OTTR_Template_Website", "https://github.com/jhudsl/OTTR_Template_Website")
-           ) %>% write_lines(here("website_setup_test_chunks.Rmd"))
+c(write_header("OTTR Courses", "Setup"),
+  write_use_template("OTTR_Template", "https://github.com/jhudsl/OTTR_Template")
+  ) %>% write_lines(here("course_setup.Rmd"))
