@@ -61,7 +61,6 @@ jobs:
       error_min: 3
     secrets:
       gh_pat: ${{ secrets.GH_PAT }}
-      gh_pat: ${{ secrets.GH_PAT }}
 
   url-check:
     name: Check URLs
