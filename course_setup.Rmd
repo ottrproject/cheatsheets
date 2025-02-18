@@ -8,34 +8,66 @@ css: style.css
 ---
 
 
+
 ## Create your OTTR repository from the [OTTR_Template repository](https://github.com/jhudsl/OTTR_Template)
 
-<input type="checkbox">  In the upper right, _click on_: <div class = "github_button"><a href="https://github.com/new?template_name=OTTR_Template&template_owner=jhudsl"> Use this template</a></div>
+```{r, echo=FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "chunks/copy.md")
+```
 
-<input type="checkbox">  Set your repo to **Public**
+```{r, echo=FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "chunks/actions.md")`
+```
 
+```{r, echo=FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "chunks/collab.md")`
+```
 
-`r config::get("actions")`
+```{r, echo=FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "chunks/dev.md")
+```
 
-`r config::get("copy")`
+```{r, echo=FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path =  "chunks/edit.md")
+```
 
-`r config::get("collab")`
+```{r, echo=FALSE, results='asis'} 
+ cow::borrow_chapter(   
+   doc_path = "chunks/pages.md")
+```
 
-`r config::get("dev")`
+```{r, echo=FALSE, results='asis'}
+ cow::borrow_chapter(   
+   doc_path = "chunks/token.md")
+```
 
-`r config::get("edit")`
+```{r, echo=FALSE, results='asis'}
+ cow::borrow_chapter(   
+   doc_path = "chunks/profile.md")
+```
 
-`r config::get("pages")`
+```{r, echo=FALSE, results='asis'} 
+ cow::borrow_chapter(   
+   doc_path = "chunks/pull_request.md")
+```
 
-`r config::get("token")`
+```{r, echo=FALSE, results='asis'}
+ cow::borrow_chapter(   
+   doc_path = "chunks/search.md")
+```
 
-`r config::get("profile")`
+```{r, echo=FALSE, results='asis'}
+ cow::borrow_chapter(   
+   doc_path = "chunks/secrets.md")
+```
 
-`r config::get("PR")`
-
-`r config::get("search")`
-
-`r config::get("secrets")`
-
-`r config::get("settings")`
+```{r, echo=FALSE, results='asis'} 
+ cow::borrow_chapter(   
+   doc_path = "chunks/settings.md")
+```
 
