@@ -13,61 +13,73 @@ css: style.css
 
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "chunks/copy.md")
+  doc_path = "chunks/copy.md", 
+  repo_name = "jhudsl/cheatsheets")
 ```
 
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "chunks/actions.md")`
+  doc_path = "chunks/actions.md", 
+  repo_name = "jhudsl/cheatsheets")
 ```
 
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "chunks/collab.md")`
+  doc_path = "chunks/collab.md", 
+  repo_name = "jhudsl/cheatsheets")
 ```
 
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path = "chunks/dev.md")
+  doc_path = "chunks/dev.md", 
+  repo_name = "jhudsl/cheatsheets")
 ```
 
 ```{r, echo=FALSE, results='asis'}
 cow::borrow_chapter(
-  doc_path =  "chunks/edit.md")
+  doc_path =  "chunks/edit.md", 
+  repo_name = "jhudsl/cheatsheets")
 ```
 
 ```{r, echo=FALSE, results='asis'} 
  cow::borrow_chapter(   
-   doc_path = "chunks/pages.md")
+   doc_path = "chunks/pages.md", 
+   repo_name = "jhudsl/cheatsheets")
 ```
 
 ```{r, echo=FALSE, results='asis'}
  cow::borrow_chapter(   
-   doc_path = "chunks/token.md")
+   doc_path = "chunks/token.md", 
+   repo_name = "jhudsl/cheatsheets")
 ```
 
 ```{r, echo=FALSE, results='asis'}
  cow::borrow_chapter(   
-   doc_path = "chunks/profile.md")
+   doc_path = "chunks/profile.md", 
+   repo_name = "jhudsl/cheatsheets")
 ```
 
 ```{r, echo=FALSE, results='asis'} 
  cow::borrow_chapter(   
-   doc_path = "chunks/pull_request.md")
+   doc_path = "chunks/pull_request.md", 
+   repo_name = "jhudsl/cheatsheets")
 ```
 
 ```{r, echo=FALSE, results='asis'}
  cow::borrow_chapter(   
-   doc_path = "chunks/search.md")
+   doc_path = "chunks/search.md", 
+   repo_name = "jhudsl/cheatsheets")
 ```
 
 ```{r, echo=FALSE, results='asis'}
  cow::borrow_chapter(   
-   doc_path = "chunks/secrets.md")
+   doc_path = "chunks/secrets.md", 
+   repo_name = "jhudsl/cheatsheets")
 ```
 
 ```{r, echo=FALSE, results='asis'} 
  cow::borrow_chapter(   
-   doc_path = "chunks/settings.md")
+   doc_path = "chunks/settings.md", 
+   repo_name = "jhudsl/cheatsheets")
 ```
 
