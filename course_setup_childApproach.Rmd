@@ -1,0 +1,38 @@
+```{r echo=FALSE}
+library(cow)
+```
+
+```{r, echo = FALSE, results='asis'}
+
+# Specify variables
+cheatsheet_settings <- list(
+  title = "OTTR Courses",
+  subtitle = "Setup"
+)
+
+cow::borrow_chapter(
+  doc_path = "child/_child_header.Rmd",
+  repo_name = "fhdsl/cheatsheets",
+)
+```
+
+```{r, echo = FALSE, results='asis'}
+
+# Specify variables
+cheatsheet_settings <- list(
+  template_name = "OTTR_Template",
+  template_url = "https://github.com/jhudsl/OTTR_Template"
+)
+
+cow::borrow_chapter(
+  doc_path = "child/_child_use_template.Rmd",
+  repo_name = "fhdsl/cheatsheets",
+)
+```
+
+```{r, echo = FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "child/_child_enable_actions.Rmd",
+  repo_name = "fhdsl/cheatsheets",
+)
+```

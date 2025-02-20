@@ -1,0 +1,20 @@
+```{r, include = FALSE}
+if (!exists("cheatsheet_settings")) {
+  cheatsheet_settings <- list()
+}
+if (is.null(cheatsheet_settings$title)){
+  cheatsheet_settings$template_name <- "TEMPLATE NAME"
+  cheatsheet_settings$template_url <- "https://github.com/jhudsl/TEMPLATEURL"
+}
+```
+
+## Create your OTTR repository from the [`r cheatsheet_settings$template_name` repository](`r cheatsheet_settings$template_url`)
+
+<input type="checkbox">  In the upper right, _click on_: <div class = "github_button"><a href='<%#String.Concat("https://github.com/new?template_name=",`r cheatsheet_settings$template_name`,
+                 "&template_owner=jhudsl")%>'Use this template</a></div>
+
+<input type="checkbox">  Set your repo to **Public**
+
+```{r, include = FALSE}
+AnVIL_module_settings <<- NULL
+```

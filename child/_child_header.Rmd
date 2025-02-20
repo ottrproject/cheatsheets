@@ -1,0 +1,22 @@
+```{r, include = FALSE}
+if (!exists("cheatsheet_settings")) {
+  cheatsheet_settings <- list()
+}
+if (is.null(cheatsheet_settings$title)){
+  cheatsheet_settings$title <- "OTTR"
+  cheatsheet_settings$subtitle <- "Instructions"
+}
+```
+
+---
+title: |
+  <center> <u>`r cheatsheet_settings$title`</u></center>
+  <center> <p style = "color:#986753;">`r cheatsheet_settings$subtitle`</p></center>
+date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
+output: html_document
+css: style.css
+---
+
+```{r, include = FALSE}
+AnVIL_module_settings <<- NULL
+```
