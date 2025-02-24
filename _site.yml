@@ -10,6 +10,8 @@ navbar:
     href: website_setup.html
   - text: Course Setup
     href: course_setup.html
+  - text: Social Media
+    href: social_media.html
 
 
 output:
