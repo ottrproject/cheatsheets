@@ -35,6 +35,8 @@ css: ITN_style.css
   - Use stories, anecdotes, images, videos, art, GIFs, poetry, [cartoons](https://getavataaars.com/), [memes](https://giphy.com/categories/memes)
   - Be cautious about memes - may not target right audience
 
+<input type="checkbox">  Check that necessary colleagues and collaborators have reviewed the content
+
 <input type="checkbox">  If you are unsure, don't post it!
 
 </div>
@@ -68,6 +70,7 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
 - [Buffer](https://buffer.com/) and [Typefully](https://typefully.com/)
   - Schedule your content to the most popular platforms
   - Collect engagement metrics 
+  - Collaborate with others on content
 - [RSS feeds](https://rss.com/blog/how-do-rss-feeds-work/) and [Tiny Tiny RSS](https://tt-rss.org/)
   - Host feeds for free and aggregate and distribute them
 - [Substack](https://substack.com/about)
