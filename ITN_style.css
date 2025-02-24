@@ -24,8 +24,12 @@ ul {
   text-indent: 10%; /*intent lists under checkboxes*/
 }
 
-p {
-  text-indent: 2%; /* indent checkboxes a bit*/
+
+div.authors {
+  text-indent: 0%;
+  list-style-position: outside;
+  font-size: 11px;
+  font-style: italic;
 }
 
 /*------------- checkbox alignment for markdown checkbox---------------- */
@@ -119,8 +123,17 @@ h2::before {
 /*------------- add warning and github boxes---------------- */
 
 
+div.Note{
+  border: 4px #14395f;
+  border-style: solid;
+  padding: 1em;
+  margin: 1em 0;
+  background-color: #e8ebee;
+}
+
+
 div.warning{
-  border: 4px #e0471c;
+  border: 4px #e24316;
   border-style: solid;
   padding: 1em;
   margin: 1em 0;
