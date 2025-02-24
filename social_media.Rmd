@@ -45,7 +45,7 @@ css: ITN_style.css
  
 - Walk through how to do specific tasks with your software
 - Report releases, new features, papers etc.
-- Describe your work & your colleagues work
+- Describe your work & your colleagues' work
 - Advertise learning opportunities & work opportunities
 - Thought leadership & measured critiques
 - Anecdotes and images that humanize your work
