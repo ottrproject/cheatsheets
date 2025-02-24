@@ -1,0 +1,147 @@
+---
+title: |
+  <center> <u>Social Media </u></center>
+  <center> <p style = "color:#14395f;"> Tips and Tricks</p></center>
+date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    number_sections: false
+css: ITN_style.css
+---
+
+
+
+<hr>
+
+
+<div class="row">
+
+<div class="column">
+
+# Best Practices:
+
+<input type="checkbox">  Check that you have been transparent 
+
+  - "I'm a scientist @FredHutch. Opinions are my own, reposts aren't endorsements."
+
+<input type="checkbox">  Check that you have cited and/or tagged sources and collaborators
+
+<input type="checkbox">  Check that you are not violating patient or intellectual privacy
+
+<input type="checkbox">  Check if you are using sarcasm or tone that might be lost in translation
+
+<input type="checkbox">  Check that you have added a creative element
+
+  - Use stories, anecdotes, images, videos, art, GIFs, poetry, [cartoons](https://getavataaars.com/), [memes](https://giphy.com/categories/memes)
+  - Be cautious about memes - may not target right audience
+
+<input type="checkbox">  Check that necessary colleagues and collaborators have reviewed the content
+
+<input type="checkbox">  If you are unsure, don't post it!
+
+</div>
+
+
+<div class="column">
+# Content to Share:
+ 
+- Walk through how to do specific tasks with your software
+- Report releases, new features, papers etc.
+- Describe your work & your colleagues' work
+- Advertise learning opportunities & work opportunities
+- Convey thought leadership & measured critiques
+- Share anecdotes and images that humanize your work
+- Explain concepts to lay audiences
+
+:::warning
+
+
+Check if your institute has guidelines or restrictions on the usage of social media.
+
+:::
+</div>
+
+<br>
+_These tips are adapted from the Marketing and Communications group at Fred Hutch._
+</div>
+<hr>
+
+# Tools:
+- [Typefully](https://typefully.com/) and [Buffer](https://buffer.com/)
+  - Schedule your content to the most popular platforms
+  - Collect engagement metrics 
+  - Collaborate with others on content
+- [RSS feeds](https://rss.com/blog/how-do-rss-feeds-work/) and [Tiny Tiny RSS](https://tt-rss.org/)
+  - Host feeds for free and aggregate and distribute them
+- [Substack](https://substack.com/about)
+  - Create blogs or newsletters that updates subscribers, has embedded tracking of engagement (works with RSS feeds)
+- [Newsletters on LinkedIn](https://www.linkedin.com/help/linkedin/answer/a517925)
+  - Separate from the organization profile, allows for user subscriptions and engage with comments and questions
+
+<hr>
+
+# Tips:
+
+- **Efficiency** 
+  - Archive everything so other team members can access and review to help with inspiration and reposting
+  - Repurpose posts for different audiences
+  - Use [Typefully](https://typefully.com/), [Buffer](https://buffer.com/), or other tools to post the same content on multiple platforms and plan and schedule in advance
+  - Templates can be really useful - quickly looks professional
+  - LLMs can help write content
+- **General**
+  - Review what kinds of posts seem to get best engagement
+  - Encourage community feedback for tool improvements
+  - If people send feedback, you can respond to them individually by email, especially if it becomes a negative conversation
+  - ***Let ITN know about your blogs, feeds, handles etc so we can help you connect with people!***
+
+<hr>
+
+<div class="row">
+
+<div class="column">
+# Great Examples:
+
+- NHGRI Twitter feed with great memes: 
+https://x.com/genome_gov
+- Galaxy Social media archive:  
+https://github.com/usegalaxy-eu/galaxy-social 
+
+</div>
+
+<div class="column">
+::: Note
+<div class="row">
+
+<div class="column">
+**ITN Social Media Handles**:
+
+- [LinkedIn](https://www.linkedin.com/company/itcr-training-network)
+<img src="https://www.iconpacks.net/icons/2/free-icon-linkedin-logo-2430.png" width = 10%>
+- [YouTube](https://www.youtube.com/@itcrtrainingnetwork2281) <img src="https://www.iconpacks.net/icons/1/free-icon-youtube-141.png" width = 10%>
+- [Podcast](https://www.buzzsprout.com/2219246) 
+<img src="https://www.iconpacks.net/icons/4/free-icon-radio-waves-14697.png" width = 10%>
+- [Bluesky](https://bsky.app/profile/itcrtraining.bsky.social) 
+<img src="https://www.iconpacks.net/icons/free-icons-7/free-bluesky-blue-square-logo-icon-24458.png" width = 10%>
+- [X](https://twitter.com/itcrtraining)
+<img src="https://www.iconpacks.net/icons/free-icons-6/free-icon-twitter-x-logo-black-square-rounded-20852.png" width = 10%>
+</div>
+
+<div class="column">
+<img src="https://www.iconpacks.net/icons/1/free-icon-computer-1211.png" width = 50%>
+</div>
+</div>
+:::
+</div>
+</div>
+<hr>
+
+<center>
+<a href="https://www.itcrtraining.org/">
+  <img src="https://lh4.googleusercontent.com/Ruv4YQB74Se9nv9WbELh69dVAJmJXSGOrsqJO0UdqaTjUIBFuWMMLMr0SOAWS7ggXrdjlVFx9noCBfbEwQrDAVcwFrCM3DNU6NbhogeQZ79mF7y2RMT81x1Q-GQKmUM65w=w1280" width = 30%>
+</a>
+</center>
+
+<div class = "authors"> **Authors**: This cheatsheet is the product of discussions from the [ITCR OPEN Group](https://www.itcrtraining.org/open) with panelists [Ino de Bruijn](https://www.linkedin.com/in/inodb), 
+[Tali Mazor](https://www.linkedin.com/in/talimazor/), and [Jeremy Goecks](https://www.moffitt.org/research-science/researchers/jeremy-goecks/), with additional contributions from other ITCR partcipants including [Obi Griffith](https://oncology.wustl.edu/people/obi-l-griffith-phd/), [Greg Caporaso](https://cap-lab.bio/), [Jeff Leek](https://jtleek.com/), and others. It was summarized by [Carrie Wright](https://www.itcrtraining.org/team) and includes best practices from the Fred Hutch Social Media Group. This was funded by NCI UE5CA254170.
+</div>
+
