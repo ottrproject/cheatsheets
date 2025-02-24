@@ -43,7 +43,7 @@ css: ITN_style.css
 <div class="column">
 # Content to Share:
  
-- Walk through how to do certain tasks with your software
+- Walk through how to do specific tasks with your software
 - Report releases, new features, papers etc.
 - Describe your work & your colleagues work
 - Advertise learning opportunities & work opportunities
