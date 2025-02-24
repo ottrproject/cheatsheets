@@ -1,0 +1,60 @@
+---
+title: |
+  <center> <u>Social Media </u></center>
+  <center> <p style = "color:#14395f;"> Tips and Tricks</p></center>
+date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    number_sections: false
+css: ITN_style.css
+---
+<hr>
+
+<div class="row">
+
+<div class="column">
+
+# Best Practices:
+
+<input type="checkbox">  Check that you have been transparent 
+
+  - “I’m a scientist @FredHutch. Opinions are my own, retweets aren't endorsements.”
+
+<input type="checkbox">  Check that you have cited and/or tagged sources 
+
+<input type="checkbox">  Check that you are not violating patient or intellectual privacy
+
+<input type="checkbox">  Check if you are using sarcasm or tone that might be lost in translation
+
+<input type="checkbox">  Check that you have added a creative element
+
+  - Use stories, anecdotes, images, videos, art, GIFs, poetry, [cartoons](https://getavataaars.com/)
+
+</div>
+
+
+<div class="column">
+# Content to Share:
+ 
+- Interests, passions, motivations
+- Successes, your work, your colleagues work
+- Learning opportunities, work opportunities
+- Thought leadership, measured critiques
+- Anecdotes and images that humanize your work
+- Explain concepts to lay audiences
+
+:::warning
+
+
+Check if your institute has guidelines or restrictions on the usage of social media.
+
+:::
+</div>
+
+<br>
+These tips are adapted from the Marketing and Communications group at Fred Hutch
+</div>
+<hr>
+
+# Tools:
+- 
