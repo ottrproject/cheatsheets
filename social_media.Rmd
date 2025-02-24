@@ -24,7 +24,7 @@ css: ITN_style.css
 
   - “I’m a scientist @FredHutch. Opinions are my own, retweets aren't endorsements.”
 
-<input type="checkbox">  Check that you have cited and/or tagged sources 
+<input type="checkbox">  Check that you have cited and/or tagged sources and collaborators
 
 <input type="checkbox">  Check that you are not violating patient or intellectual privacy
 
