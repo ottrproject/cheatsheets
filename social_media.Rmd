@@ -22,7 +22,7 @@ css: ITN_style.css
 
 <input type="checkbox">  Check that you have been transparent 
 
-  - “I’m a scientist @FredHutch. Opinions are my own, retweets aren't endorsements.”
+  - "I'm a scientist @FredHutch. Opinions are my own, reposts aren't endorsements."
 
 <input type="checkbox">  Check that you have cited and/or tagged sources and collaborators
 
