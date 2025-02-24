@@ -65,9 +65,9 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
 <hr>
 
 # Tools:
-- [Buffer](https://buffer.com/)
-  - Schedule your content to the most popular platforms including Facebook, Instagram, TikTok, LinkedIn, Threads, Bluesky, YouTube Shorts, Pinterest, Google Business, Mastodon and X.
-  - Collect engagement metrics and sorts by negative and/positive feedback
+- [Buffer](https://buffer.com/) and [Typefully](https://typefully.com/)
+  - Schedule your content to the most popular platforms
+  - Collect engagement metrics 
 - [RSS feeds](https://rss.com/blog/how-do-rss-feeds-work/) and [Tiny Tiny RSS](https://tt-rss.org/)
   - Host feeds for free and aggregate and distribute them
 - [Substack](https://substack.com/about)
@@ -82,8 +82,7 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
 - **Efficiency**: 
   - Archive everything so other team members can access and review to help with inspiration and reposting
   - Repurpose posts for different audiences
-  - Plan and schedule in advance
-  - Use [Buffer](https://buffer.com/) or other tools to post the same content on multiple platforms
+  - Use [Buffer](https://buffer.com/), [Typefully](https://typefully.com/), or other tools to post the same content on multiple platforms and plan and schedule in advance
   - Templates can be really useful - quickly looks professional
   - LLMs can help write content
 - **General**
@@ -113,7 +112,7 @@ https://github.com/usegalaxy-eu/galaxy-social
 <div class="column">
 **ITN Social Media Handles**:
 
-- [LinkedIN](https://www.linkedin.com/company/itcr-training-network)
+- [LinkedIn](https://www.linkedin.com/company/itcr-training-network)
 <img src="https://www.iconpacks.net/icons/2/free-icon-linkedin-logo-2430.png" width = 10%>
 - [YouTube](https://www.youtube.com/@itcrtrainingnetwork2281) <img src="https://www.iconpacks.net/icons/1/free-icon-youtube-141.png" width = 10%>
 - [Podcast](https://www.buzzsprout.com/2219246) 
