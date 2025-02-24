@@ -17,12 +17,13 @@ ITCR
 lightblue
 lightgreen
 LinkedIn
-LLMS
+LLMs
 NHGRI
 OTTR
 Pinterest
 Rmd
 repo
+reposts
 reposting
 repurpose
 subdir
@@ -30,6 +31,7 @@ Substack
 th
 tibble
 TiKTok
+Typefully
 www
 automations
 Bootstap

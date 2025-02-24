@@ -75,7 +75,7 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
   - Host feeds for free and aggregate and distribute them
 - [Substack](https://substack.com/about)
   - Create blogs or newsletters that updates subscribers, has embedded tracking of engagement (works with RSS feeds)
-- [Newsletters on LinkedIN](https://www.linkedin.com/help/linkedin/answer/a517925)
+- [Newsletters on LinkedIn](https://www.linkedin.com/help/linkedin/answer/a517925)
   - Separate from the organization profile, allows for user subscriptions and engage with comments and questions
 
 <hr>
