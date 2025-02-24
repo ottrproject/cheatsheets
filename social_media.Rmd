@@ -107,13 +107,26 @@ https://github.com/usegalaxy-eu/galaxy-social
 
 <div class="column">
 ::: Note
+<div class="row">
+
+<div class="column">
 ITN Social Media Handles:
 
-- [LinkedIN](https://www.linkedin.com/company/itcr-training-network) 
-- [YouTube](https://www.youtube.com/@itcrtrainingnetwork2281) 
+- [LinkedIN](https://www.linkedin.com/company/itcr-training-network)
+<img src="https://www.iconpacks.net/icons/2/free-icon-linkedin-logo-2430.png" width = 10%>
+- [YouTube](https://www.youtube.com/@itcrtrainingnetwork2281) <img src="https://www.iconpacks.net/icons/1/free-icon-youtube-141.png" width = 10%>
 - [Podcast](https://www.buzzsprout.com/2219246) 
+<img src="https://www.iconpacks.net/icons/2/free-icon-linkedin-logo-2430.png" width = 10%>
 - [Blusky](https://bsky.app/profile/itcrtraining.bsky.social) 
+<img src="https://www.iconpacks.net/icons/2/free-icon-linkedin-logo-2430.png" width = 10%>
 - [X](https://twitter.com/itcrtraining)
+<img src="https://www.iconpacks.net/icons/2/free-icon-linkedin-logo-2430.png" width = 10%>
+</div>
+
+<div class="column">
+<img src="https://www.iconpacks.net/icons/1/free-icon-computer-1211.png" width = 60%>
+</div>
+</div>
 :::
 </div>
 </div>
