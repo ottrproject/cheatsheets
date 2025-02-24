@@ -67,7 +67,7 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
 <hr>
 
 # Tools:
-- [Buffer](https://buffer.com/) and [Typefully](https://typefully.com/)
+- [Typefully](https://typefully.com/) and [Buffer](https://buffer.com/)
   - Schedule your content to the most popular platforms
   - Collect engagement metrics 
   - Collaborate with others on content
@@ -85,7 +85,7 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
 - **Efficiency** 
   - Archive everything so other team members can access and review to help with inspiration and reposting
   - Repurpose posts for different audiences
-  - Use [Buffer](https://buffer.com/), [Typefully](https://typefully.com/), or other tools to post the same content on multiple platforms and plan and schedule in advance
+  - Use [Typefully](https://typefully.com/), [Buffer](https://buffer.com/), or other tools to post the same content on multiple platforms and plan and schedule in advance
   - Templates can be really useful - quickly looks professional
   - LLMs can help write content
 - **General**
