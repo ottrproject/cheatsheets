@@ -49,8 +49,8 @@ css: ITN_style.css
 - Report releases, new features, papers etc.
 - Describe your work & your colleagues' work
 - Advertise learning opportunities & work opportunities
-- Thought leadership & measured critiques
-- Anecdotes and images that humanize your work
+- Convey thought leadership & measured critiques
+- Share anecdotes and images that humanize your work
 - Explain concepts to lay audiences
 
 :::warning
