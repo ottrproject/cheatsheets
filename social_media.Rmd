@@ -107,7 +107,7 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
 https://x.com/genome_gov
 - Galaxy Social media archive:  
 https://github.com/usegalaxy-eu/galaxy-social 
-- Cancer Genomics Consortium LinkedIn with effective use of templates
+- Cancer Genomics Consortium LinkedIn with effective use of templates:
 https://www.linkedin.com/company/cancer-genomics-consortium
 
 </div>
