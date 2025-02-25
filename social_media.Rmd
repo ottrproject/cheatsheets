@@ -33,9 +33,9 @@ css: ITN_style.css
 <input type="checkbox">  Check that you have added a creative element
 
   - Use stories, anecdotes, images, videos, art, GIFs, poetry, [cartoons](https://getavataaars.com/), [memes](https://giphy.com/categories/memes)
-  - Be cautious about memes - may not target right audience
+  - Be cautious about jokes or memes - the may not target right audience - going virally isn't automatically a good thing
 
-<input type="checkbox">  Check that necessary colleagues and collaborators have reviewed the content
+<input type="checkbox">  Check that necessary colleagues or collaborators have reviewed the content
 
 <input type="checkbox">  If you are unsure, don't post it!
 
@@ -46,6 +46,7 @@ css: ITN_style.css
 # Content to Share:
  
 - Walk through how to do specific tasks with your software
+- Recruit new users and contributors
 - Report releases, new features, papers etc.
 - Describe your work & your colleagues' work
 - Advertise learning opportunities & work opportunities
@@ -56,7 +57,7 @@ css: ITN_style.css
 :::warning
 
 
-Check if your institute has guidelines or restrictions on the usage of social media.
+Check if your institute has a Social Media Policy with guidelines or restrictions on the usage of social media.
 
 :::
 </div>
@@ -68,15 +69,16 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
 
 # Tools:
 - [Typefully](https://typefully.com/) and [Buffer](https://buffer.com/)
-  - Schedule your content to the most popular platforms
+  - Manage and cross-post to most popular platforms
+  - Schedule your content 
   - Collect engagement metrics 
   - Collaborate with others on content
 - [RSS feeds](https://rss.com/blog/how-do-rss-feeds-work/) and [Tiny Tiny RSS](https://tt-rss.org/)
   - Host feeds for free and aggregate and distribute them
 - [Substack](https://substack.com/about)
-  - Create blogs or newsletters that updates subscribers, has embedded tracking of engagement (works with RSS feeds)
+  - Create blogs or newsletters to update subscribers with embedded tracking of engagement (works with RSS feeds)
 - [Newsletters on LinkedIn](https://www.linkedin.com/help/linkedin/answer/a517925)
-  - Separate from the organization profile, allows for user subscriptions and engage with comments and questions
+  - Separate from the organization profile, allows for user subscriptions and engagement with comments and questions
 
 <hr>
 
@@ -85,11 +87,11 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
 - **Efficiency** 
   - Archive everything so other team members can access and review to help with inspiration and reposting
   - Repurpose posts for different audiences
-  - Use [Typefully](https://typefully.com/), [Buffer](https://buffer.com/), or other tools to post the same content on multiple platforms and plan and schedule in advance
-  - Templates can be really useful - quickly looks professional
+  - Use [Typefully](https://typefully.com/), [Buffer](https://buffer.com/), or other tools to post the same content on multiple platforms, and plan and schedule posts in advance
+  - Templates can be really useful - helps create professional looking posts quickly
   - LLMs can help write content
 - **General**
-  - Review what kinds of posts seem to get best engagement
+  - Review what kinds of posts and post times/channels that seem to get best engagement
   - Encourage community feedback for tool improvements
   - If people send feedback, you can respond to them individually by email, especially if it becomes a negative conversation
   - ***Let ITN know about your blogs, feeds, handles etc so we can help you connect with people!***
@@ -105,6 +107,8 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
 https://x.com/genome_gov
 - Galaxy Social media archive:  
 https://github.com/usegalaxy-eu/galaxy-social 
+- Cancer Genomics Consortium LinkedIn with effective use of templates
+https://www.linkedin.com/company/cancer-genomics-consortium
 
 </div>
 
