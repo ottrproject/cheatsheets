@@ -73,6 +73,7 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
   - Schedule your content 
   - Collect engagement metrics 
   - Collaborate with others on content
+  - Use AI to help you write content
 - [RSS feeds](https://rss.com/blog/how-do-rss-feeds-work/) and [Tiny Tiny RSS](https://tt-rss.org/)
   - Host feeds for free and aggregate and distribute them
 - [Substack](https://substack.com/about)
@@ -107,7 +108,7 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
 https://x.com/genome_gov
 - Galaxy Social media archive:  
 https://github.com/usegalaxy-eu/galaxy-social 
-- Cancer Genomics Consortium LinkedIn with effective use of templates
+- Cancer Genomics Consortium LinkedIn with effective use of templates:
 https://www.linkedin.com/company/cancer-genomics-consortium
 
 </div>
@@ -141,11 +142,11 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 
 <center>
 <a href="https://www.itcrtraining.org/">
-  <img src="https://lh4.googleusercontent.com/Ruv4YQB74Se9nv9WbELh69dVAJmJXSGOrsqJO0UdqaTjUIBFuWMMLMr0SOAWS7ggXrdjlVFx9noCBfbEwQrDAVcwFrCM3DNU6NbhogeQZ79mF7y2RMT81x1Q-GQKmUM65w=w1280" width = 30%>
+  <img src="resources/images/ITN_logo.png" width = 30%>
 </a>
 </center>
 
 <div class = "authors"> **Authors**: This cheatsheet is the product of discussions from the [ITCR OPEN Group](https://www.itcrtraining.org/open) with panelists [Ino de Bruijn](https://www.linkedin.com/in/inodb), 
-[Tali Mazor](https://www.linkedin.com/in/talimazor/), and [Jeremy Goecks](https://www.moffitt.org/research-science/researchers/jeremy-goecks/), with additional contributions from other ITCR partcipants including [Obi Griffith](https://oncology.wustl.edu/people/obi-l-griffith-phd/), [Greg Caporaso](https://cap-lab.bio/), [Jeff Leek](https://jtleek.com/), and others. It was summarized by [Carrie Wright](https://www.itcrtraining.org/team) and includes best practices from the Fred Hutch Social Media Group. This was funded by NCI UE5CA254170.
+[Tali Mazor](https://www.linkedin.com/in/talimazor/), and [Jeremy Goecks](https://www.moffitt.org/research-science/researchers/jeremy-goecks/), with additional contributions from other ITCR partcipants including [Obi Griffith](https://oncology.wustl.edu/people/obi-l-griffith-phd/), [Greg Caporaso](https://cap-lab.bio/), [Jeff Leek](https://jtleek.com/), and others. It was summarized by [Carrie Wright](https://www.itcrtraining.org/team) and includes best practices from the Fred Hutch Social Media Group. 
 </div>
 
