@@ -20,6 +20,8 @@ navbar:
     menu:
       - text: "Your first conference"
         href:
+      - text: Social Media
+        href: social_media.html
 
 output:
   html_document
