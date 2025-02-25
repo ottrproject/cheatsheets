@@ -141,7 +141,7 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 
 <center>
 <a href="https://www.itcrtraining.org/">
-  <img src="https://lh4.googleusercontent.com/Ruv4YQB74Se9nv9WbELh69dVAJmJXSGOrsqJO0UdqaTjUIBFuWMMLMr0SOAWS7ggXrdjlVFx9noCBfbEwQrDAVcwFrCM3DNU6NbhogeQZ79mF7y2RMT81x1Q-GQKmUM65w=w1280" width = 30%>
+  <img src="resources/images/ITN_logo.png" width = 30%>
 </a>
 </center>
 
