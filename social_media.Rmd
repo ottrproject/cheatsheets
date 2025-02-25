@@ -73,6 +73,7 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
   - Schedule your content 
   - Collect engagement metrics 
   - Collaborate with others on content
+  - Use AI to help you write content
 - [RSS feeds](https://rss.com/blog/how-do-rss-feeds-work/) and [Tiny Tiny RSS](https://tt-rss.org/)
   - Host feeds for free and aggregate and distribute them
 - [Substack](https://substack.com/about)
