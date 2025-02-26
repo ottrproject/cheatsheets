@@ -54,6 +54,7 @@ jobs:
       # We want a fresh run of the renders each time - so first delete old html files
       - name: Delete old *.html
         run: |
+          sudo apt-get update && apt-get install -y
           sudo apt-get install google-chrome -y
           Rscript -e "rmarkdown::clean_site(preview = FALSE)"
 

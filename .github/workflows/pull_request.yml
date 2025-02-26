@@ -98,6 +98,7 @@ jobs:
           git fetch --all
           git checkout $branch_name
           git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
+          sudo apt-get update && apt-get install -y
           sudo apt-get install google-chrome -y
         shell: bash
 
