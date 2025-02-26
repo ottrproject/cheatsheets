@@ -40,15 +40,15 @@ In fact, conferences are for branching out and learning new things!
 
 # Best Practices:
 
-<input type="checkbox">  Don't try to absorb everything!
+<input type="checkbox">  Don't try to absorb everything! <img src="https://thenounproject.com/icon/mind-blown-1164518/" width = 8%>
 
 - Focus on your interests, but also check out new topics.
 
-<input type="checkbox">  Take notes
+<input type="checkbox">  Take notes <img src="https://www.iconpacks.net/icons/free-icons-6/free-icon-notes-and-pencil-22337.png" width = 8%>
 
 - It can be difficult to retain what you learn, so take notes. Include information about the researchers and relevant papers, so you can reach out or learn more.
 
-<input type="checkbox">  Get ideas
+<input type="checkbox">  Get ideas <img src="https://www.iconpacks.net/icons/4/free-icon-light-bulb-13629.png" width = 8%>
 
 - Conferences are a great places to make new connections.
 
@@ -59,7 +59,7 @@ In fact, conferences are for branching out and learning new things!
 <br>
 <br>
 <br>
-<input type="checkbox">  Talk to people
+<input type="checkbox">  Talk to people <img src="https://www.iconpacks.net/icons/4/free-icon-conversation-11886.png" width = 8%>
 
 -  You never know who you might be sitting next to! Find new collaborators, people who know about helpful new methods, opportunities, jobs, etc.
 -  Start with small talk, talk about a presentation, or talk about your work
@@ -167,6 +167,6 @@ In fact, conferences are for branching out and learning new things!
 </a>
 </center>
 
-<div class = "authors"> **Authors**: This content of this cheatsheet was created by Lauren Chan, Kate Isaac, Candace Savonen, and Carrie Wright. It was summarized and formatted by Carrie Wright. 
+<div class = "authors"> **Authors**: This content of this cheatsheet was created by Lauren Chan, Kate Isaac, Candace Savonen, and Carrie Wright. It was summarized and formatted by Carrie Wright. Icons from https://thenounproject.com/icon/mind-blown-1164518/ and https://www.iconpacks.net/. Cartoons from https://getavataaars.com/.
 </div>
 
