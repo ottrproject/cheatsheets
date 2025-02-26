@@ -60,6 +60,7 @@ jobs:
       - name: Run render html
         id: site
         run: |
+          install.packages("pagedown", repos='http://cran.us.r-project.org')
           Sys.setenv("CHROMOTE_CHROME" = pagedown::find_chrome()[1])
           rmarkdown::render_site()
           dir.create("pngs", showWarnings = FALSE)
