@@ -111,6 +111,7 @@ jobs:
       - name: Run render html
         id: site
         run: |
+          rmarkdown::render_site()
           lapply(list.files(pattern = "\\.Rmd$"),
                  rmarkdown::render, "pdf_document",
                  output_dir = "pdfs")
