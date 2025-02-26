@@ -40,7 +40,7 @@ In fact, conferences are for branching out and learning new things!
 
 # Best Practices:
 
-<input type="checkbox">  Don't try to absorb everything! <img src="https://thenounproject.com/icon/mind-blown-1164518/" width = 8%>
+<input type="checkbox">  Don't try to absorb everything! <img src="resources/images/face_explode.png" width = 8%>
 
 - Focus on your interests, but also check out new topics.
 
@@ -167,6 +167,6 @@ In fact, conferences are for branching out and learning new things!
 </a>
 </center>
 
-<div class = "authors"> **Authors**: This content of this cheatsheet was created by Lauren Chan, Kate Isaac, Candace Savonen, and Carrie Wright. It was summarized and formatted by Carrie Wright. Icons from https://thenounproject.com/icon/mind-blown-1164518/ and https://www.iconpacks.net/. Cartoons from https://getavataaars.com/.
+<div class = "authors"> **Authors**: This content of this cheatsheet was created by Lauren Chan, Kate Isaac, Candace Savonen, and Carrie Wright. It was summarized and formatted by Carrie Wright. Icons from <a href="https://iconscout.com/icons/face-explode" class="text-underline font-size-sm" target="_blank">Face Explode</a> by <a href="https://iconscout.com/contributors/bharat-icons" class="text-underline font-size-sm">Bharat Design</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a> and https://www.iconpacks.net/. Cartoons from https://getavataaars.com/.
 </div>
 
