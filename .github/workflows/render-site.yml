@@ -54,9 +54,6 @@ jobs:
       # We want a fresh run of the renders each time - so first delete old html files
       - name: Delete old *.html
         run: |
-          sudo apt-get update && apt-get install -y --no-install-recommends -y
-          sudo apt-get install texlive-latex-base -y
-          sudo apt install texlive-latex-recommended -y
           Rscript -e "rmarkdown::clean_site(preview = FALSE)"
 
        # Now we want to render all the html files from the Rmd files
@@ -64,9 +61,14 @@ jobs:
         id: site
         run: |
           rmarkdown::render_site()
-          lapply(list.files(pattern = "\\.Rmd$"),
-                 rmarkdown::render, "pdf_document",
-                 output_dir = "pdfs")
+          dir.create("pngs", showWarnings = FALSE)
+          rmds <- list.files(pattern = "\\.Rmd$")
+          rmd_df <- data.frame(rmd = rmds,
+                               png = file.path("pngs", gsub("\\.Rmd$", ".png", rmds))
+                               )
+          purrr::pmap(rmd_df, function(rmd, png) {
+                 webshot2::rmdshot(rmd, file = png)
+               })
         shell: Rscript {0}
 
 
