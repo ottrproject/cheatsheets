@@ -6,10 +6,6 @@ navbar:
   - text: ""
     href: index.html
     icon: fa-home
-  - text: Website Setup
-    href: website_setup.html
-  - text: Course Setup
-    href: course_setup.html
 
 
 output:
