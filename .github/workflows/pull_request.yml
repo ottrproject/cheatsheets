@@ -108,7 +108,7 @@ jobs:
       - name: Run render html
         id: site
         run: |
-          Sys.setenv("CHROMOTE_CHROME" = find_chrome()[1])
+          Sys.setenv("CHROMOTE_CHROME" = pagedown::find_chrome()[1])
           rmarkdown::render_site()
           dir.create("pngs", showWarnings = FALSE)
           rmds <- list.files(pattern = "\\.Rmd$")
