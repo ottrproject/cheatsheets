@@ -58,7 +58,10 @@ jobs:
        # Now we want to render all the html files from the Rmd files
       - name: Run render html
         id: site
-        run: Rscript -e "rmarkdown::render_site()"
+        run: |
+          rmarkdown::render_site()
+          lapply(list.files("\\.Rmd$"), rmarkdown::render, "pdf_document")
+        Rscript: {0}
 
 
       # This checks on the steps before it and makes sure that they completed.
