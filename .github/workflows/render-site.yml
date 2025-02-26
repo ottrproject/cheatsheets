@@ -60,6 +60,7 @@ jobs:
         id: site
         run: Rscript -e "rmarkdown::render_site()"
 
+
       # This checks on the steps before it and makes sure that they completed.
       # If the renders didn't complete we don't want to commit the file changes
       - name: Check on render steps
