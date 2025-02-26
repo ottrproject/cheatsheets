@@ -44,11 +44,11 @@ In fact, conferences are for branching out and learning new things!
 
 - Focus on your interests, but also check out new topics.
 
-<input type="checkbox">  Take notes.
+<input type="checkbox">  Take notes
 
 - It can be difficult to retain what you learn, so take notes. Include information about the researchers and relevant papers, so you can reach out or learn more.
 
-<input type="checkbox">  Get ideas.
+<input type="checkbox">  Get ideas
 
 - Conferences are a great places to make new connections.
 
@@ -59,10 +59,10 @@ In fact, conferences are for branching out and learning new things!
 <br>
 <br>
 <br>
-<input type="checkbox">  Talk to people.
+<input type="checkbox">  Talk to people
 
 -  You never know who you might be sitting next to! Find new collaborators, people who know about helpful new methods, opportunities, jobs, etc.
--  Start with small talk, talk about a presentation, or talk about your work.
+-  Start with small talk, talk about a presentation, or talk about your work
 - Transition times, after talks, and during breaks are good opportunities to meet people
 - Talk to speakers, ask questions (this can be after a talk or during the talk)
 - Email people or connect on LinkedIn
