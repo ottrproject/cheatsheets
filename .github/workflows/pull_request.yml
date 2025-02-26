@@ -108,8 +108,9 @@ jobs:
       - name: Run render html
         id: site
         run: |
-          rmarkdown::render_site()
-          lapply(list.files("\\.Rmd$"), rmarkdown::render, "pdf_document")
+          lapply(list.files(pattern = "\\.Rmd$"),
+                 rmarkdown::render, "pdf_document",
+                 output_dir = "pdfs")
         shell: Rscript {0}
 
       # This checks on the steps before it and makes sure that they completed.
