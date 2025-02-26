@@ -1,11 +1,6 @@
 name: OTTR Cheatsheets
 output_dir: 'docs'
-navbar:
-  title: cheatsheets
-  left:
-  - text: ""
-    href: index.html
-    icon: fa-home
+
 
 
 output:
