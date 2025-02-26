@@ -61,7 +61,7 @@ jobs:
         run: |
           rmarkdown::render_site()
           lapply(list.files("\\.Rmd$"), rmarkdown::render, "pdf_document")
-        Rscript: {0}
+        shell: Rscript {0}
 
 
       # This checks on the steps before it and makes sure that they completed.
