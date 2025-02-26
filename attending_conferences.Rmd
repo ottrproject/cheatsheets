@@ -51,7 +51,7 @@ In fact, conferences are for branching out and learning new things!
 
 </div>
 <div class = "column">
-
+<center>
 ::: Note
 
 # Possible Goals:
@@ -66,7 +66,7 @@ In fact, conferences are for branching out and learning new things!
 
 <input type="checkbox"> Find collaborators
 :::
-
+</center>
 </div>
 </div>
 
@@ -81,7 +81,7 @@ In fact, conferences are for branching out and learning new things!
 
 - Focus on your interests, but also check out new topics.
 
-<input type="checkbox">  Take notes <img src="https://www.iconpacks.net/icons/free-icons-6/free-icon-notes-and-pencil-22337.png" width = 8%>
+<input type="checkbox">  Take notes <img src="https://www.iconpacks.net/icons/free-icons-6/free-icon-notes-and-pencil-22337.png" width = 6%>
 
 - It can be difficult to retain what you learn, so take notes. Include information about the researchers and relevant papers, so you can reach out or learn more.
 

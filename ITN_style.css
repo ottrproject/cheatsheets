@@ -7,7 +7,7 @@ hr {
 /*-------------columns---------------- */
 .column {
   float: left;
-  width: auto;
+  width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -116,7 +116,7 @@ a {
 body {
   counter-reset: h2;
   text-indent: 3em each-line;
-  font-size: 16px;
+  font-size: 15px;
 }
 h2::before {
   counter-increment: h2;
@@ -136,7 +136,8 @@ div.Note{
   background-repeat: no-repeat;
   min-height: 120px;
   background-color: #e8ebee;
-  max-width: 430px;
+  max-width: 420px;
+  text-align: left;!important
 }
 
 
@@ -151,6 +152,8 @@ div.warning{
   background-position: 15px center;
   min-height: 120px;
   background-color: #e8ebee;
+  text-align: left;!important
+  max-width: 400px;
 }
 
 div.warning{

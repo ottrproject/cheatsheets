@@ -54,16 +54,16 @@ css: ITN_style.css
 - Share anecdotes and images that humanize your work
 - Explain concepts to lay audiences
 
+<center>
 :::warning
 
-
 Check if your institute has a Social Media Policy with guidelines or restrictions on the usage of social media.
-
 :::
+</center>
 </div>
 
-<br>
-_These tips are adapted from the Marketing and Communications group at Fred Hutch._
+
+   _These tips are adapted from the Marketing and Communications group at Fred Hutch._
 </div>
 <hr>
 
@@ -119,6 +119,7 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 </div>
 
 <div class="column">
+<center>
 ::: Note
 
 **ITN Social Media Handles**:
@@ -133,6 +134,7 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 - [X](https://twitter.com/itcrtraining):@itcrtraining
 <img src="https://www.iconpacks.net/icons/free-icons-6/free-icon-twitter-x-logo-black-square-rounded-20852.png" width = 10%>
 :::
+<center>
 </div>
 </div>
 <hr>
