@@ -19,12 +19,12 @@ css: ITN_style.css
 <div class="row">
 
 <div class="column">
-<center><img src="resources/images/unhappy.png" width = 60% > </center>
+<center><img src="resources/images/unhappy.png" width = 50% > </center>
 <br>
 Conferences can feel intimidating, especially your first few.
 </div>
 <div class="column">
-<center><img src="resources/images/happy.png" width = 60%> </center> 
+<center><img src="resources/images/happy.png" width = 50%> </center> 
 <br>
 But don't worry, this is a common feeling.
 You deserve to be attend and no one knows what all the talks are about.
@@ -46,27 +46,38 @@ In fact, conferences are for branching out and learning new things!
 
 <input type="checkbox">  Take notes.
 
-- Conferences cover tons of material, it can be difficult to retain what you learn, so take notes. Your notes should especially include information about the researchers and relevant papers, so you can reach out or learn more.
+- It can be difficult to retain what you learn, so take notes. Include information about the researchers and relevant papers, so you can reach out or learn more.
 
 <input type="checkbox">  Get ideas.
 
-- Conferences are a great places to make new connections and think about new ideas. 
-
-<input type="checkbox">  Talk to people.
-
--  You never know who you might be sitting next to! Conferences are great places to find new collaborators, people who know about helpful new methods, opportunities, jobs, etc.
--  You can start with small talk or talking about a recent presentation, or your work.
-- Transition times, after talks and during breaks are good opportunities to meet people
-- Talk to speakers, ask questions (this can be one on one after a talk or during the talk)
-- Email people afterwards or connect on LinkedIn
+- Conferences are a great places to make new connections.
 
 </div>
 
+<div class="column">
 
+<br>
+<br>
+<br>
+<input type="checkbox">  Talk to people.
+
+-  You never know who you might be sitting next to! Find new collaborators, people who know about helpful new methods, opportunities, jobs, etc.
+-  Start with small talk, talk about a presentation, or talk about your work.
+- Transition times, after talks, and during breaks are good opportunities to meet people
+- Talk to speakers, ask questions (this can be after a talk or during the talk)
+- Email people or connect on LinkedIn
+
+</div>
+</div>
+
+<hr>
+
+<div class="row">
 <div class="column">
 
 # What to expect:
 
+- Conferences cover a ton of information! (It may feel overwhelming)
 - Talks conclude with time for questions
 - Plenary talks are large talks typically for the full conference with experienced speakers
 - People will attend talks and some will take notes
@@ -74,22 +85,77 @@ In fact, conferences are for branching out and learning new things!
 - People will generally ask constructive questions
 - Occasionally people might ask aggressive questions, but this is rare
 
+</div>
+<div class = "column">
+
+# Virtual Conference Etiquette:
+
+<input type="checkbox"> Keep muted 
+
+<input type="checkbox"> Consider showing your video (it's nice for speakers)
+
+<input type="checkbox"> Reach out on LinkedIn or the chat to "talk" to people
+
  
 </div>
-
-
 </div>
 
+<hr>
 
+<div class="row">
+<div class="column">
+# Questions to ask
 
+- What are your next steps/future directions? 
+- What was a challenge in your methods?
+- Why did you pick XYZ thing? Did you consider this other method? 
+- Can we revisit graph A? Ask a specific question about graph/finding/table.
+- Have you considered some other author XYZ and how that relates to your work? 
+- What are the implications/impact of your findings? How could this be applied? 
+- Have you thought about how XYZ may influence your research findings?
+- I didn't catch this XYZ detail, can you say it again?
+</div>
+<div class="column">
+<center>
+<img src="resources/images/question.png" width = 40%>
+</center>
+</div>
+</div>
+<hr>
+
+<div class="row">
+<div class="column">
+
+# Possible Goals
+
+1. Meet new people
+1. Share your research
+1. Look for a job
+1. Get ideas for new projects
+1. Find collaborators
 </div>
 
+<div class="column">
+# After the Conference
+
+<input type="checkbox"> Reach out to new contacts
+
+<input type="checkbox"> Whether formal (to present to your lab) or informal, consider the following questions:
+
+  - Why did I go to this conference? 
+  - What did I do at the conference? 
+  - What could I do differently?
+  - What did I learn/takeaways? 
+  
+<input type="checkbox"> Revisit your goals here, how did you do? 
+</div>
+</div>
 
 <hr>
 
 <center>
 <a href="https://www.itcrtraining.org/">
-  <img src="https://lh4.googleusercontent.com/5zSAoUpvQnafmW-fcdollEVq-_gQ58luV68vAN9V9Tdpg0MLDearEZC4UFncWoVaCbbVxw9HToB4JG9QYSH61AaTfeWlG_7JgI_b8yfNpYtxV76xIjCCKWiaLSn784KC3Q=w1280" width = 30%>
+  <img src="resources/images/ITN_logo.png" width = 30%>
 </a>
 </center>
 
