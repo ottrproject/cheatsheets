@@ -116,6 +116,7 @@ a {
 body {
   counter-reset: h2;
   text-indent: 3em each-line;
+  font-size: 18px;
 }
 h2::before {
   counter-increment: h2;
