@@ -133,11 +133,11 @@ In fact, conferences are for branching out and learning new things!
 
 # Possible Goals:
 
-1. Meet new people 
-1. Share your research
-1. Look for a job
-1. Get ideas for new projects
-1. Find collaborators
+<input type="checkbox"> Meet new people 
+<input type="checkbox"> Share your research
+<input type="checkbox"> Look for a job
+<input type="checkbox"> Get ideas for new projects
+<input type="checkbox"> Find collaborators
 :::
 
 </div>
