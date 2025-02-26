@@ -98,7 +98,7 @@ jobs:
           git fetch --all
           git checkout $branch_name
           git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
-          apt install texlive-latex-base
+          sudo apt-get install texlive-latex-base
         shell: bash
 
       # We want a fresh run of the renders each time - so first delete old html files

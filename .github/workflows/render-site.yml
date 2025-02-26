@@ -54,7 +54,7 @@ jobs:
       # We want a fresh run of the renders each time - so first delete old html files
       - name: Delete old *.html
         run: |
-          apt install texlive-latex-base
+          sudo apt-get install texlive-latex-base
           Rscript -e "rmarkdown::clean_site(preview = FALSE)"
 
        # Now we want to render all the html files from the Rmd files
