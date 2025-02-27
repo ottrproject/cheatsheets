@@ -33,7 +33,7 @@ css: ITN_style.css
 <input type="checkbox">  Check that you have added a creative element
 
   - Use stories, anecdotes, images, videos, art, GIFs, poetry, [cartoons](https://getavataaars.com/), [memes](https://giphy.com/categories/memes)
-  - Be cautious about jokes or memes - the may not target right audience - going virally isn't automatically a good thing
+  - Be cautious about jokes or memes - the may not target right audience - going viral isn't automatically a good thing
 
 <input type="checkbox">  Check that necessary colleagues or collaborators have reviewed the content
 
