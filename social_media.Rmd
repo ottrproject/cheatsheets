@@ -130,11 +130,24 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 <img src="https://www.iconpacks.net/icons/4/free-icon-radio-waves-14697.png" width = 10%>
 - [Bluesky](https://bsky.app/profile/itcrtraining.bsky.social): @itcrtraining 
 <img src="https://www.iconpacks.net/icons/free-icons-7/free-bluesky-blue-square-logo-icon-24458.png" width = 10%>
-- [X](https://twitter.com/itcrtraining):@itcrtraining
+- [X](https://twitter.com/itcrtraining): @itcrtraining
 <img src="https://www.iconpacks.net/icons/free-icons-6/free-icon-twitter-x-logo-black-square-rounded-20852.png" width = 10%>
 :::
 </div>
 </div>
+
+<hr>
+
+# What platforms are ITCR participants using?
+
+(75 responses - 35 participants)
+1. LinkedIn
+2. Bluesky and X
+3. YouTube
+4. Mastadon
+5. Facebook and Newsletters
+
+
 <hr>
 
 <center>
@@ -142,6 +155,8 @@ https://www.linkedin.com/company/cancer-genomics-consortium
   <img src="resources/images/ITN_logo.png" width = 30%>
 </a>
 </center>
+
+
 
 <div class = "authors"> **Authors**: This cheatsheet is the product of discussions from the [ITCR OPEN Group](https://www.itcrtraining.org/open) with panelists [Ino de Bruijn](https://www.linkedin.com/in/inodb), 
 [Tali Mazor](https://www.linkedin.com/in/talimazor/), and [Jeremy Goecks](https://www.moffitt.org/research-science/researchers/jeremy-goecks/), with additional contributions from other ITCR partcipants including [Obi Griffith](https://oncology.wustl.edu/people/obi-l-griffith-phd/), [Greg Caporaso](https://cap-lab.bio/), [Jeff Leek](https://jtleek.com/), and others. It was summarized by [Carrie Wright](https://www.itcrtraining.org/team) and includes best practices from the Fred Hutch Social Media Group. 
