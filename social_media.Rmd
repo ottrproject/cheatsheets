@@ -33,7 +33,7 @@ css: ITN_style.css
 <input type="checkbox">  Check that you have added a creative element
 
   - Use stories, anecdotes, images, videos, art, GIFs, poetry, [cartoons](https://getavataaars.com/), [memes](https://giphy.com/categories/memes)
-  - Be cautious about jokes or memes - the may not target right audience - going virally isn't automatically a good thing
+  - Be cautious about jokes or memes - the may not target right audience - going viral isn't automatically a good thing
 
 <input type="checkbox">  Check that necessary colleagues or collaborators have reviewed the content
 
@@ -93,6 +93,8 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
   - LLMs can help write content
 - **General**
   - Review what kinds of posts and post times/channels that seem to get best engagement
+  - Be brief and to the point
+  - Consistently post
   - Encourage community feedback for tool improvements
   - If people send feedback, you can respond to them individually by email, especially if it becomes a negative conversation
   - ***Let ITN know about your blogs, feeds, handles etc. so we can help you connect with people!***
@@ -130,11 +132,24 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 <img src="https://www.iconpacks.net/icons/4/free-icon-radio-waves-14697.png" width = 10%>
 - [Bluesky](https://bsky.app/profile/itcrtraining.bsky.social): @itcrtraining 
 <img src="https://www.iconpacks.net/icons/free-icons-7/free-bluesky-blue-square-logo-icon-24458.png" width = 10%>
-- [X](https://twitter.com/itcrtraining):@itcrtraining
+- [X](https://twitter.com/itcrtraining): @itcrtraining
 <img src="https://www.iconpacks.net/icons/free-icons-6/free-icon-twitter-x-logo-black-square-rounded-20852.png" width = 10%>
 :::
 </div>
 </div>
+
+<hr>
+
+# What platforms are ITCR participants using?
+
+<center>
+  <img src="resources/images/platforms.png" width = 50%>
+</a>
+(75 responses - 35 participants)
+</center>
+
+
+
 <hr>
 
 <center>
@@ -143,6 +158,8 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 </a>
 </center>
 
+
+
 <div class = "authors"> **Authors**: This cheatsheet is the product of discussions from the [ITCR OPEN Group](https://www.itcrtraining.org/open) with panelists [Ino de Bruijn](https://www.linkedin.com/in/inodb), 
-[Tali Mazor](https://www.linkedin.com/in/talimazor/), and [Jeremy Goecks](https://www.moffitt.org/research-science/researchers/jeremy-goecks/), with additional contributions from other ITCR partcipants including [Obi Griffith](https://oncology.wustl.edu/people/obi-l-griffith-phd/), [Greg Caporaso](https://cap-lab.bio/), [Jeff Leek](https://jtleek.com/), and others. It was summarized by [Carrie Wright](https://www.itcrtraining.org/team) and includes best practices from the Fred Hutch Social Media Group. 
+[Tali Mazor](https://www.linkedin.com/in/talimazor/), and [Jeremy Goecks](https://www.moffitt.org/research-science/researchers/jeremy-goecks/), with additional contributions from other ITCR participants including [Obi Griffith](https://oncology.wustl.edu/people/obi-l-griffith-phd/), [Greg Caporaso](https://cap-lab.bio/), [Jeff Leek](https://jtleek.com/), and others. It was summarized by [Carrie Wright](https://www.itcrtraining.org/team) and includes best practices from the Fred Hutch Social Media Group. 
 
