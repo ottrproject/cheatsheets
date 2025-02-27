@@ -93,6 +93,8 @@ _These tips are adapted from the Marketing and Communications group at Fred Hutc
   - LLMs can help write content
 - **General**
   - Review what kinds of posts and post times/channels that seem to get best engagement
+  - Be brief and to the point
+  - Consistently post
   - Encourage community feedback for tool improvements
   - If people send feedback, you can respond to them individually by email, especially if it becomes a negative conversation
   - ***Let ITN know about your blogs, feeds, handles etc. so we can help you connect with people!***
@@ -140,12 +142,12 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 
 # What platforms are ITCR participants using?
 
+<center>
+  <img src="resources/images/platforms.png" width = 50%>
+</a>
 (75 responses - 35 participants)
-1. LinkedIn
-2. Bluesky and X
-3. YouTube
-4. Mastadon
-5. Facebook and Newsletters
+</center>
+
 
 
 <hr>
@@ -159,5 +161,5 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 
 
 <div class = "authors"> **Authors**: This cheatsheet is the product of discussions from the [ITCR OPEN Group](https://www.itcrtraining.org/open) with panelists [Ino de Bruijn](https://www.linkedin.com/in/inodb), 
-[Tali Mazor](https://www.linkedin.com/in/talimazor/), and [Jeremy Goecks](https://www.moffitt.org/research-science/researchers/jeremy-goecks/), with additional contributions from other ITCR partcipants including [Obi Griffith](https://oncology.wustl.edu/people/obi-l-griffith-phd/), [Greg Caporaso](https://cap-lab.bio/), [Jeff Leek](https://jtleek.com/), and others. It was summarized by [Carrie Wright](https://www.itcrtraining.org/team) and includes best practices from the Fred Hutch Social Media Group. 
+[Tali Mazor](https://www.linkedin.com/in/talimazor/), and [Jeremy Goecks](https://www.moffitt.org/research-science/researchers/jeremy-goecks/), with additional contributions from other ITCR participants including [Obi Griffith](https://oncology.wustl.edu/people/obi-l-griffith-phd/), [Greg Caporaso](https://cap-lab.bio/), [Jeff Leek](https://jtleek.com/), and others. It was summarized by [Carrie Wright](https://www.itcrtraining.org/team) and includes best practices from the Fred Hutch Social Media Group. 
 
