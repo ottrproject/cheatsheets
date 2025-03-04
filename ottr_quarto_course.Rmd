@@ -5,7 +5,7 @@ ottrpal::borrow_chapter(
   tag_replacement = list(
     "{TITLE}" = "OTTR Quarto",
     "{TEMPLATE_NAME}" = "OTTR_Quarto",
-    "{TEMPLATE_URL}" = "https://github.com/jhudsl/OTTR_Quarto"))
+    "{TEMPLATE_URL}" = "https://github.com/fhdsl/OTTR_Quarto"))
 ```
 
 ```{r, echo=FALSE, results='asis'}
