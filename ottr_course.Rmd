@@ -3,9 +3,9 @@
 cow::borrow_chapter(
   doc_path = "chunks/starter_template.md",
     tag_replacement = list(
-    {TITLE} = "OTTR Template",
-    {TEMPLATE_NAME} = "OTTR_Template",
-    {TEMPLATE_URL} = "https://github.com/jhudsl/OTTR_Template"))
+    "{TITLE}" = "OTTR Template",
+    "{TEMPLATE_NAME}" = "OTTR_Template",
+    "{TEMPLATE_URL}" = "https://github.com/jhudsl/OTTR_Template"))
 ```
 
 ```{r, echo=FALSE, results='asis'}

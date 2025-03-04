@@ -3,9 +3,9 @@
 cow::borrow_chapter(
   doc_path = "chunks/starter_template.md",
   tag_replacement = list(
-    {TITLE} = "OTTR Quarto Website"
-    {TEMPLATE_NAME} = "OTTR_Quarto_Website",
-    {TEMPLATE_URL} = "https://github.com/fhdsl/OTTR_Quarto_Website"))
+    "{TITLE}" = "OTTR Quarto Website"
+    "{TEMPLATE_NAME}" = "OTTR_Quarto_Website",
+    "{TEMPLATE_URL}" = "https://github.com/fhdsl/OTTR_Quarto_Website"))
 ```
 
 ```{r, echo=FALSE, results='asis'}
