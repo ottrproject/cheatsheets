@@ -1,0 +1,39 @@
+
+```{r, echo=FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "chunks/starter_template.md",
+  tag_replacement = list(
+    {TITLE} = "OTTR Website Template"
+    {TEMPLATE_NAME} = "OTTR_Website_Template",
+    {TEMPLATE_URL} = "https://github.com/jhudsl/OTTR_Website_Template"))
+```
+
+```{r, echo=FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "chunks/create_repository.md",
+  repo_name = "jhudsl/cheatsheets")
+```
+
+```{r, echo=FALSE, results='asis'}
+cow::borrow_chapter(
+  doc_path = "chunks/enable_actions.md",
+  repo_name = "jhudsl/cheatsheets")
+```
+
+```{r, echo=FALSE, results='asis'}
+ cow::borrow_chapter(   
+   doc_path = "chunks/pages.md",
+   repo_name = "jhudsl/cheatsheets")
+```
+
+```{r, echo=FALSE, results='asis'}
+ cow::borrow_chapter(   
+   doc_path = "chunks/token.md",
+   repo_name = "jhudsl/cheatsheets")
+```
+
+```{r, echo=FALSE, results='asis'}
+ cow::borrow_chapter(   
+   doc_path = "chunks/secrets.md",
+   repo_name = "jhudsl/cheatsheets")
+```

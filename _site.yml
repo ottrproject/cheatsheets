@@ -8,18 +8,18 @@ navbar:
     icon: fa-home
   - text: OTTR
     menu:
-      - text: "Set up Rmd course"
-        href:
-      - text: "Set up Quarto course"
-        href:
-      - text: "Set up Rmd website"
-        href:
-      - text: "Set up Quarto website"
-        href:
+      - text: Set up Rmd course
+        href: ottr_course.html
+      - text: Set up Quarto course
+        href: ottr_quarto_course.html
+      - text: Set up Rmd website
+        href: ottr_website.html
+      - text: Set up Quarto website
+        href: ottr_quarto_website.html
   - text: Other guides
     menu:
-      - text: "Your first conference"
-        href:
+      - text: Attending Conferences
+        href: attending_conferences.html
       - text: Social Media
         href: social_media.html
 
