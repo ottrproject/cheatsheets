@@ -32,8 +32,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -94,80 +92,6 @@ pre code {
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
 
 <!-- tabsets -->
 
@@ -233,42 +157,6 @@ $(document).ready(function () {
 
 
 
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">cheatsheets</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
-     
-    
-  </a>
-</li>
-<li>
-  <a href="website_setup.html">Website Setup</a>
-</li>
-<li>
-  <a href="course_setup.html">Course Setup</a>
-</li>
-<li>
-  <a href="social_media.html">Social Media</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
-
 <div id="header">
 
 
@@ -281,7 +169,7 @@ $(document).ready(function () {
 Tips and Tricks
 </p>
 </center></h1>
-<h4 class="date">Last updated: February 24, 2025</h4>
+<h4 class="date">Last updated: February 27, 2025</h4>
 
 </div>
 
@@ -308,9 +196,10 @@ element</p>
 <li>Use stories, anecdotes, images, videos, art, GIFs, poetry, <a
 href="https://getavataaars.com/">cartoons</a>, <a
 href="https://giphy.com/categories/memes">memes</a></li>
-<li>Be cautious about memes - may not target right audience</li>
+<li>Be cautious about jokes or memes - the may not target right audience
+- going viral isn’t automatically a good thing</li>
 </ul>
-<p><input type="checkbox"> Check that necessary colleagues and
+<p><input type="checkbox"> Check that necessary colleagues or
 collaborators have reviewed the content</p>
 <p><input type="checkbox"> If you are unsure, don’t post it!</p>
 </div>
@@ -320,6 +209,7 @@ collaborators have reviewed the content</p>
 <h1>Content to Share:</h1>
 <ul>
 <li>Walk through how to do specific tasks with your software</li>
+<li>Recruit new users and contributors</li>
 <li>Report releases, new features, papers etc.</li>
 <li>Describe your work &amp; your colleagues’ work</li>
 <li>Advertise learning opportunities &amp; work opportunities</li>
@@ -328,8 +218,8 @@ collaborators have reviewed the content</p>
 <li>Explain concepts to lay audiences</li>
 </ul>
 <div class="warning">
-<p>Check if your institute has guidelines or restrictions on the usage
-of social media.</p>
+<p>Check if your institute has a Social Media Policy with guidelines or
+restrictions on the usage of social media.</p>
 </div>
 </div>
 </div>
@@ -338,14 +228,16 @@ group at Fred Hutch.</em></p>
 </div>
 <hr>
 <div id="tools" class="section level1">
-<h1>Tools:</h1>
+<h1><img src="https://www.iconpacks.net/icons/3/free-icon-tool-box-9520.png" width = 6%>Tools:</h1>
 <ul>
 <li><a href="https://typefully.com/">Typefully</a> and <a
 href="https://buffer.com/">Buffer</a>
 <ul>
-<li>Schedule your content to the most popular platforms</li>
+<li>Manage and cross-post to most popular platforms</li>
+<li>Schedule your content</li>
 <li>Collect engagement metrics</li>
 <li>Collaborate with others on content</li>
+<li>Use AI to help you write content</li>
 </ul></li>
 <li><a href="https://rss.com/blog/how-do-rss-feeds-work/">RSS feeds</a>
 and <a href="https://tt-rss.org/">Tiny Tiny RSS</a>
@@ -354,7 +246,7 @@ and <a href="https://tt-rss.org/">Tiny Tiny RSS</a>
 </ul></li>
 <li><a href="https://substack.com/about">Substack</a>
 <ul>
-<li>Create blogs or newsletters that updates subscribers, has embedded
+<li>Create blogs or newsletters to update subscribers with embedded
 tracking of engagement (works with RSS feeds)</li>
 </ul></li>
 <li><a
@@ -362,13 +254,13 @@ href="https://www.linkedin.com/help/linkedin/answer/a517925">Newsletters
 on LinkedIn</a>
 <ul>
 <li>Separate from the organization profile, allows for user
-subscriptions and engage with comments and questions</li>
+subscriptions and engagement with comments and questions</li>
 </ul></li>
 </ul>
 <hr>
 </div>
 <div id="tips" class="section level1">
-<h1>Tips:</h1>
+<h1><img src="https://www.iconpacks.net/icons/1/free-icon-computer-1211.png" width = 8%>Tips:</h1>
 <ul>
 <li><strong>Efficiency</strong>
 <ul>
@@ -377,17 +269,22 @@ help with inspiration and reposting</li>
 <li>Repurpose posts for different audiences</li>
 <li>Use <a href="https://typefully.com/">Typefully</a>, <a
 href="https://buffer.com/">Buffer</a>, or other tools to post the same
-content on multiple platforms and plan and schedule in advance</li>
-<li>Templates can be really useful - quickly looks professional</li>
+content on multiple platforms, and plan and schedule posts in
+advance</li>
+<li>Templates can be really useful - helps create professional looking
+posts quickly</li>
 <li>LLMs can help write content</li>
 </ul></li>
 <li><strong>General</strong>
 <ul>
-<li>Review what kinds of posts seem to get best engagement</li>
+<li>Review what kinds of posts and post times/channels that seem to get
+best engagement</li>
+<li>Be brief and to the point</li>
+<li>Consistently post</li>
 <li>Encourage community feedback for tool improvements</li>
 <li>If people send feedback, you can respond to them individually by
 email, especially if it becomes a negative conversation</li>
-<li><strong><em>Let ITN know about your blogs, feeds, handles etc so we
+<li><strong><em>Let ITN know about your blogs, feeds, handles etc. so we
 can help you connect with people!</em></strong></li>
 </ul></li>
 </ul>
@@ -398,64 +295,76 @@ can help you connect with people!</em></strong></li>
 <div id="great-examples" class="section level1">
 <h1>Great Examples:</h1>
 <ul>
-<li>NHGRI Twitter feed with great memes: <a
-href="https://x.com/genome_gov"
-class="uri">https://x.com/genome_gov</a></li>
-<li>Galaxy Social media archive:<br />
-<a href="https://github.com/usegalaxy-eu/galaxy-social"
-class="uri">https://github.com/usegalaxy-eu/galaxy-social</a></li>
+<li>NHGRI Twitter feed with great memes:</li>
 </ul>
+<p><a href="https://x.com/genome_gov"
+class="uri">https://x.com/genome_gov</a></p>
+<ul>
+<li>Galaxy Social media archive:</li>
+</ul>
+<p><a href="https://github.com/usegalaxy-eu/galaxy-social"
+class="uri">https://github.com/usegalaxy-eu/galaxy-social</a></p>
+<ul>
+<li>Cancer Genomics Consortium LinkedIn with effective use of
+templates:</li>
+</ul>
+<p><a href="https://www.linkedin.com/company/cancer-genomics-consortium"
+class="uri">https://www.linkedin.com/company/cancer-genomics-consortium</a></p>
 </div>
 </div>
 <div class="column">
 <div class="Note">
-<div class="row">
-<div class="column">
 <p><strong>ITN Social Media Handles</strong>:</p>
 <ul>
 <li><a
-href="https://www.linkedin.com/company/itcr-training-network">LinkedIn</a>
+href="https://www.linkedin.com/company/itcr-training-network">LinkedIn</a>:
+itcr-training-network
 <img src="https://www.iconpacks.net/icons/2/free-icon-linkedin-logo-2430.png" width = 10%></li>
 <li><a
-href="https://www.youtube.com/@itcrtrainingnetwork2281">YouTube</a>
+href="https://www.youtube.com/@itcrtrainingnetwork2281">YouTube</a>:
+<span class="citation">@itcrtrainingnetwork2281</span>
 <img src="https://www.iconpacks.net/icons/1/free-icon-youtube-141.png" width = 10%></li>
-<li><a href="https://www.buzzsprout.com/2219246">Podcast</a>
+<li><a href="https://www.buzzsprout.com/2219246">Podcast</a>: Cracking
+the cancer code
 <img src="https://www.iconpacks.net/icons/4/free-icon-radio-waves-14697.png" width = 10%></li>
 <li><a
-href="https://bsky.app/profile/itcrtraining.bsky.social">Bluesky</a>
+href="https://bsky.app/profile/itcrtraining.bsky.social">Bluesky</a>:
+<span class="citation">@itcrtraining</span>
 <img src="https://www.iconpacks.net/icons/free-icons-7/free-bluesky-blue-square-logo-icon-24458.png" width = 10%></li>
-<li><a href="https://twitter.com/itcrtraining">X</a>
+<li><a href="https://twitter.com/itcrtraining">X</a>: <span
+class="citation">@itcrtraining</span>
 <img src="https://www.iconpacks.net/icons/free-icons-6/free-icon-twitter-x-logo-black-square-rounded-20852.png" width = 10%></li>
 </ul>
-</div>
-<div class="column">
-<p><img src="https://www.iconpacks.net/icons/1/free-icon-computer-1211.png" width = 50%></p>
-</div>
-</div>
 </div>
 </div>
 </div>
 <hr>
+<div id="what-platforms-are-itcr-participants-using"
+class="section level1">
+<h1>What platforms are ITCR participants using?</h1>
+<center>
+<img src="resources/images/platforms.png" width = 50%> </a> (75
+responses - 35 participants)
+</center>
+<hr>
 <center>
 <a href="https://www.itcrtraining.org/">
-<img src="https://lh4.googleusercontent.com/Ruv4YQB74Se9nv9WbELh69dVAJmJXSGOrsqJO0UdqaTjUIBFuWMMLMr0SOAWS7ggXrdjlVFx9noCBfbEwQrDAVcwFrCM3DNU6NbhogeQZ79mF7y2RMT81x1Q-GQKmUM65w=w1280" width = 30%>
-</a>
+<img src="resources/images/ITN_logo.png" width = 30%> </a>
 </center>
-<div class="authors">
+<div class = "authors">
 <p><strong>Authors</strong>: This cheatsheet is the product of
 discussions from the <a href="https://www.itcrtraining.org/open">ITCR
 OPEN Group</a> with panelists <a
 href="https://www.linkedin.com/in/inodb">Ino de Bruijn</a>, <a
 href="https://www.linkedin.com/in/talimazor/">Tali Mazor</a>, and <a
 href="https://www.moffitt.org/research-science/researchers/jeremy-goecks/">Jeremy
-Goecks</a>, with additional contributions from other ITCR partcipants
+Goecks</a>, with additional contributions from other ITCR participants
 including <a
 href="https://oncology.wustl.edu/people/obi-l-griffith-phd/">Obi
 Griffith</a>, <a href="https://cap-lab.bio/">Greg Caporaso</a>, <a
 href="https://jtleek.com/">Jeff Leek</a>, and others. It was summarized
 by <a href="https://www.itcrtraining.org/team">Carrie Wright</a> and
-includes best practices from the Fred Hutch Social Media Group. This was
-funded by NCI UE5CA254170.</p>
+includes best practices from the Fred Hutch Social Media Group.</p>
 </div>
 
 

@@ -1,0 +1,98 @@
+---
+title: |
+  <center> <u>Attending Conferences </u></center>
+  <center> <p style = "color:#14395f;"> Helpful Tips</p></center>
+date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    number_sections: false
+css: ITN_style.css
+---
+
+
+
+<hr>
+
+
+# Don't worry!
+
+<div class="row">
+
+<div class="column">
+<center><img src="resources/images/unhappy.png" width = 60% > </center>
+<br>
+Conferences can feel intimidating, especially your first few.
+</div>
+<div class="column">
+<center><img src="resources/images/happy.png" width = 60%> </center> 
+<br>
+But don't worry, this is a common feeling.
+You deserve to be attend and no one knows what all the talks are about.
+In fact, conferences are for branching out and learning new things!
+
+</div>
+</div>
+<hr>
+
+<div class="row">
+
+<div class="column">
+
+# Best Practices:
+
+<input type="checkbox">  Don't try to absorb everything!
+
+- Focus on your interests, but also check out new topics.
+
+<input type="checkbox">  Take notes.
+
+- Conferences cover tons of material, it can be difficult to retain what you learn, so take notes. Your notes should especially include information about the researchers and relevant papers, so you can reach out or learn more.
+
+<input type="checkbox">  Get ideas.
+
+- Conferences are a great places to make new connections and think about new ideas. 
+
+<input type="checkbox">  Talk to people.
+
+-  You never know who you might be sitting next to! Conferences are great places to find new collaborators, people who know about helpful new methods, opportunities, jobs, etc.
+-  You can start with small talk or talking about a recent presentation, or your work.
+- Transition times, after talks and during breaks are good opportunities to meet people
+- Talk to speakers, ask questions (this can be one on one after a talk or during the talk)
+- Email people afterwards or connect on LinkedIn
+
+</div>
+
+
+<div class="column">
+
+# What to expect:
+
+- Talks conclude with time for questions
+- Plenary talks are large talks typically for the full conference with experienced speakers
+- People will attend talks and some will take notes
+- People will come and go
+- People will generally ask constructive questions
+- Occasionally people might ask aggressive questions, but this is rare
+
+ 
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+<hr>
+
+<center>
+<a href="https://www.itcrtraining.org/">
+  <img src="https://lh4.googleusercontent.com/5zSAoUpvQnafmW-fcdollEVq-_gQ58luV68vAN9V9Tdpg0MLDearEZC4UFncWoVaCbbVxw9HToB4JG9QYSH61AaTfeWlG_7JgI_b8yfNpYtxV76xIjCCKWiaLSn784KC3Q=w1280" width = 30%>
+</a>
+</center>
+
+<div class = "authors"> **Authors**: This cheatsheet is the product of discussions 
+</div>
+

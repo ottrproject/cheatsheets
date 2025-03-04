@@ -7,7 +7,7 @@ hr {
 /*-------------columns---------------- */
 .column {
   float: left;
-  width: 50%;
+  width: auto;
 }
 
 /* Clear floats after the columns */
@@ -128,7 +128,7 @@ div.Note{
   border-style: solid;
   padding: 1em;
   margin: 1em 0;
-  padding-left: 100px;
+  padding-left: 40px;
   background-size: 70px;
   background-repeat: no-repeat;
   background-position: 15px center;
