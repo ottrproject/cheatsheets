@@ -10,24 +10,20 @@ ottrpal::borrow_chapter(
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
-  doc_path = "chunks/enable_actions.md",
-  repo_name = "jhudsl/cheatsheets")
+  doc_path = "chunks/enable_actions.md")
 ```
 
 ```{r, echo=FALSE, results='asis'}
  ottrpal::borrow_chapter(   
-   doc_path = "chunks/pages.md",
-   repo_name = "jhudsl/cheatsheets")
+   doc_path = "chunks/pages.md")
 ```
 
 ```{r, echo=FALSE, results='asis'}
  ottrpal::borrow_chapter(   
-   doc_path = "chunks/token.md",
-   repo_name = "jhudsl/cheatsheets")
+   doc_path = "chunks/token.md")
 ```
 
 ```{r, echo=FALSE, results='asis'}
  ottrpal::borrow_chapter(   
-   doc_path = "chunks/secrets.md",
-   repo_name = "jhudsl/cheatsheets")
+   doc_path = "chunks/secrets.md")
 ```
