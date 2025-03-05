@@ -1,0 +1,34 @@
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/starter_template.md",
+  tag_replacement = list(
+    "{TITLE}" = "OTTR Quarto",
+    "{TEMPLATE_NAME}" = "OTTR_Quarto",
+    "{TEMPLATE_URL}" = "https://github.com/fhdsl/OTTR_Quarto"))
+```
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_repository.md")
+```
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/enable_actions.md")
+```
+
+```{r, echo=FALSE, results='asis'}
+ ottrpal::borrow_chapter(   
+   doc_path = "chunks/pages.md")
+```
+
+```{r, echo=FALSE, results='asis'}
+ ottrpal::borrow_chapter(   
+   doc_path = "chunks/token.md")
+```
+
+```{r, echo=FALSE, results='asis'}
+ ottrpal::borrow_chapter(   
+   doc_path = "chunks/secrets.md")
+```

@@ -1,0 +1,29 @@
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/starter_template.md",
+    tag_replacement = list(
+    "{TITLE}" = "OTTR Template",
+    "{TEMPLATE_NAME}" = "OTTR_Template",
+    "{TEMPLATE_URL}" = "https://github.com/jhudsl/OTTR_Template"))
+```
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/enable_actions.md")
+```
+
+```{r, echo=FALSE, results='asis'}
+ ottrpal::borrow_chapter(   
+   doc_path = "chunks/pages.md")
+```
+
+```{r, echo=FALSE, results='asis'}
+ ottrpal::borrow_chapter(   
+   doc_path = "chunks/token.md")
+```
+
+```{r, echo=FALSE, results='asis'}
+ ottrpal::borrow_chapter(   
+   doc_path = "chunks/secrets.md")
+```
