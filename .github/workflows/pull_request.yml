@@ -98,8 +98,6 @@ jobs:
           git fetch --all
           git checkout $branch_name
           git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
-          sudo apt-get update && apt-get install -y
-          sudo apt-get install google-chrome -y
         shell: bash
 
       # We want a fresh run of the renders each time - so first delete old html files
@@ -110,8 +108,9 @@ jobs:
       - name: Run render html
         id: site
         run: |
-          install.packages("pagedown", repos='http://cran.us.r-project.org')
-          Sys.setenv("CHROMOTE_CHROME" = pagedown::find_chrome()[1])
+          sudo apt-get update && apt-get install -y
+          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+          install.packages("chromote", repos='http://cran.us.r-project.org')
           rmarkdown::render_site()
           dir.create("pngs", showWarnings = FALSE)
           rmds <- list.files(pattern = "\\.Rmd$")
