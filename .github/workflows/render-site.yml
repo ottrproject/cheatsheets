@@ -60,6 +60,7 @@ jobs:
       - name: Run render html
         id: site
         run: |
+          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9 
           install.packages("chromote", repos='http://cran.us.r-project.org')
           rmarkdown::render_site()
           dir.create("pngs", showWarnings = FALSE)
