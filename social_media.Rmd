@@ -142,14 +142,20 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 
 # What platforms are ITCR participants using?
 
+<div class="row">
+<div class="column">
 <center>
   <img src="resources/images/social_media_table.png" width = 50%>
-</a>
-<center>
-  <img src="resources/images/social_media_wordcloud.png" width = 50%>
-</a>
-(75 responses - 35 participants)
 </center>
+</div>
+<div class="column">
+<center>
+  <img src="resources/images/social_media_wordcloud.png" width = 100%>
+</center>
+</div>
+
+(75 responses - 35 participants)
+</div>
 
 
 
@@ -165,4 +171,4 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 
 <div class = "authors"> **Authors**: This cheatsheet is the product of discussions from the [ITCR OPEN Group](https://www.itcrtraining.org/open) with panelists [Ino de Bruijn](https://www.linkedin.com/in/inodb), 
 [Tali Mazor](https://www.linkedin.com/in/talimazor/), and [Jeremy Goecks](https://www.moffitt.org/research-science/researchers/jeremy-goecks/), with additional contributions from other ITCR participants including [Obi Griffith](https://oncology.wustl.edu/people/obi-l-griffith-phd/), [Greg Caporaso](https://cap-lab.bio/), [Jeff Leek](https://jtleek.com/), and others. It was summarized by [Carrie Wright](https://www.itcrtraining.org/team) and includes best practices from the Fred Hutch Social Media Group. 
-
+</div>
