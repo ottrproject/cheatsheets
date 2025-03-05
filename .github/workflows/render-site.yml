@@ -55,14 +55,14 @@ jobs:
       - name: Delete old *.html
         run: |
           Rscript -e "rmarkdown::clean_site(preview = FALSE)"
+          sudo apt-get update && apt-get install -y
+          sudo apt-get install google-chrome -y
+          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 
        # Now we want to render all the html files from the Rmd files
       - name: Run render html
         id: site
         run: |
-          sudo apt-get update && apt-get install -y
-          sudo apt-get install google-chrome -y
-          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
           install.packages("chromote", repos='http://cran.us.r-project.org')
           rmarkdown::render_site()
           dir.create("pngs", showWarnings = FALSE)
