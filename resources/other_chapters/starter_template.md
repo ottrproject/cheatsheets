@@ -1,8 +1,8 @@
 ---
-title: <center> <u> OTTR Template Website</u> </center> <center> <p style = "color:#986753;"> {SUBTITLE} </p></center>
+title: <center> <u> OTTR Template Website </u> </center> <center> <p style = "color:#986753;"> {SUBTITLE} </p></center>
 date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
-css: style.css
+css: css/ITN_style.css
 ---
 
 

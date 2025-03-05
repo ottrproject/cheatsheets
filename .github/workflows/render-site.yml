@@ -54,16 +54,13 @@ jobs:
       # We want a fresh run of the renders each time - so first delete old html files
       - name: Delete old *.html
         run: |
-          sudo apt-get update && apt-get install -y
-          sudo apt-get install google-chrome -y
           Rscript -e "rmarkdown::clean_site(preview = FALSE)"
 
        # Now we want to render all the html files from the Rmd files
       - name: Run render html
         id: site
         run: |
-          install.packages("pagedown", repos='http://cran.us.r-project.org')
-          Sys.setenv("CHROMOTE_CHROME" = pagedown::find_chrome()[1])
+          install.packages("chromote", repos='http://cran.us.r-project.org')
           rmarkdown::render_site()
           dir.create("pngs", showWarnings = FALSE)
           rmds <- list.files(pattern = "\\.Rmd$")
