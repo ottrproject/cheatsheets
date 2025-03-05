@@ -1,6 +1,6 @@
 ---
 title: <center> <u> {TITLE} </u> </center> <center> <p style = "color:#986753;"> {SUBTITLE} </p></center>
-date: 'Last updated: `r format(Sys.time(), '%B %d, %Y')`'
+date: 'Last updated: `r format(Sys.time(), "%B %d, %Y")`'
 output: html_document
 css: style.css
 ---

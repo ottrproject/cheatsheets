@@ -2,7 +2,7 @@
 title: |
   <center> <u>Attending Conferences </u></center>
   <center> <p style = "color:#14395f;"> Helpful Tips</p></center>
-date: 'Last updated: `r format(Sys.time(), '%B %d, %Y')`'
+date: 'Last updated: `r format(Sys.time(), "%B %d, %Y")`'
 output:
   html_document:
     number_sections: false
