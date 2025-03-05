@@ -6,7 +6,7 @@ date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
 output:
   html_document:
     number_sections: false
-css: ITN_style.css
+css: css/ITN_style.css
 ---
 
 
@@ -143,7 +143,10 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 # What platforms are ITCR participants using?
 
 <center>
-  <img src="resources/images/platforms.png" width = 50%>
+  <img src="resources/images/social_media_table.png" width = 50%>
+</a>
+<center>
+  <img src="resources/images/social_media_wordcloud.png" width = 50%>
 </a>
 (75 responses - 35 participants)
 </center>
