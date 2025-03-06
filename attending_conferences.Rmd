@@ -19,12 +19,12 @@ css: css/ITN_style.css
 <div class="row">
 
 <div class="column">
-<center><img src="resources/images/unhappy.png" width = 60% > </center>
+<center><img src="css/images/unhappy.png" width = 60% > </center>
 <br>
 Conferences can feel intimidating, especially your first few.
 </div>
 <div class="column">
-<center><img src="resources/images/happy.png" width = 60%> </center>
+<center><img src="css/images/happy.png" width = 60%> </center>
 <br>
 But don't worry, this is a common feeling.
 You deserve to be attend and no one knows what all the talks are about.

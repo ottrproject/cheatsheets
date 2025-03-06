@@ -113,7 +113,6 @@ jobs:
         id: site
         run: |
           options("CHROMOTE_CHROME" = "${{ steps.setup-chrome.outputs.chrome-path }}")
-          rmarkdown::render_site()
           dir.create("pngs", showWarnings = FALSE)
           rmds <- list.files(pattern = "\\.Rmd$")
           rmd_df <- data.frame(rmd = rmds,
