@@ -4,7 +4,7 @@ title: |
   <center> <p style = "color:#986753;"> template </p></center>
 date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
-css: style.css
+css: css/style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-<input type="checkbox"> step 
+<input type="checkbox"> step
 
 <input type="checkbox"> step
 
