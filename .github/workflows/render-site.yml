@@ -55,15 +55,16 @@ jobs:
       - name: Delete old *.html
         run: |
           Rscript -e "rmarkdown::clean_site(preview = FALSE)"
-          sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys F739AAC074C35BC8
-          sudo apt-get update && apt-get install -y
-          sudo apt-get install google-chrome -y
+
+      - uses: browser-actions/setup-chrome@v1
+        id: setup-chrome
+      - run: ${{ steps.setup-chrome.outputs.chrome-path }} --version
 
        # Now we want to render all the html files from the Rmd files
       - name: Run render html
         id: site
         run: |
-          install.packages("chromote", repos='http://cran.us.r-project.org')
+          options("CHROMOTE_CHROME" = ${{ steps.setup-chrome.outputs.chrome-path }})
           rmarkdown::render_site()
           dir.create("pngs", showWarnings = FALSE)
           rmds <- list.files(pattern = "\\.Rmd$")
