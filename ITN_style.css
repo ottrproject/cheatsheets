@@ -23,7 +23,9 @@ hr {
 ul {
   list-style-position: inside;
   font-weight: normal
-  text-indent: 10%; /*intent lists under checkboxes*/
+  list-style-position: inside;
+  text-indent: -1em; /*indent lists*/
+  padding-left: 1em;
 }
 
 
