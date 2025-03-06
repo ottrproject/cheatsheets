@@ -1,7 +1,5 @@
-name: OTTR Cheatsheets
+name: Cheatsheets
 output_dir: 'docs'
-
-
 
 output:
   html_document

@@ -11,7 +11,7 @@
 
 
 
-<title>website_setup.knit</title>
+<title>ottr_course.knit</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -58,7 +58,6 @@ if (window.hljs) {
 
 
 
-<link rel="stylesheet" href="style.css" type="text/css" />
 
 
 
@@ -161,40 +160,28 @@ pre code {
 
 
 
-<h1 class="title toc-ignore"><center>
-<u> OTTR Website </u>
-</center>
-<center>
-<p style="color:#986753;">
-Setup
-</p>
-</center></h1>
-<h4 class="date">Last updated: February 27, 2025</h4>
 
 </div>
 
 
-<div
-id="create-your-ottr-repository-from-the-ottr_template_website-repository"
-class="section level2">
-<h2>Create your OTTR repository from the <a
-href="https://github.com/jhudsl/OTTR_Template_Website">OTTR_Template_Website
-repository</a></h2>
+<div id="ottr_template" class="section level2">
+<h2><a
+href="https://github.com/jhudsl/OTTR_Template">OTTR_Template</a></h2>
 <input type="checkbox"> In the upper right, <em>click on</em>:
 <div class="github_button">
-<a href="https://github.com/new?template_name=OTTR_Template_Website&template_owner=jhudsl">
-Use this template</a>
+<a href="https://github.com/new?template_name=OTTR_Template"> Use this
+template</a>
 </div>
-<p><input type="checkbox"> Set your repo to <strong>Public</strong></p>
+<p><input type="checkbox"> Set your repo to <strong>Public</strong>’</p>
 </div>
 <div id="enable-workflow-actions" class="section level2">
 <h2>Enable workflow actions</h2>
 <p><input type="checkbox"> In your OTTR repository, go to
 <strong>Settings</strong> in the top navigation tabs
-<img src="resources/icons/settings_gear.png" alt="settings icon" class = icon></p>
+<img src='resources/icons/settings_gear.png' alt='settings gear icon' class = icon></p>
 <p><input type="checkbox"> Go to <strong>Actions</strong> (General) in
 the side navigation
-<img src="resources/icons/actions.png" alt="actions icon" class = icon></p>
+<img src='resources/icons/actions.png' alt='actions icon' class = icon></p>
 <p><input type="checkbox"> Under <strong>Workflow
 permissions</strong></p>
 <ol style="list-style-type: decimal">
@@ -205,23 +192,43 @@ create and approve pull requests</strong></p></li>
 <li><p><input type="checkbox"> Click <strong>Save</strong></p></li>
 </ol>
 </div>
+<div id="set-up-github-pages" class="section level2">
+<h2>Set up GitHub Pages</h2>
+<p><input type="checkbox"> In your OTTR repository, go to Settings in
+the top navigation tabs
+<img src='resources/icons/settings_gear.png' alt='settings gear icon' class = icon></p>
+<p><input type="checkbox"> Go to <strong>Pages</strong> in the side
+navigation
+<img src='resources/icons/pages.png' alt='pages icon' class = icon></p>
+<p><input type="checkbox"> In the <strong>Build and deployment
+section</strong></p>
+<ol style="list-style-type: decimal">
+<li><input type="checkbox"> Under <strong>Source</strong>, select
+<strong>Deploy from a branch</strong></li>
+<li><input type="checkbox"> Under <strong>Branch</strong>, pick
+<strong>main</strong> and choose <strong>/docs</strong>, and click
+<strong>Save</strong></li>
+</ol>
+<p><input type="checkbox"> at the bottom of the page, check
+<strong>Enforce HTTPS</strong></p>
+</div>
 <div id="set-up-your-github-personal-access-token"
 class="section level2">
 <h2>Set up your GitHub personal access token</h2>
-<p>A. <a
+<p><a
 href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">Create
 a personal access token</a></p>
 <p><input type="checkbox"> Click on your <strong>profile photo</strong>
 in the upper right
-<img src="resources/icons/profile_photo.png" alt="profile icon" class = icon></p>
-<p><input type="checkbox"> Go to
-<strong>Settings</strong><img src="resources/icons/settings_gear.png" alt="settings icon" class = icon></p>
+<img src='resources/icons/profile_photo.png' alt='profile photo icon' class = icon></p>
+<p><input type="checkbox"> Go to <strong>Settings</strong>
+<img src='resources/icons/settings_gear.png' alt='settings gear icon' class = icon></p>
 <p><input type="checkbox"> Go to <strong>Developer Settings</strong> in
 the side navigation
 <img src="resources/icons/developer_settings.png" alt="developer settings icon" class = icon></p>
 <p><input type="checkbox"> Select <strong>Generate new token
 (classic)</strong>
-<img src="resources/icons/personal_tokens.png" alt="personal access token icon" class = icon></p>
+<img src='resources/icons/personal_tokens.png' alt='personal access token icon' class = icon></p>
 <p><input type="checkbox"> Underneath <strong>Select Scopes</strong>,
 <em>check both</em> <strong>repo</strong> and
 <strong>workflow</strong></p>
@@ -231,16 +238,19 @@ the side navigation
 </div>
 <p><input type="checkbox"> Copy the <strong>personal access
 token</strong>
-<img src="resources/icons/copy.png" alt="copy icon" class = icon></p>
-<p>B. <a
+<img src='resources/icons/copy.png' alt='copy icon' class = icon></p>
+</div>
+<div id="save-the-copied-personal-access-token-as-a-repository-secret"
+class="section level2">
+<h2><a
 href="https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository">Save
-the copied personal access token as a repository secret</a></p>
+the copied personal access token as a repository secret</a></h2>
 <p><input type="checkbox"> In your OTTR repository, go to
 <strong>Settings</strong> in the top navigation tabs
-<img src="resources/icons/settings_gear.png" alt="settings icon" class = icon></p>
+<img src='resources/icons/settings_gear.png' alt='settings gear icon' class = icon></p>
 <p><input type="checkbox"> Go to <strong>Secrets and variables</strong>
 in the side navigation
-<img src="resources/icons/secrets_and_variables.png" alt="secrets icon" class = icon></p>
+<img src='resources/icons/secrets_and_variables.png' alt='secrets and variables icon' class = icon></p>
 <p><input type="checkbox"> Click on <strong>Actions</strong></p>
 <input type="checkbox"> Under <strong>Repository secrets</strong>, click
 on
@@ -255,35 +265,6 @@ copied personal access token</p>
 <div class="github_button">
 Add secret
 </div>
-</div>
-<div id="set-up-github-pages" class="section level2">
-<h2>Set up GitHub Pages</h2>
-<p><input type="checkbox"> In your OTTR repository, go to Settings in
-the top navigation tabs
-<img src="resources/icons/settings_gear.png" alt="secrets icon" class = icon></p>
-<p><input type="checkbox"> Go to <strong>Pages</strong> in the side
-navigation
-<img src="resources/icons/pages.png"  alt="pages icon" class = icon></p>
-<p><input type="checkbox"> In the <strong>Build and deployment
-section</strong></p>
-<ol style="list-style-type: decimal">
-<li><input type="checkbox"> Under <strong>Source</strong>, select
-<strong>Deploy from a branch</strong></li>
-<li><input type="checkbox"> Under <strong>Branch</strong>, pick
-<strong>main</strong> and choose <strong>/docs</strong>, and click
-<strong>Save</strong></li>
-</ol>
-<p><input type="checkbox"> at the bottom of the page, check
-<strong>Enforce HTTPS</strong></p>
-</div>
-<div id="enroll-your-ottr-repository-for-template-updates"
-class="section level2">
-<h2>Enroll your OTTR repository for template updates</h2>
-<p><input type="checkbox"> Refer to our Template Updates Cheatsheet</p>
-<center>
-<a href="https://ottrproject.org">
-<img src="resources/images/basic_otter_water.png" width = 30%> </a>
-</center>
 </div>
 
 
