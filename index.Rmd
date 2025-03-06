@@ -4,7 +4,7 @@ title: |
   <center> <p style = "color:#986753;"> template </p></center>
 date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
-css: css/style.css
+css: css/ITN_style.css
 ---
 
 ```{r setup, include=FALSE}
@@ -33,6 +33,6 @@ warning test
 
 <center>
 <a href="https://ottrproject.org">
-  <img src="resources/images/basic_otter_water.png" width = 30%>
+  <img src="css/images/basic_otter_water.png" width = 30%>
 </a>
 </center>
