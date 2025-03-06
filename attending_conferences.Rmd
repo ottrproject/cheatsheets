@@ -22,6 +22,8 @@ css: ITN_style.css
 <center><img src="resources/images/unhappy.png" width = 50% > </center>
 <br>
 Conferences can feel intimidating, especially your first few.
+<br>
+<br>
 [Imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) can make it hard for anyone. 
 </div>
 <div class="column">
@@ -31,7 +33,8 @@ But don't worry, this is a common feeling.
 Everyone is on an even playing field to ask questions, attend sessions, and network.
 You deserve to attend and no one completely understands every talk.
 <br>
-In fact, conferences are for branching out and learning new things!
+<br>
+Conferences are for branching out and learning new things!
 
 </div>
 </div>
