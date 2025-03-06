@@ -11,7 +11,7 @@
 
 
 
-<title>index.knit</title>
+<title>CONTRIBUTING</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -58,7 +58,6 @@ if (window.hljs) {
 
 
 
-<link rel="stylesheet" href="style.css" type="text/css" />
 
 
 
@@ -161,35 +160,64 @@ pre code {
 
 
 
-<h1 class="title toc-ignore"><center>
-<u> Cheatsheet </u>
-</center>
-<center>
-<p style="color:#986753;">
-template
-</p>
-</center></h1>
-<h4 class="date">Last updated: March 06, 2025</h4>
 
 </div>
 
 
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p><input type="checkbox"> step</p>
-<p><input type="checkbox"> step</p>
-<p><a href="https://www.itcrtraining.org/">this is a link</a></p>
-<div class="warning">
-<p>warning test</p>
+<div id="want-to-contribute-to-these-cheatsheets"
+class="section level1">
+<h1>Want to contribute to these cheatsheets?</h1>
+<div id="code-of-conduct" class="section level2">
+<h2>Code of Conduct</h2>
+<p>The <a
+href="https://github.com/jhudsl/OTTR_Template/blob/main/code_of_conduct.md">Contributor
+Covenant Code of Conduct can be found here</a></p>
 </div>
-<div class="github_button">
-<p><a href="http://stackoverflow.com"> Use this template</a></p>
+<div id="making-a-new-cheatsheet." class="section level2">
+<h2>Making a new cheatsheet.</h2>
+<p>To make a new cheatsheet, you can create a Rmd or md in the top of
+the repository. GitHub Actions will automatically render the cheatsheet
+as a PNG which will be saved to the <code>docs</code> folder.</p>
 </div>
-<p><github_button> Use this template </github_button></p>
-<center>
-<a href="https://ottrproject.org">
-<img src="resources/images/basic_otter_water.png" width = 30%> </a>
-</center>
+<div id="reusing-chunks" class="section level2">
+<h2>Reusing chunks</h2>
+<p>Should some text need to be used more than once, make a markdown
+document that goes in the <code>chunks</code> folder. You can put tags
+that will be replaced with exact matches (not regex). For example,
+where<code>{TITLE}</code> is written in the chunk markdown document and
+then you can tell it in the call what you want to replace it with (see
+below).</p>
+<p>Then in the original document you can do a call like this:</p>
+<pre><code>ottrpal::borrow_chapter(
+  doc_path = &quot;chunks/starter_template.md&quot;,
+    tag_replacement = list(
+    &quot;{TITLE}&quot; = &quot;OTTR Template&quot;,
+    &quot;{TEMPLATE_NAME}&quot; = &quot;OTTR_Template&quot;,
+    &quot;{TEMPLATE_URL}&quot; = &quot;https://github.com/jhudsl/OTTR_Template&quot;))</code></pre>
+<pre><code>`r config::get(&quot;actions&quot;)`
+
+`r config::get(&quot;copy&quot;)`
+
+`r config::get(&quot;collab&quot;)`
+
+`r config::get(&quot;dev&quot;)`
+
+`r config::get(&quot;edit&quot;)`
+
+`r config::get(&quot;pages&quot;)`
+
+`r config::get(&quot;token&quot;)`
+
+`r config::get(&quot;profile&quot;)`
+
+`r config::get(&quot;PR&quot;)`
+
+`r config::get(&quot;search&quot;)`
+
+`r config::get(&quot;secrets&quot;)`
+
+`r config::get(&quot;settings&quot;)`</code></pre>
+</div>
 </div>
 
 
