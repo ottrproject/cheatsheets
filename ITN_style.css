@@ -26,6 +26,7 @@ ul {
   list-style-position: inside;
   text-indent: -1em; /*indent lists*/
   padding-left: 1em;
+  line-height: 1.6;
 }
 
 
@@ -34,6 +35,7 @@ div.authors {
   list-style-position: outside;
   font-size: 12px;
   font-style: italic;
+  line-height: 1.6;
 }
 
 /*------------- checkbox alignment for markdown checkbox---------------- */
@@ -119,6 +121,7 @@ body {
   counter-reset: h2;
   text-indent: 3em each-line;
   font-size: 15px;
+  line-height: 1.4;
 }
 h2::before {
   counter-increment: h2;
