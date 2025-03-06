@@ -100,7 +100,7 @@ jobs:
           git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
           sudo apt-get update && apt-get install -y
           sudo apt-get install google-chrome -y
-          sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 78BD65473CB3BD13
+          sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys F739AAC074C35BC8
         shell: bash
 
       # We want a fresh run of the renders each time - so first delete old html files

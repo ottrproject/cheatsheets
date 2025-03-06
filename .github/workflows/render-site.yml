@@ -57,7 +57,7 @@ jobs:
           Rscript -e "rmarkdown::clean_site(preview = FALSE)"
           sudo apt-get update && apt-get install -y
           sudo apt-get install google-chrome -y
-          sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 78BD65473CB3BD13
+          sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys F739AAC074C35BC8
 
        # Now we want to render all the html files from the Rmd files
       - name: Run render html
