@@ -151,7 +151,7 @@ div.warning{
 }
 
 div.warning{
-  background-image: url("../resources/images/warning.png");
+  background-image: url("images/warning.png");
 }
 
 div.github{
@@ -168,7 +168,7 @@ div.github{
 }
 
 div.github{
-  background-image: url("../resources/images/github.png");
+  background-image: url("images/github.png");
 }
 
 

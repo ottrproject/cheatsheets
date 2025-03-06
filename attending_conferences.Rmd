@@ -6,7 +6,7 @@ date: 'Last updated: `r format(Sys.time(), "%B %d, %Y")`'
 output:
   html_document:
     number_sections: false
-css: ITN_style.css
+css: css/ITN_style.css
 ---
 
 
@@ -19,12 +19,12 @@ css: ITN_style.css
 <div class="row">
 
 <div class="column">
-<center><img src="resources/images/unhappy.png" width = 60% > </center>
+<center><img src="css/images/unhappy.png" width = 60% > </center>
 <br>
 Conferences can feel intimidating, especially your first few.
 </div>
 <div class="column">
-<center><img src="resources/images/happy.png" width = 60%> </center> 
+<center><img src="css/images/happy.png" width = 60%> </center>
 <br>
 But don't worry, this is a common feeling.
 You deserve to be attend and no one knows what all the talks are about.
@@ -50,7 +50,7 @@ In fact, conferences are for branching out and learning new things!
 
 <input type="checkbox">  Get ideas.
 
-- Conferences are a great places to make new connections and think about new ideas. 
+- Conferences are a great places to make new connections and think about new ideas.
 
 <input type="checkbox">  Talk to people.
 
@@ -74,7 +74,7 @@ In fact, conferences are for branching out and learning new things!
 - People will generally ask constructive questions
 - Occasionally people might ask aggressive questions, but this is rare
 
- 
+
 </div>
 
 
@@ -93,6 +93,5 @@ In fact, conferences are for branching out and learning new things!
 </a>
 </center>
 
-<div class = "authors"> **Authors**: This cheatsheet is the product of discussions 
+<div class = "authors"> **Authors**: This cheatsheet is the product of discussions
 </div>
-
