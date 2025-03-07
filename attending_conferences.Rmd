@@ -24,7 +24,7 @@ css: css/ITN_style.css
 Conferences can feel intimidating, especially your first few.
 <br>
 <br>
-[Imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) can make it hard for anyone. 
+[Imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) can make it hard for anyone.
 </div>
 <div class="column">
 <center><img src="css/images/happy.png" width = 60%> </center>
@@ -84,7 +84,7 @@ Conferences are for branching out and learning new things!
 
 # Best Practices:
 
-<input type="checkbox">  Don't try to absorb everything! <img src="resources/images/face_explode.png" width = 8%>
+<input type="checkbox">  Don't try to absorb everything! <img src="css/images/face_explode.png" width = 8%>
 
 - Focus on your interests, but also check out new topics.
 
@@ -124,11 +124,11 @@ Conferences are for branching out and learning new things!
 
 # Possible Questions to Ask:
 
-- What are your next steps/future directions? 
+- What are your next steps/future directions?
 - What was a challenge in your methods?
-- Why did you pick specific [tissue/approach/question]? 
-- Can we revisit [graph/finding/table]? 
-- What are the implications/impact of your findings? How could this be applied? 
+- Why did you pick specific [tissue/approach/question]?
+- Can we revisit [graph/finding/table]?
+- What are the implications/impact of your findings? How could this be applied?
 - Have you thought about how [other specific finding] may influence your research findings?
 - I didn't catch this detail, can you say it again?
 </div>
@@ -136,10 +136,10 @@ Conferences are for branching out and learning new things!
 <br>
 <br>
 <center>
-<img src="resources/images/question.png" width = 40%>
+<img src="css/images/question.png" width = 40%>
 <br>
 <br>
-Say your name and institution before you ask a question. 
+Say your name and institution before you ask a question.
 </center>
 </div>
 </div>
@@ -150,7 +150,7 @@ Say your name and institution before you ask a question.
 
 # Virtual Conference Etiquette:
 
-<input type="checkbox"> Keep muted 
+<input type="checkbox"> Keep muted
 
 <input type="checkbox"> If presenting, put your computer in do not disturb to avoid interruptions
 
@@ -167,7 +167,7 @@ Say your name and institution before you ask a question.
 # In Person Conference Etiquette:
 
 <input type="checkbox"> Silence your cell phones and computers
- 
+
 <input type="checkbox"> Sit towards the back or outside if you must leave early
 
 <input type="checkbox"> Give yourself extra time to walk from one room to another, some conferences are very large!
@@ -187,19 +187,19 @@ Say your name and institution before you ask a question.
 
 <input type="checkbox"> Whether formal (to present to your lab) or informal, consider the following questions:
 
-  - Why did I go to this conference? 
-  - What did I do at the conference? 
+  - Why did I go to this conference?
+  - What did I do at the conference?
   - What could I do differently?
-  - What did I learn/takeaways? 
-  
-<input type="checkbox"> Revisit your goals here, how did you do? 
+  - What did I learn/takeaways?
+
+<input type="checkbox"> Revisit your goals here, how did you do?
 
 
 <hr>
 
 <center>
 <a href="https://www.itcrtraining.org/">
-  <img src="resources/images/ITN_logo.png" width = 30%>
+  <img src="css/images/ITN_logo.png" width = 30%>
 </a>
 </center>
 
