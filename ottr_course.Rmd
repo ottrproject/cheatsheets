@@ -9,7 +9,7 @@ css: css/OTTR_style.css
 ottrpal::borrow_chapter(
   doc_path = "chunks/download_header.md",
   tag_replacement = list(
-    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/ottr_course.png"
+    "{PATH_TO_PNG}" = "https://github.com/jhudsl/cheatsheets/blob/main/pngs/ottr_course.png?raw=true"
     ))
 ```
 
