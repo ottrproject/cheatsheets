@@ -6,7 +6,7 @@
 
 <input type="checkbox"> Go to **Settings** `r config::get("settings")`
 
-<input type="checkbox"> Go to **Developer Settings** in the side navigation <img src="resources/icons/developer_settings.png" alt="developer settings icon" class = icon>
+<input type="checkbox"> Go to **Developer Settings** in the side navigation `r config::get("settings")`
 
 <input type="checkbox"> Select **Generate new token (classic)** `r config::get("token")`
 

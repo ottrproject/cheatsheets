@@ -19,7 +19,7 @@ css: css/ITN_style.css
 <div class="row">
 
 <div class="column">
-<center><img src="resources/images/unhappy.png" width = 50% > </center>
+<center><img src="css/images/unhappy.png" width = 60% > </center>
 <br>
 Conferences can feel intimidating, especially your first few.
 <br>
@@ -27,7 +27,7 @@ Conferences can feel intimidating, especially your first few.
 [Imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) can make it hard for anyone. 
 </div>
 <div class="column">
-<center><img src="resources/images/happy.png" width = 50%> </center> 
+<center><img src="css/images/happy.png" width = 60%> </center>
 <br>
 But don't worry, this is a common feeling.
 Everyone is on an even playing field to ask questions, attend sessions, and network.
@@ -205,4 +205,3 @@ Say your name and institution before you ask a question.
 
 <div class = "authors"> **Authors**: This content of this cheatsheet was created by Lauren Chan, Kate Isaac, Candace Savonen, and Carrie Wright. It was summarized and formatted by Carrie Wright. Icons from <a href="https://iconscout.com/icons/face-explode" class="text-underline font-size-sm" target="_blank">Face Explode</a> by <a href="https://iconscout.com/contributors/bharat-icons" class="text-underline font-size-sm">Bharat Design</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a> and https://www.iconpacks.net/. Cartoons from https://getavataaars.com/.
 </div>
-

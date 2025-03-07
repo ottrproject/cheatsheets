@@ -100,6 +100,10 @@ jobs:
           git merge -s recursive --strategy-option=theirs origin/${{ github.head_ref }} --allow-unrelated-histories
         shell: bash
 
+      - uses: browser-actions/setup-chrome@v1
+        id: setup-chrome
+      - run: ${{ steps.setup-chrome.outputs.chrome-path }} --version
+
       # We want a fresh run of the renders each time - so first delete old html files
       - name: Delete old *.html
         run: Rscript -e "rmarkdown::clean_site(preview = FALSE)"
@@ -107,7 +111,18 @@ jobs:
        # Now we want to render all the html files from the Rmd files
       - name: Run render html
         id: site
-        run: Rscript -e "rmarkdown::render_site()"
+        run: |
+          options("CHROMOTE_CHROME" = "${{ steps.setup-chrome.outputs.chrome-path }}")
+          rmarkdown::render_site()
+          dir.create("pngs", showWarnings = FALSE)
+          rmds <- list.files(pattern = "\\.Rmd$")
+          rmd_df <- data.frame(rmd = rmds,
+                               png = file.path("pngs", gsub("\\.Rmd$", ".png", rmds))
+                               )
+          purrr::pmap(rmd_df, function(rmd, png) {
+                 webshot2::rmdshot(rmd, file = png)
+               })
+        shell: Rscript {0}
 
       # This checks on the steps before it and makes sure that they completed.
       # If the renders didn't complete we don't want to commit the file changes

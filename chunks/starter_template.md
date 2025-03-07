@@ -1,10 +1,3 @@
----
-title: <center> <u> {TITLE} </u> </center> <center> <p style = "color:#986753;"> {SUBTITLE} </p></center>
-date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
-output: html_document
-css: css/ITN_style.css
----
-
 
 ## [{TEMPLATE_NAME}]({TEMPLATE_URL})
 
