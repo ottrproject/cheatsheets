@@ -46,15 +46,13 @@ input[type="checkbox"] {
   font-family: 'Avenir';
   font-size: 4em !important;
   color: #193a5c;
-  margin-top: 0.275em !important;
-  margin-bottom: 0.35em !important;
   border-radius: 8px;
   border: 4px solid #986753;
   background: #90ceff;
   color: #565a59;
-  padding: 8px 16px;
   text-align: center;
   width: 500px;
+  height: 300px;
   margin: auto;
 }
 
