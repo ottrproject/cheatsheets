@@ -62,7 +62,9 @@ Conferences are for branching out and learning new things!
 
 # Possible Goals:
 
-<input type="checkbox"> Meet new people (planned and spontaneous discussions)
+<input type="checkbox"> Meet new people <br>
+
+   -  Can be planned ahead or spontaneous
 
 <input type="checkbox"> Share your research and get feedback
 
@@ -104,7 +106,8 @@ Conferences are for branching out and learning new things!
 <br>
 <input type="checkbox">  Talk to people <img src="https://www.iconpacks.net/icons/4/free-icon-conversation-11886.png" width = 8%>
 
-- You never know who you might be sitting next to! Find new collaborators and learn about new methods, opportunities, jobs, etc.
+- You never know who you might be sitting next to! <br>
+Find new collaborators and learn about new methods, opportunities, jobs, etc.
 - People in your network can help introduce you to others
 - Start with small talk, talk about a presentation, or talk about your work
 - Transition times and during breaks are good opportunities to meet people
@@ -128,7 +131,8 @@ Conferences are for branching out and learning new things!
 - What was a challenge in your methods?
 - Why did you pick specific [*tissue/approach/question*]?
 - Can we revisit [*graph/finding/table*]?
-- What are the implications/impact of your findings? How could this be applied?
+- What are the implications/impact of your findings? <br>
+How could this be applied?
 - Have you thought about how [*other specific finding*] may influence your research findings?
 - I didn't catch this detail, can you say it again?
 </div>
@@ -148,33 +152,35 @@ Say your name and institution before you ask a question.
 <div class="row">
 <div class="column">
 
-# Virtual Conference Etiquette:
+# Virtual Etiquette:
 
 <input type="checkbox"> Keep muted
 
-<input type="checkbox"> If presenting, put your computer in do not disturb to avoid interruptions
+<input type="checkbox"> If presenting, put your computer in do not disturb
 
 <input type="checkbox"> Consider showing your video (it's nice for speakers)
 
 <input type="checkbox"> Reach out on LinkedIn or the chat to "talk" to people
 
-<input type="checkbox"> Try to focus, but if you have other pressing obligations you can leave and come back
+<input type="checkbox"> Try to focus, but if needed you can leave and come back
 
 </div>
 
 <div class="column">
 
-# In Person Conference Etiquette:
+# In-Person Etiquette:
 
 <input type="checkbox"> Silence your cell phones and computers
 
 <input type="checkbox"> Sit towards the back or outside if you must leave early
 
-<input type="checkbox"> Give yourself extra time to walk from one room to another, some conferences are very large!
+<input type="checkbox"> Give yourself extra time to walk from one room to another. <br>
+
+- Some conferences are very large!
 
 <input type="checkbox"> Plan which talks to go to, but be open to adjust
 
-<input type="checkbox"> Networking at lunch/coffee can be just as important as going to talks
+<input type="checkbox"> Networking can be just as helpful as going to talks
 
 </div>
 </div>
