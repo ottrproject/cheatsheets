@@ -7,21 +7,12 @@ css: css/OTTR_style.css
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
-  doc_path = "chunks/create_header_box.md",
+  doc_path = "chunks/create_ottr_header.md",
   tag_replacement = list(
-    "{TITLE}" = "OTTR Quarto Course", "{SUBTITLE}" =  "Set Up"
+    "{TITLE}" = "OTTR Quarto Course", "{SUBTITLE}" =  "Set Up",
+        "{PATH_TO_PNG}" = "https://github.com/jhudsl/cheatsheets/blob/main/pngs/ottr_quarto_course.png?raw=true"
     ))
 ```
-
-
-```{r, echo=FALSE, results='asis'}
-ottrpal::borrow_chapter(
-  doc_path = "chunks/download_header.md",
-  tag_replacement = list(
-    "{PATH_TO_PNG}" = "https://github.com/jhudsl/cheatsheets/blob/main/pngs/ottr_quarto_course.png?raw=true"
-    ))
-```
-
 
 
 
