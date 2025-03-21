@@ -15,7 +15,6 @@ ottrpal::borrow_chapter(
 ```
 
 
-
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
   doc_path = "chunks/starter_template.md",
@@ -24,10 +23,6 @@ ottrpal::borrow_chapter(
     "{TEMPLATE_URL}" = "https://github.com/fhdsl/OTTR_Quarto"))
 ```
 
-```{r, echo=FALSE, results='asis'}
-ottrpal::borrow_chapter(
-  doc_path = "chunks/create_repository.md")
-```
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
