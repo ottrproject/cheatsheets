@@ -32,6 +32,26 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
+/*------------- png boxes button style---------------- */
+
+.png_button {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    border: 4px solid #black;
+    border-radius: 8px;
+    background: lightgray;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
 /*------------- button link color---------------- */
 
 
@@ -39,6 +59,9 @@ input[type="checkbox"] {
     color: #fff;
 }
 
+.png_button a:link{
+    color: black;
+}
 
 /*------------- box around title and title font ---------------- */
 
