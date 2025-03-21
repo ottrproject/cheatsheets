@@ -1,2 +1,1 @@
 https://username.github.io/repository_name/
-{PATH_TO_PNG}
