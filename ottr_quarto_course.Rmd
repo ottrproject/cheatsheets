@@ -4,10 +4,14 @@ css: css/OTTR_style.css
 ---
 
 
-<div class = "header_box">
-<u>OTTR Quarto Course</u><br><span style = "color:#986753;"> Set Up </span>
-</div>
 
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_header_box.md",
+  tag_replacement = list(
+    "{TITLE}" = "OTTR Quarto Course", "{SUBTITLE}" =  "Set Up"
+    ))
+```
 
 
 ```{r, echo=FALSE, results='asis'}
@@ -19,7 +23,7 @@ ottrpal::borrow_chapter(
 ```
 
 
-**Last updated: `r format(Sys.time(), '%B %d, %Y')`**
+
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
