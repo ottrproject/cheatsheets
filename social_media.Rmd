@@ -11,7 +11,7 @@ ottrpal::borrow_chapter(
   tag_replacement = list(
     "{TITLE}" = "Social Media", 
     "{SUBTITLE}" =  "Tips and Tricks",
-    "{PATH_TO_PNG}" = "https://github.com/jhudsl/cheatsheets/blob/main/pngs/ottr_course.png?raw=true"
+    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/pngs/social_media.png"
     ))
 ```
 
