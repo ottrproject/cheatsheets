@@ -47,13 +47,13 @@ Conferences are for branching out and learning new things!
 
 # What to expect:
 
-- Conferences cover a ton of information! (It may feel overwhelming)
+- Conferences cover a ton of information!<br> 
+  (It may feel overwhelming)
 - Talks conclude with time for questions
 - Plenary talks are large talks typically for the full conference with experienced speakers
 - People will attend talks and some will take notes
 - People will come and go
 - People will generally ask constructive questions
-- Occasionally people might ask aggressive questions, but this is rare
 
 </div>
 <div class = "column">
@@ -104,7 +104,7 @@ Conferences are for branching out and learning new things!
 <br>
 <input type="checkbox">  Talk to people <img src="https://www.iconpacks.net/icons/4/free-icon-conversation-11886.png" width = 8%>
 
-- You never know who you might be sitting next to! Find new collaborators, people who know about helpful new methods, opportunities, jobs, etc.
+- You never know who you might be sitting next to! Find new collaborators and learn about new methods, opportunities, jobs, etc.
 - People in your network can help introduce you to others
 - Start with small talk, talk about a presentation, or talk about your work
 - Transition times and during breaks are good opportunities to meet people
@@ -126,10 +126,10 @@ Conferences are for branching out and learning new things!
 
 - What are your next steps/future directions?
 - What was a challenge in your methods?
-- Why did you pick specific [tissue/approach/question]?
-- Can we revisit [graph/finding/table]?
+- Why did you pick specific [*tissue/approach/question*]?
+- Can we revisit [*graph/finding/table*]?
 - What are the implications/impact of your findings? How could this be applied?
-- Have you thought about how [other specific finding] may influence your research findings?
+- Have you thought about how [*other specific finding*] may influence your research findings?
 - I didn't catch this detail, can you say it again?
 </div>
 <div class="column">

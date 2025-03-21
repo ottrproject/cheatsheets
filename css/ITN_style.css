@@ -17,15 +17,24 @@ hr {
   clear: both;
 }
 
-/*------------- checkbox alignment for html checkbox---------------- */
+li + li {       /*------------- bigger space between bullet points */
+  margin-top: 10px;
+}
+
+li {
+  padding-left:1em;/*------------- indent bullets */
+}
+
+/*------------- checkbox alignment for html checkbox and indent---------------- */
 ul {
-  list-style-position: inside;
+  list-style-position: outside;
+  margin-left: 0;
   font-weight: normal
-  text-indent: -1em; /*indent lists*/
   padding-left: 1em;
   line-height: 1.6;
 }
 
+  text-indent: -1em; /*indent lists*/
 
 div.authors {
   text-indent: 0%;
