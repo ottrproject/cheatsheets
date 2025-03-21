@@ -22,7 +22,7 @@ li + li {       /*------------- bigger space between bullet points */
 }
 
 li {
-  padding-left:1em;/*------------- indent bullets */
+    padding-left: 1em;/*------------- indent bullets */
 }
 
 /*------------- checkbox alignment for html checkbox and indent---------------- */
@@ -30,11 +30,11 @@ ul {
   list-style-position: outside;
   margin-left: 0;
   font-weight: normal
-  padding-left: 1em;
+  padding-left: 3em;/*indent lists*/
   line-height: 1.6;
 }
 
-  text-indent: -1em; /*indent lists*/
+
 
 div.authors {
   text-indent: 0%;
