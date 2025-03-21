@@ -1,5 +1,5 @@
 ---
-title: <center> <u> OTTR Quarto Course </u> </center> <center> <p style = "color:#986753;"> Set Up </p></center>
+title: <u>OTTR Quarto Course</u><br><span style = "color:#986753;"> Set Up </span>
 date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 css: css/OTTR_style.css
