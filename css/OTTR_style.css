@@ -52,6 +52,9 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
+.time {
+  font-size: 20px;
+}
 /*------------- button link color---------------- */
 
 
