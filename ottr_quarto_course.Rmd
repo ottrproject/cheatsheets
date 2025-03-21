@@ -10,8 +10,6 @@ css: css/OTTR_style.css
 
 
 
-
-<div align= "right">
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
   doc_path = "chunks/download_header.md",
@@ -19,7 +17,7 @@ ottrpal::borrow_chapter(
     "{PATH_TO_PNG}" = "https://github.com/jhudsl/cheatsheets/blob/main/pngs/ottr_quarto_course.png?raw=true"
     ))
 ```
-</div>
+
 
 **Last updated: `r format(Sys.time(), '%B %d, %Y')`**
 
