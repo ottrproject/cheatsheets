@@ -1,15 +1,19 @@
 ---
-title: |
-  <center> <u>Social Media </u></center>
-  <center> <p style = "color:#14395f;"> Tips and Tricks</p></center>
-date: 'Last updated: `r format(Sys.time(), "%B %d, %Y")`'
 output:
   html_document:
     number_sections: false
 css: css/ITN_style.css
 ---
 
-
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_itn_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "Social Media", 
+    "{SUBTITLE}" =  "Tips and Tricks",
+    "{PATH_TO_PNG}" = "https://github.com/jhudsl/cheatsheets/blob/main/pngs/ottr_course.png?raw=true"
+    ))
+```
 
 <hr>
 
