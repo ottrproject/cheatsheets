@@ -17,7 +17,7 @@
 
 - category: OTTR
   description: |
-    Cheatsheets for OTTR
+    Cheatsheets for using our Open-source Tools for Training Resources (OTTR) software to create websites and courses with automatic rendering and checks.
   tiles:
     - title: HTML
       subtitle: OTTR Course
