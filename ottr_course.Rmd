@@ -40,3 +40,11 @@ ottrpal::borrow_chapter(
  ottrpal::borrow_chapter(   
    doc_path = "chunks/secrets.md")
 ```
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Kate Isaac wrote the content and created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace did the publishing engineering for the cheatsheet."
+    ))
+```

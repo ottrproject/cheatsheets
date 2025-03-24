@@ -52,9 +52,20 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
+/*------------- timestamp style---------------- */
 .time {
   font-size: 20px;
 }
+
+/*------------- authors style ---------------- */
+div.authors {
+  text-indent: 0%;
+  list-style-position: outside;
+  font-size: 11px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
 /*------------- button link color---------------- */
 
 
