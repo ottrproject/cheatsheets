@@ -82,7 +82,8 @@ jobs:
           purrr::pmap(rmd_df, function(rmd, png) {
                  webshot2::rmdshot(rmd, file = png)
                })
-          quarto::quarto_render()
+          quarto::quarto_render("index.Qmd")
+          quarto::quarto_render("CONTRIBUTING.Qmd")
         shell: Rscript {0}
 
 

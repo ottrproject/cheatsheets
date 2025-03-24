@@ -122,8 +122,8 @@ jobs:
           purrr::pmap(rmd_df, function(rmd, png) {
                  webshot2::rmdshot(rmd, file = png)
                })
-          quarto::quarto_render(index.Qmd)
-          quarto::quarto_render(CONTRIBUTING.Qmd)
+          quarto::quarto_render("index.Qmd")
+          quarto::quarto_render("CONTRIBUTING.Qmd")
         shell: Rscript {0}
 
       # This checks on the steps before it and makes sure that they completed.
