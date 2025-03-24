@@ -3,13 +3,11 @@
   description: |
     Cheatsheets to help trainees and PIs with scientific communication and networking.
   tiles:
-    - title: HTML
-      subtitle: Attending Conferences
+    - title: Attending Conferences
       href: https://jhudatascience.org/cheatsheets/attending_conferences.html
       code: https://github.com/jhudsl/cheatsheets/blob/main/attending_conferences.Rmd
       thumbnail: pngs/attending_conferences.png
-    - title: HTML
-      subtitle: Social Media for Scientists
+    - title: Social Media for Scientists
       href: https://jhudatascience.org/cheatsheets/social_media.html
       code: https://github.com/jhudsl/cheatsheets/blob/main/social_media.Rmd
       thumbnail: pngs/social_media.png
@@ -19,18 +17,15 @@
   description: |
     Cheatsheets for using our Open-source Tools for Training Resources (OTTR) software to create websites and courses with automatic rendering and checks.
   tiles:
-    - title: HTML
-      subtitle: OTTR Course
+    - title: OTTR Course
       href: https://jhudatascience.org/cheatsheets/ottr_course.html
       code: https://github.com/jhudsl/cheatsheets/blob/main/ottr_course.Rmd
       thumbnail: pngs/ottr_course.png
-    - title: HTML
-      subtitle: OTTR Website
+    - title: OTTR Website
       href: https://jhudatascience.org/cheatsheets/ottr_website.html
       code: https://github.com/jhudsl/cheatsheets/blob/main/ottr_website.Rmd
       thumbnail: pngs/ottr_website.png
-    - title: HTML
-      subtitle: OTTR Quarto Course
+    - title: OTTR Quarto Course
       href: https://jhudatascience.org/cheatsheets/ottr_quarto_course.html
       code: https://github.com/jhudsl/cheatsheets/blob/main/ottr_quarto_course.Rmd
       thumbnail: pngs/ottr_quarto_course.png
