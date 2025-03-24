@@ -1,0 +1,81 @@
+# Want to contribute to these cheatsheets?
+
+## Code of Conduct
+
+The [Contributor Covenant Code of Conduct can be found here](https://github.com/jhudsl/OTTR_Template/blob/main/code_of_conduct.md)
+
+## Making a new cheatsheet.
+
+To make a new cheatsheet, you can create a Rmd or md in the top of the repository. GitHub Actions will automatically render the cheatsheet as a PNG which will be saved to the `docs` folder.
+
+There are two style options: `css/ITN_style.css` and `css/OTTR_style.css`.
+
+Specify this in the yaml header: 
+
+---
+output: html_document
+css: css/OTTR_style.css
+---
+
+or
+
+---
+output:
+  html_document:
+    number_sections: false
+css: css/ITN_style.css
+---
+
+## Starting Chunk
+
+All cheatsheets should start with either `chunk/create_ottr_header.md` or `chunk/create_itn_header/md`.
+
+Specify what the title, subtitle, and path to png is. 
+
+## Reusing chunks
+
+Should some text need to be used more than once, make a markdown document that goes in the `chunks` folder. 
+You can put tags that will be replaced with exact matches (not regex). 
+
+For example, where`{TITLE}` is written in the chunk markdown document and then you can tell it in the call what you want to replace it with (see below).
+
+Then in the original document you can do a call like this:
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_itn_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "Attending Conferences", 
+    "{SUBTITLE}" =  "Helpful Tips",
+    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/pngs/attending_conferences.png"
+    ))
+```
+
+
+To get icons you can use the following:
+
+```
+`r config::get("actions")`
+
+`r config::get("copy")`
+
+`r config::get("collab")`
+
+`r config::get("dev")`
+
+`r config::get("edit")`
+
+`r config::get("pages")`
+
+`r config::get("token")`
+
+`r config::get("profile")`
+
+`r config::get("PR")`
+
+`r config::get("search")`
+
+`r config::get("secrets")`
+
+`r config::get("settings")`
+```
