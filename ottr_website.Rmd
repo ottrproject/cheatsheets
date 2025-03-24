@@ -1,16 +1,14 @@
 ---
-title: <center> <u> OTTR website </u> </center> <center> <p style = "color:#986753;"> Set Up</p></center>
-date: "Last updated: `r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 css: css/OTTR_style.css
 ---
 
-
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
-  doc_path = "chunks/download_header.md",
+  doc_path = "chunks/create_ottr_header.md",
   tag_replacement = list(
-    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/ottr_quarto_course.png"
+    "{TITLE}" = "OTTR Website", "{SUBTITLE}" =  "Set Up",
+        "{PATH_TO_PNG}" = "https://github.com/jhudsl/cheatsheets/blob/main/pngs/ottr_website.png?raw=true"
     ))
 ```
 
@@ -23,10 +21,6 @@ ottrpal::borrow_chapter(
     "{TEMPLATE_URL}" = "https://github.com/jhudsl/OTTR_Template_Website"))
 ```
 
-```{r, echo=FALSE, results='asis'}
-ottrpal::borrow_chapter(
-  doc_path = "chunks/create_repository.md")
-```
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(

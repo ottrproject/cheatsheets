@@ -1,14 +1,19 @@
 ---
-title: |
-  <center> <u>Attending Conferences </u></center>
-  <center> <p style = "color:#14395f;"> Helpful Tips</p></center>
-date: 'Last updated: `r format(Sys.time(), "%B %d, %Y")`'
 output:
   html_document:
     number_sections: false
 css: css/ITN_style.css
 ---
 
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_itn_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "Attending Conferences", 
+    "{SUBTITLE}" =  "Helpful Tips",
+    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/pngs/attending_conferences.png"
+    ))
+```
 
 
 <hr>
@@ -22,13 +27,19 @@ css: css/ITN_style.css
 <center><img src="css/images/unhappy.png" width = 60% > </center>
 <br>
 Conferences can feel intimidating, especially your first few.
+<br>
+<br>
+[Imposter syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) can make it hard for anyone.
 </div>
 <div class="column">
 <center><img src="css/images/happy.png" width = 60%> </center>
 <br>
 But don't worry, this is a common feeling.
-You deserve to be attend and no one knows what all the talks are about.
-In fact, conferences are for branching out and learning new things!
+Everyone is on an even playing field to ask questions, attend sessions, and network.
+You deserve to attend and no one completely understands every talk.
+<br>
+<br>
+Conferences are for branching out and learning new things!
 
 </div>
 </div>
@@ -38,60 +49,170 @@ In fact, conferences are for branching out and learning new things!
 
 <div class="column">
 
-# Best Practices:
-
-<input type="checkbox">  Don't try to absorb everything!
-
-- Focus on your interests, but also check out new topics.
-
-<input type="checkbox">  Take notes.
-
-- Conferences cover tons of material, it can be difficult to retain what you learn, so take notes. Your notes should especially include information about the researchers and relevant papers, so you can reach out or learn more.
-
-<input type="checkbox">  Get ideas.
-
-- Conferences are a great places to make new connections and think about new ideas.
-
-<input type="checkbox">  Talk to people.
-
--  You never know who you might be sitting next to! Conferences are great places to find new collaborators, people who know about helpful new methods, opportunities, jobs, etc.
--  You can start with small talk or talking about a recent presentation, or your work.
-- Transition times, after talks and during breaks are good opportunities to meet people
-- Talk to speakers, ask questions (this can be one on one after a talk or during the talk)
-- Email people afterwards or connect on LinkedIn
-
-</div>
-
-
-<div class="column">
 
 # What to expect:
 
+- Conferences cover a ton of information!<br> 
+  (It may feel overwhelming)
 - Talks conclude with time for questions
 - Plenary talks are large talks typically for the full conference with experienced speakers
 - People will attend talks and some will take notes
 - People will come and go
 - People will generally ask constructive questions
-- Occasionally people might ask aggressive questions, but this is rare
 
+</div>
+<div class = "column">
+<center>
+::: Note
+
+# Possible Goals:
+
+<input type="checkbox"> Meet new people <br>
+
+   -  Can be planned ahead or spontaneous
+
+<input type="checkbox"> Share your research and get feedback
+
+<input type="checkbox"> Look for a job
+
+<input type="checkbox"> Get ideas for new projects
+
+<input type="checkbox"> Find collaborators
+:::
+</center>
+</div>
+</div>
+
+<hr>
+
+<div class="row">
+
+<div class="column">
+
+# Best Practices:
+
+<input type="checkbox">  Don't try to absorb everything! <img src="css/images/face_explode.png" width = 8%>
+
+- Focus on your interests, but also check out new topics.
+
+<input type="checkbox">  Take notes <img src="https://www.iconpacks.net/icons/free-icons-6/free-icon-notes-and-pencil-22337.png" width = 6%>
+
+- It can be difficult to retain what you learn, so take notes. Include information about the researchers and relevant papers, so you can reach out or learn more.
+
+<input type="checkbox">  Get ideas <img src="https://www.iconpacks.net/icons/4/free-icon-light-bulb-13629.png" width = 8%>
+
+- Conferences are a great places to make new connections.
+</div>
+
+<div class="column">
+
+<br>
+<br>
+<br>
+<input type="checkbox">  Talk to people <img src="https://www.iconpacks.net/icons/4/free-icon-conversation-11886.png" width = 8%>
+
+- You never know who you might be sitting next to! <br>
+Find new collaborators and learn about new methods, opportunities, jobs, etc.
+- People in your network can help introduce you to others
+- Start with small talk, talk about a presentation, or talk about your work
+- Transition times and during breaks are good opportunities to meet people
+- Talk to speakers, ask questions (this can be after a talk or during the talk)
+- Email people or connect on LinkedIn
+
+</div>
+</div>
+
+<hr>
+
+
+
+
+<div class="row">
+<div class="column">
+
+# Possible Questions to Ask:
+
+- What are your next steps/future directions?
+- What was a challenge in your methods?
+- Why did you pick specific [*tissue/approach/question*]?
+- Can we revisit [*graph/finding/table*]?
+- What are the implications/impact of your findings? <br>
+How could this be applied?
+- Have you thought about how [*other specific finding*] may influence your research findings?
+- I didn't catch this detail, can you say it again?
+</div>
+<div class="column">
+<br>
+<br>
+<center>
+<img src="css/images/question.png" width = 40%>
+<br>
+<br>
+Say your name and institution before you ask a question.
+</center>
+</div>
+</div>
+<hr>
+
+<div class="row">
+<div class="column">
+
+# Virtual Etiquette:
+
+<input type="checkbox"> Keep muted
+
+<input type="checkbox"> If presenting, put your computer in do not disturb
+
+<input type="checkbox"> Consider showing your video (it's nice for speakers)
+
+<input type="checkbox"> Reach out on LinkedIn or the chat to "talk" to people
+
+<input type="checkbox"> Try to focus, but if needed you can leave and come back
 
 </div>
 
+<div class="column">
+
+# In-Person Etiquette:
+
+<input type="checkbox"> Silence your cell phones and computers
+
+<input type="checkbox"> Sit towards the back or outside if you must leave early
+
+<input type="checkbox"> Give yourself extra time to walk from one room to another. <br>
+
+- Some conferences are very large!
+
+<input type="checkbox"> Plan which talks to go to, but be open to adjust
+
+<input type="checkbox"> Networking can be just as helpful as going to talks
 
 </div>
-
-
-
 </div>
+
+<hr>
+
+# After the Conference:
+
+<input type="checkbox"> Reach out to new contacts
+
+<input type="checkbox"> Whether formal (to present to your lab) or informal, consider the following questions:
+
+  - Why did I go to this conference?
+  - What did I do at the conference?
+  - What could I do differently?
+  - What did I learn/takeaways?
+
+<input type="checkbox"> Revisit your goals here, how did you do?
 
 
 <hr>
 
 <center>
 <a href="https://www.itcrtraining.org/">
-  <img src="https://lh4.googleusercontent.com/5zSAoUpvQnafmW-fcdollEVq-_gQ58luV68vAN9V9Tdpg0MLDearEZC4UFncWoVaCbbVxw9HToB4JG9QYSH61AaTfeWlG_7JgI_b8yfNpYtxV76xIjCCKWiaLSn784KC3Q=w1280" width = 30%>
+  <img src="css/images/ITN_logo.png" width = 30%>
 </a>
 </center>
 
-<div class = "authors"> **Authors**: This cheatsheet is the product of discussions
+<div class = "authors"> **Authors**: This content of this cheatsheet was created by Lauren Chan, Kate Isaac, Candace Savonen, and Carrie Wright. It was summarized and formatted by Carrie Wright. Icons from <a href="https://iconscout.com/icons/face-explode" class="text-underline font-size-sm" target="_blank">Face Explode</a> by <a href="https://iconscout.com/contributors/bharat-icons" class="text-underline font-size-sm">Bharat Design</a> on <a href="https://iconscout.com" class="text-underline font-size-sm">IconScout</a> and https://www.iconpacks.net/. Cartoons from https://getavataaars.com/.
 </div>

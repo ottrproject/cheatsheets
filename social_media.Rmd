@@ -1,15 +1,19 @@
 ---
-title: |
-  <center> <u>Social Media </u></center>
-  <center> <p style = "color:#14395f;"> Tips and Tricks</p></center>
-date: 'Last updated: `r format(Sys.time(), "%B %d, %Y")`'
 output:
   html_document:
     number_sections: false
 css: css/ITN_style.css
 ---
 
-
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_itn_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "Social Media", 
+    "{SUBTITLE}" =  "Tips and Tricks",
+    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/pngs/social_media.png"
+    ))
+```
 
 <hr>
 
@@ -24,18 +28,18 @@ css: css/ITN_style.css
 
   - "I'm a scientist @FredHutch. Opinions are my own, reposts aren't endorsements."
 
-<input type="checkbox">  Check that you have cited and/or tagged sources and collaborators
+<input type="checkbox">  Check that you have cited and/or tagged sources and people
 
 <input type="checkbox">  Check that you are not violating patient or intellectual privacy
 
-<input type="checkbox">  Check if you are using sarcasm or tone that might be lost in translation
+<input type="checkbox">  Check if you are using a tone that might be lost in translation
 
 <input type="checkbox">  Check that you have added a creative element
 
   - Use stories, anecdotes, images, videos, art, GIFs, poetry, [cartoons](https://getavataaars.com/), [memes](https://giphy.com/categories/memes)
-  - Be cautious about jokes or memes - the may not target right audience - going viral isn't automatically a good thing
+  - Be cautious about jokes or memes - may not target right audience - going viral isn't automatically good
 
-<input type="checkbox">  Check that necessary colleagues or collaborators have reviewed the content
+<input type="checkbox">  Check that necessary people have reviewed the content
 
 <input type="checkbox">  If you are unsure, don't post it!
 
@@ -54,16 +58,16 @@ css: css/ITN_style.css
 - Share anecdotes and images that humanize your work
 - Explain concepts to lay audiences
 
+<center>
 :::warning
 
-
 Check if your institute has a Social Media Policy with guidelines or restrictions on the usage of social media.
-
 :::
+</center>
 </div>
 
-<br>
-_These tips are adapted from the Marketing and Communications group at Fred Hutch._
+
+   _These tips are adapted from the Marketing and Communications group at Fred Hutch._
 </div>
 <hr>
 
@@ -121,6 +125,7 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 </div>
 
 <div class="column">
+<center>
 ::: Note
 
 **ITN Social Media Handles**:
@@ -135,6 +140,7 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 - [X](https://twitter.com/itcrtraining): @itcrtraining
 <img src="https://www.iconpacks.net/icons/free-icons-6/free-icon-twitter-x-logo-black-square-rounded-20852.png" width = 10%>
 :::
+<center>
 </div>
 </div>
 
