@@ -12,10 +12,18 @@ on:
     branches: [ main ]
     paths:
       - '**.Rmd'
+      - '**.Qmd'
       - style.css
+      - css/*.css
+      - pngs/*.png
+      - _quarto.yml
       - _site.yml
       - resources/images/*.png
+      - resources/images/*.ico
       - resources/icons/*.png
+      - css/images/*.png
+      - css/images/*.ico
+      - chunks/*.md
 
 jobs:
   yaml-check:
@@ -74,6 +82,7 @@ jobs:
           purrr::pmap(rmd_df, function(rmd, png) {
                  webshot2::rmdshot(rmd, file = png)
                })
+          quarto::quarto_render()
         shell: Rscript {0}
 
 
@@ -93,7 +102,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add --force docs/*
-          git add --force pdfs/*
+          git add --force pngs/*
           git commit -m 'Render site' || echo "No changes to commit"
           git reset --hard HEAD
           git pull --rebase --allow-unrelated-histories --strategy-option=ours
