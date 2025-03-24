@@ -32,6 +32,29 @@ input[type="checkbox"] {
     cursor: pointer;
 }
 
+/*------------- png boxes button style---------------- */
+
+.png_button {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    border: 4px solid #black;
+    border-radius: 8px;
+    background: lightgray;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.time {
+  font-size: 20px;
+}
 /*------------- button link color---------------- */
 
 
@@ -39,21 +62,33 @@ input[type="checkbox"] {
     color: #fff;
 }
 
+.png_button a:link{
+    color: black;
+}
 
 /*------------- box around title and title font ---------------- */
 
-.title {
+.header_box {
+  position: absolute;
+  top: 20px;
+  left: 30%;
   font-family: 'Avenir';
-  font-size: 4em !important;
+  font-size: 40px;
   color: #193a5c;
-  border-radius: 8px;
+  border-radius: 8px; /*---rounded box ---*/
   border: 4px solid #986753;
   background: #90ceff;
   color: #565a59;
   text-align: center;
-  width: 500px;
-  height: 300px;
-  margin: auto;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  width: 440px;
+  height: auto;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
 }
 
 /*-----------icon------*/
@@ -86,6 +121,7 @@ a {
 /*------------- Numbering for header level 2 ---------------- */
 
 body {
+  padding-top: 300px; /*--leave room after header---*/
   counter-reset: h2;
 }
 h2::before {
