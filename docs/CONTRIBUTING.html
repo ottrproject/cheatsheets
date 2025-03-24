@@ -13,7 +13,7 @@
 
 <title>CONTRIBUTING</title>
 
-<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -58,6 +58,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="css/ITN_style.css" type="text/css" />
 
 
 
@@ -178,22 +179,29 @@ Covenant Code of Conduct can be found here</a></p>
 <p>To make a new cheatsheet, you can create a Rmd or md in the top of
 the repository. GitHub Actions will automatically render the cheatsheet
 as a PNG which will be saved to the <code>docs</code> folder.</p>
+<p>There are two style options: <code>css/ITN_style.css</code> and
+<code>css/OTTR_style.css</code>.</p>
+<p>Specify this in the yaml header:</p>
+<p>or</p>
+</div>
+<div id="starting-chunk" class="section level2">
+<h2>Starting Chunk</h2>
+<p>All cheatsheets should start with either
+<code>chunk/create_ottr_header.md</code> or
+<code>chunk/create_itn_header/md</code>.</p>
+<p>Specify what the title, subtitle, and path to png is.</p>
 </div>
 <div id="reusing-chunks" class="section level2">
 <h2>Reusing chunks</h2>
 <p>Should some text need to be used more than once, make a markdown
 document that goes in the <code>chunks</code> folder. You can put tags
-that will be replaced with exact matches (not regex). For example,
-where<code>{TITLE}</code> is written in the chunk markdown document and
-then you can tell it in the call what you want to replace it with (see
-below).</p>
+that will be replaced with exact matches (not regex).</p>
+<p>For example, where<code>{TITLE}</code> is written in the chunk
+markdown document and then you can tell it in the call what you want to
+replace it with (see below).</p>
 <p>Then in the original document you can do a call like this:</p>
-<pre><code>ottrpal::borrow_chapter(
-  doc_path = &quot;chunks/starter_template.md&quot;,
-    tag_replacement = list(
-    &quot;{TITLE}&quot; = &quot;OTTR Template&quot;,
-    &quot;{TEMPLATE_NAME}&quot; = &quot;OTTR_Template&quot;,
-    &quot;{TEMPLATE_URL}&quot; = &quot;https://github.com/jhudsl/OTTR_Template&quot;))</code></pre>
+<p><code>{r, echo=FALSE, results='asis'} ottrpal::borrow_chapter(   doc_path = "chunks/create_itn_header.md",   tag_replacement = list(     "{TITLE}" = "Attending Conferences",      "{SUBTITLE}" =  "Helpful Tips",     "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/pngs/attending_conferences.png"     ))</code></p>
+<p>To get icons you can use the following:</p>
 <pre><code>`r config::get(&quot;actions&quot;)`
 
 `r config::get(&quot;copy&quot;)`
