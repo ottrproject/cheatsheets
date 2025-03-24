@@ -1,0 +1,10 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Cheatsheets"
+
+format:
+  html:
+    css: styles.css
