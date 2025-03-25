@@ -12,6 +12,7 @@ on:
     branches: [ main ]
     paths:
       - '**.Rmd'
+      - '**.rmd'
       - '**.Qmd'
       - '**.qmd'
       - style.css
