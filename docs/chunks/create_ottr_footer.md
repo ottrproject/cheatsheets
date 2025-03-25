@@ -1,4 +1,6 @@
 
+<br>
+<br>
 <center>
 <a href="https://www.ottrproject.org/">
   <img src="css/images/basic_otter_water.png" width = 40%>
