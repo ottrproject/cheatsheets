@@ -12,25 +12,42 @@ There are two style options: `css/ITN_style.css` and `css/OTTR_style.css`.
 
 Specify this in the yaml header: 
 
+```
 ---
-output: html_document
+output:
+  html_document:
+    includes:
+      in_header: ottr_favicon.html
 css: css/OTTR_style.css
 ---
 
+```
+
 or
 
+```
 ---
 output:
   html_document:
     number_sections: false
+    includes:
+      in_header: itn_favicon.html
 css: css/ITN_style.css
 ---
+```
 
 ## Starting Chunk
 
-All cheatsheets should start with either `chunk/create_ottr_header.md` or `chunk/create_itn_header/md`.
+All cheatsheets should start with either `chunk/create_ottr_header.md` or `chunk/create_itn_header.md`.
 
 Specify what the title, subtitle, and path to png is. 
+
+
+## Ending Chunk
+
+All cheatsheets should end with either `chunk/create_ottr_footer.md` or `chunk/create_itn_fotter.md`.
+
+Specify the authors. 
 
 ## Reusing chunks
 
