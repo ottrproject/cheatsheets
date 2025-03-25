@@ -1,5 +1,8 @@
 ---
-output: html_document
+output:
+  html_document:
+    includes:
+      in_header: ottr_favicon.html
 css: css/OTTR_style.css
 ---
 

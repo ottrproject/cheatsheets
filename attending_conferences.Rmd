@@ -2,6 +2,8 @@
 output:
   html_document:
     number_sections: false
+    includes:
+      in_header: itn_favicon.html
 css: css/ITN_style.css
 ---
 

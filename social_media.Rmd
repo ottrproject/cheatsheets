@@ -2,6 +2,8 @@
 output:
   html_document:
     number_sections: false
+    includes:
+      in_header: itn_favicon.html
 css: css/ITN_style.css
 ---
 
@@ -140,9 +142,9 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 - [X](https://twitter.com/itcrtraining): @itcrtraining
 <img src="https://www.iconpacks.net/icons/free-icons-6/free-icon-twitter-x-logo-black-square-rounded-20852.png" width = 10%>
 :::
-<center>
+</center>
 </div>
-</div>
+</div> 
 
 <hr>
 
