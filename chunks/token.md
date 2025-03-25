@@ -14,4 +14,6 @@
 
 <input type="checkbox"> Copy the **personal access token** `r config::get("copy")`
 
+<br>
+
 [Click here to see GitHub documentation on creating a personal access token.](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)

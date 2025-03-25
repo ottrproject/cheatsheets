@@ -14,4 +14,6 @@
 
 <input type="checkbox"> Click on: <div class = "github_button"> Add secret </div>
 
+<br>
+
 [Click here to see GitHub documentation on setting repository secrets.](https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository)
