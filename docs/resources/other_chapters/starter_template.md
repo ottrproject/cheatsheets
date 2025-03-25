@@ -1,5 +1,5 @@
 
-## Create your own repostiory from the [OTTR_Template_Website](https://github.com/jhudsl/OTTR_Template_Website) template
+## Create your own repository from the [OTTR_Template_Website](https://github.com/jhudsl/OTTR_Template_Website) template
 
 <input type="checkbox">  In the upper right, _click on_: <div class = "github_button"> <a href="https://github.com/new?template_name=OTTR_Template_Website"> Use this template</a></div>
 
