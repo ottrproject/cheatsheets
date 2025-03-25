@@ -13,6 +13,7 @@ on:
     paths:
       - '**.Rmd'
       - '**.Qmd'
+      - '**.qmd'
       - style.css
       - css/*.css
       - pngs/*.png
