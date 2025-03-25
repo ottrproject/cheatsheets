@@ -78,6 +78,10 @@ div.authors {
     color: black;
 }
 
+.github_button a:visited{
+    color: #fff;
+}
+
 /*------------- box around title and title font ---------------- */
 
 .header_box {
