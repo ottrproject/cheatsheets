@@ -108,7 +108,7 @@ jobs:
       - name: Delete old *.html
         run: Rscript -e "rmarkdown::clean_site(preview = FALSE)"
 
-       # Now we want to render all the html files from the Rmd files
+       # Now we want to render all the html files from the Rmd files and create png webshots! As well as render qmd file for index.
       - name: Run render html
         id: site
         run: |
@@ -122,6 +122,8 @@ jobs:
           purrr::pmap(rmd_df, function(rmd, png) {
                  webshot2::rmdshot(rmd, file = png)
                })
+          quarto::quarto_render("index.Qmd")
+          quarto::quarto_render("CONTRIBUTING.Qmd")
         shell: Rscript {0}
 
       # This checks on the steps before it and makes sure that they completed.

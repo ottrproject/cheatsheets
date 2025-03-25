@@ -5,6 +5,7 @@ custimization
 cwrigh
 Dockerfile
 Dockerhub
+ejs
 favicon
 GH
 GIFs
@@ -13,6 +14,7 @@ github
 GitHub
 HTTPS
 ITN
+itcr
 ITCR
 lightblue
 lightgreen
@@ -28,6 +30,7 @@ reposting
 repurpose
 subdir
 Substack
+toc
 th
 tibble
 TiKTok
@@ -38,3 +41,4 @@ Bootstap
 glyphicons
 repo
 RStudio
+yml
