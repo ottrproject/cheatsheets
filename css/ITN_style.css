@@ -100,9 +100,9 @@ input[type="checkbox"] {
 /*------------- png boxes button style---------------- */
 
 .png_button {
-    position: absolute;
-    top: 20px;
-    right: 5%;
+    position: absolute; /*----placement of button--*/
+    top: 20px; /*----placement of button--*/
+    right: 5%; /*----placement of button--*/
     border: 4px solid #black;
     border-radius: 8px;
     background: #e8ebee;
@@ -118,6 +118,7 @@ input[type="checkbox"] {
 }
 
 .time {
+  margin-top:20px;
   font-size: 20px;
 }
 
@@ -157,6 +158,7 @@ body {
   font-size: 15px;
   line-height: 1.4;
 }
+
 h2::before {
   counter-increment: h2;
   content: counter(h2) ". ";
