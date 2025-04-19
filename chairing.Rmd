@@ -29,13 +29,16 @@ A session chair at a scientific conferences:
 
 ## Tasks Ahead of Time
 
-- Offer to host a pre-meeting before your session with the speakers (or each independently if there are a small number) to
-Check powerpoints/screen sharing
-Explain timing
-Check factual info, especially how to pronounce names
-Consider reminding speakers to declare any conflicts on one slide (not common in research talks, but still good practice). 
+
+- meet with session speakers
+    - check name pronunciation
+    - check affiliation
+    - remind speakers about declaring conflicts
+    - explain timing
+    - technical checks
 
 
+## Day of
 
 
 ## Possible Challenges
