@@ -1,0 +1,44 @@
+---
+output:
+  html_document:
+    number_sections: false
+    includes:
+      in_header: itn_favicon.html
+css: css/ITN_style.css
+---
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_itn_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "Chairing Sessions", 
+    "{SUBTITLE}" =  "Roles and Goals",
+    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/pngs/chairing.png"
+    ))
+```
+
+## Responsibilities
+
+A session chair at a scientific conferences:
+
+- introduces topics and speakers
+- facilitates questions
+- manages time
+
+<hr>
+
+## Tasks Ahead of Time
+
+- meet with session speakers
+    - check name pronunciation
+    - check affiliation
+    - remind speakers about declaring conflicts
+    - explain timing
+    - technical checks
+
+
+## Day of
+
+## Possible Challenges
+
+
