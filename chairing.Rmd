@@ -19,16 +19,36 @@ ottrpal::borrow_chapter(
 
 ## Responsibilities
 
+<div class="row">
+<div class="column">
+
 A session chair at a scientific conferences:
 
 - Introduces topics and speakers
 - Facilitates questions
 - Manages time
 
+</div>
+
+
+<div class="column">
+<center>
+:::warning
+
+If you are **co-chairing**, ensure all chairs are aligned on who is responsible for each task.
+:::
+</center>
+</div>
+
+</div>
+
+
 <hr>
 
 ## Tasks Ahead of Time
+<div class="row">
 
+<div class="column">
 <input type="checkbox">  Meet with session speakers 
 
 1. <input type="checkbox">  Check name pronunciation 
@@ -42,9 +62,8 @@ A session chair at a scientific conferences:
 1. <input type="checkbox">  Perform technical checks
 
 1. <input type="checkbox">  If virtual confirm communication plan for day of
-(e.g. slack channel)
 
-<input type="checkbox">  Review speakers plans for speaking to come up with possible questions
+- Slack, email, etc.
 
 <input type="checkbox">  Remind session speakers 
 
@@ -54,16 +73,20 @@ A session chair at a scientific conferences:
 
 1. <input type="checkbox">  Remind session speakers **one day** before 
 
-<hr>
+</div>
 
+<div class="column">
+<br>
+<br>
 <center>
-:::warning
+<img src="css/images/calendar.png" width = 40%>
+<br>
+<br>
+</div>
+</div>
 
-If you are co-hosting, make sure you both are aligned on who is responsible for each task.
-:::
-</center>
 
-
+<hr>
 
 ## Tasks Day of Event
 
@@ -77,42 +100,53 @@ If you are co-hosting, make sure you both are aligned on who is responsible for 
 
 <input type="checkbox">  Introduce speakers
 (name, role, institution, talk title)
+
 <input type="checkbox">  Watch the time to ensure schedule is maintained
 
 <input type="checkbox">  Ask the audience for questions
-1. <input type="checkbox"> if no questions, ask your own
+
 <hr>
-
-<center>
-:::warning
-
-If you are co-hosting, make sure you both are aligned on who is responsible for each task.
-:::
-</center>
-
 
 ## Possible Challenges
 
+<div class="row">
+<div class="column">
+
 Speakers may speak too long
 
-1. <input type="checkbox"> Notify speakers of time limits (5 min left, 1 min left) 
-1. <input type="checkbox"> Interrupt the speaker if needed
-1. <input type="checkbox"> Shorten question sessions as needed 
-1. <input type="checkbox"> Adjust subsequent speaker times if needed 
+`r config::get("arrow")` <input type="checkbox"> Notify speakers of time limits (5 min left, 1 min left) 
+
+`r config::get("arrow")` <input type="checkbox"> Interrupt the speaker if needed
+
+`r config::get("arrow")` <input type="checkbox"> Shorten question sessions as needed 
+
+`r config::get("arrow")` <input type="checkbox">   Adjust subsequent speaker times if needed 
 
 People may ask too many questions
 
-1. <input type="checkbox"> Interrupt and ask for the discussion to happen later
+`r config::get("arrow")`  <input type="checkbox"> Interrupt and ask for the discussion to happen later
 
 People may not have questions
 
-1. <input type="checkbox"> Come up with your own question(s) to give people time to think of additional questions
+`r config::get("arrow")`  <input type="checkbox">  Come up with your own question(s) to give people time to think of additional questions
+
+</div>
+
+<div class="column">
+<br>
+<br>
+<center>
+<img src="css/images/redclock.png" width = 40%>
+<br>
+<br>
+</div>
+</div>
 
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_footer.md",
   tag_replacement = list(
-    "{AUTHORS}" = "Content for this cheatsheet came from Carrie Wright, Kate Isaac, and Sean Davis"
+    "{AUTHORS}" = "Content for this cheatsheet came Kate Isaac, Carrie Wright, and Sean Davis.It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net. The cheatsheet was also inspired by this article: https://pmc.ncbi.nlm.nih.gov/articles/PMC2738972/"
     ))
 ```
