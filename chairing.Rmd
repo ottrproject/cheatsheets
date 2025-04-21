@@ -73,7 +73,7 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 
 <div class="column">
 
-<input type="checkbox">  Read speaker abstracts to familiarize yourself with the content
+<input type="checkbox">  Read speaker abstracts to **familiarize** yourself with the content
 
 <input type="checkbox">  Remind session speakers 
 
