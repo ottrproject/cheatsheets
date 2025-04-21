@@ -1,11 +1,12 @@
 ---
 output:
   html_document:
-    number_sections: FALSE
+    number_sections: false
     includes:
       in_header: itn_favicon.html
 css: css/ITN_style.css
 ---
+
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
@@ -17,7 +18,7 @@ ottrpal::borrow_chapter(
     ))
 ```
 
-## Responsibilities
+## Responsibilities {-}
 
 <div class="row">
 <div class="column">
@@ -45,10 +46,10 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 
 <hr>
 
-## Tasks Ahead of Time
+## Tasks Ahead of Time {-}
 <div class="row">
-
 <div class="column">
+
 <input type="checkbox">  Meet with session speakers 
 
 1. <input type="checkbox">  Check name pronunciation 
@@ -61,9 +62,13 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 
 1. <input type="checkbox">  Perform technical checks
 
-1. <input type="checkbox">  If virtual confirm communication plan for day of
+1. <input type="checkbox">  Confirm communication plan for day of (if virtual)
 
-- Slack, email, etc.
+`r config::get("arrow")`  Slack, email, etc.
+
+</div>
+
+<div class="column">
 
 <input type="checkbox">  Remind session speakers 
 
@@ -73,9 +78,8 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 
 1. <input type="checkbox">  Remind session speakers **one day** before 
 
-</div>
 
-<div class="column">
+
 <br>
 <br>
 <center>
@@ -88,7 +92,7 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 
 <hr>
 
-## Tasks Day of Event
+## Tasks Day of Event {-}
 
 <input type="checkbox">  Show up early to check systems and check in with speakers
 
@@ -107,12 +111,20 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 
 <hr>
 
-## Possible Challenges
+## Possible Challenges {-}
 
 <div class="row">
 <div class="column">
+<br>
+<br>
+<center>
+<img src="css/images/redclock.png" width = 40%>
+<br>
+<br>
+</div>
+<div class="column">
 
-Speakers may speak too long
+1) **Speakers may speak too long**
 
 `r config::get("arrow")` <input type="checkbox"> Notify speakers of time limits (5 min left, 1 min left) 
 
@@ -122,23 +134,14 @@ Speakers may speak too long
 
 `r config::get("arrow")` <input type="checkbox">   Adjust subsequent speaker times if needed 
 
-People may ask too many questions
+2) **People may ask too many questions**
 
 `r config::get("arrow")`  <input type="checkbox"> Interrupt and ask for the discussion to happen later
 
-People may not have questions
+3) **People may not have questions**
 
-`r config::get("arrow")`  <input type="checkbox">  Come up with your own question(s) to give people time to think of additional questions
+`r config::get("arrow")`  <input type="checkbox">  Ask your own question(s)
 
-</div>
-
-<div class="column">
-<br>
-<br>
-<center>
-<img src="css/images/redclock.png" width = 40%>
-<br>
-<br>
 </div>
 </div>
 
