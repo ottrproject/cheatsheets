@@ -12,7 +12,7 @@ css: css/ITN_style.css
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_header.md",
   tag_replacement = list(
-    "{TITLE}" = "Chairing Sessions", 
+    "{TITLE}" = "Chairing Sessions <img src='css/images/chair.png' width = 20% >", 
     "{SUBTITLE}" =  "Roles and Goals",
     "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/pngs/chairing.png"
     ))
