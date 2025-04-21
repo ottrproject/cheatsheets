@@ -29,12 +29,12 @@ A session chair at a scientific conferences:
 
 ## Tasks Ahead of Time
 
-- meet with session speakers
-    - check name pronunciation
-    - check affiliation
-    - remind speakers about declaring conflicts
-    - explain timing
-    - technical checks
+<input type="checkbox">  meet with session speakers
+    <input type="checkbox">  check name pronunciation
+    <input type="checkbox">  check affiliation
+    <input type="checkbox">  remind speakers about declaring conflicts
+    <input type="checkbox">  explain timing
+    <input type="checkbox">  technical checks
 
 
 ## Day of
