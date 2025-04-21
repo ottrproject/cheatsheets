@@ -62,9 +62,12 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 
 1. <input type="checkbox">  Perform technical checks
 
-1. <input type="checkbox">  Confirm communication plan for day of (if virtual)
+1. <input type="checkbox">  Discuss backup plans for technical challenges
+   - Examples: Request a PDF or video from speakers ahead of time just in case
 
-`r config::get("arrow")`  Slack, email, etc.
+1. <input type="checkbox">  Confirm communication plan for day of (if virtual)
+   -  Examples:  Slack, e-mail, etc.
+
 
 </div>
 
@@ -85,8 +88,6 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 <center>
 <img src="css/images/calendar.png" width = 40%>
 </center>
-<br>
-<br>
 </div>
 </div>
 
@@ -126,7 +127,9 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 </div>
 <div class="column">
 
-1) **Speakers may speak too long**
+1) **Technical Difficulties** Have backup plans and do checks!
+
+2) **Speakers may speak too long**
 
 `r config::get("arrow")` <input type="checkbox"> Notify speakers of time limits (5 min left, 1 min left) 
 
@@ -136,11 +139,11 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 
 `r config::get("arrow")` <input type="checkbox">   Adjust subsequent speaker times if needed 
 
-2) **People may ask too many questions**
+3) **People may ask too many questions**
 
 `r config::get("arrow")`  <input type="checkbox"> Interrupt and ask for the discussion to happen later
 
-3) **People may not have questions**
+4) **People may not have questions**
 
 `r config::get("arrow")`  <input type="checkbox">  Ask your own question(s)
 
