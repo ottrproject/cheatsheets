@@ -12,7 +12,7 @@ css: css/ITN_style.css
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_header.md",
   tag_replacement = list(
-    "{TITLE}" = "Chairing Sessions <img src='css/images/chair.png' width = 20% >", 
+    "{TITLE}" = "Chairing Sessions<img src='css/images/chair.png' width = 20% >", 
     "{SUBTITLE}" =  "Roles and Goals",
     "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/pngs/chairing.png"
     ))
@@ -123,6 +123,10 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 <div class="column">
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 <center>
 <img src="css/images/redclock.png" width = 40%>
 </center>
@@ -131,13 +135,17 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 </div>
 <div class="column">
 
-1) **Technical Difficulties** Have backup plans and do checks!
+1) **Technical Difficulties** 
+
+`r config::get("arrow")` <input type="checkbox"> Have backup plans and do checks!
 
 2) **Speakers may speak too long**
 
 `r config::get("arrow")` <input type="checkbox"> Notify speakers of time limits (5 min left, 1 min left) 
 
 `r config::get("arrow")` <input type="checkbox"> Interrupt the speaker if needed
+
+<div class="comment">"Thank you for your talk. To stay on schedule, we'll need to transition."</div>
 
 `r config::get("arrow")` <input type="checkbox"> Shorten question sessions as needed 
 
@@ -146,6 +154,8 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 3) **People may ask too many questions**
 
 `r config::get("arrow")`  <input type="checkbox"> Interrupt and ask for the discussion to happen later
+
+<div class="comment">_"For sake of time, perhaps this can be discussed later."_</div>
 
 4) **People may not have questions**
 
