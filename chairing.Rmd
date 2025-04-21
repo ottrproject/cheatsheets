@@ -37,7 +37,9 @@ A session chair at a scientific conferences:
     <input type="checkbox">  technical checks
 
 
+
 ## Day of
+
 
 ## Possible Challenges
 
