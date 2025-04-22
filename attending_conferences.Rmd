@@ -71,7 +71,7 @@ Conferences are for branching out and learning new things!
 
 <input type="checkbox"> Meet new people <br>
 
-   -  Can be planned ahead or spontaneous
+   -  Can be planned ahead or spontaneous 
 
 <input type="checkbox"> Share your research and get feedback
 
