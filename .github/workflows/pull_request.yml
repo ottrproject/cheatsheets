@@ -1,4 +1,3 @@
-
 # Candace Savonen Dec 2021
 # Updated Aug 2024
 
@@ -45,33 +44,45 @@ jobs:
 
     outputs:
       public_repository: "${{ steps.public_repository.outputs.public }}"
+      toggle_website: "${{ env.RENDER_WEBSITE }}"
       toggle_spell_check: "${{ env.SPELL_CHECK }}"
+      spell_error_min: "${{ env.SPELL_ERROR_MIN }}"
+      toggle_style_code: "${{ env.STYLE_CODE }}"
       toggle_url_check: "${{ env.URL_CHECKER }}"
+      url_error_min: "${{ env.URL_ERROR_MIN }}"
+      toggle_quiz_check: "${{ env.CHECK_QUIZZES }}"
+      quiz_error_min: "${{ env.QUIZ_ERROR_MIN }}"
+      toggle_md_linter: "${{ env.MARKDOWN_LINTER }}"
+      toggle_readability: "${{ env.READABILITY_REPORT }}"
       toggle_render_preview: "${{ env.RENDER_PREVIEW }}"
+      toggle_dictionary_sort: "${{ env.DICTIONARY_SORT }}"
       rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
 
-########################## Make the error reports ##############################
-  spell-check:
-    name: Check spelling
+  ottr-reports:
+    name: Run Reports
     needs: yaml-check
-    if: ${{needs.yaml-check.outputs.toggle_spell_check == 'yes'}}
-    uses: ottrproject/ottr-reports/.github/workflows/report-maker.yml@main
-    with:
-      check_type: spelling
-      error_min: 3
-    secrets:
-      gh_pat: ${{ secrets.GH_PAT }}
+    if: ${{needs.yaml-check.outputs.toggle_spell_check == 'true' || needs.yaml-check.outputs.toggle_url_check == 'true' || needs.yaml-check.outputs.toggle_quiz_check == 'true'}}
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
 
-  url-check:
-    name: Check URLs
-    needs: yaml-check
-    if: ${{needs.yaml-check.outputs.toggle_url_check == 'yes'}}
-    uses: ottrproject/ottr-reports/.github/workflows/report-maker.yml@main
-    with:
-      check_type: urls
-      error_min: 0
-    secrets:
-      gh_pat: ${{ secrets.GH_PAT }}
+    steps:
+      - name: Checkout Actions Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run Reports
+        id: run-reports
+        uses: ottrproject/ottr-reports@main
+        with:
+          check_spelling: ${{needs.yaml-check.outputs.toggle_spell_check}}
+          spelling_error_min: ${{needs.yaml-check.outputs.spell_error_min}}
+          check_urls: ${{needs.yaml-check.outputs.toggle_url_check}}
+          url_error_min: ${{needs.yaml-check.outputs.url_error_min}}
+          check_quiz_form: ${{needs.yaml-check.outputs.toggle_spell_check}}
+          quiz_error_min: ${{needs.yaml-check.outputs.quiz_error_min}}
+          sort_dictionary: ${{needs.yaml-check.outputs.toggle_dictionary_sort}}
 
   render-preview:
     name: Render preview
@@ -80,12 +91,16 @@ jobs:
     container:
       image: ${{needs.yaml-check.outputs.rendering_docker_image}}
     if: ${{needs.yaml-check.outputs.toggle_render_preview == 'yes'}}
+    permissions:
+      pull-requests: write
+      contents: write
 
     steps:
       - name: Checkout files
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GH_PAT }}
 
       # Set up git checkout
       - name: Set up git checkout
@@ -108,7 +123,7 @@ jobs:
       - name: Delete old *.html
         run: Rscript -e "rmarkdown::clean_site(preview = FALSE)"
 
-       # Now we want to render all the html files from the Rmd files and create png webshots! As well as render qmd file for index.
+      # Now we want to render all the html files from the Rmd files and create png webshots! As well as render qmd file for index.
       - name: Run render html
         id: site
         run: |
@@ -117,8 +132,8 @@ jobs:
           dir.create("pngs", showWarnings = FALSE)
           rmds <- list.files(pattern = "\\.Rmd$")
           rmd_df <- data.frame(rmd = rmds,
-                               png = file.path("pngs", gsub("\\.Rmd$", ".png", rmds))
-                               )
+                             png = file.path("pngs", gsub("\\.Rmd$", ".png", rmds))
+                             )
           purrr::pmap(rmd_df, function(rmd, png) {
                  webshot2::rmdshot(rmd, file = png)
                })
