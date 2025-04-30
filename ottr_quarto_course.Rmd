@@ -13,7 +13,7 @@ ottrpal::borrow_chapter(
   doc_path = "chunks/create_ottr_header.md",
   tag_replacement = list(
     "{TITLE}" = "OTTR Quarto Course", "{SUBTITLE}" =  "Set Up",
-        "{PATH_TO_PNG}" = "https://github.com/jhudsl/cheatsheets/blob/main/pngs/ottr_quarto_course.png?raw=true"
+        "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_quarto_course.png?raw=true"
     ))
 ```
 
@@ -23,7 +23,7 @@ ottrpal::borrow_chapter(
   doc_path = "chunks/starter_template.md",
   tag_replacement = list(
     "{TEMPLATE_NAME}" = "OTTR_Quarto",
-    "{TEMPLATE_URL}" = "https://github.com/fhdsl/OTTR_Quarto"))
+    "{TEMPLATE_URL}" = "https://github.com/ottrproject/OTTR_Quarto"))
 ```
 
 
