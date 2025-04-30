@@ -1,4 +1,3 @@
-
 # Candace Savonen Dec 2021
 # Updated Aug 2024
 
@@ -50,7 +49,7 @@ jobs:
       toggle_render_preview: "${{ env.RENDER_PREVIEW }}"
       rendering_docker_image: "${{ env.RENDERING_DOCKER_IMAGE }}"
 
-ottr-reports:
+  ottr-reports:
     name: Run Reports
     needs: yaml-check
     if: ${{needs.yaml-check.outputs.toggle_spell_check == 'true' || needs.yaml-check.outputs.toggle_url_check == 'true' || needs.yaml-check.outputs.toggle_quiz_check == 'true'}}
@@ -59,22 +58,22 @@ ottr-reports:
       pull-requests: write
 
     steps:
-    - name: Checkout Actions Repository
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
+      - name: Checkout Actions Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-    - name: Run Reports
-      id: run-reports
-      uses: ottrproject/ottr-reports@main
-      with:
-        check_spelling: ${{needs.yaml-check.outputs.toggle_spell_check}}
-        spelling_error_min: ${{needs.yaml-check.outputs.spell_error_min}}
-        check_urls: ${{needs.yaml-check.outputs.toggle_url_check}}
-        url_error_min: ${{needs.yaml-check.outputs.url_error_min}}
-        check_quiz_form: ${{needs.yaml-check.outputs.toggle_spell_check}}
-        quiz_error_min: ${{needs.yaml-check.outputs.quiz_error_min}}
-        sort_dictionary: ${{needs.yaml-check.outputs.toggle_dictionary_sort}}
+      - name: Run Reports
+        id: run-reports
+        uses: ottrproject/ottr-reports@main
+        with:
+          check_spelling: ${{needs.yaml-check.outputs.toggle_spell_check}}
+          spelling_error_min: ${{needs.yaml-check.outputs.spell_error_min}}
+          check_urls: ${{needs.yaml-check.outputs.toggle_url_check}}
+          url_error_min: ${{needs.yaml-check.outputs.url_error_min}}
+          check_quiz_form: ${{needs.yaml-check.outputs.toggle_spell_check}}
+          quiz_error_min: ${{needs.yaml-check.outputs.quiz_error_min}}
+          sort_dictionary: ${{needs.yaml-check.outputs.toggle_dictionary_sort}}
 
   render-preview:
     name: Render preview
@@ -111,7 +110,7 @@ ottr-reports:
       - name: Delete old *.html
         run: Rscript -e "rmarkdown::clean_site(preview = FALSE)"
 
-       # Now we want to render all the html files from the Rmd files and create png webshots! As well as render qmd file for index.
+      # Now we want to render all the html files from the Rmd files and create png webshots! As well as render qmd file for index.
       - name: Run render html
         id: site
         run: |
@@ -120,8 +119,8 @@ ottr-reports:
           dir.create("pngs", showWarnings = FALSE)
           rmds <- list.files(pattern = "\\.Rmd$")
           rmd_df <- data.frame(rmd = rmds,
-                               png = file.path("pngs", gsub("\\.Rmd$", ".png", rmds))
-                               )
+                             png = file.path("pngs", gsub("\\.Rmd$", ".png", rmds))
+                             )
           purrr::pmap(rmd_df, function(rmd, png) {
                  webshot2::rmdshot(rmd, file = png)
                })
