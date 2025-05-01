@@ -14,7 +14,7 @@ ottrpal::borrow_chapter(
   tag_replacement = list(
     "{TITLE}" = "Chairing Sessions<img src='css/images/chair.png' width = 20% >", 
     "{SUBTITLE}" =  "Roles and Goals",
-    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/pngs/chairing.png"
+    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/chairing.png"
     ))
 ```
 
