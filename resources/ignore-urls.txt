@@ -1,3 +1,4 @@
 PATH_TO_PNG
+{PATH_TO_PNG}
 https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/ottr_quarto_course.png
 https://username.github.io/repository_name/
