@@ -18,6 +18,8 @@ ottrpal::borrow_chapter(
     ))
 ```
 
+<hr>
+
 ## Responsibilities {-}
 
 <div class="row">
