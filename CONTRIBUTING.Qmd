@@ -79,3 +79,8 @@ To get icons you can use the following:
 
 `r config::get("settings")`
 ```
+
+## Adding cheatsheets to main page
+
+- Add information about the cheatsheet (and links) to the `gallery.yml` file
+- Check render of index.Qmd
