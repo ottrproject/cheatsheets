@@ -7,38 +7,184 @@ output:
 css: css/ITN_style.css
 ---
 
+
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_header.md",
   tag_replacement = list(
-    "{TITLE}" = "Chairing Sessions", 
+    "{TITLE}" = "Chairing Sessions<img src='css/images/chair.png' width = 20% >", 
     "{SUBTITLE}" =  "Roles and Goals",
-    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/jhudsl/cheatsheets/refs/heads/main/pngs/chairing.png"
+    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/chairing.png"
     ))
 ```
 
-## Responsibilities
+<hr>
 
-A session chair at a scientific conferences:
+## Responsibilities {-}
 
-- introduces topics and speakers
-- facilitates questions
-- manages time
+<div class="row">
+<div class="column">
+
+A session chair at a scientific conference:
+
+- Introduces topics and speakers
+- Facilitates questions
+- Manages time
+
+</div>
+
+
+<div class="column">
+<center>
+:::warning
+
+If you are **co-chairing**, ensure all chairs are aligned on who is responsible for each task.
+:::
+</center>
+</div>
+
+</div>
+
 
 <hr>
 
-## Tasks Ahead of Time
+## Tasks Ahead of Time {-}
+<div class="row">
+<div class="column">
 
-- meet with session speakers
-    - check name pronunciation
-    - check affiliation
-    - remind speakers about declaring conflicts
-    - explain timing
-    - technical checks
+<input type="checkbox">  Meet with session speakers 
+
+1. <input type="checkbox">  Check name pronunciation 
+
+1. <input type="checkbox">  Check affiliation 
+
+1. <input type="checkbox">  Remind speakers about declaring conflicts
+
+1. <input type="checkbox">  Explain timing plan
+
+1. <input type="checkbox">  Perform technical checks
+
+1. <input type="checkbox">  Discuss backup plans for technical challenges
+   - Examples: Request a PDF or video from speakers ahead of time just in case
+
+1. <input type="checkbox">  Confirm communication plan for day of (if virtual)
+   -  Examples:  Slack, e-mail, etc.
 
 
-## Day of
+</div>
 
-## Possible Challenges
+<div class="column">
+
+<input type="checkbox">  Read speaker abstracts to **familiarize** yourself with the content to prepare for facilitating discussion
+
+<input type="checkbox">  Remind session speakers 
+
+1. <input type="checkbox">  Request for any files ahead of time
+
+1. <input type="checkbox">  Request speakers to come early day of event
+
+1. <input type="checkbox">  Remind session speakers **one week** before 
+
+1. <input type="checkbox">  Remind session speakers **one day** before 
 
 
+
+<br>
+<br>
+<center>
+<img src="css/images/calendar.png" width = 40%>
+</center>
+</div>
+</div>
+
+
+<hr>
+
+## Tasks Day of Event {-}
+
+<div class="row">
+<div class="column">
+
+<input type="checkbox">  Show up early to check systems and check in with speakers
+
+<input type="checkbox">  Give a short summary of the session
+
+- (e.g., "This session is about Topic X and will have Y speakers")
+
+<input type="checkbox"> Provide housekeeping announcements
+
+- (e.g., break time, voting, etc.)
+
+<input type="checkbox">  Introduce speakers
+
+- (name, role, institution, talk title)
+
+<input type="checkbox">  Watch the time to ensure schedule is maintained
+
+<input type="checkbox">  Ask the audience for questions
+
+</div>
+
+<div class="row">
+<br>
+<br>
+<center>
+<img src="css/images/screen.png" width = 20%>
+</center>
+</div>
+<hr>
+
+## Possible Challenges {-}
+
+<div class="row">
+<div class="column">
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<img src="css/images/redclock.png" width = 40%>
+</center>
+<br>
+<br>
+</div>
+<div class="column">
+
+1) **Technical Difficulties** 
+
+`r config::get("arrow")` <input type="checkbox"> Have backup plans and do checks!
+
+2) **Speakers may speak too long**
+
+`r config::get("arrow")` <input type="checkbox"> Notify speakers of time limits (5 min left, 1 min left) 
+
+`r config::get("arrow")` <input type="checkbox"> Interrupt the speaker if needed
+
+<div class="comment">"Thank you for your talk. To stay on schedule, we'll need to transition."</div>
+
+`r config::get("arrow")` <input type="checkbox"> Shorten question sessions as needed 
+
+`r config::get("arrow")` <input type="checkbox">   Adjust subsequent speaker times if needed 
+
+3) **People may ask too many questions**
+
+`r config::get("arrow")`  <input type="checkbox"> Interrupt and ask for the discussion to happen later
+
+<div class="comment">_"For sake of time, perhaps this can be discussed later."_</div>
+
+4) **People may not have questions**
+
+`r config::get("arrow")`  <input type="checkbox">  Ask your own question(s)
+
+</div>
+</div>
+
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_itn_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Content for this cheatsheet came from Kate Isaac, Carrie Wright, and Sean Davis.It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net. The cheatsheet was also inspired by this article: https://pmc.ncbi.nlm.nih.gov/articles/PMC2738972/ and ideas from AI: https://www.perplexity.ai/search/i-m-organizing-a-scientific-me-b5m7ym8jTBOl2MjdMhLlRw"
+    ))
+```
