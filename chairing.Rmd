@@ -23,7 +23,7 @@ ottrpal::borrow_chapter(
 <div class="row">
 <div class="column">
 
-A session chair at a scientific conferences:
+A session chair at a scientific conference:
 
 - Introduces topics and speakers
 - Facilitates questions
