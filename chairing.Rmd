@@ -129,7 +129,7 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 <br>
 <br>
 <center>
-<img src="css/images/screen.png" width = 15%>
+<img src="css/images/screen.png" width = 20%>
 </center>
 </div>
 <hr>
