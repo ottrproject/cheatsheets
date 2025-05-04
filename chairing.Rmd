@@ -102,28 +102,42 @@ If you are **co-chairing**, ensure all chairs are aligned on who is responsible 
 
 ## Tasks Day of Event {-}
 
+<div class="row">
+<div class="column">
+
 <input type="checkbox">  Show up early to check systems and check in with speakers
 
 <input type="checkbox">  Give a short summary of the session
-(e.g., "This session is about Topic X and will have Y speakers")
 
-<input type="checkbox"> Provide housekeeping announcements 
-(e.g., break time, voting, etc.)
+- (e.g., "This session is about Topic X and will have Y speakers")
+
+<input type="checkbox"> Provide housekeeping announcements
+
+- (e.g., break time, voting, etc.)
 
 <input type="checkbox">  Introduce speakers
-(name, role, institution, talk title)
+
+- (name, role, institution, talk title)
 
 <input type="checkbox">  Watch the time to ensure schedule is maintained
 
 <input type="checkbox">  Ask the audience for questions
 
+</div>
+
+<div class="row">
+<br>
+<br>
+<center>
+<img src="css/images/screen.png" width = 15%>
+</center>
+</div>
 <hr>
 
 ## Possible Challenges {-}
 
 <div class="row">
 <div class="column">
-<br>
 <br>
 <br>
 <br>
