@@ -3,7 +3,7 @@ render-preview: true
 
 ##### Checks run at pull request #####
 # Check quiz formatting
-check-quizzes: FALSE
+check-quizzes: false
 quiz_error_min: 0
 # Check that urls in the content are not broken
 url-checker: true
