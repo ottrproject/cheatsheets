@@ -63,25 +63,36 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0b
 
 - CI/CD typically uses other infrastructure, such as version control
 (version control is the process of tracking changes over time)
-  - There are several tools for version control, but [GitHub](https://github.com/) is one of the most common
+  - There are [several tools](https://icubetechnolabs.com/github-vs-gitlab-vs-bitbucket-which-version-control-system-is-right-for-you/) for version control ([GitHub](https://github.com/), [GitLab](https://about.gitlab.com/topics/version-control/), [Bitbucket](https://bitbucket.org/product/version-control-software)), but [GitHub](https://github.com/) is one of the most commonly used by researchers
 - Lab members need to know what working standards are required
   - Onboarding documents like these can help: 
-    - https://fertiglab.github.io/onboarding/
-    - https://lcolladotor.github.io/bioc_team_ds/onboarding.html
+    - [Fertig Lab](https://fertiglab.github.io/onboarding/)
+    - [Collado-Torres Lab](https://lcolladotor.github.io/bioc_team_ds/onboarding.html)
 
 <hr>
   
 # CI/CD Tools
 
-<a href="https://www.travis-ci.com/"> <img src="css/images/travisci.png" width = 20%> </a>
+All of the following tools are free for open-source projects, but paid for private or self
 
-<a href="https://circleci.com/"><img src="css/images/circleci.png" width = 20%> </a>
+<div class = myStyle>
+|Tool|Price| Custimizability|Integration|Tutorials|
+|----|-----|-----|----|----|
+|<a href="https://www.travis-ci.com/"> <img src="css/images/travisci.png"  height = 40%> </a> | Free for public repos| low|GitHub, GitLab, Bitbucket| [Travis CI Guide](https://docs.travis-ci.com/user/for-beginners/)|
+|<a href="https://circleci.com/"><img src="css/images/circleci.png" height = 40%> </a>| Free for public repos | High|GitHub, GitLab, Bitbucket|[CircleCI Guide](https://circleci.com/docs/getting-started/) |
+|<a href="https://docs.gitlab.com/ci//"><img src="css/images/gitlab.png" height = 40%> </a>| Free for public repos| High|Intended for GitLab, GitHub, Bitbucket|[GitLab CI Guide](https://docs.gitlab.com/ci/) |
+|<a href="https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps/"><img
+src="css/images/githubactions.png" height = 40%> </a>| Free for public repos| High|Intended for GitHub, GitLab with some effort|[ITN Course on GitHub Actions](https://hutchdatascience.org/ITN_course_search/GitHub_Automation_for_Scientists_coursePage.html) |
+|<a href="https://www.jenkins.io/"><img src="css/images/jenkins.png" height = 40%> </a>|Free for public or private repos (other potential costs)| Very high|GitHub, GitLab, Bitbucket|[Jenkins Guide](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
+</div>
+ 
+ 
 
-<a href="https://docs.gitlab.com/ci//"><img src="css/images/gitlab.png" width = 20%> </a>
 
-<a href="https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps/"><img
-src="css/images/githubactions.png" width = 20%> </a>
-
-<a href="https://www.jenkins.io/"><img src="css/images/jenkins.png" width = 20%> </a>
-
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_itn_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Content for this cheatsheet came from Candace Savonen and Carrie Wright. It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net. The cheatsheet was also inspired by a discussion that involved the ITCR OPEN community (https://www.itcrtraining.org/open)."))
+```
 
