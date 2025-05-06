@@ -1,5 +1,7 @@
+Bitbucket
 Bluesky
 cheatsheet
+Collado
 css
 custimization
 cwrigh
@@ -7,9 +9,11 @@ Dockerfile
 Dockerhub
 ejs
 favicon
+Fertig
 GH
 GIFs
 Github
+GitLab
 github
 GitHub
 HTTPS
@@ -21,6 +25,7 @@ lightgreen
 LinkedIn
 LLMs
 NHGRI
+Onboarding
 OTTR
 Pinterest
 Rmd
