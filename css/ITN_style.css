@@ -220,3 +220,62 @@ div.github{
 }
 
 
+/*------------- table code---------------- */
+/*table code from https://jsfiddle.net/davidThomas/vk7eP/3/*/
+
+.myStyle table {
+    border-collapse: collapse;
+    text-align: left;
+
+
+}
+
+
+.myStyle {
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    overflow: hidden: auto;/*if there is overflow add scrolling as needed*/
+    border: 1px solid #14395f;
+    -webkit-border-radius: 6px; /*rounded boarder*/
+    /*-moz-border-radius: 6px;*/
+   /* border-radius: 6px;*/
+    width:60%;/*making table less wide*/
+    margin-left: auto;/*centering table*/
+    margin-right: auto;/*centering table*/
+
+}
+
+/* gray zebra-striped table rows */
+/*.myStyle tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+*/
+
+/* adding space from boarder to text */
+.myStyle table td, .myStyle table th {
+    padding: 3px 3px;
+}
+
+
+/* purple header*/
+.myStyle table thead th {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #14395f), color-stop(1, #14395f));
+    background:-moz-linear-gradient(center top, #14395f 5%, #14395f 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#801D99', endColorstr='#801D99');
+    background-color:#14395f;
+    color:#FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #14395f;
+}
+
+
+/* purple text in the table */
+.myStyle table tbody td {
+    color: #14395f;
+    font-size: 13px;
+    /*border-bottom: 1px solid #995993;*/
+    font-weight: normal;
+}
+
+
