@@ -61,11 +61,15 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0b
 
 # Implementing CI/CD
 
-- CI/CD requires other infrastructure, such as version control
+- CI/CD typically uses other infrastructure, such as version control
 (version control is the process of tracking changes over time)
-  - There are several tools for version control, but GitHub is one of the most common
+  - There are several tools for version control, but [GitHub](https://github.com/) is one of the most common
 - Lab members need to know what working standards are required
-  - Onboarding Documents like this can help: https://fertiglab.github.io/onboarding/
+  - Onboarding documents like these can help: 
+    - https://fertiglab.github.io/onboarding/
+    - https://lcolladotor.github.io/bioc_team_ds/onboarding.html
+
+<hr>
   
 # CI/CD Tools
 
