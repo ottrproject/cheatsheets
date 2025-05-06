@@ -67,4 +67,17 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0b
 - Lab members need to know what working standards are required
   - Onboarding Documents like this can help: https://fertiglab.github.io/onboarding/
   
-  
+# CI/CD Tools
+
+<a href="https://www.travis-ci.com/"> <img src="css/images/travisci.png" width = 20%> </a>
+
+<a href="https://circleci.com/"><img src="css/images/circleci.png" width = 20%> </a>
+
+<a href="https://docs.gitlab.com/ci//"><img src="css/images/gitlab.png" width = 20%> </a>
+
+<a href="https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps/"><img
+src="css/images/githubactions.png" width = 20%> </a>
+
+<a href="https://www.jenkins.io/"><img src="css/images/jenkins.png" width = 20%> </a>
+
+
