@@ -33,9 +33,7 @@ In other words, if you make a change to your code, you can run your code to see 
 
 This can simulate different software users <img src="https://www.iconpacks.net/icons/1/free-icon-user-group-296.png" width = 8%>  or data analysis contexts <img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589.png" width = 8%>.
 
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "problems accumulate without CICD"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_2350#slide=id.g35279513746_0_2350")
-```
+
 
 </div>
 
@@ -49,6 +47,19 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0b
 - Determine if your software updates will work for users on different machines
 - Determine if your data analysis code still has the expected outcomes with different permutations
 
+</div>
+
+</div>
+
+<hr>
+
+<div class="row">
+<div class="column">
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "problems accumulate without CICD"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_2350#slide=id.g35279513746_0_2350")
+```
+</div>
+<div class="column">
 ```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "problems accumulate without CICD"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_2381#slide=id.g35279513746_0_2381")
 ```
@@ -61,24 +72,27 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0b
 
 # Implementing CI/CD
 
-- CI/CD typically uses other infrastructure, such as version control
-(version control is the process of tracking changes over time)
+- CI/CD typically uses other infrastructure, such as version control and containers or virtual machines
+  - Version control is the process of tracking changes over time
   - There are [several tools](https://icubetechnolabs.com/github-vs-gitlab-vs-bitbucket-which-version-control-system-is-right-for-you/) for version control ([GitHub](https://github.com/), [GitLab](https://about.gitlab.com/topics/version-control/), [Bitbucket](https://bitbucket.org/product/version-control-software)), but [GitHub](https://github.com/) is one of the most commonly used by researchers
+  - Containers or virtual machines enable us to run code in different [computing environments](https://hutchdatascience.org/Containers_for_Scientists/02-why-containers.html) (which is the specific software for a given computer). 
+  - Check out our [ITN course about containers](https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html)!
 - Lab members need to know what working standards are required
   - Onboarding documents like these can help: 
     - [Fertig Lab](https://fertiglab.github.io/onboarding/)
     - [Collado-Torres Lab](https://lcolladotor.github.io/bioc_team_ds/onboarding.html)
+- This [novel about CI/CD](https://itrevolution.com/product/the-phoenix-project/) called _The Phoenix Project_ might be helpful. Check out this [excerpt](https://itrevolution.com/wp-content/uploads/2022/06/TPP5_excerpt.pdf)!
 
 <hr>
   
 # CI/CD Tools
 
-All of the following tools are free for open-source projects, but paid for private or self
+The following tools can be used for CI/CD.
 
 <div class = myStyle>
 |Tool|Price| Custimizability|Integration|Tutorials|
 |----|-----|-----|----|----|
-|<a href="https://www.travis-ci.com/"> <img src="css/images/travisci.png"  height = 40%> </a> | Free for public repos| low|GitHub, GitLab, Bitbucket| [Travis CI Guide](https://docs.travis-ci.com/user/for-beginners/)|
+|<a href="https://www.travis-ci.com/"> <img src="css/images/travisci.png"  height = 40%> </a> | Free for public repos| Low|GitHub, GitLab, Bitbucket| [Travis CI Guide](https://docs.travis-ci.com/user/for-beginners/)|
 |<a href="https://circleci.com/"><img src="css/images/circleci.png" height = 40%> </a>| Free for public repos | High|GitHub, GitLab, Bitbucket|[CircleCI Guide](https://circleci.com/docs/getting-started/) |
 |<a href="https://docs.gitlab.com/ci//"><img src="css/images/gitlab.png" height = 40%> </a>| Free for public repos| High|Intended for GitLab, GitHub, Bitbucket|[GitLab CI Guide](https://docs.gitlab.com/ci/) |
 |<a href="https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps/"><img
