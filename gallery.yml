@@ -15,11 +15,11 @@
       href: https://ottrproject.org/cheatsheets/social_media.html
       code: https://github.com/ottrproject/cheatsheets/blob/main/social_media.Rmd
       thumbnail: pngs/social_media.png
-      
-- category: Research and Software Development
- description: |
+
+- category: Research & Software Development
+  description: |
     Cheatsheets for best practices, tools, and tips for research and scientific software development. 
- tiles:
+  tiles:
     - title: CI/CD
       href: https://ottrproject.org/cheatsheets/cicd.html
       code: https://github.com/ottrproject/cheatsheets/blob/main/cicd.Rmd
