@@ -12,7 +12,7 @@ ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_header.md",
   tag_replacement = list(
     "{TITLE}" = "CI/CD", 
-    "{SUBTITLE}" =  "Tools and Tioss",
+    "{SUBTITLE}" =  "Tools and Tips",
     "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/cicd.png"
     ))
 ```
@@ -20,9 +20,51 @@ ottrpal::borrow_chapter(
 <hr>
 
 
+
 <div class="row">
+<div class="column">
+# What is CI/CD?
+
+CI/CD = Continuous Integration/Continuous Deployment
+
+The idea is to **test your code as you develop it**.
+
+In other words, if you make a change to your code, you can run your code to see if how it works with **different conditions and environments**.
+
+This can simulate different software users <img src="https://www.iconpacks.net/icons/1/free-icon-user-group-296.png" width = 8%>  or data analysis contexts <img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589.png" width = 8%>.
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "problems accumulate without CICD"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_2350#slide=id.g35279513746_0_2350")
+```
+
+</div>
 
 <div class="column">
 
+# Benefits of CI/CD
+
+- Catch software bugs earlier
+- Catch data analysis code bugs too!
+- Enhance public trust in your code/software
+- Determine if your software updates will work for users on different machines
+- Determine if your data analysis code still has the expected outcomes with different permutations
+
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "problems accumulate without CICD"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_2381#slide=id.g35279513746_0_2381")
+```
+
 </div>
+
 </div>
+
+<hr>
+
+# Implementing CI/CD
+
+- CI/CD requires other infrastructure, such as version control
+(version control is the process of tracking changes over time)
+  - There are several tools for version control, but GitHub is one of the most common
+- Lab members need to know what working standards are required
+  - Onboarding Documents like this can help: https://fertiglab.github.io/onboarding/
+  
+  
