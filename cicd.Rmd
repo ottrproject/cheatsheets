@@ -91,7 +91,7 @@ CI/CD typically uses other infrastructure, such as documentation, version contro
     - Check out our [ITN course about containers](https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html)!
   
   
-```{r, fig.align='center', out.width="70%", echo = FALSE, fig.alt= "problems accumulate without CICD"}
+```{r, fig.align='center', out.width="60%", echo = FALSE, fig.alt= "problems accumulate without CICD"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_188#slide=id.g35279513746_0_188")
 ```
 <hr>
