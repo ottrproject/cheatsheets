@@ -133,6 +133,6 @@ src="css/images/githubactions.png" height = 40%> </a>| Free for public repos| Hi
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_footer.md",
   tag_replacement = list(
-    "{AUTHORS}" = "Content for this cheatsheet came from Candace Savonen and Carrie Wright. It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net. The cheatsheet was also inspired by a discussion that involved the ITCR OPEN community (https://www.itcrtraining.org/open)."))
+    "{AUTHORS}" = "Content for this cheatsheet came from Candace Savonen and Carrie Wright. It was summarized and formatted by Carrie Wright and reviewed by Kate Isaac. Icons from https://www.iconpacks.net. The cheatsheet was also inspired by a discussion that involved the ITCR OPEN community (https://www.itcrtraining.org/open)."))
 ```
 
