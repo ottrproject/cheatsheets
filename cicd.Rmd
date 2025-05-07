@@ -74,15 +74,19 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0b
 
 - CI/CD typically uses other infrastructure, such as version control and containers or virtual machines
   - Version control is the process of tracking changes over time
-  - There are [several tools](https://icubetechnolabs.com/github-vs-gitlab-vs-bitbucket-which-version-control-system-is-right-for-you/) for version control ([GitHub](https://github.com/), [GitLab](https://about.gitlab.com/topics/version-control/), [Bitbucket](https://bitbucket.org/product/version-control-software)), but [GitHub](https://github.com/) is one of the most commonly used by researchers
-  - Containers or virtual machines enable us to run code in different [computing environments](https://hutchdatascience.org/Containers_for_Scientists/02-why-containers.html) (which is the specific software for a given computer). 
-  - Check out our [ITN course about containers](https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html)!
+  - There are [several tools](https://icubetechnolabs.com/github-vs-gitlab-vs-bitbucket-which-version-control-system-is-right-for-you/) for version control ([GitHub](https://github.com/), [GitLab](https://about.gitlab.com/topics/version-control/), [Bitbucket](https://bitbucket.org/product/version-control-software)), but [GitHub](https://github.com/) is one of the most commonly used by researchers.
 - Lab members need to know what working standards are required
   - Onboarding documents like these can help: 
     - [Fertig Lab](https://fertiglab.github.io/onboarding/)
     - [Collado-Torres Lab](https://lcolladotor.github.io/bioc_team_ds/onboarding.html)
 - This [novel about CI/CD](https://itrevolution.com/product/the-phoenix-project/) called _The Phoenix Project_ might be helpful. Check out this [excerpt](https://itrevolution.com/wp-content/uploads/2022/06/TPP5_excerpt.pdf)!
-
+- Containers or virtual machines enable us to run code in different [computing environments](https://hutchdatascience.org/Containers_for_Scientists/02-why-containers.html) (which is the specific software for a given computer). 
+  - Check out our [ITN course about containers](https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html)!
+  
+  
+```{r, fig.align='center', out.width="70%", echo = FALSE, fig.alt= "problems accumulate without CICD"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_188#slide=id.g35279513746_0_188")
+```
 <hr>
   
 # CI/CD Tools
