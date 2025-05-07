@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Cheatsheets"
+  google-analytics: "G-ST08QSCMK6"
 
 format:
   html:
