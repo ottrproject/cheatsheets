@@ -8,3 +8,5 @@ website:
 format:
   html:
     css: styles.css
+    includes:
+      before_body: [GA_Script.Rhtml]
