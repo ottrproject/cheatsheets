@@ -27,7 +27,9 @@ ottrpal::borrow_chapter(
 
 CI/CD = Continuous Integration/Continuous Deployment
 
-The idea is to **test your code as you develop it**.
+The idea is to **test your code as you develop it** and to automatically deliver or deploy your code. 
+
+This could be rendering a report automatically for a data analysis or automatically sending software updates to users.
 
 In other words, if you make a change to your code, you can run your code to see if how it works with **different conditions and environments**.
 
@@ -46,6 +48,7 @@ This can simulate different software users <img src="https://www.iconpacks.net/i
 - Enhance public trust in your code/software
 - Determine if your software updates will work for users on different machines
 - Determine if your data analysis code still has the expected outcomes with different permutations
+- Improve your efficiency by rendering files or running code in a more automated way
 
 </div>
 
@@ -72,16 +75,20 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0b
 
 # Implementing CI/CD
 
-- CI/CD typically uses other infrastructure, such as version control and containers or virtual machines
-  - Version control is the process of tracking changes over time
-  - There are [several tools](https://icubetechnolabs.com/github-vs-gitlab-vs-bitbucket-which-version-control-system-is-right-for-you/) for version control ([GitHub](https://github.com/), [GitLab](https://about.gitlab.com/topics/version-control/), [Bitbucket](https://bitbucket.org/product/version-control-software)), but [GitHub](https://github.com/) is one of the most commonly used by researchers.
-- Lab members need to know what working standards are required
-  - Onboarding documents like these can help: 
-    - [Fertig Lab](https://fertiglab.github.io/onboarding/)
-    - [Collado-Torres Lab](https://lcolladotor.github.io/bioc_team_ds/onboarding.html)
-- This [novel about CI/CD](https://itrevolution.com/product/the-phoenix-project/) called _The Phoenix Project_ might be helpful. Check out this [excerpt](https://itrevolution.com/wp-content/uploads/2022/06/TPP5_excerpt.pdf)!
-- Containers or virtual machines enable us to run code in different [computing environments](https://hutchdatascience.org/Containers_for_Scientists/02-why-containers.html) (which is the specific software for a given computer). 
-  - Check out our [ITN course about containers](https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html)!
+CI/CD typically uses other infrastructure, such as documentation, version control, and containers or virtual machines.
+
+1) Lab members need to know what working standards are required
+    - Onboarding documents like these can help: 
+      - [Fertig Lab](https://fertiglab.github.io/onboarding/)
+      - [Collado-Torres Lab](https://lcolladotor.github.io/bioc_team_ds/onboarding.html)
+
+2) Version control is the process of tracking changes over time
+    - There are [several tools](https://icubetechnolabs.com/github-vs-gitlab-vs-bitbucket-which-version-control-system-is-right-for-you/) for version control, (including [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/topics/version-control/), [Bitbucket](https://bitbucket.org/product/version-control-software)).
+    - [GitHub](https://github.com/) is one of the most commonly used by researchers.
+
+3) Containers or virtual machines enable us to run code in different [computing environments](https://hutchdatascience.org/Containers_for_Scientists/02-why-containers.html)
+    - In simple terms, a computing environment is all the specific software for a given computer. 
+    - Check out our [ITN course about containers](https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html)!
   
   
 ```{r, fig.align='center', out.width="70%", echo = FALSE, fig.alt= "problems accumulate without CICD"}
@@ -103,8 +110,20 @@ The following tools can be used for CI/CD.
 src="css/images/githubactions.png" height = 40%> </a>| Free for public repos| High|Intended for GitHub, GitLab with some effort|[ITN Course on GitHub Actions](https://hutchdatascience.org/ITN_course_search/GitHub_Automation_for_Scientists_coursePage.html) |
 |<a href="https://www.jenkins.io/"><img src="css/images/jenkins.png" height = 40%> </a>|Free for public or private repos (other potential costs)| Very high|GitHub, GitLab, Bitbucket|[Jenkins Guide](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
 </div>
- 
- 
+
+<hr>
+
+# Resources
+
+- Check out this [explanation of CI/CD](https://circleci.com/blog/what-is-a-ci-cd-pipeline/)
+- This [novel about CI/CD](https://itrevolution.com/product/the-phoenix-project/) called _The Phoenix Project_ might be helpful. Check out this [excerpt](https://itrevolution.com/wp-content/uploads/2022/06/TPP5_excerpt.pdf)!
+- These ITN courses can get you started with GitHub: 
+[Introduction to Reproducibility](https://hutchdatascience.org/ITN_course_search/Reproducibility_in_Cancer_Informatics_coursePage.html)
+ & [Advanced Reproducibility](https://hutchdatascience.org/ITN_course_search/Adv_Reproducibility_in_Cancer_Informatics_coursePage.html)
+- This ITN course can get you started with Containers:
+[Containers for Scientists](https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html)
+- This ITN course can get you started with CI/CD using GitHub Actions: [GitHub Automation for Scientists](https://hutchdatascience.org/ITN_course_search/GitHub_Automation_for_Scientists_coursePage.html) 
+
 
 
 ```{r, echo=FALSE, results='asis'}
