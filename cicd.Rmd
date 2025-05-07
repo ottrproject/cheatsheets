@@ -31,7 +31,7 @@ The idea is to **test your code as you develop it** and to automatically deploy 
 
 This could be rendering a report automatically for a data analysis or automatically sending software updates to users.
 
-In other words, if you make a change to your code, you can run your code to see if how it works with **different conditions and environments**.
+In other words, if you make a change to your code, you can run your code to see how it works with **different conditions and environments**.
 
 This can simulate different software users <img src="https://www.iconpacks.net/icons/1/free-icon-user-group-296.png" width = 8%>  or data analysis contexts <img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589.png" width = 8%>.
 
