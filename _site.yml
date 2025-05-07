@@ -3,3 +3,5 @@ output_dir: 'docs'
 
 output:
   html_document
+  inclues: 
+    before_body: header.html
