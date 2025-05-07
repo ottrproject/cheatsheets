@@ -27,7 +27,7 @@ ottrpal::borrow_chapter(
 
 CI/CD = Continuous Integration/Continuous Deployment
 
-The idea is to **test your code as you develop it** and to automatically deliver or deploy your code. 
+The idea is to **test your code as you develop it** and to automatically deploy your code or deliver results. 
 
 This could be rendering a report automatically for a data analysis or automatically sending software updates to users.
 
