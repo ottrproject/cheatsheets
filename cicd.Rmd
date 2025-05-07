@@ -33,7 +33,10 @@ This could be rendering a report automatically for a data analysis or automatica
 
 In other words, if you make a change to your code, you can run your code to see if how it works with **different conditions and environments**.
 
-This can simulate different software users <img src="https://www.iconpacks.net/icons/1/free-icon-user-group-296.png" width = 8%>  or data analysis contexts <img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589.png" width = 8%>.
+This can simulate:
+
+- Different software users <img src="https://www.iconpacks.net/icons/1/free-icon-user-group-296.png" width = 8%>
+- Different data analysis contexts <img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589.png" width = 8%>
 
 
 
@@ -43,12 +46,12 @@ This can simulate different software users <img src="https://www.iconpacks.net/i
 
 # Benefits of CI/CD
 
-- Catch software bugs earlier
-- Catch data analysis code bugs too!
+- Catch software and data analysis bugs earlier!
 - Enhance public trust in your code/software
 - Determine if your software updates will work for users on different machines
 - Determine if your data analysis code still has the expected outcomes with different permutations
 - Improve your efficiency by rendering files or running code in a more automated way
+- More easily share results and updates!
 
 </div>
 
