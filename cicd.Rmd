@@ -78,7 +78,7 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0b
 
 # Implementing CI/CD
 
-CI/CD typically uses other infrastructure, such as documentation, version control, and containers or virtual machines.
+CI/CD relies on automation tools (see below), but it typically also uses other infrastructure, such as documentation, version control, and containers or virtual machines.
 
 1) Lab members need to know what working standards are required
     - Onboarding documents like these can help: 
