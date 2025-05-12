@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>cicd.knit</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="shortcut icon" href="css/images/ITN_favicon.ico" />
+ <!--- go to https://favicon.io/favicon-converter/ to upload an image to make a new favicon.io. You will need to replace the current favicon.io image with the one in the downloaded directory from the website. The current image is in the resources/images/ directory --->
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/ITN_style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div class="header_box">
+<p><u>CI/CD</u><br><span style="color:#14395f;"> Tools and Tips
+</span></p>
+</div>
+<div class="png_button">
+<a href="https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/cicd.png">Download
+cheatsheet</a>
+</div>
+<div class="time">
+<strong>Last updated: May 12, 2025</strong>
+</div>
+<hr>
+<div class="row">
+<div class="column">
+<div id="what-is-cicd" class="section level1">
+<h1>What is CI/CD?</h1>
+<p>CI/CD = Continuous Integration/Continuous Deployment</p>
+<p>The idea is to <strong>test your code as you develop it</strong> and
+to automatically deploy your code or deliver results.</p>
+<p>This could be rendering a report automatically for a data analysis or
+automatically sending software updates to users.</p>
+<p>In other words, if you make a change to your code, you can run your
+code to see how it works with <strong>different conditions and
+environments</strong>.</p>
+<p>This can simulate:</p>
+<ul>
+<li>Different software users
+<img src="https://www.iconpacks.net/icons/1/free-icon-user-group-296.png" width = 8%></li>
+<li>Different data analysis contexts
+<img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589.png" width = 8%></li>
+</ul>
+</div>
+</div>
+<div class="column">
+<div id="benefits-of-cicd" class="section level1">
+<h1>Benefits of CI/CD</h1>
+<ul>
+<li>Catch software and data analysis bugs earlier!</li>
+<li>Enhance public trust in your code/software</li>
+<li>Determine if your software updates will work for users on different
+machines</li>
+<li>Determine if your data analysis code still has the expected outcomes
+with different permutations</li>
+<li>Improve your efficiency by rendering files or running code in a more
+automated way</li>
+<li>More easily share results and updates!</li>
+</ul>
+</div>
+</div>
+</div>
+<hr>
+<div class="row">
+<div class="column">
+<p><img src="cicd_files/figure-html/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g_g35279513746_0_2350.png" alt="problems accumulate without CICD" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+<div class="column">
+<p><img src="cicd_files/figure-html/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g_g35279513746_0_2381.png" alt="CICD enables catching problems as they happen" width="100%" style="display: block; margin: auto;" /></p>
+</div>
+</div>
+<hr>
+<div id="implementing-cicd" class="section level1">
+<h1>Implementing CI/CD</h1>
+<p>CI/CD relies on automation tools (see below), but it typically also
+uses other infrastructure, such as documentation, version control, and
+containers or virtual machines.</p>
+<ol style="list-style-type: decimal">
+<li>Lab members need to know what working standards are required
+<ul>
+<li>Onboarding documents like these can help:
+<ul>
+<li><a href="https://fertiglab.github.io/onboarding/">Fertig
+Lab</a></li>
+<li><a
+href="https://lcolladotor.github.io/bioc_team_ds/onboarding.html">Collado-Torres
+Lab</a></li>
+</ul></li>
+</ul></li>
+<li>Version control is the process of tracking changes over time
+<ul>
+<li>There are <a
+href="https://icubetechnolabs.com/github-vs-gitlab-vs-bitbucket-which-version-control-system-is-right-for-you/">several
+tools</a> for version control, (including <a
+href="https://github.com/">GitHub</a>, <a
+href="https://about.gitlab.com/topics/version-control/">GitLab</a>, <a
+href="https://bitbucket.org/product/version-control-software">Bitbucket</a>).</li>
+<li><a href="https://github.com/">GitHub</a> is one of the most commonly
+used by researchers.</li>
+</ul></li>
+<li>Containers or virtual machines enable us to run code in different <a
+href="https://hutchdatascience.org/Containers_for_Scientists/02-why-containers.html">computing
+environments</a>
+<ul>
+<li>In simple terms, a computing environment is all the specific
+software for a given computer.</li>
+<li>Check out our <a
+href="https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html">ITN
+course about containers</a>!</li>
+</ul></li>
+</ol>
+<img src="cicd_files/figure-html/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g_g35279513746_0_188.png" alt="computers are unique like snowflakes" width="60%" style="display: block; margin: auto;" />
+<hr>
+</div>
+<div id="cicd-tools" class="section level1">
+<h1>CI/CD Tools</h1>
+<p>The following tools can be used for CI/CD.</p>
+<div class="myStyle">
+<table>
+<colgroup>
+<col width="18%" />
+<col width="22%" />
+<col width="22%" />
+<col width="18%" />
+<col width="18%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Price</th>
+<th>Custimizability</th>
+<th>Integration</th>
+<th>Tutorials</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://www.travis-ci.com/">
+<img src="css/images/travisci.png"  height = 40%> </a></td>
+<td>Free for public repos</td>
+<td>Low</td>
+<td>GitHub, GitLab, Bitbucket</td>
+<td><a href="https://docs.travis-ci.com/user/for-beginners/">Travis CI
+Guide</a></td>
+</tr>
+<tr class="even">
+<td><a href="https://circleci.com/"><img src="css/images/circleci.png" height = 40%>
+</a></td>
+<td>Free for public repos</td>
+<td>High</td>
+<td>GitHub, GitLab, Bitbucket</td>
+<td><a href="https://circleci.com/docs/getting-started/">CircleCI
+Guide</a></td>
+</tr>
+<tr class="odd">
+<td><a href="https://docs.gitlab.com/ci//"><img src="css/images/gitlab.png" height = 40%>
+</a></td>
+<td>Free for public repos</td>
+<td>High</td>
+<td>Intended for GitLab, GitHub, Bitbucket</td>
+<td><a href="https://docs.gitlab.com/ci/">GitLab CI Guide</a></td>
+</tr>
+<tr class="even">
+<td><a href="https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps/"><img
+src="css/images/githubactions.png" height = 40%> </a></td>
+<td>Free for public repos</td>
+<td>High</td>
+<td>Intended for GitHub, GitLab with some effort</td>
+<td><a
+href="https://hutchdatascience.org/ITN_course_search/GitHub_Automation_for_Scientists_coursePage.html">ITN
+Course on GitHub Actions</a></td>
+</tr>
+<tr class="odd">
+<td><a href="https://www.jenkins.io/"><img src="css/images/jenkins.png" height = 40%>
+</a></td>
+<td>Free for public or private repos (other potential costs)</td>
+<td>Very high</td>
+<td>GitHub, GitLab, Bitbucket</td>
+<td><a
+href="https://www.jenkins.io/doc/pipeline/tour/getting-started/">Jenkins
+Guide</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<hr>
+</div>
+<div id="resources" class="section level1">
+<h1>Resources</h1>
+<ul>
+<li>Check out this <a
+href="https://circleci.com/blog/what-is-a-ci-cd-pipeline/">explanation
+of CI/CD</a></li>
+<li>This <a
+href="https://itrevolution.com/product/the-phoenix-project/">novel about
+CI/CD</a> called <em>The Phoenix Project</em> might be helpful. Check
+out this <a
+href="https://itrevolution.com/wp-content/uploads/2022/06/TPP5_excerpt.pdf">excerpt</a>!</li>
+<li>These ITN courses can get you started with GitHub: <a
+href="https://hutchdatascience.org/ITN_course_search/Reproducibility_in_Cancer_Informatics_coursePage.html">Introduction
+to Reproducibility</a> &amp; <a
+href="https://hutchdatascience.org/ITN_course_search/Adv_Reproducibility_in_Cancer_Informatics_coursePage.html">Advanced
+Reproducibility</a></li>
+<li>This ITN course can get you started with Containers: <a
+href="https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html">Containers
+for Scientists</a></li>
+<li>This ITN course can get you started with CI/CD using GitHub Actions:
+<a
+href="https://hutchdatascience.org/ITN_course_search/GitHub_Automation_for_Scientists_coursePage.html">GitHub
+Automation for Scientists</a></li>
+</ul>
+<hr>
+<center>
+<a href="https://www.itcrtraining.org/">
+<img src="css/images/ITN_logo.png" width = 30%> </a>
+</center>
+<div class="authors">
+<p><strong>Authors</strong>: Content for this cheatsheet came from
+Candace Savonen and Carrie Wright. It was summarized and formatted by
+Carrie Wright and reviewed by Kate Isaac. Icons from <a
+href="https://www.iconpacks.net"
+class="uri">https://www.iconpacks.net</a>. The cheatsheet was also
+inspired by a discussion that involved the ITCR OPEN community (<a
+href="https://www.itcrtraining.org/open"
+class="uri">https://www.itcrtraining.org/open</a>).</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
