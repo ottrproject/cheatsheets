@@ -52,7 +52,7 @@ Research talks at conferences will often have this structure:
 <center>
 :::warning
 
-Make sure you follow any guidelines required or suggested by the conference, seminar, or other speaking opportunity.  
+Make sure you follow any guidelines required or suggested by the speaking opportunity.  
 
 :::
 </center>
