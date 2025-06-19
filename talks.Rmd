@@ -29,11 +29,11 @@ Research talks at conferences will often have this structure:
 
 1. **Background & Significance**
   - This should cover the context of the field and any information needed for people to understand your research.
-  - This section should describe why your work is important, why it is needed, and how it adds to the field.
+  - This section should describe why your work is important, why it is needed, and how it contributes to the field.
 3.  **Methods**
-  - In this section, researchers describe in brief the basics about what general methods you used. 
-  - Specific details should be covered if they are necessary in describing your work.
-  - If you are using an unusual or a new method that you developed, more detail should be described.
+  - In this section, researchers briefly describe the general methods used.
+  - Specific details should be covered if they are necessary for describing your work.
+  - If you are using an unusual or new method that you developed, more detail should be provided.
   
 
 
@@ -43,11 +43,11 @@ Research talks at conferences will often have this structure:
 <div class="column">
 
 4. **Results**
-  - This is where you show figures and statistics of your results
-  - It is also critical to explain your interpretation of your results, in other words, what might they mean, and what are possible limitations. 
+  - This is where you show figures and statistics of your results.
+  - It’s essential to explain what your results mean and their possible limitations.
 
 5. **Impact and Future Directions**
-  - In this section, researchers describe what they plan to do next and the importance of their results
+  - In this section, researchers describe what they plan to do next and the significance of their findings.
   
 <center>
 :::warning
@@ -74,7 +74,7 @@ Make sure you follow any guidelines required or suggested by the speaking opport
 
 ::: Note
 
-It is a good idea to keep track of what talks you do (including when and were) on your CV! 
+It is a good idea to keep track of what talks you do (including when and where) on your CV! 
 
 <center>
 <img src="css/images/bulb.png" width = 30%>
@@ -88,21 +88,21 @@ It is a good idea to keep track of what talks you do (including when and were) o
 
 <input type="checkbox"> Simple is often better
 
-- People can only retain so much information at conferences, make sure the key information is clear
+- People can only retain so much information at conferences; make sure the key information is clear.
 
-- Focus on the impact and significance, especially for short talks
+- Focus on the impact and significance, especially for short talks.
 
-- People can ask for additional details
+- People can ask for additional details.
 
 <input type="checkbox"> Tailor your talk for your audience
 
-- Even though there may be experts, remember that there are likely attendees who are totally new to your subject area
+- Even though there may be experts, remember that there are likely attendees who are totally new to your subject area.
 
 <input type="checkbox">  Practice your talk!
 
-<input type="checkbox">  Show up early to test opening your talk and advancing slides
+<input type="checkbox">  Show up early to test opening your talk and advancing slides.
 
-<input type="checkbox">  Have a backup version of your presentation in another format, in case there are technical difficulties 
+<input type="checkbox">  Have a backup version of your presentation in another format, in case there are technical difficulties. 
 
 - A PDF version works well!
 
@@ -119,33 +119,37 @@ It is a good idea to keep track of what talks you do (including when and were) o
 
 <input type="checkbox">  **Draft the slides**
 
-1. <input type="checkbox"> Determine the time limit required 
+- <input type="checkbox"> Determine the time limit required. 
 
-1. <input type="checkbox">  Draft slides according to the time limit 
+- <input type="checkbox">  Draft slides according to the time limit. 
   - **Focus on visuals over text** 
-  - Keep slides simple!
+  - **Keep slides simple!**
 
-1. <input type="checkbox">  Include a thank you slide, with grant numbers that funded the work
+- <input type="checkbox">  Include a thank you slide, with grant numbers that funded the work.
 
 <input type="checkbox">  **Check your slides**
 
-1. <input type="checkbox">  Check your own slides for clarity of language
+- <input type="checkbox">  Check your own slides for  language clarity.
 
-1. <input type="checkbox">  Check that fonts and figures are large enough (size 18 or larger is often recommended)
+- <input type="checkbox">  Check that fonts and figures are large enough .
+(Size 18 or larger is often recommended.)
 
-1. <input type="checkbox">  Check that figures aren't blurry - you might need to use a higher quality or larger image
+- <input type="checkbox">  Check that figures aren't blurry. 
+(You might need to use a higher quality or larger image.)
 
-1. <input type="checkbox">  Check that all jargon is explained
+- <input type="checkbox">  Check that all jargon is explained .
+(Jargon that is expected by your audience doesn't need to be defined, such as RNA.)
 
-1. <input type="checkbox">  Check that all acronyms are spelled out the first time
+- <input type="checkbox">  Check that all acronyms are spelled out the first time.
 
-1. <input type="checkbox"> Check that images cite sources if not original
+- <input type="checkbox"> Check that images cite sources if not original.
 
 <input type="checkbox">  **Practice your talk**
 
-1. <input type="checkbox"> Practice giving your talk and adjust to fit the time limit (even if just to yourself!)
+- <input type="checkbox"> Practice giving your talk and adjust to fit the time limit. 
+(Even if just practicing by yourself!)
 
-1. <input type="checkbox">  Get feedback from others where possible (including your PI and lab mates). Be prepared to iterate and change your talk several times.
+- <input type="checkbox">  Get feedback from others where possible (including your PI and labmates). Be prepared to iterate and change your talk several times.
 
 </div>
 
@@ -155,16 +159,13 @@ It is a good idea to keep track of what talks you do (including when and were) o
 
 <input type="checkbox"> **Share info!**
 
+ - <input type="checkbox">  Include your contact information, so others can reach out.
 
 
+- <input type="checkbox"> Consider adding your talk to your professional website.
 
-
-1. <input type="checkbox">  Include your contact information, so others can reach out
-
-1. <input type="checkbox">  _Optional_: Include a link or QR code so others can find your talk easily! 
+- _Optional_: Include a link or QR code so others can find your talk easily! 
 (Only do this if it is OK with your PI. Tools like [Bitly](https://app.bitly.com/) can help!)
-
-1. Consider adding your talk to your professional website
 
 <br>
 <br>
@@ -172,8 +173,8 @@ It is a good idea to keep track of what talks you do (including when and were) o
 ::: star
  Ways to Really Improve:
  
- - **Watch talks!** Pay attention to good speakers, emulate them.
- - **Practice makes perfect.** The more experience you get the more comfortable you will get!
+ - **Watch talks!** Pay attention to good speakers and emulate them.
+ - **Practice makes perfect.** The more experience you get, the more comfortable you will get!
  - **Keep track of your talks.** Keep your old talks to reuse content.
 
 :::
@@ -209,7 +210,7 @@ You can come up with a list of questions you think people might ask and prepare 
 
 With more experience it will be clear what kinds of questions are typically asked.
 
-2) **It is ok to say you don't know** 
+2) **It is OK to say you don't know** 
 
 You can speculate, but be clear that you are speculating.
 
