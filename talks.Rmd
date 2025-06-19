@@ -27,9 +27,8 @@ ottrpal::borrow_chapter(
 
 Research talks at conferences will often have this structure:
 
-1. **Background** 
+1. **Background & Significance**
   - This should cover the context of the field and any information needed for people to understand your research.
-2. **Significance**
   - This section should describe why your work is important, why it is needed, and how it adds to the field.
 3.  **Methods**
   - In this section, researchers describe in brief the basics about what general methods you used. 
