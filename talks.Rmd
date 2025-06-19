@@ -173,9 +173,9 @@ It is a good idea to keep track of what talks you do (including when and were) o
 ::: star
  Ways to Really Improve:
  
- - Watch talks! Pay attention to good speakers, emulate them.
- - Practice makes perfect. The more experience you get the more comfortable you will get!
- - Keep track of your talks. Keep your old talks to reuse content.
+ - **Watch talks!** Pay attention to good speakers, emulate them.
+ - **Practice makes perfect.** The more experience you get the more comfortable you will get!
+ - **Keep track of your talks.** Keep your old talks to reuse content.
 
 :::
 
