@@ -197,7 +197,7 @@ It is a good idea to keep track of what talks you do (including when and were) o
 <br>
 <br>
 <center>
-<img src="css/images/question.png" width = 40%>
+<img src="css/images/chat.png" width = 40%>
 </center>
 <br>
 <br>
