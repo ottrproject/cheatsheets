@@ -34,7 +34,7 @@ Research talks at conferences will often have this structure:
 3.  **Methods**
   - In this section, researchers describe in brief the basics about what general methods you used. 
   - Specific details should be covered if they are necessary in describing your work.
-  - If you are using an unusal or new method that you developed, more detail should be described.
+  - If you are using an unusual or a new method that you developed, more detail should be described.
   
 
 
@@ -48,7 +48,7 @@ Research talks at conferences will often have this structure:
   - It is also critical to explain your interpretation of your results, in other words, what might they mean, and what are possible limitations. 
 
 5. **Impact and Future Directions**
-  - In this section, researchers describe what they plan to do next and the improtance of their results
+  - In this section, researchers describe what they plan to do next and the importance of their results
   
 <center>
 :::warning
@@ -128,7 +128,7 @@ It is a good idea to keep track of what talks you do (including when and were) o
 
 1. <input type="checkbox">  Check that fonts and figures are large enough
 
-1. <input type="checkbox">  Check that figures aren't blury - you might need to use a higher quality or larger image
+1. <input type="checkbox">  Check that figures aren't blurry - you might need to use a higher quality or larger image
 
 1. <input type="checkbox">  Check that all jargon is explained
 
