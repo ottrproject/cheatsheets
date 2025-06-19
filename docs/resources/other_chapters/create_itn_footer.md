@@ -7,5 +7,5 @@
 </a>
 </center>
 
-<div class = "authors"> **Authors**: Content for this cheatsheet came from Candace Savonen and Carrie Wright. It was summarized and formatted by Carrie Wright and reviewed by Kate Isaac. Icons from https://www.iconpacks.net. The cheatsheet was also inspired by a discussion that involved the ITCR OPEN community (https://www.itcrtraining.org/open).
+<div class = "authors"> **Authors**: Content for this cheatsheet came Carrie Wright. It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net.
 </div>
