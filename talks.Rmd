@@ -86,15 +86,19 @@ It is a good idea to keep track of what talks you do (including when and were) o
 
 <div class="column">
 
-<input type="checkbox">  Show up early to test opening your talk and advancing slides
 
-<input type="checkbox">  Have a backup version of your presentation in another format, in case there are technical difficulties 
-
-- A PDF version works well!
 
 <input type="checkbox"> Focus on the impact and significance, especially for short talks. 
 
 - People can ask for additional details
+
+<input type="checkbox"> Simple is often better.
+
+- People can only retain so much information at conferences, make sure the key information is clear.
+
+<input type="checkbox"> Focus on your audience
+
+- Even though there may be experts, remember that there are likely attendees who are totally new to your subject area. Tailor your talk to who will likely attend. 
 
 
 <input type="checkbox">  Practice your talk!
@@ -102,6 +106,12 @@ It is a good idea to keep track of what talks you do (including when and were) o
 <input type="checkbox"> Use large font, typically size 18 or larger
 
 - Avoid images with small font as well
+
+<input type="checkbox">  Show up early to test opening your talk and advancing slides
+
+<input type="checkbox">  Have a backup version of your presentation in another format, in case there are technical difficulties 
+
+- A PDF version works well!
 
 </div>
 
