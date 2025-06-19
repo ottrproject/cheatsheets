@@ -87,25 +87,19 @@ It is a good idea to keep track of what talks you do (including when and were) o
 <div class="column">
 
 
-
-<input type="checkbox"> Focus on the impact and significance, especially for short talks. 
-
-- People can ask for additional details
-
 <input type="checkbox"> Simple is often better.
 
 - People can only retain so much information at conferences, make sure the key information is clear.
+
+- Focus on the impact and significance, especially for short talks. 
+
+- People can ask for additional details
 
 <input type="checkbox"> Focus on your audience
 
 - Even though there may be experts, remember that there are likely attendees who are totally new to your subject area. Tailor your talk to who will likely attend. 
 
-
 <input type="checkbox">  Practice your talk!
-
-<input type="checkbox"> Use large font, typically size 18 or larger
-
-- Avoid images with small font as well
 
 <input type="checkbox">  Show up early to test opening your talk and advancing slides
 
@@ -136,7 +130,7 @@ It is a good idea to keep track of what talks you do (including when and were) o
 
 1. <input type="checkbox">  Check your own slides for clarity of language
 
-1. <input type="checkbox">  Check that fonts and figures are large enough
+1. <input type="checkbox">  Check that fonts and figures are large enough (size 18 or larger is often recommended)
 
 1. <input type="checkbox">  Check that figures aren't blurry - you might need to use a higher quality or larger image
 
