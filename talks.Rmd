@@ -30,11 +30,13 @@ Research talks at conferences will often have this structure:
 1. **Background & Significance**
   - This should cover the context of the field and any information needed for people to understand your research.
   - This section should describe why your work is important, why it is needed, and how it contributes to the field.
-3.  **Methods**
+2.  **Methods**
   - In this section, researchers briefly describe the general methods used.
   - Specific details should be covered if they are necessary for describing your work.
   - If you are using an unusual or new method that you developed, more detail should be provided.
-  
+3. **Results**
+  - This is where you show figures and statistics of your results.
+  - It’s essential to explain what your results mean and their possible limitations.
 
 
 </div>
@@ -42,12 +44,13 @@ Research talks at conferences will often have this structure:
 
 <div class="column">
 
-4. **Results**
-  - This is where you show figures and statistics of your results.
-  - It’s essential to explain what your results mean and their possible limitations.
 
-5. **Impact and Future Directions**
+
+4. **Impact and Future Directions**
   - In this section, researchers describe what they plan to do next and the significance of their findings.
+
+5. **Thank you**
+ - In this section, researchers show who was involved in the work and provide the grant number that funded it.
   
 <center>
 :::warning
@@ -117,55 +120,54 @@ It is a good idea to keep track of what talks you do (including when and where) 
 <div class="row">
 <div class="column">
 
-<input type="checkbox">  **Draft the slides**
+**Draft the slides**
 
-- <input type="checkbox"> Determine the time limit required. 
+&ensp; <input type="checkbox"> Determine the time limit required. 
 
-- <input type="checkbox">  Draft slides according to the time limit. 
-  - **Focus on visuals over text** 
-  - **Keep slides simple!**
+&ensp; <input type="checkbox">  Draft slides according to the time limit. 
 
-- <input type="checkbox">  Include a thank you slide, with grant numbers that funded the work.
+   - **Focus on visuals over text** 
+   - **Keep slides simple!**
 
-<input type="checkbox">  **Check your slides**
+ **Check your slides**
 
-- <input type="checkbox">  Check your own slides for  language clarity.
+&ensp; <input type="checkbox">  Check for language clarity.
 
-- <input type="checkbox">  Check that fonts and figures are large enough .
-(Size 18 or larger is often recommended.)
+&ensp; <input type="checkbox">  Check that fonts are large enough, size 18 or larger is often recommended.
 
-- <input type="checkbox">  Check that figures aren't blurry. 
-(You might need to use a higher quality or larger image.)
+&ensp; <input type="checkbox">  Check that figures are large enough and aren't blurry. 
+  
+&ensp; (You might need to use a higher quality or larger image.)
 
-- <input type="checkbox">  Check that all jargon is explained .
-(Jargon that is expected by your audience doesn't need to be defined, such as RNA.)
+&ensp; <input type="checkbox">  Check that all jargon is explained (outside of what is broadly typical).
 
-- <input type="checkbox">  Check that all acronyms are spelled out the first time.
+&ensp; <input type="checkbox">  Check that all acronyms are spelled out the first time.
 
-- <input type="checkbox"> Check that images cite sources if not original.
+&ensp; <input type="checkbox"> Check that images cite sources if not original.
 
-<input type="checkbox">  **Practice your talk**
+**Practice your talk**
 
-- <input type="checkbox"> Practice giving your talk and adjust to fit the time limit. 
-(Even if just practicing by yourself!)
+&ensp; <input type="checkbox"> Practice giving your talk and adjust to fit the time limit. 
+  
+&ensp; (Even if just practicing by yourself!)
 
-- <input type="checkbox">  Get feedback from others where possible (including your PI and lab mates). Be prepared to iterate and change your talk several times.
+&ensp; <input type="checkbox">  Get feedback from others where possible (including your PI and lab mates). Be prepared to iterate and change your talk several times.
 
 </div>
 
 <div class="column">
 
 
+ **Share info!**
 
-<input type="checkbox"> **Share info!**
+&ensp; <input type="checkbox">  Include your contact information, so others can reach out.
 
- - <input type="checkbox">  Include your contact information, so others can reach out.
+If it is OK with your PI: 
 
+&ensp; <input type="checkbox"> _Optional_: Consider adding your talk to your professional website.
 
-- <input type="checkbox"> Consider adding your talk to your professional website.
-
-- _Optional_: Include a link or QR code so others can find your talk easily! 
-(Only do this if it is OK with your PI. Tools like [Bitly](https://app.bitly.com/) can help!)
+&ensp; <input type="checkbox"> _Optional_: Include a link or QR code so others can find your talk easily! 
+Tools like [Bitly](https://app.bitly.com/) can help!)
 
 <br>
 <br>
@@ -221,7 +223,9 @@ You can tell people that you would like to discuss more with them later.
 
 4) **People may not have questions**
 
-Just because people don't ask you questions, doesn't mean they weren't engaged. Stick around after the talk to see if anyone approaches you. Even if they don't, talks at the end of sessions or before lunch, sometimes don't get the same level of attention. 
+Just because people don't ask you questions, doesn't mean they weren't engaged. Stick around after the talk to see if anyone approaches you. 
+
+Talks at the end of sessions or before lunch, or shifting to a new topic  sometimes don't get the same level of attention. 
 
 </div>
 </div>
