@@ -20,38 +20,40 @@ ottrpal::borrow_chapter(
 
 <hr>
 
-## Basics {-}
+## Structure {-}
 
 <div class="row">
 <div class="column">
 
-Research Talks at conferences will often have this structure:
+Research talks at conferences will often have this structure:
 
-- Background 
+1. **Background** 
   - This should cover the context of the field and any information needed for people to understand your research.
-- Significance
+2. **Significance**
   - This section should describe why your work is important, why it is needed, and how it adds to the field.
-  
-- Methods
+3.  **Methods**
   - In this section, researchers describe in brief the basics about what general methods you used. 
   - Specific details should be covered if they are necessary in describing your work.
   - If you are using an unusal or new method that you developed, more detail should be described.
   
-- Results
-  - This is where you show figures and statistics of your results
-  - It is also critical to explain your interpretation of your results, in other words, what might they mean, and what are possible limitations. 
 
-- Impact and Future Directions
-  - In this section, researchers describe what they plan to do next and the improtance of their results
 
 </div>
 
 
 <div class="column">
+
+4. **Results**
+  - This is where you show figures and statistics of your results
+  - It is also critical to explain your interpretation of your results, in other words, what might they mean, and what are possible limitations. 
+
+5. **Impact and Future Directions**
+  - In this section, researchers describe what they plan to do next and the improtance of their results
+  
 <center>
 :::warning
 
-If you don't know the answer to a question, tell the person asking that you don't know, but you cam share what you might speculate, just be clear that you are speculating. 
+Make sure you follow any guidelines required or suggested by the conference, seminar, or other speaking opportunity.  
 
 :::
 </center>
@@ -62,78 +64,27 @@ If you don't know the answer to a question, tell the person asking that you don'
 
 <hr>
 
-## Preparation {-}
-<div class="row">
-<div class="column">
-
-<input type="checkbox">  Draft the slides
-
-1. <input type="checkbox"> Determine the time limit required 
-
-1. <input type="checkbox">  Draft slides according to the depth possible in the time limit. Focus on Visuals with less text.
-
-1. <input type="checkbox">  Check your own slides for clarity of language
-
-1. <input type="checkbox">  Check that fonts and figures are large enough
-
-1. <input type="checkbox">  Check that figures aren't blury - you might need to use a higher quality or larger image
-
-1. <input type="checkbox"> Practice giving your talk and adjust to fit the time limit (even if just to yourself!)
-
-1. <input type="checkbox">  Fet feedback from others (including your PI and lab mates)
-
-
-</div>
-
-<div class="column">
-
-<input type="checkbox">  Check that all jargon is explained
-
-<input type="checkbox">  Check that all acronyms are spelled out the first time
-
-1. <input type="checkbox"> Check that images cite sources if not original
-
-1. <input type="checkbox">  Include a thank you slide, with grant numbers that funded the work
-
-1. <input type="checkbox">  Optional: Include a link or QR code so others can find your talk easily!
-
-1. <input type="checkbox">  Include your contact information, so others can reach out
-
-1. <input type="checkbox">  Include your contact information, so others can reach out
-
-<br>
-<br>
-<center>
-<img src="css/images/calendar.png" width = 40%>
-</center>
-</div>
-</div>
-
-
-<hr>
-
-## Tasks Day of Event {-}
+## Best Practices {-}
 
 <div class="row">
 <div class="column">
 
 <input type="checkbox">  Show up early to check systems
 
-<input type="checkbox">  Optionally have a back
+<input type="checkbox">  Have a backup version of your presentation in another format, in case there are technical difficulties 
 
-- (e.g., "This session is about Topic X and will have Y speakers")
+- A PDF version works well!
 
-<input type="checkbox"> Provide housekeeping announcements
+<input type="checkbox"> Focus on the impact and significance, especially for short talks. 
 
-- (e.g., break time, voting, etc.)
+- People can ask for additional details
 
-<input type="checkbox">  Introduce speakers
 
-- (name, role, institution, talk title)
+<input type="checkbox">  Practice your talk!
 
-<input type="checkbox">  Watch the time to ensure schedule is maintained
+<input type="checkbox"> Use large font, typically size 18 or larger
 
-<input type="checkbox">  Ask the audience for questions
+- Avoid images with small font as well
 
 </div>
 
@@ -146,7 +97,74 @@ If you don't know the answer to a question, tell the person asking that you don'
 </div>
 <hr>
 
-## Possible Challenges {-}
+
+## Preparation {-}
+<div class="row">
+<div class="column">
+
+<input type="checkbox">  Draft the slides
+
+1. <input type="checkbox"> Determine the time limit required 
+
+1. <input type="checkbox">  Draft slides according to the time limit. Focus on Visuals with less text.
+
+1. <input type="checkbox">  Include a thank you slide, with grant numbers that funded the work
+
+<input type="checkbox">  Check your slides
+
+1. <input type="checkbox">  Check your own slides for clarity of language
+
+1. <input type="checkbox">  Check that fonts and figures are large enough
+
+1. <input type="checkbox">  Check that figures aren't blury - you might need to use a higher quality or larger image
+
+<input type="checkbox">  Check that all jargon is explained
+
+<input type="checkbox">  Check that all acronyms are spelled out the first time
+
+1. <input type="checkbox"> Check that images cite sources if not original
+
+<input type="checkbox">  Practice your talk
+
+1. <input type="checkbox"> Practice giving your talk and adjust to fit the time limit (even if just to yourself!)
+
+1. <input type="checkbox">  Get feedback from others where possible (including your PI and lab mates). Be prepared to iterate and change your talk several times.
+
+</div>
+
+<div class="column">
+
+
+
+<input type="checkbox"> Make it easy for people to reach out
+
+
+
+1. <input type="checkbox">  Optional: Include a link or QR code so others can find your talk easily! (Only if it is OK with your PI.)
+
+1. <input type="checkbox">  Include your contact information, so others can reach out
+
+
+<br>
+<br>
+<center>
+::: notice
+ Ways to Really Improve:
+ 
+ - Watch talks! Pay attention to good speakers, emulate them.
+ - Practice makes perfect. The more experience you get the more comfortable you will get!
+
+:::
+
+</center>
+</div>
+</div>
+
+
+<hr>
+
+
+## Answering Questions {-}
 
 <div class="row">
 <div class="column">
@@ -156,38 +174,31 @@ If you don't know the answer to a question, tell the person asking that you don'
 <br>
 <br>
 <center>
-<img src="css/images/redclock.png" width = 40%>
+<img src="css/images/question.png" width = 40%>
 </center>
 <br>
 <br>
 </div>
 <div class="column">
 
-1) **Technical Difficulties** 
+1) **It is ok to say you don't know** 
 
-`r config::get("arrow")` <input type="checkbox"> Have backup plans and do checks!
+You can speculate, but be clear that you are speculating.
 
-2) **Speakers may speak too long**
+2) **Prepare for questions**
 
-`r config::get("arrow")` <input type="checkbox"> Notify speakers of time limits (5 min left, 1 min left) 
+You can come up with a list of questions you think people might ask and prepare answers for those questions.
 
-`r config::get("arrow")` <input type="checkbox"> Interrupt the speaker if needed
+With more experience it will be clear what kinds of questions are typically asked. 
 
-<div class="comment">"Thank you for your talk. To stay on schedule, we'll need to transition."</div>
-
-`r config::get("arrow")` <input type="checkbox"> Shorten question sessions as needed 
-
-`r config::get("arrow")` <input type="checkbox">   Adjust subsequent speaker times if needed 
 
 3) **People may ask too many questions**
 
-`r config::get("arrow")`  <input type="checkbox"> Interrupt and ask for the discussion to happen later
-
-<div class="comment">_"For sake of time, perhaps this can be discussed later."_</div>
+You can tell people that you would like to discuss more with them later.
 
 4) **People may not have questions**
 
-`r config::get("arrow")`  <input type="checkbox">  Ask your own question(s)
+Just because people don't ask you questions, doesn't mean they weren't engaged. Stick around after the talk to see if anyone approaches you. Even if they don't, talks at the end of sessions or before lunch, sometimes don't get the same level of attention. 
 
 </div>
 </div>
@@ -197,6 +208,6 @@ If you don't know the answer to a question, tell the person asking that you don'
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_footer.md",
   tag_replacement = list(
-    "{AUTHORS}" = "Content for this cheatsheet came from Kate Isaac, Carrie Wright, and Sean Davis.It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net. The cheatsheet was also inspired by this article: https://pmc.ncbi.nlm.nih.gov/articles/PMC2738972/ and ideas from AI: https://www.perplexity.ai/search/i-m-organizing-a-scientific-me-b5m7ym8jTBOl2MjdMhLlRw"
+    "{AUTHORS}" = "Content for this cheatsheet came Carrie Wright. It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net."
     ))
 ```
