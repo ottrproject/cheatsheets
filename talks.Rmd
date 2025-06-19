@@ -69,7 +69,24 @@ Make sure you follow any guidelines required or suggested by the conference, sem
 <div class="row">
 <div class="column">
 
-<input type="checkbox">  Show up early to check systems
+<br>
+<br>
+<center>
+
+::: Note
+
+It is a good idea to keep track of what talks you do (including when and were) on your CV! 
+
+<center>
+<img src="css/images/bulb.png" width = 30%>
+</center>
+:::
+</center>
+</div>
+
+<div class="column">
+
+<input type="checkbox">  Show up early to test opening your talk and advancing slides
 
 <input type="checkbox">  Have a backup version of your presentation in another format, in case there are technical difficulties 
 
@@ -88,12 +105,7 @@ Make sure you follow any guidelines required or suggested by the conference, sem
 
 </div>
 
-<div class="row">
-<br>
-<br>
-<center>
-<img src="css/images/screen.png" width = 20%>
-</center>
+
 </div>
 <hr>
 
@@ -102,7 +114,7 @@ Make sure you follow any guidelines required or suggested by the conference, sem
 <div class="row">
 <div class="column">
 
-<input type="checkbox">  Draft the slides
+<input type="checkbox">  **Draft the slides**
 
 1. <input type="checkbox"> Determine the time limit required 
 
@@ -110,7 +122,7 @@ Make sure you follow any guidelines required or suggested by the conference, sem
 
 1. <input type="checkbox">  Include a thank you slide, with grant numbers that funded the work
 
-<input type="checkbox">  Check your slides
+<input type="checkbox">  **Check your slides**
 
 1. <input type="checkbox">  Check your own slides for clarity of language
 
@@ -118,13 +130,13 @@ Make sure you follow any guidelines required or suggested by the conference, sem
 
 1. <input type="checkbox">  Check that figures aren't blury - you might need to use a higher quality or larger image
 
-<input type="checkbox">  Check that all jargon is explained
+1. <input type="checkbox">  Check that all jargon is explained
 
-<input type="checkbox">  Check that all acronyms are spelled out the first time
+1. <input type="checkbox">  Check that all acronyms are spelled out the first time
 
 1. <input type="checkbox"> Check that images cite sources if not original
 
-<input type="checkbox">  Practice your talk
+<input type="checkbox">  **Practice your talk**
 
 1. <input type="checkbox"> Practice giving your talk and adjust to fit the time limit (even if just to yourself!)
 
@@ -136,23 +148,28 @@ Make sure you follow any guidelines required or suggested by the conference, sem
 
 
 
-<input type="checkbox"> Make it easy for people to reach out
+<input type="checkbox"> **Share info!**
 
 
 
-1. <input type="checkbox">  Optional: Include a link or QR code so others can find your talk easily! (Only if it is OK with your PI.)
+
 
 1. <input type="checkbox">  Include your contact information, so others can reach out
 
+1. <input type="checkbox">  _Optional_: Include a link or QR code so others can find your talk easily! 
+(Only do this if it is OK with your PI. Tools like [Bitly](https://app.bitly.com/) can help!)
+
+1. Consider adding your talk to your professional website
 
 <br>
 <br>
 <center>
-::: notice
+::: star
  Ways to Really Improve:
  
  - Watch talks! Pay attention to good speakers, emulate them.
  - Practice makes perfect. The more experience you get the more comfortable you will get!
+ - Keep track of your talks. Keep your old talks to reuse content.
 
 :::
 
@@ -181,15 +198,15 @@ Make sure you follow any guidelines required or suggested by the conference, sem
 </div>
 <div class="column">
 
-1) **It is ok to say you don't know** 
-
-You can speculate, but be clear that you are speculating.
-
-2) **Prepare for questions**
+1) **Prepare for questions**
 
 You can come up with a list of questions you think people might ask and prepare answers for those questions.
 
-With more experience it will be clear what kinds of questions are typically asked. 
+With more experience it will be clear what kinds of questions are typically asked.
+
+2) **It is ok to say you don't know** 
+
+You can speculate, but be clear that you are speculating.
 
 
 3) **People may ask too many questions**
