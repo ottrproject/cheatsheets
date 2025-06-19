@@ -122,8 +122,8 @@ It is a good idea to keep track of what talks you do (including when and were) o
 1. <input type="checkbox"> Determine the time limit required 
 
 1. <input type="checkbox">  Draft slides according to the time limit 
-  - **focus on visuals over text** 
-  - keep slides simple!
+  - **Focus on visuals over text** 
+  - Keep slides simple!
 
 1. <input type="checkbox">  Include a thank you slide, with grant numbers that funded the work
 
