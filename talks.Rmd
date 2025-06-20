@@ -233,6 +233,6 @@ Talks at the end of sessions or before lunch, or shifting to a new topic  someti
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_footer.md",
   tag_replacement = list(
-    "{AUTHORS}" = "Content for this cheatsheet came from Carrie Wright and Lauren Chan. It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net. CC BY"
+    "{AUTHORS}" = "Content for this cheatsheet came from Carrie Wright and Lauren Chan. It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net."
     ))
 ```
