@@ -103,6 +103,8 @@ It is a good idea to keep track of what talks you do (including when and where) 
 
 <input type="checkbox">  Practice your talk!
 
+- Be careful about how fast you speak, try not to talk too fast!
+
 <input type="checkbox">  Show up early to test opening your talk and advancing slides.
 
 <input type="checkbox">  Have a backup version of your presentation in another format, in case there are technical difficulties. 
@@ -231,6 +233,6 @@ Talks at the end of sessions or before lunch, or shifting to a new topic  someti
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_footer.md",
   tag_replacement = list(
-    "{AUTHORS}" = "Content for this cheatsheet came Carrie Wright. It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net."
+    "{AUTHORS}" = "Content for this cheatsheet came from Carrie Wright and Lauren Chan. It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net."
     ))
 ```
