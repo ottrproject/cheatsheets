@@ -229,7 +229,7 @@ Talks at the end of sessions or before lunch, or shifting to a new topic  someti
 </div>
 
 
-```{r, echo=FALSE, results='asis'}
+```{r, echo=FALSE, results='asis', warning=FALSE}
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_footer.md",
   tag_replacement = list(
