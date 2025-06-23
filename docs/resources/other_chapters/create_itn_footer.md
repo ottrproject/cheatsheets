@@ -11,5 +11,3 @@
 <br>
 This content is free for noncommercial reuse with attribution. CC-BY-NC
 </div>
-
-<br>
