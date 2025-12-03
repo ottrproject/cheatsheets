@@ -1,0 +1,180 @@
+---
+output:
+  html_document:
+    number_sections: false
+    includes:
+      in_header: itn_favicon.html
+css: css/ITN_style.css
+---
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_itn_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "AI", 
+    "{SUBTITLE}" =  "Everyday Uses",
+    "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/cicd.png"
+    ))
+```
+
+<hr>
+
+
+
+<div class="row">
+# Suggested Uses for Research Tasks
+<div class="column">
+
+Ideation
+
+- Planning code or projects
+- Coming up with project names or acronyms
+- Identifying novel relationships
+
+Code 
+
+- Refactoring Code
+- Annotating code
+- Writing documentation
+- Checking for security or privacy concerns
+- Understanding someone else's code
+- Understanding errors
+- Ideas for code validation/testing
+- Translating code to a new language
+
+Project Management
+
+- Develop templates
+- Breakdown tasks
+- Role assigments
+- Meeting agendas and summaries
+- Lab Documentation Drafts
+  - Code of conduct
+  - Mentee Agreement 
+  - Lab Handbook
+
+</div>
+
+<div class="column">
+
+Visual Design
+
+  - Creating Flyers for Outreach
+  - Creating Logos
+  - Creating Presentation Graphics
+
+Text
+
+- summarizing documents
+- combining documents
+- transforming document format (to a table for example)
+- Text Search & Navigation
+- Communication Adjustment
+- Content Summarization
+
+
+
+
+
+- Different software users <img src="https://www.iconpacks.net/icons/1/free-icon-user-group-296.png" width = 8%>
+- Different data analysis contexts <img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589.png" width = 8%>
+
+
+
+</div>
+</div>
+
+<div class="column">
+
+# Benefits of CI/CD
+
+- Catch software and data analysis bugs earlier!
+- Enhance public trust in your code/software
+- Determine if your software updates will work for users on different machines
+- Determine if your data analysis code still has the expected outcomes with different permutations
+- Improve your efficiency by rendering files or running code in a more automated way
+- More easily share results and updates!
+
+</div>
+
+</div>
+
+<hr>
+
+<div class="row">
+<div class="column">
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "problems accumulate without CICD"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_2350#slide=id.g35279513746_0_2350")
+```
+</div>
+<div class="column">
+```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "CICD enables catching problems as they happen"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_2381#slide=id.g35279513746_0_2381")
+```
+
+</div>
+
+</div>
+
+<hr>
+
+# Implementing CI/CD
+
+CI/CD relies on automation tools (see below), but it typically also uses other infrastructure, such as documentation, version control, and containers or virtual machines.
+
+1) Lab members need to know what working standards are required
+    - Onboarding documents like these can help: 
+      - [Fertig Lab](https://fertiglab.github.io/onboarding/)
+      - [Collado-Torres Lab](https://lcolladotor.github.io/bioc_team_ds/onboarding.html)
+
+2) Version control is the process of tracking changes over time
+    - There are [several tools](https://icubetechnolabs.com/github-vs-gitlab-vs-bitbucket-which-version-control-system-is-right-for-you/) for version control, (including [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/topics/version-control/), [Bitbucket](https://bitbucket.org/product/version-control-software)).
+    - [GitHub](https://github.com/) is one of the most commonly used by researchers.
+
+3) Containers or virtual machines enable us to run code in different [computing environments](https://hutchdatascience.org/Containers_for_Scientists/02-why-containers.html)
+    - In simple terms, a computing environment is all the specific software for a given computer. 
+    - Check out our [ITN course about containers](https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html)!
+  
+  
+```{r, fig.align='center', out.width="60%", echo = FALSE, fig.alt= "computers are unique like snowflakes"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_188#slide=id.g35279513746_0_188")
+```
+<hr>
+  
+# CI/CD Tools
+
+The following tools can be used for CI/CD.
+
+<div class = myStyle>
+|Tool|Price| Custimizability|Integration|Tutorials|
+|----|-----|-----|----|----|
+|<a href="https://www.travis-ci.com/"> <img src="css/images/travisci.png"  height = 40%> </a> | Free for public repos| Low|GitHub, GitLab, Bitbucket| [Travis CI Guide](https://docs.travis-ci.com/user/for-beginners/)|
+|<a href="https://circleci.com/"><img src="css/images/circleci.png" height = 40%> </a>| Free for public repos | High|GitHub, GitLab, Bitbucket|[CircleCI Guide](https://circleci.com/docs/getting-started/) |
+|<a href="https://docs.gitlab.com/ci//"><img src="css/images/gitlab.png" height = 40%> </a>| Free for public repos| High|Intended for GitLab, GitHub, Bitbucket|[GitLab CI Guide](https://docs.gitlab.com/ci/) |
+|<a href="https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps/"><img
+src="css/images/githubactions.png" height = 40%> </a>| Free for public repos| High|Intended for GitHub, GitLab with some effort|[ITN Course on GitHub Actions](https://hutchdatascience.org/ITN_course_search/GitHub_Automation_for_Scientists_coursePage.html) |
+|<a href="https://www.jenkins.io/"><img src="css/images/jenkins.png" height = 40%> </a>|Free for public or private repos (other potential costs)| Very high|GitHub, GitLab, Bitbucket|[Jenkins Guide](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
+</div>
+
+<hr>
+
+# Resources
+
+- Check out this [explanation of CI/CD](https://circleci.com/blog/what-is-a-ci-cd-pipeline/)
+- This [novel about CI/CD](https://itrevolution.com/product/the-phoenix-project/) called _The Phoenix Project_ might be helpful. Check out this [excerpt](https://itrevolution.com/wp-content/uploads/2022/06/TPP5_excerpt.pdf)!
+- These ITN courses can get you started with GitHub: 
+[Introduction to Reproducibility](https://hutchdatascience.org/ITN_course_search/Reproducibility_in_Cancer_Informatics_coursePage.html)
+ & [Advanced Reproducibility](https://hutchdatascience.org/ITN_course_search/Adv_Reproducibility_in_Cancer_Informatics_coursePage.html)
+- This ITN course can get you started with Containers:
+[Containers for Scientists](https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html)
+- This ITN course can get you started with CI/CD using GitHub Actions: [GitHub Automation for Scientists](https://hutchdatascience.org/ITN_course_search/GitHub_Automation_for_Scientists_coursePage.html) 
+
+
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_itn_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Content for this cheatsheet came from Candace Savonen and Carrie Wright. It was summarized and formatted by Carrie Wright and reviewed by Kate Isaac. Icons from https://www.iconpacks.net. The cheatsheet was also inspired by a discussion that involved the ITCR OPEN community (https://www.itcrtraining.org/open)."))
+```
+
