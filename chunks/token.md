@@ -16,7 +16,7 @@
 
 <input type="checkbox"> Confirm your access
 
-<input type="checkbox"> Name your toke GH_PAT
+<input type="checkbox"> Name your token GH_PAT
 
 <input type="checkbox"> Underneath **Select Scopes**, *check both* **repo** and **workflow** (all check boxes in those sections)
 
