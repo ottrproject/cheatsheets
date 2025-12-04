@@ -51,6 +51,6 @@
       thumbnail: pngs/ottr_quarto_website.png
     - title: Update Token/Secret
       href: https://ottrproject.org/cheatsheets/ottr_token.html
-      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_quarto_website.Rmd
-      thumbnail: pngs/ottr_quarto_website.png
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_token.Rmd
+      thumbnail: pngs/ottr_token.png
 

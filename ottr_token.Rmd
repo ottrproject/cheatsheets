@@ -11,7 +11,7 @@ ottrpal::borrow_chapter(
   doc_path = "chunks/create_ottr_header.md",
   tag_replacement = list(
     "{TITLE}" = "OTTR Token/Secret", "{SUBTITLE}" =  "Set Up or Update",
-        "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_website.png?raw=true"
+        "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_token.png?raw=true"
     ))
 ```
 
