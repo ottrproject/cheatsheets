@@ -15,16 +15,6 @@ ottrpal::borrow_chapter(
     ))
 ```
 
-
-```{r, echo=FALSE, results='asis'}
-ottrpal::borrow_chapter(
-  doc_path = "chunks/starter_template.md",
-  tag_replacement = list(
-    "{TEMPLATE_NAME}" = "OTTR_Template_Website",
-    "{TEMPLATE_URL}" = "https://github.com/ottrproject/OTTR_Template_Website"))
-```
-
-
 ```{r, echo=FALSE, results='asis'}
  ottrpal::borrow_chapter(   
    doc_path = "chunks/token.md")
