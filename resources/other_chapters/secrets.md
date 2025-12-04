@@ -1,4 +1,4 @@
-## [Save the copied personal access token as a repository secret](https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository)
+## Save the copied personal access token as a repository secret
 
 <input type="checkbox"> In your OTTR repository, go to **Settings** in the top navigation tabs `r config::get("settings")`
 
@@ -13,3 +13,7 @@
 <input type="checkbox"> For **Secret**, paste your copied personal access token
 
 <input type="checkbox"> Click on: <div class = "github_button"> Add secret </div>
+
+<br>
+
+[Click here to see GitHub documentation on setting repository secrets.](https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository)

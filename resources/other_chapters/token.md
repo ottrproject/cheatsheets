@@ -4,15 +4,25 @@
 
 <input type="checkbox"> Go to **Settings** `r config::get("settings")`
 
-<input type="checkbox"> Go to **Developer Settings** in the side navigation `r config::get("settings")`
+<input type="checkbox"> Go to **Developer Settings** in the lower left side navigation `r config::get("settings")`
 
-<input type="checkbox"> Select **Generate new token (classic)** `r config::get("token")`
+<input type="checkbox"> Click on **Personal access tokens** `r config::get("token")`
 
-<input type="checkbox"> Underneath **Select Scopes**, *check both* **repo** and **workflow**
+<input type="checkbox"> Select **Tokens (classic)** 
 
-<input type="checkbox"> Click: <div class = "github_button"><a href="https://github.com/settings/tokens/new"> Generate Token</a></div>
+<input type="checkbox"> Click gray "Generate new token" button
 
-<input type="checkbox"> Copy the **personal access token** `r config::get("copy")`
+<input type="checkbox"> Select **Generate new token (classic)** 
+
+<input type="checkbox"> Confirm your access
+
+<input type="checkbox"> Name your token GH_PAT
+
+<input type="checkbox"> Underneath **Select Scopes**, *check both* **repo** and **workflow** (all check boxes in those sections)
+
+<input type="checkbox"> Click: <div class = "github_button"><a href="https://github.com/settings/tokens/new"> Generate token</a></div>
+
+<input type="checkbox"> Copy the **personal access token** `r config::get("copy")` and save somewhere safe and private
 
 <br>
 
