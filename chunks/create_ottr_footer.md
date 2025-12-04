@@ -8,5 +8,5 @@
 </center>
 
 <div class = "authors"> **Authors**: {AUTHORS} 
-[OTTR](https://www.ottrproject.org/) was created and or is maintained by the following team: Candace Savonen, Carrie Wright, Kate Isaac, Ava Hoffman, Katherine Cox, Federick Tan, John Muschelli, Howard Baek, and Jeffrey Leek.  
+[OTTR](https://www.ottrproject.org/) was created and or is maintained by the following team: Candace Savonen, Carrie Wright, Kate Isaac, Ava Hoffman, Adam Coffman, Katherine Cox, Federick Tan, John Muschelli, Howard Baek, and Jeffrey Leek.  
 </div>
