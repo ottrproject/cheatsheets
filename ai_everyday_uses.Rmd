@@ -86,15 +86,15 @@ Text
 
 <div class="column">
 
-# Benefits of CI/CD
+# Tips for AI use
 
-- Catch software and data analysis bugs earlier!
-- Enhance public trust in your code/software
-- Determine if your software updates will work for users on different machines
-- Determine if your data analysis code still has the expected outcomes with different permutations
-- Improve your efficiency by rendering files or running code in a more automated way
-- More easily share results and updates!
+-  Make sure the AI tool is secure, or don't use prmopts that would violate data privacy restrictions or licensing
+- Be specific and iterate on prompts
+- Where possible work in an environment that allows for projects to retain the context
+- Typically asking AI to improve existing work is better than starting from scratch
+- Check everything! Build in check points, ask the AI to question itself and hace a human (maybe you) review text and code
 
+The more substance and original thought you provide the more substance and original thought your final product will have!
 </div>
 
 </div>
@@ -114,27 +114,23 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0b
 
 </div>
 
+
 </div>
 
 <hr>
 
-# Implementing CI/CD
+# Challenges and Mitigation
 
-CI/CD relies on automation tools (see below), but it typically also uses other infrastructure, such as documentation, version control, and containers or virtual machines.
+1) Giving credit for people's work is hard
+2) Data privacy is tricky
+3) Environmental Impact should be considered
+4) Using AI too much might degrade your trust in yourself
+5) Bias - even simple AI requests can generate biased responses
 
-1) Lab members need to know what working standards are required
-    - Onboarding documents like these can help: 
-      - [Fertig Lab](https://fertiglab.github.io/onboarding/)
-      - [Collado-Torres Lab](https://lcolladotor.github.io/bioc_team_ds/onboarding.html)
-
-2) Version control is the process of tracking changes over time
-    - There are [several tools](https://icubetechnolabs.com/github-vs-gitlab-vs-bitbucket-which-version-control-system-is-right-for-you/) for version control, (including [GitHub](https://github.com/), [GitLab](https://about.gitlab.com/topics/version-control/), [Bitbucket](https://bitbucket.org/product/version-control-software)).
-    - [GitHub](https://github.com/) is one of the most commonly used by researchers.
-
-3) Containers or virtual machines enable us to run code in different [computing environments](https://hutchdatascience.org/Containers_for_Scientists/02-why-containers.html)
-    - In simple terms, a computing environment is all the specific software for a given computer. 
-    - Check out our [ITN course about containers](https://hutchdatascience.org/ITN_course_search/Containers_for_Scientists_coursePage.html)!
-  
+Credit and Privacy: Be transparent and specific about AI use, Choose models that are more transparent about how they were trained. Shop around!
+Environmental Impact is very real: Choose AI tools that are transparent about resource usage and attempts to improve efficiency, consider when AI might not be needed.
+Loss of trust in yourself: Use in moderation, read the literature, talk to trainees. You are still a spectacular supercomputer!
+Bias: consider responses with this lens - ask chatbots to consider bias and challenge them when they fail.
   
 ```{r, fig.align='center', out.width="60%", echo = FALSE, fig.alt= "computers are unique like snowflakes"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_188#slide=id.g35279513746_0_188")
