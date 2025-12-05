@@ -113,14 +113,14 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0b
 
 # Challenges and Mitigation
 
-1) Giving credit for people's work is hard
-2) Data privacy is tricky
-3) Environmental Impact should be considered
+1) Giving credit for people's work is hard & Data privacy is tricky--> Be transparent and specific about AI use, choose models that are transparent about how they were trained. Shop around!
+2) 
+3) Environmental impact should be considered --> Choose AI tools that are transparent about resource usage and attempts to improve efficiency, consider when AI might not be needed.
 4) Using AI too much might degrade your trust in yourself
 5) Bias - even simple AI requests can generate biased responses
 
-Credit and Privacy: Be transparent and specific about AI use, Choose models that are more transparent about how they were trained. Shop around!
-Environmental Impact is very real: Choose AI tools that are transparent about resource usage and attempts to improve efficiency, consider when AI might not be needed.
+
+Environmental Impact is very real: 
 Loss of trust in yourself: Use in moderation, read the literature, talk to trainees. You are still a spectacular supercomputer!
 Bias: consider responses with this lens - ask chatbots to consider bias and challenge them when they fail.
   
