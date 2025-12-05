@@ -25,15 +25,15 @@ ottrpal::borrow_chapter(
 # Suggested Uses for Research Tasks
 <div class="column">
 
-Ideation
+Ideation <img src="https://www.iconpacks.net/icons/2/free-icon-bulb-3658.png" width = 8%>
 
 - Planning code or projects
 - Coming up with project names or acronyms
 - Identifying novel relationships
 
-Code 
+Code <img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589.png" width = 8%>
 
-- Refactoring Code
+- Refactoring code
 - Annotating code
 - Writing documentation
 - Checking for security or privacy concerns
@@ -42,44 +42,36 @@ Code
 - Ideas for code validation/testing
 - Translating code to a new language
 
-Project Management
-
-- Develop templates
-- Breakdown tasks
-- Role assigments
-- Meeting agendas and summaries
-- Lab Documentation Drafts
-  - Code of conduct
-  - Mentee Agreement 
-  - Lab Handbook
-
 </div>
 
 <div class="column">
 
-Visual Design
+Visual Design <img src="https://www.iconpacks.net/icons/1/free-icon-arrow-chart-673.png" width = 8%>
 
-  - Creating Flyers for Outreach
-  - Creating Logos
-  - Creating Presentation Graphics
+  - Creating flyers for outreach
+  - Creating logos
+  - Creating presentation graphics
 
-Text
+Text <img src=" https://www.iconpacks.net/icons/2/free-icon-news-4300.png" width = 8%>
 
-- summarizing documents
-- combining documents
-- transforming document format (to a table for example)
-- Text Search & Navigation
-- Communication Adjustment
-- Content Summarization
-
-
+- Summarizing documents
+- Combining documents
+- Transforming document format (to a table for example)
+- Text search & navigation
+- Communication adjustment
+- Content summarization
 
 
+Project Management <img src="https://www.iconpacks.net/icons/1/free-icon-user-group-296.png" width = 8%>
 
-- Different software users <img src="https://www.iconpacks.net/icons/1/free-icon-user-group-296.png" width = 8%>
-- Different data analysis contexts <img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589.png" width = 8%>
-
-
+- Develop templates
+- Breakdown tasks
+- Assign roles
+- Create meeting agendas and summaries
+- Lab documents
+  - Code of conduct
+  - Mentee Agreement 
+  - Lab Handbook
 
 </div>
 </div>
