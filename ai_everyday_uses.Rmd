@@ -22,16 +22,37 @@ ottrpal::borrow_chapter(
 
 
 <div class="row">
-# Suggested Uses for Research Tasks
+# Suggested AI Uses for Research Tasks
 <div class="column">
 
-Ideation <img src="https://www.iconpacks.net/icons/2/free-icon-bulb-3658.png" width = 8%>
+**Ideation** <img src="https://www.iconpacks.net/icons/2/free-icon-bulb-3658.png" width = 8%>
 
 - Planning code or projects
 - Coming up with project names or acronyms
 - Identifying novel relationships
 
-Code <img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589.png" width = 8%>
+**Text** <img src=" https://www.iconpacks.net/icons/2/free-icon-news-4300.png" width = 6%>
+
+- Summarizing documents
+- Combining documents
+- Transforming document format (to a table for example)
+- Text search & navigation
+- Communication adjustment
+- Content summarization
+
+
+**Visual Design** <img src="https://www.iconpacks.net/icons/1/free-icon-arrow-chart-673.png" width = 8%>
+
+  - Creating flyers for outreach
+  - Creating logos
+  - Creating presentation graphics
+  
+</div>
+
+<div class="column">
+
+
+**Code** <img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589.png" width = 8%>
 
 - Refactoring code
 - Annotating code
@@ -42,33 +63,15 @@ Code <img src="https://www.iconpacks.net/icons/4/free-icon-laptop-settings-12589
 - Ideas for code validation/testing
 - Translating code to a new language
 
-</div>
-
-<div class="column">
-
-Visual Design <img src="https://www.iconpacks.net/icons/1/free-icon-arrow-chart-673.png" width = 8%>
-
-  - Creating flyers for outreach
-  - Creating logos
-  - Creating presentation graphics
-
-Text <img src=" https://www.iconpacks.net/icons/2/free-icon-news-4300.png" width = 8%>
-
-- Summarizing documents
-- Combining documents
-- Transforming document format (to a table for example)
-- Text search & navigation
-- Communication adjustment
-- Content summarization
 
 
-Project Management <img src="https://www.iconpacks.net/icons/1/free-icon-user-group-296.png" width = 8%>
+**Project Management** <img src="https://www.iconpacks.net/icons/1/free-icon-user-group-296.png" width = 8%>
 
-- Develop templates
-- Breakdown tasks
-- Assign roles
-- Create meeting agendas and summaries
-- Lab documents
+- Developing templates
+- Breaking down tasks
+- Assigning roles
+- Creating meeting agendas and summaries
+- Creating lab document drafts
   - Code of conduct
   - Mentee Agreement 
   - Lab Handbook
@@ -76,46 +79,70 @@ Project Management <img src="https://www.iconpacks.net/icons/1/free-icon-user-gr
 </div>
 </div>
 
-<div class="column">
+<hr>
+
+
 
 # Tips for AI use
 
--  Make sure the AI tool is secure, or don't use prmopts that would violate data privacy restrictions or licensing
+- Don't use prmopts that would violate data privacy restrictions or licensing (most comercial tools are not private!)
 - Be specific and iterate on prompts
 - Where possible work in an environment that allows for projects to retain the context
 - Typically asking AI to improve existing work is better than starting from scratch
-- Check everything! Build in check points, ask the AI to question itself and hace a human (maybe you) review text and code
+- Check everything! Ask the AI to question itself and have a human (maybe you) review text and code
 
 The more substance and original thought you provide the more substance and original thought your final product will have!
-</div>
+
 
 </div>
 
 <hr>
 
-<div class="row">
-<div class="column">
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "problems accumulate without CICD"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_2350#slide=id.g35279513746_0_2350")
-```
-</div>
-<div class="column">
-```{r, fig.align='center', out.width="100%", echo = FALSE, fig.alt= "CICD enables catching problems as they happen"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_2381#slide=id.g35279513746_0_2381")
-```
 
-</div>
-
-
-</div>
 
 <hr>
 
 # Challenges and Mitigation
 
+
+<div class = myStyle>
+|Challenge|Possible Mitigation Methods| Resources/Tools|
+|----|-----|-----|
+|Giving credit for other people's work used to train models is difficult | Be transparent about how you use AI tools, include tool versions. Ask the tool for sources to credit. Choose tools that are more transparent about what data was used for training | Good example...|
+|Data privacy is tricky - Some tools are using data that should not have been available| - Choose tools that are more transparent about what data was used for training. <br> - Look into those data sources and see if they followed data privacy regulations. <br>- Never use private data or info in a prompt for a commercial tool| See if your insitute offers private tools|
+
+
+|Environmental Impact - AI tools use data centers that require lots of electricity and water| Consider if AI is really needed for a task, Choose tools that are transparent about energy use and attempts to improve efficiency including: 
+
+- using data centers in cooler climate locations - using heat from data centers for other uses- using smaller models
+</ul>| <ul><li>GreenPT is a very cool example of a considerate tool</li><li>consider using a tool locally on your own machine</li></ul> |
+|Trust and Unskilling| Using AI too much can degrade trust in yourself & potentially result in unskilling| Use AI for more specific help, like polishing as opposed to writing things from scratch|afdasd|
+|Bias - even simple requests can generate biased response| Be aware of bias, Ask your tools to consdier bias and challeng tools when they fail to recognize bias| afds|
+
+
+
+
+<a href="https://www.travis-ci.com/"> <img src="css/images/travisci.png"  height = 40%> </a> | Free for public repos| Low|GitHub, GitLab, Bitbucket|
+
+
+
+
+[Travis CI Guide](https://docs.travis-ci.com/user/for-beginners/)|
+|<a href="https://circleci.com/"><img src="css/images/circleci.png" height = 40%> </a>| Free for public repos | High|GitHub, GitLab, Bitbucket|[CircleCI Guide](https://circleci.com/docs/getting-started/) |
+|<a href="https://docs.gitlab.com/ci//"><img src="css/images/gitlab.png" height = 40%> </a>| Free for public repos| High|Intended for GitLab, GitHub, Bitbucket|[GitLab CI Guide](https://docs.gitlab.com/ci/) |
+|<a href="https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps/"><img
+src="css/images/githubactions.png" height = 40%> </a>| Free for public repos| High|Intended for GitHub, GitLab with some effort|[ITN Course on GitHub Actions](https://hutchdatascience.org/ITN_course_search/GitHub_Automation_for_Scientists_coursePage.html) |
+|<a href="https://www.jenkins.io/"><img src="css/images/jenkins.png" height = 40%> </a>|Free for public or private repos (other potential costs)| Very high|GitHub, GitLab, Bitbucket|[Jenkins Guide](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
+</div>
+
+
+
+
 1) Giving credit for people's work is hard & Data privacy is tricky--> Be transparent and specific about AI use, choose models that are transparent about how they were trained. Shop around!
 2) 
 3) Environmental impact should be considered --> Choose AI tools that are transparent about resource usage and attempts to improve efficiency, consider when AI might not be needed.
+https://www.ecolytics.io/blog/ecolytics-launches-offset-ai-the-first-tool-to-track-and-offset-the-environmental-impact-of-artificial-intelligence-usage
+
 4) Using AI too much might degrade your trust in yourself
 5) Bias - even simple AI requests can generate biased responses
 
@@ -124,25 +151,16 @@ Environmental Impact is very real:
 Loss of trust in yourself: Use in moderation, read the literature, talk to trainees. You are still a spectacular supercomputer!
 Bias: consider responses with this lens - ask chatbots to consider bias and challenge them when they fail.
   
-```{r, fig.align='center', out.width="60%", echo = FALSE, fig.alt= "computers are unique like snowflakes"}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_188#slide=id.g35279513746_0_188")
-```
+
 <hr>
   
 # CI/CD Tools
 
 The following tools can be used for CI/CD.
 
-<div class = myStyle>
-|Tool|Price| Custimizability|Integration|Tutorials|
-|----|-----|-----|----|----|
-|<a href="https://www.travis-ci.com/"> <img src="css/images/travisci.png"  height = 40%> </a> | Free for public repos| Low|GitHub, GitLab, Bitbucket| [Travis CI Guide](https://docs.travis-ci.com/user/for-beginners/)|
-|<a href="https://circleci.com/"><img src="css/images/circleci.png" height = 40%> </a>| Free for public repos | High|GitHub, GitLab, Bitbucket|[CircleCI Guide](https://circleci.com/docs/getting-started/) |
-|<a href="https://docs.gitlab.com/ci//"><img src="css/images/gitlab.png" height = 40%> </a>| Free for public repos| High|Intended for GitLab, GitHub, Bitbucket|[GitLab CI Guide](https://docs.gitlab.com/ci/) |
-|<a href="https://github.blog/enterprise-software/ci-cd/build-ci-cd-pipeline-github-actions-four-steps/"><img
-src="css/images/githubactions.png" height = 40%> </a>| Free for public repos| High|Intended for GitHub, GitLab with some effort|[ITN Course on GitHub Actions](https://hutchdatascience.org/ITN_course_search/GitHub_Automation_for_Scientists_coursePage.html) |
-|<a href="https://www.jenkins.io/"><img src="css/images/jenkins.png" height = 40%> </a>|Free for public or private repos (other potential costs)| Very high|GitHub, GitLab, Bitbucket|[Jenkins Guide](https://www.jenkins.io/doc/pipeline/tour/getting-started/)
-</div>
+```{r, fig.align='center', out.width="60%", echo = FALSE, fig.alt= "computers are unique like snowflakes"}
+ottrpal::include_slide("https://docs.google.com/presentation/d/1-85FZ5hpKKXdqq0bnWPNKO6Mkb9IzSr6N4Je9Y3S_6g/edit?slide=id.g35279513746_0_188#slide=id.g35279513746_0_188")
+```
 
 <hr>
 
