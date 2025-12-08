@@ -109,13 +109,12 @@ The more substance and original thought you provide the more substance and origi
 |Challenge|Possible Mitigation Methods| Resources/Tools|
 |----|-----|-----|
 |Giving credit for other people's work used to train models is difficult | Be transparent about how you use AI tools, include tool versions. Ask the tool for sources to credit. Choose tools that are more transparent about what data was used for training | Good example...|
-|Data privacy is tricky - Some tools are using data that should not have been available| - Choose tools that are more transparent about what data was used for training. <br> - Look into those data sources and see if they followed data privacy regulations. <br>- Never use private data or info in a prompt for a commercial tool| See if your insitute offers private tools|
+|Data privacy is tricky - Some tools are using data that should not have been available| - Choose tools that are more transparent about what data was used for training. <br> - Look into those data sources and see if they followed data privacy regulations. <br>- Never use private data or info in a prompt for a commercial tool| See if your institute offers private tools|
 
 
-|Environmental Impact - AI tools use data centers that require lots of electricity and water| Consider if AI is really needed for a task, Choose tools that are transparent about energy use and attempts to improve efficiency including: 
-
-- using data centers in cooler climate locations - using heat from data centers for other uses- using smaller models
-</ul>| <ul><li>GreenPT is a very cool example of a considerate tool</li><li>consider using a tool locally on your own machine</li></ul> |
+|Environmental Impact - AI tools use data centers that require lots of electricity and water for cooling| - Consider if AI is really needed for a task <br> - Choose tools that are transparent about energy use and attempts to improve efficiency <br> - Choose models that use a smaller number of parameters, designed with methods like [parameter-efficient fine-tuning (PEFT)](https://huggingface.co/blog/peft) https://codewave.com/insights/parameter-efficient-fine-tuning-peft-methods/, or simply designed for more specific tasks and therefore often requiring less memory usage <br> [Consider using a model locally on your computer](https://www.ainewshub.org/post/top-9-open-source-ai-models-you-can-run-on-your-own-pc-right-now-2025-edition-updated)  
+<br>- Consider tools that have data centers in cooler climate locations or use the heat the generate for other uses
+| -GreenPT is a very cool example of a considerate tool - Ollama, Gemma 2, Mistral AI, Phi-4|
 |Trust and Unskilling| Using AI too much can degrade trust in yourself & potentially result in unskilling| Use AI for more specific help, like polishing as opposed to writing things from scratch|afdasd|
 |Bias - even simple requests can generate biased response| Be aware of bias, Ask your tools to consdier bias and challeng tools when they fail to recognize bias| afds|
 
