@@ -40,5 +40,467 @@
     "title": "Want to contribute to these cheatsheets?",
     "section": "",
     "text": "Add information about the cheatsheet (and links) to the gallery.yml file\nCheck render of index.Qmd"
+  },
+  {
+    "objectID": "chunks/starter_template.html",
+    "href": "chunks/starter_template.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Go to https://github.com/\n Go to  github.com \n Sign up for GitHub if you haven’t already - it’s free!\n Make sure you are logged into GitHub - check at https://github.com/ - you should see your profile in the upper right corner"
+  },
+  {
+    "objectID": "chunks/starter_template.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "href": "chunks/starter_template.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Go to https://github.com/\n Go to  github.com \n Sign up for GitHub if you haven’t already - it’s free!\n Make sure you are logged into GitHub - check at https://github.com/ - you should see your profile in the upper right corner"
+  },
+  {
+    "objectID": "chunks/starter_template.html#create-a-repository-from-the-template_name-template",
+    "href": "chunks/starter_template.html#create-a-repository-from-the-template_name-template",
+    "title": "Cheatsheets",
+    "section": "Create a repository from the {TEMPLATE_NAME} template",
+    "text": "Create a repository from the {TEMPLATE_NAME} template\n Go to  {TEMPLATE_URL} \n In the upper right, click on:\n\n Use this template\n\nMake sure you don’t click on the green “Code” button instead!\n Set your repo to “Public”"
+  },
+  {
+    "objectID": "ottr_quarto_website.html",
+    "href": "ottr_quarto_website.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "OTTR Quarto Website Set Up"
+  },
+  {
+    "objectID": "ottr_quarto_website.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "href": "ottr_quarto_website.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "title": "Cheatsheets",
+    "section": "Log into GitHub or make a GitHub profile if you are new to GitHub",
+    "text": "Log into GitHub or make a GitHub profile if you are new to GitHub\n Go to https://github.com/\n Go to github.com{:target=“_blank”}\n Sign up for GitHub if you haven’t already - it’s free!\n Make sure you are logged into GitHub - check at https://github.com/ - you should see your profile in the upper right corner"
+  },
+  {
+    "objectID": "ottr_quarto_website.html#create-a-repository-from-the-ottr_quarto_website-template",
+    "href": "ottr_quarto_website.html#create-a-repository-from-the-ottr_quarto_website-template",
+    "title": "Cheatsheets",
+    "section": "Create a repository from the OTTR_Quarto_Website template",
+    "text": "Create a repository from the OTTR_Quarto_Website template\n Go to https://github.com/ottrproject/OTTR_Quarto_Website\n In the upper right, click on:\n\n Use this template\n\nMake sure you don’t click on the green “Code” button instead!\n Set your repo to “Public”"
+  },
+  {
+    "objectID": "ottr_quarto_website.html#enable-workflow-actions",
+    "href": "ottr_quarto_website.html#enable-workflow-actions",
+    "title": "Cheatsheets",
+    "section": "Enable workflow actions",
+    "text": "Enable workflow actions\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Actions (General) in the side navigation \n Under Workflow permissions\n\n Select Read and write permissions\n Check Allow GitHub Actions to create and approve pull requests\n Click Save"
+  },
+  {
+    "objectID": "ottr_quarto_website.html#set-up-github-pages",
+    "href": "ottr_quarto_website.html#set-up-github-pages",
+    "title": "Cheatsheets",
+    "section": "Set up GitHub Pages",
+    "text": "Set up GitHub Pages\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Pages in the side navigation \n In the Build and deployment section\n\n Under Source, select Deploy from a branch\n Under Branch, pick main and choose /docs, and click Save\n\n at the bottom of the page, check Enforce HTTPS"
+  },
+  {
+    "objectID": "ottr_quarto_website.html#set-up-your-github-personal-access-token",
+    "href": "ottr_quarto_website.html#set-up-your-github-personal-access-token",
+    "title": "Cheatsheets",
+    "section": "Set up your GitHub personal access token",
+    "text": "Set up your GitHub personal access token\n Click on your profile photo in the upper right \n Go to Settings \n Go to Developer Settings in the lower left side navigation \n Click on Personal access tokens \n Select Tokens (classic)\n Click gray “Generate new token” button\n Select Generate new token (classic)\n Confirm your access\n Name your token GH_PAT\n Underneath Select Scopes, check both repo and workflow (all check boxes in those sections)\n Click:\n\n Generate token\n\n Copy the personal access token  and save somewhere safe and private\n\nClick here to see GitHub documentation on creating a personal access token."
+  },
+  {
+    "objectID": "ottr_quarto_website.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "href": "ottr_quarto_website.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "title": "Cheatsheets",
+    "section": "Save the copied personal access token as a repository secret",
+    "text": "Save the copied personal access token as a repository secret\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Secrets and variables in the side navigation \n Click on Actions\n Under Repository secrets, click on\n\nNew repository secrets\n\n Under Name, enter GH_PAT\n For Secret, paste your copied personal access token\n Click on:\n\nAdd secret\n\n\nClick here to see GitHub documentation on setting repository secrets.\n \n\n  \n\n\nAuthors: Kate Isaac wrote the content and created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet. OTTR was created and or is maintained by the following team: Candace Savonen, Carrie Wright, Kate Isaac, Ava Hoffman, Katherine Cox, Federick Tan, John Muschelli, Howard Baek, and Jeffrey Leek."
+  },
+  {
+    "objectID": "ottr_token.html",
+    "href": "ottr_token.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "OTTR Token/Secret Set Up or Update"
+  },
+  {
+    "objectID": "ottr_token.html#set-up-your-github-personal-access-token",
+    "href": "ottr_token.html#set-up-your-github-personal-access-token",
+    "title": "Cheatsheets",
+    "section": "Set up your GitHub personal access token",
+    "text": "Set up your GitHub personal access token\n Click on your profile photo in the upper right \n Go to Settings \n Go to Developer Settings in the lower left side navigation \n Click on Personal access tokens \n Select Tokens (classic)\n Click gray “Generate new token” button\n Select Generate new token (classic)\n Confirm your access\n Name your token GH_PAT\n Underneath Select Scopes, check both repo and workflow (all check boxes in those sections)\n Click:\n\n Generate token\n\n Copy the personal access token  and save somewhere safe and private\n\nClick here to see GitHub documentation on creating a personal access token."
+  },
+  {
+    "objectID": "ottr_token.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "href": "ottr_token.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "title": "Cheatsheets",
+    "section": "Save the copied personal access token as a repository secret",
+    "text": "Save the copied personal access token as a repository secret\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Secrets and variables in the side navigation \n Click on Actions\n Under Repository secrets, click on\n\nNew repository secrets\n\n Under Name, enter GH_PAT\n For Secret, paste your copied personal access token\n Click on:\n\nAdd secret\n\n\nClick here to see GitHub documentation on setting repository secrets.\n \n\n  \n\n\nAuthors: Kate Isaac wrote the content and created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet. OTTR was created and or is maintained by the following team: Candace Savonen, Carrie Wright, Kate Isaac, Ava Hoffman, Katherine Cox, Federick Tan, John Muschelli, Howard Baek, and Jeffrey Leek."
+  },
+  {
+    "objectID": "ottr_quarto_course.html",
+    "href": "ottr_quarto_course.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "OTTR Quarto Course Set Up"
+  },
+  {
+    "objectID": "ottr_quarto_course.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "href": "ottr_quarto_course.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "title": "Cheatsheets",
+    "section": "Log into GitHub or make a GitHub profile if you are new to GitHub",
+    "text": "Log into GitHub or make a GitHub profile if you are new to GitHub\n Go to https://github.com/\n Go to github.com{:target=“_blank”}\n Sign up for GitHub if you haven’t already - it’s free!\n Make sure you are logged into GitHub - check at https://github.com/ - you should see your profile in the upper right corner"
+  },
+  {
+    "objectID": "ottr_quarto_course.html#create-a-repository-from-the-ottr_quarto-template",
+    "href": "ottr_quarto_course.html#create-a-repository-from-the-ottr_quarto-template",
+    "title": "Cheatsheets",
+    "section": "Create a repository from the OTTR_Quarto template",
+    "text": "Create a repository from the OTTR_Quarto template\n Go to https://github.com/ottrproject/OTTR_Quarto\n In the upper right, click on:\n\n Use this template\n\nMake sure you don’t click on the green “Code” button instead!\n Set your repo to “Public”"
+  },
+  {
+    "objectID": "ottr_quarto_course.html#enable-workflow-actions",
+    "href": "ottr_quarto_course.html#enable-workflow-actions",
+    "title": "Cheatsheets",
+    "section": "Enable workflow actions",
+    "text": "Enable workflow actions\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Actions (General) in the side navigation \n Under Workflow permissions\n\n Select Read and write permissions\n Check Allow GitHub Actions to create and approve pull requests\n Click Save"
+  },
+  {
+    "objectID": "ottr_quarto_course.html#set-up-github-pages",
+    "href": "ottr_quarto_course.html#set-up-github-pages",
+    "title": "Cheatsheets",
+    "section": "Set up GitHub Pages",
+    "text": "Set up GitHub Pages\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Pages in the side navigation \n In the Build and deployment section\n\n Under Source, select Deploy from a branch\n Under Branch, pick main and choose /docs, and click Save\n\n at the bottom of the page, check Enforce HTTPS"
+  },
+  {
+    "objectID": "ottr_quarto_course.html#set-up-your-github-personal-access-token",
+    "href": "ottr_quarto_course.html#set-up-your-github-personal-access-token",
+    "title": "Cheatsheets",
+    "section": "Set up your GitHub personal access token",
+    "text": "Set up your GitHub personal access token\n Click on your profile photo in the upper right \n Go to Settings \n Go to Developer Settings in the lower left side navigation \n Click on Personal access tokens \n Select Tokens (classic)\n Click gray “Generate new token” button\n Select Generate new token (classic)\n Confirm your access\n Name your token GH_PAT\n Underneath Select Scopes, check both repo and workflow (all check boxes in those sections)\n Click:\n\n Generate token\n\n Copy the personal access token  and save somewhere safe and private\n\nClick here to see GitHub documentation on creating a personal access token."
+  },
+  {
+    "objectID": "ottr_quarto_course.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "href": "ottr_quarto_course.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "title": "Cheatsheets",
+    "section": "Save the copied personal access token as a repository secret",
+    "text": "Save the copied personal access token as a repository secret\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Secrets and variables in the side navigation \n Click on Actions\n Under Repository secrets, click on\n\nNew repository secrets\n\n Under Name, enter GH_PAT\n For Secret, paste your copied personal access token\n Click on:\n\nAdd secret\n\n\nClick here to see GitHub documentation on setting repository secrets.\n \n\n  \n\n\nAuthors: Kate Isaac wrote the content and created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet. OTTR was created and or is maintained by the following team: Candace Savonen, Carrie Wright, Kate Isaac, Ava Hoffman, Katherine Cox, Federick Tan, John Muschelli, Howard Baek, and Jeffrey Leek."
+  },
+  {
+    "objectID": "chunks/create_ottr_footer.html",
+    "href": "chunks/create_ottr_footer.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Authors: {AUTHORS} OTTR was created and or is maintained by the following team: Candace Savonen, Carrie Wright, Kate Isaac, Ava Hoffman, Katherine Cox, Federick Tan, John Muschelli, Howard Baek, and Jeffrey Leek."
+  },
+  {
+    "objectID": "chunks/create_itn_footer.html",
+    "href": "chunks/create_itn_footer.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Authors: {AUTHORS}  This content is free for noncommercial reuse with attribution. CC-BY-NC"
+  },
+  {
+    "objectID": "chunks/pages.html",
+    "href": "chunks/pages.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Pages in the side navigation r config::get(\"pages\")\n In the Build and deployment section\n\n Under Source, select Deploy from a branch\n Under Branch, pick main and choose /docs, and click Save\n\n at the bottom of the page, check Enforce HTTPS"
+  },
+  {
+    "objectID": "chunks/pages.html#set-up-github-pages",
+    "href": "chunks/pages.html#set-up-github-pages",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Pages in the side navigation r config::get(\"pages\")\n In the Build and deployment section\n\n Under Source, select Deploy from a branch\n Under Branch, pick main and choose /docs, and click Save\n\n at the bottom of the page, check Enforce HTTPS"
+  },
+  {
+    "objectID": "chunks/create_ottr_header.html",
+    "href": "chunks/create_ottr_header.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "{TITLE} {SUBTITLE} \n\n\nDownload cheatsheet\n\n\nLast updated: r format(Sys.time(), '%B %d, %Y')"
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Presenting Talks Best Practices"
+  },
+  {
+    "objectID": "talks.html#structure",
+    "href": "talks.html#structure",
+    "title": "Cheatsheets",
+    "section": "Structure",
+    "text": "Structure\n\n\nResearch talks at conferences will often have this structure:\n\nBackground & Significance\n\n\nThis should cover the context of the field and any information needed for people to understand your research.\nThis section should describe why your work is important, why it is needed, and how it contributes to the field.\n\n\nMethods\n\n\nIn this section, researchers briefly describe the general methods used.\nSpecific details should be covered if they are necessary for describing your work.\nIf you are using an unusual or new method that you developed, more detail should be provided.\n\n\nResults\n\n\nThis is where you show figures and statistics of your results.\nIt’s essential to explain what your results mean and their possible limitations.\n\n\n\n\nImpact and Future Directions\n\n\nIn this section, researchers describe what they plan to do next and the significance of their findings.\n\n\nThank you\n\n\nIn this section, researchers show who was involved in the work and provide the grant number that funded it.\n\n\n\nMake sure you follow any guidelines required or suggested by the speaking opportunity."
+  },
+  {
+    "objectID": "talks.html#best-practices",
+    "href": "talks.html#best-practices",
+    "title": "Cheatsheets",
+    "section": "Best Practices",
+    "text": "Best Practices\n\n\n \n\n\nIt is a good idea to keep track of what talks you do (including when and where) on your CV!\n\n\n\n\n\n\n\n Simple is often better\n\nPeople can only retain so much information at conferences; make sure the key information is clear.\nFocus on the impact and significance, especially for short talks.\nPeople can ask for additional details.\n\n Tailor your talk for your audience\n\nEven though there may be experts, remember that there are likely attendees who are totally new to your subject area.\n\n Practice your talk!\n\nBe careful about how fast you speak, try not to talk too fast!\n\n Show up early to test opening your talk and advancing slides.\n Have a backup version of your presentation in another format, in case there are technical difficulties.\n\nA PDF version works well!"
+  },
+  {
+    "objectID": "talks.html#preparation",
+    "href": "talks.html#preparation",
+    "title": "Cheatsheets",
+    "section": "Preparation",
+    "text": "Preparation\n\n\nDraft the slides\n\n   Determine the time limit required.\n   Draft slides according to the time limit.\n\nFocus on visuals over text\nKeep slides simple!\n\n\nCheck your slides\n\n Check for language clarity.\n Check that fonts are large enough, size 18 or larger is often recommended.\n Check that figures are large enough and aren’t blurry.\n Check that all jargon is explained (outside of what is broadly typical).\n Check that all acronyms are spelled out the first time.\n Check that images cite sources if not original.\n\nPractice your talk\n\n Practice giving your talk by yourself and adjust to fit the time limit.\n Get feedback from others where possible (including your PI and lab mates). Be prepared to iterate and change your talk several times.\n\n\n\nShare info!\n\n Include your contact information, so others can reach out.\n\nIf it is OK with your PI:\n\n Optional: Consider adding your talk to your professional website.\n Optional: Include a link or QR code so others can find your talk easily! Tools like Bitly can help!)\n\n \n\n\nWays to Improve:\n\nWatch talks! Pay attention to good speakers and emulate them.\nPractice makes perfect. The more experience you get, the more comfortable you will get!\nKeep track of your talks. Keep your old talks to reuse content."
+  },
+  {
+    "objectID": "talks.html#answering-questions",
+    "href": "talks.html#answering-questions",
+    "title": "Cheatsheets",
+    "section": "Answering Questions",
+    "text": "Answering Questions\n\n\n    \n\n\n\n \n\n\n\nPrepare for questions\n\nYou can come up with a list of questions you think people might ask and prepare answers for those questions.\nWith more experience it will be clear what kinds of questions are typically asked.\n\nIt is OK to say you don’t know\n\nYou can speculate, but be clear that you are speculating.\n\nPeople may ask too many questions\n\nYou can tell people that you would like to discuss more with them later.\n\nPeople may not have questions\n\nJust because people don’t ask you questions, doesn’t mean they weren’t engaged. Stick around after the talk to see if anyone approaches you.\nTalks at the end of sessions or before lunch, or shifting to a new topic sometimes don’t get the same level of attention.\n\n\n\n\n  \n\n\nAuthors: Content for this cheatsheet came from Carrie Wright and Lauren Chan. It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net.  This content is free for noncommercial reuse with attribution. CC-BY-NC"
+  },
+  {
+    "objectID": "resources/other_chapters/token.html",
+    "href": "resources/other_chapters/token.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Click on your profile photo in the upper right r config::get(\"profile\")\n Go to Settings r config::get(\"settings\")\n Go to Developer Settings in the side navigation r config::get(\"settings\")\n Select Generate new token (classic) r config::get(\"token\")\n Underneath Select Scopes, check both repo and workflow\n Click:\n\n Generate Token\n\n Copy the personal access token r config::get(\"copy\")\n\nClick here to see GitHub documentation on creating a personal access token."
+  },
+  {
+    "objectID": "resources/other_chapters/token.html#set-up-your-github-personal-access-token",
+    "href": "resources/other_chapters/token.html#set-up-your-github-personal-access-token",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Click on your profile photo in the upper right r config::get(\"profile\")\n Go to Settings r config::get(\"settings\")\n Go to Developer Settings in the side navigation r config::get(\"settings\")\n Select Generate new token (classic) r config::get(\"token\")\n Underneath Select Scopes, check both repo and workflow\n Click:\n\n Generate Token\n\n Copy the personal access token r config::get(\"copy\")\n\nClick here to see GitHub documentation on creating a personal access token."
+  },
+  {
+    "objectID": "resources/other_chapters/starter_template.html",
+    "href": "resources/other_chapters/starter_template.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Go to https://github.com/\n Go to github.com{:target=“_blank”}\n Sign up for GitHub if you haven’t already - it’s free!\n Make sure you are logged into GitHub - check at https://github.com/ - you should see your profile in the upper right corner"
+  },
+  {
+    "objectID": "resources/other_chapters/starter_template.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "href": "resources/other_chapters/starter_template.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Go to https://github.com/\n Go to github.com{:target=“_blank”}\n Sign up for GitHub if you haven’t already - it’s free!\n Make sure you are logged into GitHub - check at https://github.com/ - you should see your profile in the upper right corner"
+  },
+  {
+    "objectID": "resources/other_chapters/starter_template.html#create-a-repository-from-the-ottr_template-template",
+    "href": "resources/other_chapters/starter_template.html#create-a-repository-from-the-ottr_template-template",
+    "title": "Cheatsheets",
+    "section": "Create a repository from the OTTR_Template template",
+    "text": "Create a repository from the OTTR_Template template\n Go to https://github.com/ottrproject/OTTR_Template\n In the upper right, click on:\n\n Use this template\n\nMake sure you don’t click on the green “Code” button instead!\n Set your repo to “Public”"
+  },
+  {
+    "objectID": "resources/other_chapters/pages.html",
+    "href": "resources/other_chapters/pages.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Pages in the side navigation r config::get(\"pages\")\n In the Build and deployment section\n\n Under Source, select Deploy from a branch\n Under Branch, pick main and choose /docs, and click Save\n\n at the bottom of the page, check Enforce HTTPS"
+  },
+  {
+    "objectID": "resources/other_chapters/pages.html#set-up-github-pages",
+    "href": "resources/other_chapters/pages.html#set-up-github-pages",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Pages in the side navigation r config::get(\"pages\")\n In the Build and deployment section\n\n Under Source, select Deploy from a branch\n Under Branch, pick main and choose /docs, and click Save\n\n at the bottom of the page, check Enforce HTTPS"
+  },
+  {
+    "objectID": "resources/other_chapters/create_ottr_header.html",
+    "href": "resources/other_chapters/create_ottr_header.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "OTTR Course Set Up \n\n\nDownload cheatsheet\n\n\nLast updated: r format(Sys.time(), '%B %d, %Y')"
+  },
+  {
+    "objectID": "ottr_course.html",
+    "href": "ottr_course.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "OTTR Course Set Up"
+  },
+  {
+    "objectID": "ottr_course.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "href": "ottr_course.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "title": "Cheatsheets",
+    "section": "Log into GitHub or make a GitHub profile if you are new to GitHub",
+    "text": "Log into GitHub or make a GitHub profile if you are new to GitHub\n Go to https://github.com/\n Go to github.com{:target=“_blank”}\n Sign up for GitHub if you haven’t already - it’s free!\n Make sure you are logged into GitHub - check at https://github.com/ - you should see your profile in the upper right corner"
+  },
+  {
+    "objectID": "ottr_course.html#create-a-repository-from-the-ottr_template-template",
+    "href": "ottr_course.html#create-a-repository-from-the-ottr_template-template",
+    "title": "Cheatsheets",
+    "section": "Create a repository from the OTTR_Template template",
+    "text": "Create a repository from the OTTR_Template template\n Go to https://github.com/ottrproject/OTTR_Template\n In the upper right, click on:\n\n Use this template\n\nMake sure you don’t click on the green “Code” button instead!\n Set your repo to “Public”"
+  },
+  {
+    "objectID": "ottr_course.html#enable-workflow-actions",
+    "href": "ottr_course.html#enable-workflow-actions",
+    "title": "Cheatsheets",
+    "section": "Enable workflow actions",
+    "text": "Enable workflow actions\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Actions (General) in the side navigation \n Under Workflow permissions\n\n Select Read and write permissions\n Check Allow GitHub Actions to create and approve pull requests\n Click Save"
+  },
+  {
+    "objectID": "ottr_course.html#set-up-github-pages",
+    "href": "ottr_course.html#set-up-github-pages",
+    "title": "Cheatsheets",
+    "section": "Set up GitHub Pages",
+    "text": "Set up GitHub Pages\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Pages in the side navigation \n In the Build and deployment section\n\n Under Source, select Deploy from a branch\n Under Branch, pick main and choose /docs, and click Save\n\n at the bottom of the page, check Enforce HTTPS"
+  },
+  {
+    "objectID": "ottr_course.html#set-up-your-github-personal-access-token",
+    "href": "ottr_course.html#set-up-your-github-personal-access-token",
+    "title": "Cheatsheets",
+    "section": "Set up your GitHub personal access token",
+    "text": "Set up your GitHub personal access token\n Click on your profile photo in the upper right \n Go to Settings \n Go to Developer Settings in the lower left side navigation \n Click on Personal access tokens \n Select Tokens (classic)\n Click gray “Generate new token” button\n Select Generate new token (classic)\n Confirm your access\n Name your token GH_PAT\n Underneath Select Scopes, check both repo and workflow (all check boxes in those sections)\n Click:\n\n Generate token\n\n Copy the personal access token  and save somewhere safe and private\n\nClick here to see GitHub documentation on creating a personal access token."
+  },
+  {
+    "objectID": "ottr_course.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "href": "ottr_course.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "title": "Cheatsheets",
+    "section": "Save the copied personal access token as a repository secret",
+    "text": "Save the copied personal access token as a repository secret\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Secrets and variables in the side navigation \n Click on Actions\n Under Repository secrets, click on\n\nNew repository secrets\n\n Under Name, enter GH_PAT\n For Secret, paste your copied personal access token\n Click on:\n\nAdd secret\n\n\nClick here to see GitHub documentation on setting repository secrets.\n \n\n  \n\n\nAuthors: Kate Isaac wrote the content and created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet. OTTR was created and or is maintained by the following team: Candace Savonen, Carrie Wright, Kate Isaac, Ava Hoffman, Katherine Cox, Federick Tan, John Muschelli, Howard Baek, and Jeffrey Leek."
+  },
+  {
+    "objectID": "resources/other_chapters/secrets.html",
+    "href": "resources/other_chapters/secrets.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Secrets and variables in the side navigation r config::get(\"secrets\")\n Click on Actions\n Under Repository secrets, click on\n\nNew repository secrets\n\n Under Name, enter GH_PAT\n For Secret, paste your copied personal access token\n Click on:\n\nAdd secret"
+  },
+  {
+    "objectID": "resources/other_chapters/secrets.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "href": "resources/other_chapters/secrets.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Secrets and variables in the side navigation r config::get(\"secrets\")\n Click on Actions\n Under Repository secrets, click on\n\nNew repository secrets\n\n Under Name, enter GH_PAT\n For Secret, paste your copied personal access token\n Click on:\n\nAdd secret"
+  },
+  {
+    "objectID": "resources/other_chapters/enable_actions.html",
+    "href": "resources/other_chapters/enable_actions.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Actions (General) in the side navigation r config::get(\"actions\")\n Under Workflow permissions\n\n Select Read and write permissions\n Check Allow GitHub Actions to create and approve pull requests\n Click Save"
+  },
+  {
+    "objectID": "resources/other_chapters/enable_actions.html#enable-workflow-actions",
+    "href": "resources/other_chapters/enable_actions.html#enable-workflow-actions",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Actions (General) in the side navigation r config::get(\"actions\")\n Under Workflow permissions\n\n Select Read and write permissions\n Check Allow GitHub Actions to create and approve pull requests\n Click Save"
+  },
+  {
+    "objectID": "resources/other_chapters/download_header.html",
+    "href": "resources/other_chapters/download_header.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Download cheatsheet"
+  },
+  {
+    "objectID": "resources/other_chapters/create_repository.html",
+    "href": "resources/other_chapters/create_repository.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In the upper right, click on:\n\n Use this template\n\n Set your repo to Public"
+  },
+  {
+    "objectID": "chunks/secrets.html",
+    "href": "chunks/secrets.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Secrets and variables in the side navigation r config::get(\"secrets\")\n Click on Actions\n Under Repository secrets, click on\n\nNew repository secrets\n\n Under Name, enter GH_PAT\n For Secret, paste your copied personal access token\n Click on:\n\nAdd secret\n\n\nClick here to see GitHub documentation on setting repository secrets."
+  },
+  {
+    "objectID": "chunks/secrets.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "href": "chunks/secrets.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Secrets and variables in the side navigation r config::get(\"secrets\")\n Click on Actions\n Under Repository secrets, click on\n\nNew repository secrets\n\n Under Name, enter GH_PAT\n For Secret, paste your copied personal access token\n Click on:\n\nAdd secret\n\n\nClick here to see GitHub documentation on setting repository secrets."
+  },
+  {
+    "objectID": "chunks/enable_actions.html",
+    "href": "chunks/enable_actions.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Actions (General) in the side navigation r config::get(\"actions\")\n Under Workflow permissions\n\n Select Read and write permissions\n Check Allow GitHub Actions to create and approve pull requests\n Click Save"
+  },
+  {
+    "objectID": "chunks/enable_actions.html#enable-workflow-actions",
+    "href": "chunks/enable_actions.html#enable-workflow-actions",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "In your OTTR repository, go to Settings in the top navigation tabs r config::get(\"settings\")\n Go to Actions (General) in the side navigation r config::get(\"actions\")\n Under Workflow permissions\n\n Select Read and write permissions\n Check Allow GitHub Actions to create and approve pull requests\n Click Save"
+  },
+  {
+    "objectID": "chunks/token.html",
+    "href": "chunks/token.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Click on your profile photo in the upper right r config::get(\"profile\")\n Go to Settings r config::get(\"settings\")\n Go to Developer Settings in the lower left side navigation r config::get(\"settings\")\n Click on Personal access tokens r config::get(\"token\")\n Select Tokens (classic)\n Click gray “Generate new token” button\n Select Generate new token (classic)\n Confirm your access\n Name your token GH_PAT\n Underneath Select Scopes, check both repo and workflow (all check boxes in those sections)\n Click:\n\n Generate token\n\n Copy the personal access token r config::get(\"copy\") and save somewhere safe and private\n\nClick here to see GitHub documentation on creating a personal access token."
+  },
+  {
+    "objectID": "chunks/token.html#set-up-your-github-personal-access-token",
+    "href": "chunks/token.html#set-up-your-github-personal-access-token",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "Click on your profile photo in the upper right r config::get(\"profile\")\n Go to Settings r config::get(\"settings\")\n Go to Developer Settings in the lower left side navigation r config::get(\"settings\")\n Click on Personal access tokens r config::get(\"token\")\n Select Tokens (classic)\n Click gray “Generate new token” button\n Select Generate new token (classic)\n Confirm your access\n Name your token GH_PAT\n Underneath Select Scopes, check both repo and workflow (all check boxes in those sections)\n Click:\n\n Generate token\n\n Copy the personal access token r config::get(\"copy\") and save somewhere safe and private\n\nClick here to see GitHub documentation on creating a personal access token."
+  },
+  {
+    "objectID": "chunks/create_itn_header.html",
+    "href": "chunks/create_itn_header.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "{TITLE} {SUBTITLE} \n\n\nDownload cheatsheet\n\n\nLast updated: r format(Sys.time(), '%B %d, %Y')"
+  },
+  {
+    "objectID": "ottr_website.html",
+    "href": "ottr_website.html",
+    "title": "Cheatsheets",
+    "section": "",
+    "text": "OTTR Website Set Up"
+  },
+  {
+    "objectID": "ottr_website.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "href": "ottr_website.html#log-into-github-or-make-a-github-profile-if-you-are-new-to-github",
+    "title": "Cheatsheets",
+    "section": "Log into GitHub or make a GitHub profile if you are new to GitHub",
+    "text": "Log into GitHub or make a GitHub profile if you are new to GitHub\n Go to https://github.com/\n Go to github.com{:target=“_blank”}\n Sign up for GitHub if you haven’t already - it’s free!\n Make sure you are logged into GitHub - check at https://github.com/ - you should see your profile in the upper right corner"
+  },
+  {
+    "objectID": "ottr_website.html#create-a-repository-from-the-ottr_template_website-template",
+    "href": "ottr_website.html#create-a-repository-from-the-ottr_template_website-template",
+    "title": "Cheatsheets",
+    "section": "Create a repository from the OTTR_Template_Website template",
+    "text": "Create a repository from the OTTR_Template_Website template\n Go to https://github.com/ottrproject/OTTR_Template_Website\n In the upper right, click on:\n\n Use this template\n\nMake sure you don’t click on the green “Code” button instead!\n Set your repo to “Public”"
+  },
+  {
+    "objectID": "ottr_website.html#enable-workflow-actions",
+    "href": "ottr_website.html#enable-workflow-actions",
+    "title": "Cheatsheets",
+    "section": "Enable workflow actions",
+    "text": "Enable workflow actions\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Actions (General) in the side navigation \n Under Workflow permissions\n\n Select Read and write permissions\n Check Allow GitHub Actions to create and approve pull requests\n Click Save"
+  },
+  {
+    "objectID": "ottr_website.html#set-up-github-pages",
+    "href": "ottr_website.html#set-up-github-pages",
+    "title": "Cheatsheets",
+    "section": "Set up GitHub Pages",
+    "text": "Set up GitHub Pages\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Pages in the side navigation \n In the Build and deployment section\n\n Under Source, select Deploy from a branch\n Under Branch, pick main and choose /docs, and click Save\n\n at the bottom of the page, check Enforce HTTPS"
+  },
+  {
+    "objectID": "ottr_website.html#set-up-your-github-personal-access-token",
+    "href": "ottr_website.html#set-up-your-github-personal-access-token",
+    "title": "Cheatsheets",
+    "section": "Set up your GitHub personal access token",
+    "text": "Set up your GitHub personal access token\n Click on your profile photo in the upper right \n Go to Settings \n Go to Developer Settings in the lower left side navigation \n Click on Personal access tokens \n Select Tokens (classic)\n Click gray “Generate new token” button\n Select Generate new token (classic)\n Confirm your access\n Name your token GH_PAT\n Underneath Select Scopes, check both repo and workflow (all check boxes in those sections)\n Click:\n\n Generate token\n\n Copy the personal access token  and save somewhere safe and private\n\nClick here to see GitHub documentation on creating a personal access token."
+  },
+  {
+    "objectID": "ottr_website.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "href": "ottr_website.html#save-the-copied-personal-access-token-as-a-repository-secret",
+    "title": "Cheatsheets",
+    "section": "Save the copied personal access token as a repository secret",
+    "text": "Save the copied personal access token as a repository secret\n In your OTTR repository, go to Settings in the top navigation tabs \n Go to Secrets and variables in the side navigation \n Click on Actions\n Under Repository secrets, click on\n\nNew repository secrets\n\n Under Name, enter GH_PAT\n For Secret, paste your copied personal access token\n Click on:\n\nAdd secret\n\n\nClick here to see GitHub documentation on setting repository secrets.\n \n\n  \n\n\nAuthors: Kate Isaac wrote the content and created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet. OTTR was created and or is maintained by the following team: Candace Savonen, Carrie Wright, Kate Isaac, Ava Hoffman, Katherine Cox, Federick Tan, John Muschelli, Howard Baek, and Jeffrey Leek."
+  },
+  {
+    "objectID": "social_media.html",
+    "href": "social_media.html",
+    "title": "Best Practices:",
+    "section": "",
+    "text": "Social Media Tips and Tricks \n\n\nDownload cheatsheet\n\n\nLast updated: December 14, 2025\n\n\n\n\n\n\n Check that you have been transparent\n\n“I’m a scientist @FredHutch. Opinions are my own, reposts aren’t endorsements.”\n\n Check that you have cited and/or tagged sources and people\n Check that you are not violating patient or intellectual privacy\n Check if you are using a tone that might be lost in translation\n Check that you have added a creative element\n\nUse stories, anecdotes, images, videos, art, GIFs, poetry, cartoons, memes\nBe cautious about jokes or memes - may not target right audience - going viral isn’t automatically good\n\n Check that necessary people have reviewed the content\n If you are unsure, don’t post it!\n\n\n\n\nContent to Share:\n\nWalk through how to do specific tasks with your software\nRecruit new users and contributors\nReport releases, new features, papers etc.\nDescribe your work & your colleagues’ work\nAdvertise learning opportunities & work opportunities\nConvey thought leadership & measured critiques\nShare anecdotes and images that humanize your work\nExplain concepts to lay audiences\n\n\n\nCheck if your institute has a Social Media Policy with guidelines or restrictions on the usage of social media.\n\n\n\n\nThese tips are adapted from the Marketing and Communications group at Fred Hutch.\n\n\n\nTools:\n\nTypefully and Buffer\n\nManage and cross-post to most popular platforms\nSchedule your content\nCollect engagement metrics\nCollaborate with others on content\nUse AI to help you write content\n\nRSS feeds and Tiny Tiny RSS\n\nHost feeds for free and aggregate and distribute them\n\nSubstack\n\nCreate blogs or newsletters to update subscribers with embedded tracking of engagement (works with RSS feeds)\n\nNewsletters on LinkedIn\n\nSeparate from the organization profile, allows for user subscriptions and engagement with comments and questions\n\n\n\n\n\nTips:\n\nEfficiency\n\nArchive everything so other team members can access and review to help with inspiration and reposting\nRepurpose posts for different audiences\nUse Typefully, Buffer, or other tools to post the same content on multiple platforms, and plan and schedule posts in advance\nTemplates can be really useful - helps create professional looking posts quickly\nLLMs can help write content\n\nGeneral\n\nReview what kinds of posts and post times/channels that seem to get best engagement\nBe brief and to the point\nConsistently post\nEncourage community feedback for tool improvements\nIf people send feedback, you can respond to them individually by email, especially if it becomes a negative conversation\nLet ITN know about your blogs, feeds, handles etc. so we can help you connect with people!\n\n\n\n\n\n\n\nGreat Examples:\n\nNHGRI Twitter feed with great memes:\n\nhttps://x.com/genome_gov\n\nGalaxy Social media archive:\n\nhttps://github.com/usegalaxy-eu/galaxy-social\n\nCancer Genomics Consortium LinkedIn with effective use of templates:\n\nhttps://www.linkedin.com/company/cancer-genomics-consortium\n\n\n\n\n\nITN Social Media Handles:\n\nLinkedIn: itcr-training-network \nYouTube: @itcrtrainingnetwork2281 \nPodcast: Cracking the cancer code \nBluesky: @itcrtraining \nX: @itcrtraining \n\n\n\n\n\n\n\nWhat platforms are ITCR participants using?\n\n\n\n\n\n\n\n\n\n\n\n(75 responses - 35 participants)\n\n\n\n  \n\n\nAuthors: This cheatsheet is the product of discussions from the ITCR OPEN Group with panelists Ino de Bruijn, Tali Mazor, and Jeremy Goecks, with additional contributions from other ITCR participants including Obi Griffith, Greg Caporaso, Jeff Leek, and others. It was summarized by Carrie Wright and includes best practices from the Fred Hutch Social Media Group."
   }
 ]

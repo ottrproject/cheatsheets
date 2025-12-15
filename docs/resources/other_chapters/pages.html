@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ottr_token – Cheatsheets</title>
+<title>pages – Cheatsheets</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,21 +23,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-79108a0fc1995748cbd19a5b0e3e3e7c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -76,8 +76,7 @@ gtag('config', 'G-ST08QSCMK6', { 'anonymize_ip': true});
 </script>
 
 
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="css/OTTR_style.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="fullcontent">
@@ -94,59 +93,16 @@ gtag('config', 'G-ST08QSCMK6', { 'anonymize_ip': true});
 
 
 
-<div class="header_box">
-<p><u>OTTR Token/Secret</u><br><span style="color:#986753;"> Set Up or Update </span></p>
-</div>
-<div class="png_button">
-<a href="https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_token.png?raw=true">Download cheatsheet</a>
-</div>
-<div class="time">
-<strong>Last updated: December 14, 2025</strong>
-</div>
-<section id="set-up-your-github-personal-access-token" class="level2">
-<h2 class="anchored" data-anchor-id="set-up-your-github-personal-access-token">Set up your GitHub personal access token</h2>
-<p><input type="checkbox"> Click on your <strong>profile photo</strong> in the upper right <img src="resources/icons/profile_photo.png" alt="profile photo icon" class="icon" width="200px"></p>
-<p><input type="checkbox"> Go to <strong>Settings</strong> <img src="resources/icons/settings_gear.png" alt="settings gear icon" class="icon" width="200px"></p>
-<p><input type="checkbox"> Go to <strong>Developer Settings</strong> in the lower left side navigation <img src="resources/icons/settings_gear.png" alt="settings gear icon" class="icon" width="200px"></p>
-<p><input type="checkbox"> Click on <strong>Personal access tokens</strong> <img src="resources/icons/personal_tokens.png" alt="personal access token icon" class="icon" width="200px"></p>
-<p><input type="checkbox"> Select <strong>Tokens (classic)</strong></p>
-<p><input type="checkbox"> Click gray “Generate new token” button</p>
-<p><input type="checkbox"> Select <strong>Generate new token (classic)</strong></p>
-<p><input type="checkbox"> Confirm your access</p>
-<p><input type="checkbox"> Name your token GH_PAT</p>
-<p><input type="checkbox"> Underneath <strong>Select Scopes</strong>, <em>check both</em> <strong>repo</strong> and <strong>workflow</strong> (all check boxes in those sections)</p>
-<input type="checkbox"> Click:
-<div class="github_button">
-<a href="https://github.com/settings/tokens/new"> Generate token</a>
-</div>
-<p><input type="checkbox"> Copy the <strong>personal access token</strong> <img src="resources/icons/copy.png" alt="copy icon" class="icon" width="200px"> and save somewhere safe and private</p>
-<p><br></p>
-<p><a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">Click here to see GitHub documentation on creating a personal access token.</a></p>
-</section>
-<section id="save-the-copied-personal-access-token-as-a-repository-secret" class="level2">
-<h2 class="anchored" data-anchor-id="save-the-copied-personal-access-token-as-a-repository-secret">Save the copied personal access token as a repository secret</h2>
-<p><input type="checkbox"> In your OTTR repository, go to <strong>Settings</strong> in the top navigation tabs <img src="resources/icons/settings_gear.png" alt="settings gear icon" class="icon" width="200px"></p>
-<p><input type="checkbox"> Go to <strong>Secrets and variables</strong> in the side navigation <img src="resources/icons/secrets_and_variables.png" alt="secrets and variables icon" class="icon" width="200px"></p>
-<p><input type="checkbox"> Click on <strong>Actions</strong></p>
-<input type="checkbox"> Under <strong>Repository secrets</strong>, click on
-<div class="github_button">
-New repository secrets
-</div>
-<p><input type="checkbox"> Under <strong>Name</strong>, enter <strong>GH_PAT</strong></p>
-<p><input type="checkbox"> For <strong>Secret</strong>, paste your copied personal access token</p>
-<input type="checkbox"> Click on:
-<div class="github_button">
-Add secret
-</div>
-<p><br></p>
-<p><a href="https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository">Click here to see GitHub documentation on setting repository secrets.</a></p>
-<br> <br>
-<center>
-<a href="https://www.ottrproject.org/"> <img src="css/images/basic_otter_water.png" width="40%"> </a>
-</center>
-<div class="authors">
-<p><strong>Authors</strong>: Kate Isaac wrote the content and created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet. <a href="https://www.ottrproject.org/">OTTR</a> was created and or is maintained by the following team: Candace Savonen, Carrie Wright, Kate Isaac, Ava Hoffman, Katherine Cox, Federick Tan, John Muschelli, Howard Baek, and Jeffrey Leek.</p>
-</div>
+<section id="set-up-github-pages" class="level2">
+<h2 class="anchored" data-anchor-id="set-up-github-pages">Set up GitHub Pages</h2>
+<p><input type="checkbox"> In your OTTR repository, go to Settings in the top navigation tabs <code>r config::get("settings")</code></p>
+<p><input type="checkbox"> Go to <strong>Pages</strong> in the side navigation <code>r config::get("pages")</code></p>
+<p><input type="checkbox"> In the <strong>Build and deployment section</strong></p>
+<ol type="1">
+<li><input type="checkbox"> Under <strong>Source</strong>, select <strong>Deploy from a branch</strong></li>
+<li><input type="checkbox"> Under <strong>Branch</strong>, pick <strong>main</strong> and choose <strong>/docs</strong>, and click <strong>Save</strong></li>
+</ol>
+<p><input type="checkbox"> at the bottom of the page, check <strong>Enforce HTTPS</strong></p>
 
 
 </section>

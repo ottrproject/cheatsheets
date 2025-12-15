@@ -1,6 +1,7 @@
 ## Log into GitHub or make a GitHub profile if you are new to GitHub
 
-<input type="checkbox"> Go to https://github.com/
+<input type="checkbox"> Go to 
+<a href="https://github.com" target="_blank" rel="noopener noreferrer"> github.com </a>
 
 <input type="checkbox"> Sign up for GitHub if you haven't already - it's free!
 
@@ -8,9 +9,11 @@
 
 ## Create a repository from the [{TEMPLATE_NAME}]({TEMPLATE_URL}) template
 
-<input type="checkbox"> Go to {TEMPLATE_URL}
+<input type="checkbox"> Go to 
+<a href={TEMPLATE_URL} target="_blank"> {TEMPLATE_URL} </a>
 
-<input type="checkbox"> In the upper right, _click on_: <div class = "github_button"> <a href="https://github.com/new?template_name={TEMPLATE_NAME}"> Use this template</a></div>
+<input type="checkbox"> In the upper right, _click on_: <div class = "github_button">
+<a href="https://github.com/new?template_name={TEMPLATE_NAME}&template_owner=ottrproject" target="_blank"> Use this template</a></div>
 
 Make sure you don't click on the green "Code" button instead!
 
