@@ -20,7 +20,7 @@
 
 <input type="checkbox"> Underneath **Select Scopes**, *check both* **repo** and **workflow** (all check boxes in those sections)
 
-<input type="checkbox"> Click: <div class = "github_button"><a href="https://github.com/settings/tokens/new"> Generate token</a></div>
+<input type="checkbox"> Click: <div class = "github_button"><a href="https://github.com/settings/tokens/new" target="_blank"> Generate token</a></div>
 
 <input type="checkbox"> Copy the **personal access token** `r config::get("copy")` and save somewhere safe and private
 

@@ -10,9 +10,10 @@
 ## Create a repository from the [OTTR_Template_Website](https://github.com/ottrproject/OTTR_Template_Website) template
 
 <input type="checkbox"> Go to 
-<a href=https://github.com/ottrproject/OTTR_Template_Website target="_blank"> https://github.com/ottrproject/OTTR_Template_Website </a>
+<a href=https://github.com/ottrproject/OTTR_Template_Website target="_blank" rel="noopener noreferrer"> https://github.com/ottrproject/OTTR_Template_Website </a>
 
-<input type="checkbox"> In the upper right, _click on_: <div class = "github_button"> <a href="https://github.com/new?template_name=OTTR_Template_Website&template_owner=ottrproject"> Use this template</a></div>
+<input type="checkbox"> In the upper right, _click on_: <div class = "github_button">
+<a href="https://github.com/new?template_name=OTTR_Template_Website&template_owner=ottrproject" target="_blank" rel="noopener noreferrer"> Use this template</a></div>
 
 Make sure you don't click on the green "Code" button instead!
 
