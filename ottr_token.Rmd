@@ -1,0 +1,34 @@
+---
+output:
+  html_document:
+    includes:
+      in_header: ottr_favicon.html
+css: css/OTTR_style.css
+---
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "OTTR Token/Secret", "{SUBTITLE}" =  "Set Up or Update",
+        "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_token.png?raw=true"
+    ))
+```
+
+```{r, echo=FALSE, results='asis'}
+ ottrpal::borrow_chapter(   
+   doc_path = "chunks/token.md")
+```
+
+```{r, echo=FALSE, results='asis'}
+ ottrpal::borrow_chapter(   
+   doc_path = "chunks/secrets.md")
+```
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Kate Isaac wrote the content and created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet."
+    ))
+```
