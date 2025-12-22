@@ -85,7 +85,7 @@ ottrpal::borrow_chapter(
 
 # Tips for AI use
 
-- Don't use prmopts that would violate data privacy restrictions or licensing (most comercial tools are not private!)
+- Don't use prompts that would violate data privacy restrictions or licensing (most commercial tools are not private!)
 - Be specific and iterate on prompts
 - Where possible work in an environment that allows for projects to retain the context
 - Typically asking AI to improve existing work is better than starting from scratch
