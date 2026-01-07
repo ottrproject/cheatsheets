@@ -93,7 +93,7 @@ ottrpal::borrow_chapter(
 
 The more substance and original thought you provide the more substance and original thought your final product will have!
 
-```{r, fig.align='center', out.width="60%", echo = FALSE, fig.alt= "example of more precise ai prompt - can you improve the paragraph is vague, can you make the paragraph more concise is better, can you make the paragraph more concise and appropriate for a highschool student is even better"}
+```{r, fig.align='center', out.width="80%", echo = FALSE, fig.alt= "example of more precise ai prompt - can you improve the paragraph is vague, can you make the paragraph more concise is better, can you make the paragraph more concise and appropriate for a highschool student is even better"}
 ottrpal::include_slide("https://docs.google.com/presentation/d/1T88OS5ih3l0Ug0MkQpjzM8VwE8MEtecHw02szii4Zz8/edit?slide=id.g360359edea5_0_77#slide=id.g360359edea5_0_77")
 ```
 
