@@ -134,8 +134,8 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1T88OS5ih3l0Ug0Mk
 - Read more about why [small models](https://www.computer.org/publications/tech-news/community-voices/sustainable-future-of-ai-language-models) may be the future for more sustainable AI
 - Check out more [about PEFT for efficiency](https://codewave.com/insights/parameter-efficient-fine-tuning-peft-methods/)
 - Read more about the [MIT AI data provenance initiative](https://mitsloan.mit.edu/ideas-made-to-matter/bringing-transparency-to-data-used-to-train-artificial-intelligence)
-- These ITN courses discuss more about AI use for reseach and coding: 
-  - [AI for Decision Makers](https://hutchdatascience.org/ITN_course_search/AI_for_Decision_Makers_coursePage.html) which includes a minicourse about [AI Ethics](https://hutchdatascience.org/AI_for_Decision_Makers/introduction-to-avoiding-ai-harm.html)
+- These ITN courses discuss more about AI use for research and coding: 
+  - [AI for Decision Makers](https://hutchdatascience.org/ITN_course_search/AI_for_Decision_Makers_coursePage.html) which includes a mini course about [AI Ethics](https://hutchdatascience.org/AI_for_Decision_Makers/introduction-to-avoiding-ai-harm.html)
   - [AI for Efficient Programming](https://hutchdatascience.org/ITN_course_search/AI_for_Efficient_Programming_coursePage.html)
 
 
@@ -144,6 +144,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1T88OS5ih3l0Ug0Mk
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_footer.md",
   tag_replacement = list(
-    "{AUTHORS}" = "Content for this cheatsheet came from Candace Savonen and Carrie Wright. It was summarized and formatted by Carrie Wright and reviewed by Kate Isaac. Icons from https://www.iconpacks.net. The cheatsheet was also inspired by a discussion that involved the ITCR OPEN community (https://www.itcrtraining.org/open)."))
+    "{AUTHORS}" = "Content for this cheatsheet came from  Carrie Wright. It was summarized and formatted by Carrie Wright and reviewed by Kate Isaac. Icons from https://www.iconpacks.net. The cheatsheet was also inspired by a discussion that involved the ITCR OPEN community (https://www.itcrtraining.org/open)."))
 ```
 
