@@ -35,7 +35,7 @@ ottrpal::borrow_chapter(
 
 - Summarizing documents
 - Combining documents
-- Transforming document format (to a table for example)
+- Transforming document format (e.g. text to table)
 - Text search & navigation
 - Communication adjustment
 - Content summarization
