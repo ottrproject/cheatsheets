@@ -30,7 +30,7 @@ ottrpal::borrow_chapter(
 - Planning code or projects
 - Recommending project names or acronyms
 - Confirming novel relationships or research ideas
-- Generating hypotheses [example](https://d2h2.maayanlab.cloud/)
+- Mining the literature for research ideas [example](https://www.researchrabbit.ai/)
 
 **Text** <img src=" https://www.iconpacks.net/icons/2/free-icon-news-4300.png" width = 6%>
 
