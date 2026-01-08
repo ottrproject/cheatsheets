@@ -46,7 +46,7 @@ ottrpal::borrow_chapter(
   - Creating flyers for outreach
   - Creating presentation graphics
   - Creating logos
-  (Keep in mind that graphic artists are still a great option too!)
+(Keep in mind that graphic artists are still likely to do a better job of creating something closer to your exact vision!)
   
 </div>
 
