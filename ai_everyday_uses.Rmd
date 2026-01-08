@@ -44,7 +44,7 @@ ottrpal::borrow_chapter(
 **Visual Design** <img src="https://www.iconpacks.net/icons/1/free-icon-arrow-chart-673.png" width = 8%>
 
   - Creating flyers for outreach
-  - Creating logos
+  - Creating presentation graphics
   - Creating presentation graphics
   
 </div>
