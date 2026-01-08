@@ -27,7 +27,7 @@ ottrpal::borrow_chapter(
 
 -   Planning code or projects
 -   Recommending project names or acronyms
--   Generating hypotheses <br> g[(See this example)](https://d2h2.maayanlab.cloud/)
+-   Generating hypotheses <br> [(See this example)](https://d2h2.maayanlab.cloud/)
 -   Mining the literature for research ideas <br> [(See this example)](https://www.researchrabbit.ai/)
 
 **Text** <img src=" https://www.iconpacks.net/icons/2/free-icon-news-4300.png" width="6%"/>
@@ -65,9 +65,9 @@ ottrpal::borrow_chapter(
 -   Assigning roles
 -   Creating meeting agendas and summaries
 -   Creating lab document drafts
-    -   Code of conduct
-    -   Mentee Agreement
-    -   Lab Handbook
+    -   Code of conduct <br> [(See this resource)](https://www.caseiq.com/resources/18-of-the-best-code-of-conduct-examples)
+    -   Mentee Agreement <br> [(See this resource)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005709)
+    -   Lab Handbook<br> [(See this example)](https://fertiglab.github.io/onboarding/)
 :::
 :::::
 
