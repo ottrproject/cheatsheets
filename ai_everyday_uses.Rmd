@@ -45,7 +45,8 @@ ottrpal::borrow_chapter(
 
   - Creating flyers for outreach
   - Creating presentation graphics
-  - Creating presentation graphics
+  - Creating logos
+  (Keep in mind that graphic artists are still a great option too!)
   
 </div>
 
