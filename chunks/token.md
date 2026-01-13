@@ -4,13 +4,13 @@
 
 <input type="checkbox"> Scroll down to **Settings** `r config::get("settings")`
 
-<input type="checkbox"> Scroll down on the left side menu to **Developer Settings** in the lower left side navigation `r config::get("settings")`
+<input type="checkbox"> Scroll down in the menu on the left side to **Developer Settings** in the lower left side navigation `r config::get("settings")`
 
-<input type="checkbox"> Scroll down on the left side menu to **Personal access tokens** `r config::get("token")`
+<input type="checkbox"> Scroll down in the left side menu on the left side to **Personal access tokens** `r config::get("token")`
 
 <input type="checkbox"> Select **Tokens (classic)** 
 
-<input type="checkbox"> Click gray "Generate new token" button (upper right)
+<input type="checkbox"> Click very lightly gray button that says  <div class = "png_button">< "Generate new token" </div> (upper right)
 
 <input type="checkbox"> Select **Generate new token (classic)** 
 
@@ -22,7 +22,7 @@ Note that your token will expire based on the date that you set in the Expiratio
 
 <input type="checkbox"> Underneath **Select Scopes** (where the check boxes are), check **repo** (so everything under it is checked) and **workflow** 
 
-<input type="checkbox"> Click: <div class = "github_button"><a href="https://github.com/settings/tokens/new" target="_blank"> Generate token</a></div>
+<input type="checkbox"> Click: <div class = "github_button"> Generate token</div>
 
 <input type="checkbox"> Copy the **personal access token** `r config::get("copy")` and save somewhere safe and private
 
