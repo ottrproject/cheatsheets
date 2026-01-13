@@ -10,11 +10,11 @@
 
 <input type="checkbox"> Make sure you are logged into GitHub - check at https://github.com/ - you should see your profile in the upper right corner
 
-## Create a repository from the [{TEMPLATE_NAME}]({TEMPLATE_URL}) template
+## Create a repository from the {TEMPLATE_NAME} template
 
-<input type="checkbox"> Go to {TEMPLATE_URL}
-<input type="checkbox"> In the upper right, _click on_: <div class = "github_button">
-<a href="https://github.com/new?template_name={TEMPLATE_NAME}&template_owner=ottrproject" target="_blank" rel="noopener noreferrer"> Use this template</a></div>
+<input type="checkbox"> Go to [{TEMPLATE_NAME}]({TEMPLATE_URL})
+
+<input type="checkbox"> In the upper right, _click on_: <div class = "github_button">Use this template</div>
 
 Make sure you don't click on the green "Code" button instead!
 
