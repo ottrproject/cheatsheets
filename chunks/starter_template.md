@@ -1,5 +1,7 @@
 ## Log into GitHub or make a GitHub profile if you are new to GitHub
 
+Go to [github](href="https://github.com){:target="_blank"}
+
 <input type="checkbox"> Go to 
 <a href="https://github.com" target="_blank" rel="noopener noreferrer"> github.com </a>
 
