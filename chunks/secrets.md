@@ -16,4 +16,10 @@
 
 <br>
 
-[Click here to see GitHub documentation on setting repository secrets.](https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository)
+
+<a
+  href="https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository"
+  target="_blank"
+  rel="noopener noreferrer">
+  Click here to see GitHub documentation on setting repository secrets.
+</a>
