@@ -35,7 +35,7 @@ input[type="checkbox"] {
 /*------------- png boxes button style---------------- */
 
 
-.png_button {
+.github_gray_button {
     border-radius: 8px;
     border: 1px solid #black;
     background: #lightgray;
@@ -50,24 +50,26 @@ input[type="checkbox"] {
     transition-duration: 0.4s;
     cursor: pointer;
 }
-/*old button code
-/*--.png_button {
-/*    position: absolute; /*----placement of button--*/
- /*   top: 20px; /*----placement of button--*/
-/*    right: 5%; /*----placement of button--*/
-/*    border: 4px solid #black;
-/*    border-radius: 8px;
-/*    background: lightgray;
- /*   color: black;
- /*   padding: 8px 16px;
-/*    text-align: center;
+
+.png_button {
+    position: absolute; /*----placement of button--*/
+    top: 20px; /*----placement of button--*/
+    right: 5%; /*----placement of button--*/
+    border: 4px solid #black;
+    border-radius: 8px;
+    background: lightgray;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-} */
+}
+
+
 
 /*------------- timestamp style---------------- */
 .time {

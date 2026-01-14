@@ -10,7 +10,7 @@
 
 <input type="checkbox"> Select **Tokens (classic)** 
 
-<input type="checkbox"> Click very light gray button that says  <div class = "png_button"> Generate new token </div> (upper right)
+<input type="checkbox"> Click very light gray button that says  <div class = "github_gray_button"> Generate new token </div> (upper right)
 
 <input type="checkbox"> Select **Generate new token (classic)** 
 
