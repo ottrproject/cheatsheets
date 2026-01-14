@@ -29,7 +29,6 @@ input[type="checkbox"] {
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
-    cursor: pointer;
 }
 
 /*------------- png boxes button style---------------- */
@@ -48,7 +47,6 @@ input[type="checkbox"] {
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
-    cursor: pointer;
 }
 
 .png_button {
