@@ -1,10 +1,8 @@
 
-<!-- Open all links in new tab-->  
-<base target="_blank" rel="noopener noreferrer"/> 
 
 ## Log into GitHub or make a GitHub profile if you are new to GitHub
 
-<input type="checkbox"> Go to [github](https://github.com)
+<input type="checkbox"> Go to [github.com)](https://github.com)
 
 <input type="checkbox"> Sign up for GitHub if you haven't already - it's free!
 
