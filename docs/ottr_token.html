@@ -177,39 +177,55 @@ Update </span></p>
 cheatsheet</a>
 </div>
 <div class="time">
-<strong>Last updated: January 09, 2026</strong>
+<strong>Last updated: January 16, 2026</strong>
 </div>
+<!-- Open all links in new tab-->
+<p><base target="_blank" rel="noopener noreferrer"/></p>
 <div id="set-up-your-github-personal-access-token"
 class="section level2">
 <h2>Set up your GitHub personal access token</h2>
 <p><input type="checkbox"> Click on your <strong>profile photo</strong>
 in the upper right
 <img src='resources/icons/profile_photo.png' alt='profile photo icon' class = icon width = '200px'></p>
-<p><input type="checkbox"> Go to <strong>Settings</strong>
+<p><input type="checkbox"> Scroll down to <strong>Settings</strong>
 <img src='resources/icons/settings_gear.png' alt='settings gear icon' class = icon width = '200px'></p>
-<p><input type="checkbox"> Go to <strong>Developer Settings</strong> in
-the lower left side navigation
+<p><input type="checkbox"> Scroll down in the menu on the left side to
+<strong>Developer Settings</strong> in the lower left side navigation
 <img src='resources/icons/settings_gear.png' alt='settings gear icon' class = icon width = '200px'></p>
-<p><input type="checkbox"> Click on <strong>Personal access
-tokens</strong>
+<p><input type="checkbox"> Scroll down in the left side menu on the left
+side to <strong>Personal access tokens</strong>
 <img src='resources/icons/personal_tokens.png' alt='personal access token icon' class = icon width = '200px'></p>
 <p><input type="checkbox"> Select <strong>Tokens (classic)</strong></p>
-<p><input type="checkbox"> Click gray “Generate new token” button</p>
+<input type="checkbox"> Click very light gray button that says
+<div class="github_gray_button">
+Generate new token ▾
+</div>
+<p>(upper right)</p>
 <p><input type="checkbox"> Select <strong>Generate new token
 (classic)</strong></p>
-<p><input type="checkbox"> Confirm your access</p>
-<p><input type="checkbox"> Name your token GH_PAT</p>
-<p><input type="checkbox"> Underneath <strong>Select Scopes</strong>,
-<em>check both</em> <strong>repo</strong> and <strong>workflow</strong>
-(all check boxes in those sections)</p>
+<p><input type="checkbox"> Confirm your access if you have two factor
+authentication set up (you will be asked to submit a code or something
+similar)</p>
+<p><input type="checkbox"> Name your token GH_PAT in the “Note”
+section</p>
+<p>Note that your token will expire based on the date that you set in
+the Expiration section. You will have to complete this process again
+when your token expires. GitHub will let you know as you will get an
+error about credentials. It is a good idea to use the default
+settings.</p>
+<p><input type="checkbox"> Underneath <strong>Select Scopes</strong>
+(where the check boxes are), check <strong>repo</strong> (so everything
+under it is checked) and <strong>workflow</strong></p>
 <input type="checkbox"> Click:
 <div class="github_button">
-<a href="https://github.com/settings/tokens/new"> Generate token</a>
+Generate token
 </div>
 <p><input type="checkbox"> Copy the <strong>personal access
 token</strong>
 <img src='resources/icons/copy.png' alt='copy icon' class = icon width = '200px'>
-and save somewhere safe and private</p>
+and save somewhere safe and private. <strong>Please note that you cannot
+retrieve this personal access token again later from GitHub.</strong> If
+you lose it, you just need to complete this process again.</p>
 <p><br></p>
 <p><a
 href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">Click
@@ -222,6 +238,8 @@ class="section level2">
 <p><input type="checkbox"> In your OTTR repository, go to
 <strong>Settings</strong> in the top navigation tabs
 <img src='resources/icons/settings_gear.png' alt='settings gear icon' class = icon width = '200px'></p>
+<p>Note that this is different from your profile settings where you made
+your token.</p>
 <p><input type="checkbox"> Go to <strong>Secrets and variables</strong>
 in the side navigation
 <img src='resources/icons/secrets_and_variables.png' alt='secrets and variables icon' class = icon width = '200px'></p>
@@ -241,8 +259,10 @@ Add secret
 </div>
 <p><br></p>
 <p><a
-href="https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository">Click
-here to see GitHub documentation on setting repository secrets.</a></p>
+  href="https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository"
+  target="_blank"
+  rel="noopener noreferrer"> Click here to see GitHub documentation on
+setting repository secrets. </a></p>
 <br> <br>
 <center>
 <a href="https://www.ottrproject.org/">
