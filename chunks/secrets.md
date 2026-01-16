@@ -2,6 +2,8 @@
 
 <input type="checkbox"> In your OTTR repository, go to **Settings** in the top navigation tabs `r config::get("settings")`
 
+Note that this is different from your profile settings where you made your token. 
+
 <input type="checkbox"> Go to **Secrets and variables** in the side navigation `r config::get("secrets")`
 
 <input type="checkbox"> Click on **Actions**
