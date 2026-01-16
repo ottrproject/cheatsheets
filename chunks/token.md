@@ -24,7 +24,7 @@ Note that your token will expire based on the date that you set in the Expiratio
 
 <input type="checkbox"> Click: <div class = "github_button"> Generate token</div>
 
-<input type="checkbox"> Copy the **personal access token** `r config::get("copy")` and save somewhere safe and private. **Please note that you cannot retrieve this personal access token again later from GitHub**
+<input type="checkbox"> Copy the **personal access token** `r config::get("copy")` and save somewhere safe and private. **Please note that you cannot retrieve this personal access token again later from GitHub.**  If you lose it, you just need to complete this process again. 
 
 
 <br>
