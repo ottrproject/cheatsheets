@@ -1,6 +1,23 @@
 
-## Create your own repository from the [OTTR_Quarto](https://github.com/ottrproject/OTTR_Quarto) template
 
-<input type="checkbox">  In the upper right, _click on_: <div class = "github_button"> <a href="https://github.com/new?template_name=OTTR_Quarto"> Use this template</a></div>
+## Log into GitHub or make a GitHub profile if you are new to GitHub
 
-<input type="checkbox">  Set your repo to **Public**'
+<input type="checkbox"> Go to [github.com](https://github.com)
+
+<input type="checkbox"> Sign up for GitHub if you haven't already - it's free!
+
+<input type="checkbox"> Make sure you are logged into GitHub - check at https://github.com/ - you should see your profile in the upper right corner
+
+## Create a repository from the OTTR_Template_Website template
+
+<input type="checkbox"> Go to [OTTR_Template_Website](https://github.com/ottrproject/OTTR_Template_Website)
+
+<input type="checkbox"> In the upper right, _click on_: <div class = "github_button">Use this template</div>
+
+Make sure you don't click on the green "Code" button instead!
+
+<input type="checkbox"> Click on _Create a new repository_. 
+
+<input type="checkbox">  Set your repo to "**Public**"
+
+<input type="checkbox"> Select on the green _Create repository_ button. 

@@ -33,6 +33,15 @@
       code: https://github.com/ottrproject/cheatsheets/blob/main/ai_everyday_uses.Rmd
       thumbnail: pngs/ai_everyday_uses.png
 
+- category: Google Analytics
+  description: |
+    Cheatsheet for integrating Google Analytics into OTTR courses and websites to track traffic.
+  tiles:
+    - title: Google Analytics Integration
+      href: https://ottrproject.org/cheatsheets/google_analytics.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/google_analytics.Rmd
+      thumbnail: pngs/google_analytics.png
+
 - category: OTTR
   description: |
     Cheatsheets for using our Open-source Tools for Training Resources (OTTR) software to create websites and courses with automatic rendering and checks.
