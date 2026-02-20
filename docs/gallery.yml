@@ -32,6 +32,10 @@
       href: https://ottrproject.org/cheatsheets/ai_everyday_uses.html
       code: https://github.com/ottrproject/cheatsheets/blob/main/ai_everyday_uses.Rmd
       thumbnail: pngs/ai_everyday_uses.png
+    - title: Google Analytics Integration
+      href: https://ottrproject.org/cheatsheets/google_analytics.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/google_analytics.Rmd
+      thumbnail: pngs/google_analytics.png
 
 - category: OTTR
   description: |
