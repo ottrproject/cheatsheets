@@ -2,6 +2,8 @@
 
 <input type="checkbox"> In your OTTR repository, go to **Settings** in the top navigation tabs `r config::get("settings")`
 
+Note that this is different from your profile settings where you made your token. 
+
 <input type="checkbox"> Go to **Secrets and variables** in the side navigation `r config::get("secrets")`
 
 <input type="checkbox"> Click on **Actions**
@@ -16,4 +18,10 @@
 
 <br>
 
-[Click here to see GitHub documentation on setting repository secrets.](https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository)
+
+<a
+  href="https://docs.github.com/en/codespaces/managing-codespaces-for-your-organization/managing-development-environment-secrets-for-your-repository-or-organization#adding-secrets-for-a-repository"
+  target="_blank"
+  rel="noopener noreferrer">
+  Click here to see GitHub documentation on setting repository secrets.
+</a>

@@ -7,7 +7,7 @@
 </a>
 </center>
 
-<div class = "authors"> **Authors**: Content for this cheatsheet came from Carrie Wright and Lauren Chan. It was summarized and formatted by Carrie Wright. Icons from https://www.iconpacks.net.
+<div class = "authors"> **Authors**: Content for this cheatsheet was written by Carrie Wright. It was formatted by Padmashri Saravanan.
 <br>
 This content is free for noncommercial reuse with attribution. CC-BY-NC
 </div>

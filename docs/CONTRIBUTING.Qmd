@@ -8,7 +8,7 @@ The [Contributor Covenant Code of Conduct can be found here](https://github.com/
 
 To make a new cheatsheet, you can create a Rmd or md in the top of the repository. GitHub Actions will automatically render the cheatsheet as a PNG which will be saved to the `docs` folder.
 
-There are two style options: `css/ITN_style.css` and `css/OTTR_style.css`.
+There are two style options: `css/ITN_style.css` and `css/OTTR_style.css`.  
 
 Specify this in the yaml header: 
 

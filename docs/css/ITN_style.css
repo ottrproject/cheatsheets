@@ -130,6 +130,14 @@ input[type="checkbox"] {
 
 }
 
+/*------------- Images: centered at 80% width ---------------- */
+
+img {
+  display: block;
+  width: 80%;
+  margin: 1.5em auto;
+}
+
 /*------------- Body and header text---------------- */
 
 .book.font-family-1 {
@@ -156,7 +164,11 @@ body {
   counter-reset: h2;
   text-indent: 3em each-line;
   font-size: 15px;
-  line-height: 1.4;
+  line-height: 1.8;
+}
+
+p {
+  margin-bottom: 1.2em;
 }
 
 h2::before {
