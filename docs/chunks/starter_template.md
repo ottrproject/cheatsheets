@@ -16,4 +16,8 @@
 
 Make sure you don't click on the green "Code" button instead!
 
+<input type="checkbox"> Click on _Create a new repository_. 
+
 <input type="checkbox">  Set your repo to "**Public**"
+
+<input type="checkbox"> Select on the green _Create repository_ button. 
