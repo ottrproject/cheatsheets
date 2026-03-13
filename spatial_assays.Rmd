@@ -68,9 +68,34 @@ Another aspect to think about: journals will often expect it.
 
 # Step 2: Do we have the necessary resources?
 
+ST is costly, requires specialized equipment and training. 
 
+ST is costly both for data acquisition and analysis
+
+  - A Visium slide (4 tissues) costs ~ $6K–8K (before sequencing or analysis costs)
+  - a Xeinium slide (<1000 genes) costs ~$5K–8K (before analysis costs)
+  
+
+Specialized Equipment 
+
+- Most technologies will require microtome/cryostat for tissue slices, brightfield microscope, and scanner
+
+- Visium 10X currently requires barcoded slides and slide cassette, and a sequencer
+- GeoMx currently requires GeoMx DSP instrument, fluorescence microscope, (and likely a squencer)
+- MERSCOPE requires a MERSCOPE instrument
+- slide-seq/Curio - requires a barcoded substrate called "puck"
+
+Speciaized Skills
+
+- Bona-fide spatial analysis often requires advanced [spatial statistics knowledge](https://www.nature.com/articles/s41598-024-61758-0)
+i.e., traditional non-spatial scRNA-seq analysis is likely not appropriate 
 
 <hr>
+
+# Study System Considerations
+
+
+
 
 # Tips for AI Use
 
@@ -108,6 +133,9 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/1T88OS5ih3l0Ug0Mk
 
 -   Read up about [how Spatial Transcriptomics works](https://pmc.ncbi.nlm.nih.gov/articles/PMC11103497/)
 - Read up about the [difference between ST, sm-FISH, and scRNA-seq](https://vizgen.com/what-is-spatial-transcriptomics/)
+- Guidance about picking between [ST commercial options](https://doi.org/10.1186/s12864-025-11235-3)
+- Guide on how do differential gene expression analysis with spatial data using [spatial mixed models](https://www.nature.com/articles/s41598-024-61758-0)
+
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
