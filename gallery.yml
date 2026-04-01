@@ -57,4 +57,8 @@
       href: https://ottrproject.org/cheatsheets/ottr_token.html
       code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_token.Rmd
       thumbnail: pngs/ottr_token.png
+    - title: Google Analytics Integration
+      href: https://ottrproject.org/cheatsheets/google_analytics.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/google_analytics.Rmd
+      thumbnail: pngs/google_analytics.png
 
