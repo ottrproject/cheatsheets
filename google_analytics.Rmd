@@ -12,7 +12,7 @@ ottrpal::borrow_chapter(
   doc_path = "chunks/create_ottr_header.md",
   tag_replacement = list(
     "{TITLE}" = "OTTR Google Analytics", "{SUBTITLE}" =  "Integration with your repository",
-        "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_quarto_website.png?raw=true"
+        "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/google_analytics.png?raw=true"
     ))
 ```
 
