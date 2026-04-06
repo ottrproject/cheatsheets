@@ -61,4 +61,7 @@
       href: https://ottrproject.org/cheatsheets/google_analytics.html
       code: https://github.com/ottrproject/cheatsheets/blob/main/google_analytics.Rmd
       thumbnail: pngs/google_analytics.png
-
+    - title: OTTR Sync
+      href: https://ottrproject.org/cheatsheets/ottr_sync.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_sync.Rmd
+      thumbnail: pngs/ottr_sync.png

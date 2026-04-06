@@ -1,0 +1,81 @@
+---
+output:
+  html_document:
+    includes:
+      in_header: ottr_favicon.html
+css: css/OTTR_style.css
+---
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "OTTR Sync",
+    "{SUBTITLE}" = "Enrolling For Sync Updates",
+    "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_sync.png?raw=true"
+  ))
+```
+
+## Add `jhudsl-robot` as a Collaborator
+
+*Skip this step if your course is in the `jhudsl` or `fhdsl` organization.*
+
+To enable the full functionality of GitHub Actions, add `jhudsl-robot` as a collaborator with write access:
+
+1. Go to **Settings** > **Collaborators & Teams** and click **Add people**.
+2. Search for and add `jhudsl-robot`.
+3. If prompted, choose **Write** access, then click **Add jhudsl-robot to this repository**.
+
+<img src="https://github.com/ottrproject/OTTR_Template/raw/main/resources/screenshots/add-jhudsl-robot.png" width="400">
+
+---
+
+## Which Sync File Should You Edit?
+
+Add your repository name to the `.github/sync.yml` file of the OTTR template you created your repository from:
+
+| Template | Sync File | Use For |
+|:---|:---|:---|
+| [OTTR_Template](https://github.com/ottrproject/OTTR_Template/blob/main/.github/sync.yml) | `sync.yml` | R Markdown courses |
+| [OTTR_Template_Website](https://github.com/ottrproject/OTTR_Template_Website/blob/main/.github/sync.yml) | `sync.yml` | Websites |
+| [OTTR_Quizzes](https://github.com/ottrproject/OTTR_Quizzes/blob/main/.github/sync.yml) | `sync.yml` | Quizzes |
+
+---
+
+## If You Are in the `jhudsl` or `fhdsl` Organization
+
+1. Open the relevant sync file above and click the **pencil icon** to edit.
+2. Add your repository name where it says `#NEW REPO HERE#`, indented to match other entries.
+
+![](https://raw.githubusercontent.com/ottrproject/OTTR_Template/main/resources/screenshots/edit-sync.yml.png)
+
+3. Click **Commit changes...**, enter `Add new repository to sync` as the commit message, and choose **Create a new branch**.
+4. Click **Propose changes**, open a pull request, and request `@kweav` as a reviewer.
+
+---
+
+## If You Are NOT in the `jhudsl` or `fhdsl` Organization
+
+Choose one of the following options:
+
+- **Google Form** — Submit your org/username and repo name via the [OTTR Feedback Google Form](https://forms.gle/jGQnd5oemHWyuUq28).
+- **Open an issue** — Use the links below and provide your repo info; the team will update `sync.yml` for you.
+- **Fork and PR** — Fork the template repo, edit `sync.yml` on a new branch adding your repo name where it says `#NEW REPO HERE#`, commit, and open a pull request tagging `@kweav`.
+
+| Repository | Issue Links |
+|:---:|:---:|
+| OTTR_Template | [General issue](https://github.com/ottrproject/OTTR_Template/issues/new/choose) · [Add new repo to sync](https://github.com/ottrproject/OTTR_Template/issues/new?assignees=kweav&labels=&projects=&template=new-course-add-to-sync.md&title=) · [Update repo info in sync](https://github.com/ottrproject/OTTR_Template/issues/new?assignees=kweav&labels=&projects=&template=update-course-info-for-sync.md&title=) |
+| OTTR_Quizzes | [Open an issue](https://github.com/ottrproject/OTTR_Quizzes/issues) |
+| OTTR_Template_Website | [General issue](https://github.com/ottrproject/OTTR_Template_Website/issues/new/choose) · [Add new repo to sync](https://github.com/ottrproject/OTTR_Template_Website/issues/new?assignees=kweav&labels=&projects=&template=new-website-add-to-sync.md&title=) |
+
+<p class="comment">
+_If you have any questions, please tag `@kweav` or `@carriewright11`._
+</p>
+
+---
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Padmashri Saravanan from [BioDataSage](https://www.biodatasage.com/) created the cheatsheet content. Carrie Wright reviewed the material. Kate Isaac created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet."
+  ))
+```
