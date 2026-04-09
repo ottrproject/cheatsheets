@@ -80,6 +80,6 @@ _If you have any questions, please tag `@kweav` or `@carriewright11`._
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_ottr_footer.md",
   tag_replacement = list(
-    "{AUTHORS}" = "Padmashri Saravanan from [BioDataSage](https://www.biodatasage.com/) created the cheatsheet content. Carrie Wright reviewed the material. Kate Isaac created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet."
+    "{AUTHORS}" = "Padmashri Saravanan from [BioData Sage](https://www.biodatasage.com/) created the cheatsheet content. Carrie Wright reviewed the material. Kate Isaac created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet."
   ))
 ```

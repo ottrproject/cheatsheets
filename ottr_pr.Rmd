@@ -1,0 +1,135 @@
+---
+output:
+  html_document:
+    includes:
+      in_header: ottr_favicon.html
+css: css/OTTR_style.css
+---
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "OTTR Pull Requests",
+    "{SUBTITLE}" = "Writing New Content",
+    "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_pr.png?raw=true"
+  ))
+```
+
+
+All OTTR content development revolves around **pull requests** where proposed changes trigger automated checks before publishing.
+
+> ⚠️ **Never edit the `docs` folder directly or push rendered files.** Automation handles those files.
+
+---
+
+## Writing Your Content
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
+
+<div>
+### Option A: Browser (Entry Level)
+
+- [ ] On your repo page, click the branch button and create a **new branch**
+- [ ] Navigate to a file, click the **pencil icon** to edit
+- [ ] Scroll down and **Commit directly to your new branch**
+- [ ] Return to the main repo page and click **Compare & pull request**
+- [ ] Add a description and click **Create Pull Request**
+</div>
+
+<div>
+### Option B: Local (Advanced)
+
+- [ ] **Clone** your repo using GitKraken or Git
+- [ ] Create a **new branch** for your changes
+- [ ] Edit files locally, then **stage and commit** in GitKraken
+- [ ] **Push** your branch to GitHub
+- [ ] Go to GitHub and click **Compare & pull request**
+- [ ] Add a description and click **Create Pull Request**
+</div>
+
+</div>
+
+<p class="comment">
+⚠️ **Do not push rendered files** (e.g. files in `docs/`). OTTR's automation renders and manages these files automatically. Pushing rendered files can cause conflicts and break the automated workflow.
+</p>
+
+---
+
+## OTTR Automated Checks
+
+Once your PR is open, checks run automatically and post results as **comments on the PR**.
+
+| Check | What it does |
+|:---|:---|
+| **URL check** | Verifies all links are valid |
+| **Spell check** | Flags spelling errors |
+| **Style check** | Checks code formatting |
+| **Preview render** | Generates a rendered preview |
+| **Quiz check** | Validates quiz formatting (if applicable) |
+
+- [ ] Read the check comments on your PR
+- [ ] Commit fixes to your branch to re-trigger checks
+- [ ] Adjust which checks run in `config_automation.yml`
+
+<p class="comment">
+_If a check result looks unexpected, refresh the page or make a new commit to re-trigger._
+</p>
+
+---
+
+## Adding a New Chapter
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
+
+
+<div>
+### Quarto
+
+- [ ] Add a new `.qmd` file to your branch
+- [ ] Add the filename to `_quarto.yml` under `navar:`
+
+```{yaml}
+navbar:
+    left:
+    - text: ""
+      href: index.qmd
+      icon: fa-home
+    - text: 1. Setup
+      href: setup.qmd
+    - text: 2. New Chapter
+      href: new_chapter.qmd ## new!
+```
+
+- [ ] Commit the updated `_quarto.yml`
+- [ ] Check your PR for any new automated check results
+
+</div>
+
+<div>
+### R Markdown
+
+- [ ] Add a new `.Rmd` file to your branch
+- [ ] Add the filename to `_bookdown.yml` under `rmd_files:`
+
+```{yaml}
+rmd_files: ["index.Rmd",
+            "01-intro.Rmd",
+            "02-new_chapter.Rmd"]  ## new!
+```
+
+- [ ] Commit the updated `_bookdown.yml`
+- [ ] Check your PR for any new automated check results
+
+</div>
+
+</div>
+---
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Padmashri Saravanan from [BioData Sage](https://www.biodatasage.com/) created the cheatsheet content. Carrie Wright reviewed the material. Kate Isaac created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet."
+  ))
+```
