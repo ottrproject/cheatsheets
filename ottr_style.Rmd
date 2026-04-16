@@ -61,6 +61,24 @@ Edit `style_config_custom.css` to override any default variable:
 _You only need to set the variables you want to change. Anything not set in `style_config_custom.css` will fall back to the defaults in `style_config_default.css`._
 </p>
 
+For example, within your `assets/style_config_custom.css` file, you would add: 
+
+```{css}
+:root {
+    --link-color: #a1005a;              /* deep magenta for links */
+    --accent-color: #6e0040;            /* dark rose (headings, emphasis) */
+    --highlight-color: #e754a6;         /* vibrant pink for UI highlights */
+    --caption-color: #4a4a4a;           /* neutral dark gray */
+    --background-color: #ffffff;
+    --callout-background-color: #f6e9f1; /* soft pink-tinted gray */
+  }
+```
+
+#### Recommended Resources
+
+**1. ColorBuddy**: <https://color-buddy.netlify.app/>
+
+**2. Venngage Color Accessibility Tool**: <https://venngage.com/tools/accessible-color-palette-generator>
 
 ## Receiving CSS Updates via Sync
 
