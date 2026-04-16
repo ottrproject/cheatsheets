@@ -51,7 +51,7 @@ All OTTR content development revolves around **pull requests** where proposed ch
 </div>
 
 <p class="comment">
-⚠️ **Do not push rendered files** (e.g. files in `docs/`). OTTR's automation renders and manages these files automatically. Pushing rendered files can cause conflicts and break the automated workflow.
+> ⚠️ **Do not push rendered files** (e.g. files in `docs/`). OTTR's automation renders and manages these files automatically. Pushing rendered files can cause conflicts and break the automated workflow.
 </p>
 
 ---
@@ -124,6 +124,9 @@ rmd_files: ["index.Rmd",
 </div>
 
 </div>
+
+> Ensure you have checked that the quotation marks and commas align with the YAML and that you have the correct file names!
+
 ---
 
 ```{r, echo=FALSE, results='asis'}
