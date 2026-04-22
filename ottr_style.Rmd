@@ -63,7 +63,7 @@ _You only need to set the variables you want to change. Anything not set in `sty
 
 For example, within your `assets/style_config_custom.css` file, you would add: 
 
-```{css}
+```
 :root {
     --link-color: #a1005a;              /* deep magenta for links */
     --accent-color: #6e0040;            /* dark rose (headings, emphasis) */
@@ -74,11 +74,29 @@ For example, within your `assets/style_config_custom.css` file, you would add:
   }
 ```
 
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
+
+<div>
+```{r, echo=FALSE, fig.cap="Default colors", fig.align='center'}
+knitr::include_graphics("resources/images/style_default.png")
+```
+
+</div>
+
+<div>
+```{r, echo=FALSE, fig.cap="Changed colors", fig.align='center'}
+knitr::include_graphics("resources/images/style_change.png")
+```
+</div>
+
+</div>
+
 #### Recommended Resources
 
-**1. ColorBuddy**: <https://color-buddy.netlify.app/>
+**1. Venngage Color Accessibility Tool**: <https://venngage.com/tools/accessible-color-palette-generator>
 
-**2. Venngage Color Accessibility Tool**: <https://venngage.com/tools/accessible-color-palette-generator>
+**2. ColorBuddy**: <https://color-buddy.netlify.app/>
+
 
 ## Receiving CSS Updates via Sync
 
