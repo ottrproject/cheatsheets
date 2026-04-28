@@ -78,8 +78,9 @@ For example, within your `assets/style_config_custom.css` file, you would add:
 
 <div>
 ```{r, echo=FALSE, fig.cap="Default colors", fig.align='center'}
-knitr::include_graphics("resources/images/style_default.png")
+knitr::include_graphics("resources/images/style_default.png") 
 ```
+
 
 </div>
 
