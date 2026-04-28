@@ -83,6 +83,8 @@ ottrpal::borrow_chapter(
   tag_replacement = list(
     "{AUTHORS}" = "[Author name] wrote the content. [Contributor name] reviewed and improved the cheatsheet."
   ))
+  
+  Fill in the [Author name] and [Contributor name] sections with your author info.
 ```
 
 
