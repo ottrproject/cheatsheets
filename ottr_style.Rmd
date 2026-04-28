@@ -84,6 +84,7 @@ knitr::include_graphics("resources/images/style_default.png")
 
 </div>
 
+
 <div>
 ```{r, echo=FALSE, fig.cap="Changed colors", fig.align='center'}
 knitr::include_graphics("resources/images/style_change.png")
