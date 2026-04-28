@@ -113,6 +113,8 @@ ottrpal::borrow_chapter(
 
 ### Getting icons
 
+Use the following code to include icons that are already set up in this repo.
+
 | Icon | Output | Code |
 |---|---|---|
 | Actions | `r config::get("actions")` | `` `r config::get("actions")` `` |
