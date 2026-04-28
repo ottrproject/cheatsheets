@@ -83,6 +83,8 @@ ottrpal::borrow_chapter(
   tag_replacement = list(
     "{AUTHORS}" = "[Author name] wrote the content. [Contributor name] reviewed and improved the cheatsheet."
   ))
+  
+  Fill in the [Author name] and [Contributor name] sections with your author info.
 ```
 
 
@@ -110,6 +112,8 @@ ottrpal::borrow_chapter(
 ```
 
 ### Getting icons
+
+Use the following code to include icons that are already set up in this repo.
 
 | Icon | Output | Code |
 |---|---|---|
@@ -152,7 +156,7 @@ Make sure to check the render of index.Qmd!
 - [ ] Cheatsheet file is at the top level of the repository
 - [ ] YAML header uses the correct style
 - [ ] Cheatsheet starts with the correct header chunk
-- [ ] Cheatsheet ends with the correct footer chunk
+- [ ] Cheatsheet ends with the correct footer chunk, check that the author information has been updated
 - [ ] Reusable content has been moved to `chunks` where appropriate
 - [ ] Links and image paths are correct
 - [ ] Cheatsheet has been added to `gallery.yml`
