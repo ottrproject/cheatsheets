@@ -61,7 +61,7 @@ glyphicons
 repo
 RStudio
 yml
-
+️
 analytics
 Analytics
 ColorBuddy
@@ -70,3 +70,5 @@ GitKraken
 jhudsl
 Venngage
 YAML
+customisation
+customization
