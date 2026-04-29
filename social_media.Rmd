@@ -129,7 +129,7 @@ https://www.linkedin.com/company/cancer-genomics-consortium
 <div class="column">
 <center>
 ::: Note
-
+ 
 **ITN Social Media Handles**:
 
 - [LinkedIn](https://www.linkedin.com/company/itcr-training-network): itcr-training-network
