@@ -69,3 +69,7 @@
       href: https://ottrproject.org/cheatsheets/ottr_sync.html
       code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_sync.Rmd
       thumbnail: pngs/ottr_sync.png
+    - title: OTTR CSS
+      href: https://ottrproject.org/cheatsheets/ottr_style.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_style.Rmd
+      thumbnail: pngs/ottr_style.png
