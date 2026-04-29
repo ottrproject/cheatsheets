@@ -106,7 +106,7 @@ If your repo is enrolled in OTTR sync, future CSS improvements will be updated a
 
 - [ ] Confirm you have enrolled for [sync updates](ottr_sync.html)
 - `style_config_default.css` will update on sync. **Do not customize this file**.
-- Your customizations in `style_config_custom.css` will not be touched
+- Your customisations in `style_config_custom.css` will not be touched
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
