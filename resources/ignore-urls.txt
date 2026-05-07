@@ -3,3 +3,7 @@ PATH_TO_PNG
 "{PATH_TO_PNG}"
 https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/ottr_quarto_course.png
 https://username.github.io/repository_name/
+"https://github.com/ottrproject/cheatsheets/blob/main/pngs/google_analytics.png?raw=true"
+"https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_pr.png?raw=true"
+"https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_style.png?raw=true"
+"https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_sync.png?raw=true"

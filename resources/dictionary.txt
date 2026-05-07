@@ -1,4 +1,3 @@
-Analytics
 Bitbucket
 Bitly
 Bluesky
@@ -9,7 +8,6 @@ custimization
 cwrigh
 Dockerfile
 Dockerhub
-dropdown
 eco
 ejs
 else's
@@ -63,3 +61,14 @@ glyphicons
 repo
 RStudio
 yml
+️
+analytics
+Analytics
+ColorBuddy
+dropdown
+GitKraken
+jhudsl
+Venngage
+YAML
+customisation
+customization
