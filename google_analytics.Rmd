@@ -1,0 +1,129 @@
+---
+output:
+  html_document:
+    number_sections: false
+    includes:
+      in_header: ottr_favicon.html
+css: css/OTTR_style.css
+---
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "OTTR Google Analytics", "{SUBTITLE}" =  "Integration with your repository",
+        "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/google_analytics.png?raw=true"
+    ))
+```
+
+<hr>
+
+# Set Up Google Analytics
+
+## Create an Account & Property
+
+<input type="checkbox"> Go to <a href="https://analytics.google.com/analytics" target="_blank">analytics.google.com/analytics</a> and click **Start measuring**
+
+<input type="checkbox"> Create or sign in to your Google Analytics account
+
+<input type="checkbox"> Create a new **Property** — fill in a name and details
+
+<input type="checkbox"> Accept the terms of service for your country / region
+
+## Add a Data Stream
+
+<input type="checkbox"> Click **Add a Data Stream** → choose **Web**
+
+<input type="checkbox"> Enter your course URL — select `https://` from the dropdown; do not type it in the URL field
+
+<input type="checkbox"> Click **Create and continue**
+
+<input type="checkbox"> Copy the code chunk provided on the resulting page — it will look like:
+
+``` html
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+```
+
+<hr>
+
+# Configure Your OTTR Repo
+
+::::: row
+::: column
+## For OTTR (Rmd-based) Courses
+
+<input type="checkbox"> Open `GA_Script.html` in your repo
+
+<input type="checkbox"> Replace the entire file contents with the code chunk you copied
+
+<input type="checkbox"> Confirm `_output.yml` includes `in_header: GA_Script.html` (already set in updated templates)
+
+<input type="checkbox"> Commit and push your changes
+:::
+
+::: column
+## For OTTR Quarto Courses
+
+<input type="checkbox"> Open `GA_Script.html` in your repo
+
+<input type="checkbox"> Replace the entire file contents with the code chunk you copied
+
+<input type="checkbox"> Confirm `_quarto.yml` includes `include-in-header: GA_Script.html` under `format: html:` (already set in updated templates)
+
+<input type="checkbox"> Commit and push your changes
+:::
+:::::
+
+<hr>
+
+# Trigger & Verify a Re-render
+
+<input type="checkbox"> Push your changes — the GitHub Action should trigger automatically when `GA_Script.html` is updated
+
+<input type="checkbox"> If using an older template, manually trigger the `render_all` workflow from the **Actions** tab in GitHub
+
+<input type="checkbox"> Open any rendered HTML file in `docs/` and search for `Google Analytics` to confirm the tag was included
+
+<hr>
+
+# Verify Traffic Is Being Tracked
+
+<input type="checkbox"> Log in to <a href="https://analytics.google.com/analytics" target="_blank">Google Analytics</a>
+
+<input type="checkbox"> Click the **gear icon** (lower left) → **Data Collection and Modification** → **Data Streams**
+
+<input type="checkbox"> Click your stream and confirm traffic has been received
+
+<input type="checkbox"> Click **Test** on the stream page, then open your live course URL and check that you appear as a visitor in Google Analytics
+
+<input type="checkbox"> Click the **Home button** — it should say **"Data collection is active"**
+
+<input type="checkbox"> Check the **Reports** tab (bar chart icon, upper left) — opening your course in a browser should show you as 1 user in the last 30 minutes
+
+<hr>
+
+# Troubleshooting
+
+| Issue | What to Check |
+|----|----|
+| No data showing in GA | Make sure the **code chunk** in `GA_Script.html` was copied correctly and contains the right ID (`G-XXXXXXXXXX`) |
+| Data stream shows no traffic | Check that the **URL** in the stream matches your course URL — watch for `https` vs `http` |
+| Old template not rendering GA | Manually run the `render_all` workflow; confirm both `_output.yml` and `GA_Script.html` are updated and filenames are consistent |
+| Render not triggering | Ensure `GH_PAT` is set up for the repo (with `actions` and `repo` permissions), not just the organization |
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Padmashri Saravanan from [BioDataSage](https://www.biodatasage.com/) created the cheatsheet content. Carrie Wright reviewed the material. Kate Isaac created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet. "
+    ))
+```
+

@@ -1,86 +1,163 @@
-# Want to contribute to these cheatsheets?
+---
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    toc-location: left
+css: styles.css
+---
 
-## Code of Conduct
+# Want to contribute to the cheatsheets?
 
-The [Contributor Covenant Code of Conduct can be found here](https://github.com/ottrproject/OTTR_Template/blob/main/code_of_conduct.md)
+<div class="banner_color">
+Read this guide before opening a pull request.
+</div>
 
-## Making a new cheatsheet
+Please review our [Contributor Covenant Code of Conduct](https://github.com/ottrproject/OTTR_Template/blob/main/code_of_conduct.md) before contributing.
 
-To make a new cheatsheet, you can create a Rmd or md in the top of the repository. GitHub Actions will automatically render the cheatsheet as a PNG which will be saved to the `docs` folder.
+## Making a New Cheatsheet
 
-There are two style options: `css/ITN_style.css` and `css/OTTR_style.css`.  
+Create a `.Rmd` or `.md` file at the top level of the repository. **GitHub Actions will automatically render it as a PNG saved to the `docs` folder.**
 
-Specify this in the yaml header: 
+### 1. Choose a Style
 
+Specify respective style in the yaml header: 
+
+**OTTR style:**
+
+```{yaml}
 ---
 output: html_document
 css: css/OTTR_style.css
 ---
+```
 
-or
+or 
 
+**ITN style:**
+
+```{yaml}
 ---
 output:
   html_document:
     number_sections: false
 css: css/ITN_style.css
 ---
+```
 
-## Starting Chunk
+### 2. Add a Header Chunk
 
-All cheatsheets should start with either `chunk/create_ottr_header.md` or `chunk/create_itn_header/md`.
+All cheatsheets should start with either `chunk/create_ottr_header.md` or `chunk/create_itn_header/md`. Specify the title, subtitle, and path to the PNG image.
 
-Specify what the title, subtitle, and path to png is. 
+Example:
 
-## Reusing chunks
-
-Should some text need to be used more than once, make a markdown document that goes in the `chunks` folder. 
-You can put tags that will be replaced with exact matches (not regex). 
-
-For example, where`{TITLE}` is written in the chunk markdown document and then you can tell it in the call what you want to replace it with (see below).
-
-Then in the original document you can do a call like this:
-
-```{r, echo=FALSE, results='asis'}
+```{r, eval=FALSE, results='asis'}
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_header.md",
   tag_replacement = list(
-    "{TITLE}" = "Attending Conferences", 
-    "{SUBTITLE}" =  "Helpful Tips",
+    "{TITLE}"       = "Your Title",
+    "{SUBTITLE}"    = "Your Subtitle",
+    "{PATH_TO_PNG}" = "path-to-image.png"
+  ))
+```
+
+### 3. Add the corresponding PNG file
+
+Each cheatsheet needs a corresponding PNG for the header and gallery. GitHub Actions will automatically render a PNG when you create your cheatsheet. 
+
+Example path:
+
+```
+https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/attending_conferences.png
+```
+
+### 4. Add a Footer Chunk
+
+Every cheatsheet must end with a footer chunk. Use it to credit authors and contributors.
+
+Example with OTTR footer:
+
+```{r eval=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "[Author name] wrote the content. [Contributor name] reviewed and improved the cheatsheet."
+  ))
+  
+  Fill in the [Author name] and [Contributor name] sections with your author info.
+```
+
+
+## Reusing Content with Chunks
+
+If text will appear more than once, put it in a `.md` file inside the `chunks` folder. Use `{PLACEHOLDER}` tags for variable content (not regex). 
+
+Chunks are especially useful for:
+
+- Headers and footers
+- Setup instructions
+- Repeated GitHub workflow steps
+- Standard reference sections
+
+**Example call:**
+
+```{r eval=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_itn_header.md",
+  tag_replacement = list(
+    "{TITLE}"       = "Attending Conferences",
+    "{SUBTITLE}"    = "Helpful Tips",
     "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/attending_conferences.png"
-    ))
+  ))
 ```
 
+### Getting icons
 
-To get icons you can use the following:
+Use the following code to include icons that are already set up in this repo.
 
+| Icon | Output | Code |
+|---|---|---|
+| Actions | `r config::get("actions")` | `` `r config::get("actions")` `` |
+| Copy | `r config::get("copy")` | `` `r config::get("copy")` `` |
+| Collaborate | `r config::get("collab")` | `` `r config::get("collab")` `` |
+| Develop | `r config::get("dev")` | `` `r config::get("dev")` `` |
+| Edit | `r config::get("edit")` | `` `r config::get("edit")` `` |
+| Pages | `r config::get("pages")` | `` `r config::get("pages")` `` |
+| Token | `r config::get("token")` | `` `r config::get("token")` `` |
+| Profile | `r config::get("profile")` | `` `r config::get("profile")` `` |
+| Pull Request | `r config::get("PR")` | `` `r config::get("PR")` `` |
+| Search | `r config::get("search")` | `` `r config::get("search")` `` |
+| Secrets | `r config::get("secrets")` | `` `r config::get("secrets")` `` |
+| Settings | `r config::get("settings")` | `` `r config::get("settings")` `` |
+
+
+## Adding Cheatsheets to the Main Gallery
+
+Update `gallery.yml` with your cheatsheet's information under the appropriate category:
+
+- [Conferences & Engagement](https://www.ottrproject.org/cheatsheets/#conferences-engagement)
+- [Research & Software Development](https://www.ottrproject.org/cheatsheets/#research-software-development)
+- [OTTR](https://www.ottrproject.org/cheatsheets/#ottr)
+
+Example: 
+
+```yml
+- title: Google Analytics Integration
+  href: https://ottrproject.org/cheatsheets/google_analytics.html
+  code: https://github.com/ottrproject/cheatsheets/blob/main/google_analytics.Rmd
+  thumbnail: pngs/google_analytics.png
 ```
-`r config::get("actions")`
 
-`r config::get("copy")`
+Make sure to check the render of index.Qmd! 
 
-`r config::get("collab")`
+## Contributor Checklist
 
-`r config::get("dev")`
-
-`r config::get("edit")`
-
-`r config::get("pages")`
-
-`r config::get("token")`
-
-`r config::get("profile")`
-
-`r config::get("PR")`
-
-`r config::get("search")`
-
-`r config::get("secrets")`
-
-`r config::get("settings")`
-```
-
-## Adding cheatsheets to main page
-
-- Add information about the cheatsheet (and links) to the `gallery.yml` file
-- Check render of index.Qmd
+- [ ] Content is clear, concise, and easy to follow
+- [ ] Cheatsheet file is at the top level of the repository
+- [ ] YAML header uses the correct style
+- [ ] Cheatsheet starts with the correct header chunk
+- [ ] Cheatsheet ends with the correct footer chunk, check that the author information has been updated
+- [ ] Reusable content has been moved to `chunks` where appropriate
+- [ ] Links and image paths are correct
+- [ ] Cheatsheet has been added to `gallery.yml`
+- [ ] Main page render has been checked

@@ -61,3 +61,14 @@ glyphicons
 repo
 RStudio
 yml
+️
+analytics
+Analytics
+ColorBuddy
+dropdown
+GitKraken
+jhudsl
+Venngage
+YAML
+customisation
+customization
