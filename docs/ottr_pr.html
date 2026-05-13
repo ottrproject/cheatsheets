@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>ottr_pr.knit</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="shortcut icon" href="css/images/basic_otter_water.ico" />
+<!--- go to https://favicon.io/favicon-converter/ to upload an image to make a new favicon.io. You will need to replace the current favicon.io image with the one in the downloaded directory from the website. The current image is in the resources/images/ directory --->
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/OTTR_style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div class="header_box">
+<p><u>OTTR Pull Requests</u><br><span style="color:#986753;"> Writing
+New Content </span></p>
+</div>
+<div class="png_button">
+<a href="https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_pr.png?raw=true">Download
+cheatsheet</a>
+</div>
+<div class="time">
+<strong>Last updated: May 13, 2026</strong>
+</div>
+<!-- Open all links in new tab-->
+<p><base target="_blank" rel="noopener noreferrer"/></p>
+<p>All OTTR content development revolves around <strong>pull
+requests</strong> where proposed changes trigger automated checks before
+publishing.</p>
+<blockquote>
+<p>⚠️ <strong>Never edit the <code>docs</code> folder directly or push
+rendered files.</strong> Automation handles those files.</p>
+</blockquote>
+<hr />
+<div id="writing-your-content" class="section level2">
+<h2>Writing Your Content</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
+<div id="option-a-browser-entry-level" class="section level3">
+<h3>Option A: Browser (Entry Level)</h3>
+<ul class="task-list">
+<li><input type="checkbox" />On your repo page, click the branch button
+and create a <strong>new branch</strong></li>
+<li><input type="checkbox" />Navigate to a file, click the
+<strong>pencil icon</strong> to edit</li>
+<li><input type="checkbox" />Scroll down and <strong>Commit directly to
+your new branch</strong></li>
+<li><input type="checkbox" />Return to the main repo page and click
+<strong>Compare &amp; pull request</strong></li>
+<li><input type="checkbox" />Add a description and click <strong>Create
+Pull Request</strong></li>
+</ul>
+</div>
+<div id="option-b-local-advanced" class="section level3">
+<h3>Option B: Local (Advanced)</h3>
+<ul class="task-list">
+<li><input type="checkbox" /><strong>Clone</strong> your repo using
+GitKraken or Git</li>
+<li><input type="checkbox" />Create a <strong>new branch</strong> for
+your changes</li>
+<li><input type="checkbox" />Edit files locally, then <strong>stage and
+commit</strong> in GitKraken</li>
+<li><input type="checkbox" /><strong>Push</strong> your branch to
+GitHub</li>
+<li><input type="checkbox" />Go to GitHub and click <strong>Compare
+&amp; pull request</strong></li>
+<li><input type="checkbox" />Add a description and click <strong>Create
+Pull Request</strong></li>
+</ul>
+</div>
+</div>
+<p class="comment">
+<blockquote>
+<p>⚠️ <strong>Do not push rendered files</strong> (e.g. files in
+<code>docs/</code>). OTTR’s automation renders and manages these files
+automatically. Pushing rendered files can cause conflicts and break the
+automated workflow.</p>
+</blockquote>
+</p>
+<hr />
+</div>
+<div id="ottr-automated-checks" class="section level2">
+<h2>OTTR Automated Checks</h2>
+<p>Once your PR is open, checks run automatically and post results as
+<strong>comments on the PR</strong>.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Check</th>
+<th align="left">What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>URL check</strong></td>
+<td align="left">Verifies all links are valid</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Spell check</strong></td>
+<td align="left">Flags spelling errors</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Style check</strong></td>
+<td align="left">Checks code formatting</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Preview render</strong></td>
+<td align="left">Generates a rendered preview</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Quiz check</strong></td>
+<td align="left">Validates quiz formatting (if applicable)</td>
+</tr>
+</tbody>
+</table>
+<ul class="task-list">
+<li><input type="checkbox" />Read the check comments on your PR</li>
+<li><input type="checkbox" />Commit fixes to your branch to re-trigger
+checks</li>
+<li><input type="checkbox" />Adjust which checks run in
+<code>config_automation.yml</code></li>
+</ul>
+<p class="comment">
+<em>If a check result looks unexpected, refresh the page or make a new
+commit to re-trigger.</em>
+</p>
+<hr />
+</div>
+<div id="adding-a-new-chapter" class="section level2">
+<h2>Adding a New Chapter</h2>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
+<div id="quarto" class="section level3">
+<h3>Quarto</h3>
+<ul class="task-list">
+<li><input type="checkbox" />Add a new <code>.qmd</code> file to your
+branch</li>
+<li><input type="checkbox" />Add the filename to
+<code>_quarto.yml</code> under <code>navar:</code></li>
+</ul>
+<pre class="yaml"><code>navbar:
+    left:
+    - text: &quot;&quot;
+      href: index.qmd
+      icon: fa-home
+    - text: 1. Setup
+      href: setup.qmd
+    - text: 2. New Chapter
+      href: new_chapter.qmd ## new!</code></pre>
+<ul class="task-list">
+<li><input type="checkbox" />Commit the updated
+<code>_quarto.yml</code></li>
+<li><input type="checkbox" />Check your PR for any new automated check
+results</li>
+</ul>
+</div>
+<div id="r-markdown" class="section level3">
+<h3>R Markdown</h3>
+<ul class="task-list">
+<li><input type="checkbox" />Add a new <code>.Rmd</code> file to your
+branch</li>
+<li><input type="checkbox" />Add the filename to
+<code>_bookdown.yml</code> under <code>rmd_files:</code></li>
+</ul>
+<pre class="yaml"><code>rmd_files: [&quot;index.Rmd&quot;,
+            &quot;01-intro.Rmd&quot;,
+            &quot;02-new_chapter.Rmd&quot;]  ## new!</code></pre>
+<ul class="task-list">
+<li><input type="checkbox" />Commit the updated
+<code>_bookdown.yml</code></li>
+<li><input type="checkbox" />Check your PR for any new automated check
+results</li>
+</ul>
+</div>
+</div>
+<blockquote>
+<p>Ensure you have checked that the quotation marks and commas align
+with the YAML and that you have the correct file names!</p>
+</blockquote>
+<hr />
+<br> <br>
+<center>
+<a href="https://www.ottrproject.org/">
+<img src="css/images/basic_otter_water.png" width = 40%> </a>
+</center>
+<div class="authors">
+<p><strong>Authors</strong>: Padmashri Saravanan from <a
+href="https://www.biodatasage.com/">BioData Sage</a> created the
+cheatsheet content. Carrie Wright reviewed the material. Kate Isaac
+created the original styling, Carrie Wright did the css styling and
+Carrie Wright and Candace Savonen did the publishing engineering for the
+cheatsheet. <a href="https://www.ottrproject.org/">OTTR</a> was created
+and or is maintained by the following team: Candace Savonen, Carrie
+Wright, Kate Isaac, Ava Hoffman, Adam Coffman, Katherine Cox, Federick
+Tan, John Muschelli, Howard Baek, and Jeffrey Leek.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

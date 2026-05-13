@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>google_analytics.knit</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="shortcut icon" href="css/images/basic_otter_water.ico" />
+<!--- go to https://favicon.io/favicon-converter/ to upload an image to make a new favicon.io. You will need to replace the current favicon.io image with the one in the downloaded directory from the website. The current image is in the resources/images/ directory --->
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/OTTR_style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div class="header_box">
+<p><u>OTTR Google Analytics</u><br><span style="color:#986753;">
+Integration with your repository </span></p>
+</div>
+<div class="png_button">
+<a href="https://github.com/ottrproject/cheatsheets/blob/main/pngs/google_analytics.png?raw=true">Download
+cheatsheet</a>
+</div>
+<div class="time">
+<strong>Last updated: May 13, 2026</strong>
+</div>
+<!-- Open all links in new tab-->
+<p><base target="_blank" rel="noopener noreferrer"/></p>
+<hr>
+<div id="set-up-google-analytics" class="section level1">
+<h1>Set Up Google Analytics</h1>
+<div id="create-an-account-property" class="section level2">
+<h2>Create an Account &amp; Property</h2>
+<p><input type="checkbox"> Go to
+<a href="https://analytics.google.com/analytics" target="_blank">analytics.google.com/analytics</a>
+and click <strong>Start measuring</strong></p>
+<p><input type="checkbox"> Create or sign in to your Google Analytics
+account</p>
+<p><input type="checkbox"> Create a new <strong>Property</strong> — fill
+in a name and details</p>
+<p><input type="checkbox"> Accept the terms of service for your country
+/ region</p>
+</div>
+<div id="add-a-data-stream" class="section level2">
+<h2>Add a Data Stream</h2>
+<p><input type="checkbox"> Click <strong>Add a Data Stream</strong> →
+choose <strong>Web</strong></p>
+<p><input type="checkbox"> Enter your course URL — select
+<code>https://</code> from the dropdown; do not type it in the URL
+field</p>
+<p><input type="checkbox"> Click <strong>Create and
+continue</strong></p>
+<p><input type="checkbox"> Copy the code chunk provided on the resulting
+page — it will look like:</p>
+<pre class="html"><code>&lt;!-- Google tag (gtag.js) --&gt;
+&lt;script async src=&quot;https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag(&#39;js&#39;, new Date());
+
+  gtag(&#39;config&#39;, &#39;G-XXXXXXXXXX&#39;);
+&lt;/script&gt;</code></pre>
+<hr>
+</div>
+</div>
+<div id="configure-your-ottr-repo" class="section level1">
+<h1>Configure Your OTTR Repo</h1>
+<div class="row">
+<div class="column">
+<div id="for-ottr-rmd-based-courses" class="section level2">
+<h2>For OTTR (Rmd-based) Courses</h2>
+<p><input type="checkbox"> Open <code>GA_Script.html</code> in your
+repo</p>
+<p><input type="checkbox"> Replace the entire file contents with the
+code chunk you copied</p>
+<p><input type="checkbox"> Confirm <code>_output.yml</code> includes
+<code>in_header: GA_Script.html</code> (already set in updated
+templates)</p>
+<p><input type="checkbox"> Commit and push your changes</p>
+</div>
+</div>
+<div class="column">
+<div id="for-ottr-quarto-courses" class="section level2">
+<h2>For OTTR Quarto Courses</h2>
+<p><input type="checkbox"> Open <code>GA_Script.html</code> in your
+repo</p>
+<p><input type="checkbox"> Replace the entire file contents with the
+code chunk you copied</p>
+<p><input type="checkbox"> Confirm <code>_quarto.yml</code> includes
+<code>include-in-header: GA_Script.html</code> under
+<code>format: html:</code> (already set in updated templates)</p>
+<p><input type="checkbox"> Commit and push your changes</p>
+</div>
+</div>
+</div>
+<hr>
+</div>
+<div id="trigger-verify-a-re-render" class="section level1">
+<h1>Trigger &amp; Verify a Re-render</h1>
+<p><input type="checkbox"> Push your changes — the GitHub Action should
+trigger automatically when <code>GA_Script.html</code> is updated</p>
+<p><input type="checkbox"> If using an older template, manually trigger
+the <code>render_all</code> workflow from the <strong>Actions</strong>
+tab in GitHub</p>
+<p><input type="checkbox"> Open any rendered HTML file in
+<code>docs/</code> and search for <code>Google Analytics</code> to
+confirm the tag was included</p>
+<hr>
+</div>
+<div id="verify-traffic-is-being-tracked" class="section level1">
+<h1>Verify Traffic Is Being Tracked</h1>
+<p><input type="checkbox"> Log in to
+<a href="https://analytics.google.com/analytics" target="_blank">Google
+Analytics</a></p>
+<p><input type="checkbox"> Click the <strong>gear icon</strong> (lower
+left) → <strong>Data Collection and Modification</strong> → <strong>Data
+Streams</strong></p>
+<p><input type="checkbox"> Click your stream and confirm traffic has
+been received</p>
+<p><input type="checkbox"> Click <strong>Test</strong> on the stream
+page, then open your live course URL and check that you appear as a
+visitor in Google Analytics</p>
+<p><input type="checkbox"> Click the <strong>Home button</strong> — it
+should say <strong>“Data collection is active”</strong></p>
+<p><input type="checkbox"> Check the <strong>Reports</strong> tab (bar
+chart icon, upper left) — opening your course in a browser should show
+you as 1 user in the last 30 minutes</p>
+<hr>
+</div>
+<div id="troubleshooting" class="section level1">
+<h1>Troubleshooting</h1>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Issue</th>
+<th>What to Check</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>No data showing in GA</td>
+<td>Make sure the <strong>code chunk</strong> in
+<code>GA_Script.html</code> was copied correctly and contains the right
+ID (<code>G-XXXXXXXXXX</code>)</td>
+</tr>
+<tr class="even">
+<td>Data stream shows no traffic</td>
+<td>Check that the <strong>URL</strong> in the stream matches your
+course URL — watch for <code>https</code> vs <code>http</code></td>
+</tr>
+<tr class="odd">
+<td>Old template not rendering GA</td>
+<td>Manually run the <code>render_all</code> workflow; confirm both
+<code>_output.yml</code> and <code>GA_Script.html</code> are updated and
+filenames are consistent</td>
+</tr>
+<tr class="even">
+<td>Render not triggering</td>
+<td>Ensure <code>GH_PAT</code> is set up for the repo (with
+<code>actions</code> and <code>repo</code> permissions), not just the
+organization</td>
+</tr>
+</tbody>
+</table>
+<br> <br>
+<center>
+<a href="https://www.ottrproject.org/">
+<img src="css/images/basic_otter_water.png" width = 40%> </a>
+</center>
+<div class="authors">
+<p><strong>Authors</strong>: Padmashri Saravanan from <a
+href="https://www.biodatasage.com/">BioDataSage</a> created the
+cheatsheet content. Carrie Wright reviewed the material. Kate Isaac
+created the original styling, Carrie Wright did the css styling and
+Carrie Wright and Candace Savonen did the publishing engineering for the
+cheatsheet.<br />
+<a href="https://www.ottrproject.org/">OTTR</a> was created and or is
+maintained by the following team: Candace Savonen, Carrie Wright, Kate
+Isaac, Ava Hoffman, Adam Coffman, Katherine Cox, Federick Tan, John
+Muschelli, Howard Baek, and Jeffrey Leek.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

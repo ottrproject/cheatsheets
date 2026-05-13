@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -37,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e5707056f8f0729fc27205a4fe106592.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ebf130819911cdab5b77edb5abf6a039.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -77,85 +111,235 @@ gtag('config', 'G-ST08QSCMK6', { 'anonymize_ip': true});
 
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="css/ITN_style.css">
 </head>
 
-<body class="fullcontent">
+<body class="floating">
 
 <div id="quarto-search-results"></div>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#want-to-contribute-to-the-cheatsheets" id="toc-want-to-contribute-to-the-cheatsheets" class="nav-link active" data-scroll-target="#want-to-contribute-to-the-cheatsheets">Want to contribute to the cheatsheets?</a>
+  <ul>
+  <li><a href="#making-a-new-cheatsheet" id="toc-making-a-new-cheatsheet" class="nav-link" data-scroll-target="#making-a-new-cheatsheet">Making a New Cheatsheet</a>
+  <ul class="collapse">
+  <li><a href="#choose-a-style" id="toc-choose-a-style" class="nav-link" data-scroll-target="#choose-a-style">1. Choose a Style</a></li>
+  <li><a href="#add-a-header-chunk" id="toc-add-a-header-chunk" class="nav-link" data-scroll-target="#add-a-header-chunk">2. Add a Header Chunk</a></li>
+  <li><a href="#add-the-corresponding-png-file" id="toc-add-the-corresponding-png-file" class="nav-link" data-scroll-target="#add-the-corresponding-png-file">3. Add the corresponding PNG file</a></li>
+  <li><a href="#add-a-footer-chunk" id="toc-add-a-footer-chunk" class="nav-link" data-scroll-target="#add-a-footer-chunk">4. Add a Footer Chunk</a></li>
+  </ul></li>
+  <li><a href="#reusing-content-with-chunks" id="toc-reusing-content-with-chunks" class="nav-link" data-scroll-target="#reusing-content-with-chunks">Reusing Content with Chunks</a>
+  <ul class="collapse">
+  <li><a href="#getting-icons" id="toc-getting-icons" class="nav-link" data-scroll-target="#getting-icons">Getting icons</a></li>
+  </ul></li>
+  <li><a href="#adding-cheatsheets-to-the-main-gallery" id="toc-adding-cheatsheets-to-the-main-gallery" class="nav-link" data-scroll-target="#adding-cheatsheets-to-the-main-gallery">Adding Cheatsheets to the Main Gallery</a></li>
+  <li><a href="#contributor-checklist" id="toc-contributor-checklist" class="nav-link" data-scroll-target="#contributor-checklist">Contributor Checklist</a></li>
+  </ul></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="want-to-contribute-to-these-cheatsheets" class="level1">
-<h1>Want to contribute to these cheatsheets?</h1>
-<section id="code-of-conduct" class="level2">
-<h2 class="anchored" data-anchor-id="code-of-conduct">Code of Conduct</h2>
-<p>The <a href="https://github.com/ottrproject/OTTR_Template/blob/main/code_of_conduct.md">Contributor Covenant Code of Conduct can be found here</a></p>
-</section>
+<section id="want-to-contribute-to-the-cheatsheets" class="level1">
+<h1>Want to contribute to the cheatsheets?</h1>
+<div class="banner_color">
+<p>Read this guide before opening a pull request.</p>
+</div>
+<p>Please review our <a href="https://github.com/ottrproject/OTTR_Template/blob/main/code_of_conduct.md">Contributor Covenant Code of Conduct</a> before contributing.</p>
 <section id="making-a-new-cheatsheet" class="level2">
-<h2 class="anchored" data-anchor-id="making-a-new-cheatsheet">Making a new cheatsheet</h2>
-<p>To make a new cheatsheet, you can create a Rmd or md in the top of the repository. GitHub Actions will automatically render the cheatsheet as a PNG which will be saved to the <code>docs</code> folder.</p>
-<p>There are two style options: <code>css/ITN_style.css</code> and <code>css/OTTR_style.css</code>.</p>
-<p>Specify this in the yaml header:</p>
+<h2 class="anchored" data-anchor-id="making-a-new-cheatsheet">Making a New Cheatsheet</h2>
+<p>Create a <code>.Rmd</code> or <code>.md</code> file at the top level of the repository. <strong>GitHub Actions will automatically render it as a PNG saved to the <code>docs</code> folder.</strong></p>
+<section id="choose-a-style" class="level3">
+<h3 class="anchored" data-anchor-id="choose-a-style">1. Choose a Style</h3>
+<p>Specify respective style in the yaml header:</p>
+<p><strong>OTTR style:</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">output</span><span class="kw">:</span><span class="at"> html_document</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">css</span><span class="kw">:</span><span class="at"> css/OTTR_style.css</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <p>or</p>
-</section>
-<section id="starting-chunk" class="level2">
-<h2 class="anchored" data-anchor-id="starting-chunk">Starting Chunk</h2>
-<p>All cheatsheets should start with either <code>chunk/create_ottr_header.md</code> or <code>chunk/create_itn_header/md</code>.</p>
-<p>Specify what the title, subtitle, and path to png is.</p>
-</section>
-<section id="reusing-chunks" class="level2">
-<h2 class="anchored" data-anchor-id="reusing-chunks">Reusing chunks</h2>
-<p>Should some text need to be used more than once, make a markdown document that goes in the <code>chunks</code> folder. You can put tags that will be replaced with exact matches (not regex).</p>
-<p>For example, where<code>{TITLE}</code> is written in the chunk markdown document and then you can tell it in the call what you want to replace it with (see below).</p>
-<p>Then in the original document you can do a call like this:</p>
-<div class="header_box">
-<p><u>Attending Conferences</u><br><span style="color:#14395f;"> Helpful Tips </span></p>
+<p><strong>ITN style:</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">output</span><span class="kw">:</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html_document</span><span class="kw">:</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">number_sections</span><span class="kw">:</span><span class="at"> </span><span class="ch">false</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">css</span><span class="kw">:</span><span class="at"> css/ITN_style.css</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="png_button">
-<a href="https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/attending_conferences.png">Download cheatsheet</a>
-</div>
-<div class="time">
-<strong>Last updated: April 28, 2026</strong>
-</div>
-<p>To get icons you can use the following:</p>
-<pre><code>&lt;img src='resources/icons/actions.png' alt='actions icon' class = icon width = '200px'&gt;
-
-&lt;img src='resources/icons/copy.png' alt='copy icon' class = icon width = '200px'&gt;
-
-&lt;img src='resources/icons/collaborator.png' alt='collaborator icon' class = icon width = '200px'&gt;
-
-&lt;img src='resources/icons/developer_settings.png' alt='developer settings icon' class = icon width = '200px'&gt;
-
-&lt;img src='resources/icons/edit.png' alt='edit icon' class = icon width = '200px'&gt;
-
-&lt;img src='resources/icons/pages.png' alt='pages icon' class = icon width = '200px'&gt;
-
-&lt;img src='resources/icons/personal_tokens.png' alt='personal access token icon' class = icon width = '200px'&gt;
-
-&lt;img src='resources/icons/profile_photo.png' alt='profile photo icon' class = icon width = '200px'&gt;
-
-&lt;img src='resources/icons/pull_request.png' alt='pull request icon' class = icon width = '200px'&gt;
-
-&lt;img src='resources/icons/search.png' alt='search icon' class = icon width = '200px'&gt;
-
-&lt;img src='resources/icons/secrets_and_variables.png' alt='secrets and variables icon' class = icon width = '200px'&gt;
-
-&lt;img src='resources/icons/settings_gear.png' alt='settings gear icon' class = icon width = '200px'&gt;</code></pre>
 </section>
-<section id="adding-cheatsheets-to-main-page" class="level2">
-<h2 class="anchored" data-anchor-id="adding-cheatsheets-to-main-page">Adding cheatsheets to main page</h2>
+<section id="add-a-header-chunk" class="level3">
+<h3 class="anchored" data-anchor-id="add-a-header-chunk">2. Add a Header Chunk</h3>
+<p>All cheatsheets should start with either <code>chunk/create_ottr_header.md</code> or <code>chunk/create_itn_header/md</code>. Specify the title, subtitle, and path to the PNG image.</p>
+<p>Example:</p>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>ottrpal<span class="sc">::</span><span class="fu">borrow_chapter</span>(</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">doc_path =</span> <span class="st">"chunks/create_itn_header.md"</span>,</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">tag_replacement =</span> <span class="fu">list</span>(</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"{TITLE}"</span>       <span class="ot">=</span> <span class="st">"Your Title"</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"{SUBTITLE}"</span>    <span class="ot">=</span> <span class="st">"Your Subtitle"</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"{PATH_TO_PNG}"</span> <span class="ot">=</span> <span class="st">"path-to-image.png"</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  ))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="add-the-corresponding-png-file" class="level3">
+<h3 class="anchored" data-anchor-id="add-the-corresponding-png-file">3. Add the corresponding PNG file</h3>
+<p>Each cheatsheet needs a corresponding PNG for the header and gallery. GitHub Actions will automatically render a PNG when you create your cheatsheet.</p>
+<p>Example path:</p>
+<pre><code>https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/attending_conferences.png</code></pre>
+</section>
+<section id="add-a-footer-chunk" class="level3">
+<h3 class="anchored" data-anchor-id="add-a-footer-chunk">4. Add a Footer Chunk</h3>
+<p>Every cheatsheet must end with a footer chunk. Use it to credit authors and contributors.</p>
+<p>Example with OTTR footer:</p>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>ottrpal<span class="sc">::</span><span class="fu">borrow_chapter</span>(</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">doc_path =</span> <span class="st">"chunks/create_ottr_footer.md"</span>,</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">tag_replacement =</span> <span class="fu">list</span>(</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"{AUTHORS}"</span> <span class="ot">=</span> <span class="st">"[Author name] wrote the content. [Contributor name] reviewed and improved the cheatsheet."</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  ))</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  Fill <span class="cf">in</span> the [Author name] and [Contributor name] sections with your author info.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="reusing-content-with-chunks" class="level2">
+<h2 class="anchored" data-anchor-id="reusing-content-with-chunks">Reusing Content with Chunks</h2>
+<p>If text will appear more than once, put it in a <code>.md</code> file inside the <code>chunks</code> folder. Use <code>{PLACEHOLDER}</code> tags for variable content (not regex).</p>
+<p>Chunks are especially useful for:</p>
 <ul>
-<li>Add information about the cheatsheet (and links) to the <code>gallery.yml</code> file</li>
-<li>Check render of index.Qmd</li>
+<li>Headers and footers</li>
+<li>Setup instructions</li>
+<li>Repeated GitHub workflow steps</li>
+<li>Standard reference sections</li>
+</ul>
+<p><strong>Example call:</strong></p>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>ottrpal<span class="sc">::</span><span class="fu">borrow_chapter</span>(</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">doc_path =</span> <span class="st">"chunks/create_itn_header.md"</span>,</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">tag_replacement =</span> <span class="fu">list</span>(</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"{TITLE}"</span>       <span class="ot">=</span> <span class="st">"Attending Conferences"</span>,</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"{SUBTITLE}"</span>    <span class="ot">=</span> <span class="st">"Helpful Tips"</span>,</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"{PATH_TO_PNG}"</span> <span class="ot">=</span> <span class="st">"https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/attending_conferences.png"</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  ))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="getting-icons" class="level3">
+<h3 class="anchored" data-anchor-id="getting-icons">Getting icons</h3>
+<p>Use the following code to include icons that are already set up in this repo.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Icon</th>
+<th>Output</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Actions</td>
+<td><img src="resources/icons/actions.png" alt="actions icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/actions.png' alt='actions icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+<tr class="even">
+<td>Copy</td>
+<td><img src="resources/icons/copy.png" alt="copy icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/copy.png' alt='copy icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+<tr class="odd">
+<td>Collaborate</td>
+<td><img src="resources/icons/collaborator.png" alt="collaborator icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/collaborator.png' alt='collaborator icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+<tr class="even">
+<td>Develop</td>
+<td><img src="resources/icons/developer_settings.png" alt="developer settings icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/developer_settings.png' alt='developer settings icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+<tr class="odd">
+<td>Edit</td>
+<td><img src="resources/icons/edit.png" alt="edit icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/edit.png' alt='edit icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+<tr class="even">
+<td>Pages</td>
+<td><img src="resources/icons/pages.png" alt="pages icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/pages.png' alt='pages icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+<tr class="odd">
+<td>Token</td>
+<td><img src="resources/icons/personal_tokens.png" alt="personal access token icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/personal_tokens.png' alt='personal access token icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+<tr class="even">
+<td>Profile</td>
+<td><img src="resources/icons/profile_photo.png" alt="profile photo icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/profile_photo.png' alt='profile photo icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+<tr class="odd">
+<td>Pull Request</td>
+<td><img src="resources/icons/pull_request.png" alt="pull request icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/pull_request.png' alt='pull request icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+<tr class="even">
+<td>Search</td>
+<td><img src="resources/icons/search.png" alt="search icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/search.png' alt='search icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+<tr class="odd">
+<td>Secrets</td>
+<td><img src="resources/icons/secrets_and_variables.png" alt="secrets and variables icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/secrets_and_variables.png' alt='secrets and variables icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+<tr class="even">
+<td>Settings</td>
+<td><img src="resources/icons/settings_gear.png" alt="settings gear icon" class="icon" width="200px"></td>
+<td><code>&lt;img src='resources/icons/settings_gear.png' alt='settings gear icon' class = icon width = '200px'&gt;</code></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="adding-cheatsheets-to-the-main-gallery" class="level2">
+<h2 class="anchored" data-anchor-id="adding-cheatsheets-to-the-main-gallery">Adding Cheatsheets to the Main Gallery</h2>
+<p>Update <code>gallery.yml</code> with your cheatsheet’s information under the appropriate category:</p>
+<ul>
+<li><a href="https://www.ottrproject.org/cheatsheets/#conferences-engagement">Conferences &amp; Engagement</a></li>
+<li><a href="https://www.ottrproject.org/cheatsheets/#research-software-development">Research &amp; Software Development</a></li>
+<li><a href="https://www.ottrproject.org/cheatsheets/#ottr">OTTR</a></li>
+</ul>
+<p>Example:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode yml code-with-copy"><code class="sourceCode yaml"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">-</span><span class="at"> </span><span class="fu">title</span><span class="kw">:</span><span class="at"> Google Analytics Integration</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">href</span><span class="kw">:</span><span class="at"> https://ottrproject.org/cheatsheets/google_analytics.html</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">code</span><span class="kw">:</span><span class="at"> https://github.com/ottrproject/cheatsheets/blob/main/google_analytics.Rmd</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">thumbnail</span><span class="kw">:</span><span class="at"> pngs/google_analytics.png</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Make sure to check the render of index.Qmd!</p>
+</section>
+<section id="contributor-checklist" class="level2">
+<h2 class="anchored" data-anchor-id="contributor-checklist">Contributor Checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">Content is clear, concise, and easy to follow</label></li>
+<li><label><input type="checkbox">Cheatsheet file is at the top level of the repository</label></li>
+<li><label><input type="checkbox">YAML header uses the correct style</label></li>
+<li><label><input type="checkbox">Cheatsheet starts with the correct header chunk</label></li>
+<li><label><input type="checkbox">Cheatsheet ends with the correct footer chunk, check that the author information has been updated</label></li>
+<li><label><input type="checkbox">Reusable content has been moved to <code>chunks</code> where appropriate</label></li>
+<li><label><input type="checkbox">Links and image paths are correct</label></li>
+<li><label><input type="checkbox">Cheatsheet has been added to <code>gallery.yml</code></label></li>
+<li><label><input type="checkbox">Main page render has been checked</label></li>
 </ul>
 
 

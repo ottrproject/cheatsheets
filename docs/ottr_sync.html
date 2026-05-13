@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>ottr_sync.knit</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link rel="shortcut icon" href="css/images/basic_otter_water.ico" />
+<!--- go to https://favicon.io/favicon-converter/ to upload an image to make a new favicon.io. You will need to replace the current favicon.io image with the one in the downloaded directory from the website. The current image is in the resources/images/ directory --->
+
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/OTTR_style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div class="header_box">
+<p><u>OTTR Sync</u><br><span style="color:#986753;"> Enrolling For Sync
+Updates </span></p>
+</div>
+<div class="png_button">
+<a href="https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_sync.png?raw=true">Download
+cheatsheet</a>
+</div>
+<div class="time">
+<strong>Last updated: May 13, 2026</strong>
+</div>
+<!-- Open all links in new tab-->
+<p><base target="_blank" rel="noopener noreferrer"/></p>
+<div id="add-jhudsl-robot-as-a-collaborator" class="section level2">
+<h2>Add <code>jhudsl-robot</code> as a Collaborator</h2>
+<p><em>Skip this step if your course is in the <code>jhudsl</code> or
+<code>fhdsl</code> organization.</em></p>
+<p>To enable the full functionality of GitHub Actions, add
+<code>jhudsl-robot</code> as a collaborator with write access:</p>
+<ol style="list-style-type: decimal">
+<li>Go to <strong>Settings</strong> &gt; <strong>Collaborators &amp;
+Teams</strong> and click <strong>Add people</strong>.</li>
+<li>Search for and add <code>jhudsl-robot</code>.</li>
+<li>If prompted, choose <strong>Write</strong> access, then click
+<strong>Add jhudsl-robot to this repository</strong>.</li>
+</ol>
+<p><img src="https://github.com/ottrproject/OTTR_Template/raw/main/resources/screenshots/add-jhudsl-robot.png" width="400"></p>
+<hr />
+</div>
+<div id="which-sync-file-should-you-edit" class="section level2">
+<h2>Which Sync File Should You Edit?</h2>
+<p>Add your repository name to the <code>.github/sync.yml</code> file of
+the OTTR template you created your repository from:</p>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Template</th>
+<th align="left">Sync File</th>
+<th align="left">Use For</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><a
+href="https://github.com/ottrproject/OTTR_Template/blob/main/.github/sync.yml">OTTR_Template</a></td>
+<td align="left"><code>sync.yml</code></td>
+<td align="left">R Markdown courses</td>
+</tr>
+<tr class="even">
+<td align="left"><a
+href="https://github.com/ottrproject/OTTR_Template_Website/blob/main/.github/sync.yml">OTTR_Template_Website</a></td>
+<td align="left"><code>sync.yml</code></td>
+<td align="left">Websites</td>
+</tr>
+<tr class="odd">
+<td align="left"><a
+href="https://github.com/ottrproject/OTTR_Quizzes/blob/main/.github/sync.yml">OTTR_Quizzes</a></td>
+<td align="left"><code>sync.yml</code></td>
+<td align="left">Quizzes</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="if-you-are-not-in-the-jhudsl-or-fhdsl-organization"
+class="section level2">
+<h2>If You Are NOT in the <code>jhudsl</code> or <code>fhdsl</code>
+Organization</h2>
+<p>Choose one of the following options:</p>
+<ul>
+<li><strong>Google Form</strong> — Submit your org/username and repo
+name via the <a href="https://forms.gle/jGQnd5oemHWyuUq28">OTTR Feedback
+Google Form</a>.</li>
+<li><strong>Open an issue</strong> — Use the links below and provide
+your repo info; the team will update <code>sync.yml</code> for you.</li>
+<li><strong>Fork and PR</strong> — Fork the template repo, edit
+<code>sync.yml</code> on a new branch adding your repo name where it
+says <code>#NEW REPO HERE#</code>, commit, and open a pull request
+tagging <code>@kweav</code>.</li>
+</ul>
+<details>
+<summary>
+<strong> If You Are in the <code>jhudsl</code> or <code>fhdsl</code>
+Organization </strong>
+</summary>
+<ol style="list-style-type: decimal">
+<li>Open the relevant sync file above and click the <strong>pencil
+icon</strong> to edit.</li>
+<li>Add your repository name where it says <code>#NEW REPO HERE#</code>,
+indented to match other entries.</li>
+</ol>
+<p><img
+src="https://raw.githubusercontent.com/ottrproject/OTTR_Template/main/resources/screenshots/edit-sync.yml.png" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Click <strong>Commit changes…</strong>, enter
+<code>Add new repository to sync</code> as the commit message, and
+choose <strong>Create a new branch</strong>.</li>
+<li>Click <strong>Propose changes</strong>, open a pull request, and
+request <code>@kweav</code> as a reviewer.</li>
+</ol>
+</details>
+<hr />
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Repository</th>
+<th align="center">Issue Links</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">OTTR_Template</td>
+<td align="center"><a
+href="https://github.com/ottrproject/OTTR_Template/issues/new/choose">General
+issue</a> · <a
+href="https://github.com/ottrproject/OTTR_Template/issues/new?assignees=kweav&amp;labels=&amp;projects=&amp;template=new-course-add-to-sync.md&amp;title=">Add
+new repo to sync</a> · <a
+href="https://github.com/ottrproject/OTTR_Template/issues/new?assignees=kweav&amp;labels=&amp;projects=&amp;template=update-course-info-for-sync.md&amp;title=">Update
+repo info in sync</a></td>
+</tr>
+<tr class="even">
+<td align="center">OTTR_Quizzes</td>
+<td align="center"><a
+href="https://github.com/ottrproject/OTTR_Quizzes/issues">Open an
+issue</a></td>
+</tr>
+<tr class="odd">
+<td align="center">OTTR_Template_Website</td>
+<td align="center"><a
+href="https://github.com/ottrproject/OTTR_Template_Website/issues/new/choose">General
+issue</a> · <a
+href="https://github.com/ottrproject/OTTR_Template_Website/issues/new?assignees=kweav&amp;labels=&amp;projects=&amp;template=new-website-add-to-sync.md&amp;title=">Add
+new repo to sync</a></td>
+</tr>
+</tbody>
+</table>
+<p class="comment">
+<em>If you have any questions, please tag <code>@kweav</code> or
+<code>@carriewright11</code>.</em>
+</p>
+<hr />
+<br> <br>
+<center>
+<a href="https://www.ottrproject.org/">
+<img src="css/images/basic_otter_water.png" width = 40%> </a>
+</center>
+<div class="authors">
+<p><strong>Authors</strong>: Padmashri Saravanan from <a
+href="https://www.biodatasage.com/">BioData Sage</a> created the
+cheatsheet content. Carrie Wright reviewed the material. Kate Isaac
+created the original styling, Carrie Wright did the css styling and
+Carrie Wright and Candace Savonen did the publishing engineering for the
+cheatsheet. <a href="https://www.ottrproject.org/">OTTR</a> was created
+and or is maintained by the following team: Candace Savonen, Carrie
+Wright, Kate Isaac, Ava Hoffman, Adam Coffman, Katherine Cox, Federick
+Tan, John Muschelli, Howard Baek, and Jeffrey Leek.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
