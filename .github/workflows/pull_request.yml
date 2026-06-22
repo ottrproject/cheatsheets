@@ -166,7 +166,7 @@ jobs:
         shell: bash
 
       - name: Find Comment
-        uses: peter-evans/find-comment@v3
+        uses: peter-evans/find-comment@v4
         id: fc
         with:
           issue-number: ${{ github.event.pull_request.number }}
@@ -187,7 +187,7 @@ jobs:
 
       - name: Create or update comment
         if: steps.commit.outputs.changes == 'true'
-        uses: peter-evans/create-or-update-comment@v3
+        uses: peter-evans/create-or-update-comment@v5
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}
@@ -202,7 +202,7 @@ jobs:
 
       - name: No comment if no changes
         if: steps.commit.outputs.changes == 'false'
-        uses: peter-evans/create-or-update-comment@v3
+        uses: peter-evans/create-or-update-comment@v5
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           issue-number: ${{ github.event.pull_request.number }}
