@@ -1,0 +1,181 @@
+---
+output:
+  html_document:
+    includes:
+      in_header: ottr_favicon.html
+css: css/OTTR_style.css
+---
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "OTTR Giving Credits",
+    "{SUBTITLE}" = "Crediting contributors clearly",
+    "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_giving_credits.png?raw=true"
+  ))
+```
+
+OTTR courses use an `About.Rmd` or `About.md` file to show who contributed to the course and what kind of work they did.
+
+Use the credits table to make contributions easy to understand, especially when the same person appears in more than one role.
+
+
+## Credits Table Checklist
+
+<input type="checkbox"> Open `About.Rmd` or `About.md` in your course repository.
+
+<input type="checkbox"> Delete rows for roles that do not apply to your course.
+
+<input type="checkbox"> Use singular labels for one person and plural labels for multiple people.
+
+<input type="checkbox"> Add links below the table using bracket notation when you want names to link to personal websites. For example:
+
+``` markdown
+| Credits | Names |
+|:---|:---|
+| Lead Content Instructor | [FirstName LastName] |
+| Course Publishing Engineers | [FirstName LastName], [SecondName LastName] |
+
+<!-- Author information -->
+
+[FirstName LastName]: https://example.com
+[SecondName LastName]: https://example.org
+```
+
+## Bracket Notation for Repeated Authors
+
+Bracket notation keeps the credits table readable when a person appears in multiple rows.
+
+Write the person's name in square brackets every place the name should appear:
+
+``` markdown
+| Credits | Names |
+|:---|:---|
+| Lead Content Instructor | [Avery Example] |
+| Content Author | [Avery Example], [Sam Rivera] |
+| Course Publishing Engineer | [Sam Rivera] |
+```
+
+Then link each linked name to their personal website once below the table:
+
+``` markdown
+<!-- Author information -->
+
+[Avery Example]: https://avery.example.edu
+[Sam Rivera]: https://sam.example.org
+```
+
+**The same bracketed name can be reused as many times as needed.** Markdown will link each `[Avery Example]` entry to the same website.
+
+
+## Choosing Instructor Roles
+
+Use instructor and content roles for people who shape what learners are taught.
+
+| Role | Use When |
+|:---|:---|
+| Lead Content Instructor | The person leads the course content and takes on a large share of the teaching/content effort |
+| Lecturer | The person delivers the course online or in recorded teaching materials |
+| Content Author | The person writes a substantial amount of course content |
+| Content Contributor | The person writes a smaller amount of content, less than about one chapter |
+| Content Consultant | The person gives specialized content guidance but does not write or edit the content |
+| Content Editor | The person edits content without otherwise authoring it |
+| Content Director | The person guides the course direction or content strategy |
+
+<p class="comment">
+If a person both teaches the material and writes substantial course content, list them in each role that applies.
+</p>
+
+## Choosing Engineer Roles
+
+Use engineering and technical roles for people who work on the publishing system, code, automation, styling, or packages that make the course build and publish.
+
+| Role | Use When |
+|:---|:---|
+| Course Publishing Engineer | The person works on the technical setup or generation for this specific course |
+| Template Publishing Engineer | The person helped create or maintain the OTTR template used by the course |
+| Publishing Maintenance Engineer | The person supports GitHub Actions, rendering, automation, or technical processes over time |
+| Technical Publishing Stylist | The person changes technical design elements such as CSS or layout code |
+| Package Developer | The person develops a package used to create or publish the course |
+
+:::Note
+An instructor role credits course expertise and teaching work. An engineer role credits platform, code, rendering, automation, or publishing work. A person can have both kinds of credit when they did both kinds of work.
+:::
+
+## Standard OTTR Credit Rows
+
+Modify the rows that apply to your course, then edit only the course-specific rows.
+
+<details id="all-course-credit-rows" class="template-choice" open>
+<summary>
+  <span class="choice-note">All courses</span>
+</summary>
+
+``` markdown
+| Credits | Names |
+|:---|:---|
+| Template Publishing Engineers | [Candace Savonen], [Carrie Wright], [Ava Hoffman] |
+| Publishing Maintenance Engineer | [Candace Savonen] |
+| Technical Publishing Stylists | [Carrie Wright], [Ava Hoffman], [Candace Savonen] |
+| Package Developers ([ottrpal]) | [Candace Savonen], [Ava Hoffman], [Howard Baek], [Kate Isaac], [Carrie Wright], [John Muschelli] |
+
+<!-- Author information -->
+
+[John Muschelli]: https://johnmuschelli.com/
+[Candace Savonen]: https://www.cansavvy.com/
+[Carrie Wright]: https://carriewright11.github.io/
+[Ava Hoffman]: https://www.avahoffman.com/
+[Howard Baek]: https://www.linkedin.com/in/howard-baik/
+[Kate Isaac]: https://kweav.github.io/
+
+<!-- Links -->
+
+[ottrpal]: https://github.com/ottrproject/ottrpal
+```
+
+</details>
+
+<details id="johns-hopkins-credit-rows" class="template-choice">
+<summary>
+  <span class="choice-note">Johns Hopkins courses</span>
+</summary>
+
+``` markdown
+| Credits | Names |
+|:---|:---|
+| Content Publisher | [Ira Gooding] |
+| Content Publishing Reviewer | [Ira Gooding] |
+
+<!-- Author information -->
+
+[Ira Gooding]: https://publichealth.jhu.edu/faculty/4130/ira-gooding
+```
+
+</details>
+
+<details id="itcr-credit-rows" class="template-choice">
+<summary>
+  <span class="choice-note">ITCR courses</span>
+</summary>
+
+``` markdown
+| Credits | Names |
+|:---|:---|
+| Content Directors | [Jeff Leek] |
+
+<!-- Author information -->
+
+[Jeff Leek]: https://jtleek.com/
+```
+
+</details>
+
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Padmashri Saravanan from [BioDataSage](https://www.biodatasage.com/) created the cheatsheet content. Carrie Wright reviewed the material. Kate Isaac created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet."
+  ))
+```
