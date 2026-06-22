@@ -69,9 +69,7 @@ Then link each linked name to their personal website once below the table:
 **The same bracketed name can be reused as many times as needed.** Markdown will link each `[Avery Example]` entry to the same website.
 
 
-## Choosing Instructor Roles
-
-Use instructor and content roles for people who shape what learners are taught.
+## Instructor Roles
 
 | Role | Use When |
 |:---|:---|
@@ -87,90 +85,35 @@ Use instructor and content roles for people who shape what learners are taught.
 If a person both teaches the material and writes substantial course content, list them in each role that applies.
 </p>
 
-## Choosing Engineer Roles
-
-Use engineering and technical roles for people who work on the publishing system, code, automation, styling, or packages that make the course build and publish.
+## Engineer Roles
 
 | Role | Use When |
 |:---|:---|
 | Course Publishing Engineer | The person works on the technical setup or generation for this specific course |
-| Template Publishing Engineer | The person helped create or maintain the OTTR template used by the course |
-| Publishing Maintenance Engineer | The person supports GitHub Actions, rendering, automation, or technical processes over time |
-| Technical Publishing Stylist | The person changes technical design elements such as CSS or layout code |
-| Package Developer | The person develops a package used to create or publish the course |
 
-:::Note
-An instructor role credits course expertise and teaching work. An engineer role credits platform, code, rendering, automation, or publishing work. A person can have both kinds of credit when they did both kinds of work.
+
+:::warning
+
+Ensure the following role allocations are **not** removed from your course:  
+
+| Role | 
+|:---|
+| Template Publishing Engineer | 
+| Publishing Maintenance Engineer |
+| Technical Publishing Stylist |
+| Package Developer | 
 :::
 
-## Standard OTTR Credit Rows
+## Art and Design Roles
 
-Modify the rows that apply to your course, then edit only the course-specific rows.
-
-<details id="all-course-credit-rows" class="template-choice" open>
-<summary>
-  <span class="choice-note">All courses</span>
-</summary>
-
-``` markdown
-| Credits | Names |
+| Role | Use When |
 |:---|:---|
-| Template Publishing Engineers | [Candace Savonen], [Carrie Wright], [Ava Hoffman] |
-| Publishing Maintenance Engineer | [Candace Savonen] |
-| Technical Publishing Stylists | [Carrie Wright], [Ava Hoffman], [Candace Savonen] |
-| Package Developers ([ottrpal]) | [Candace Savonen], [Ava Hoffman], [Howard Baek], [Kate Isaac], [Carrie Wright], [John Muschelli] |
-
-<!-- Author information -->
-
-[John Muschelli]: https://johnmuschelli.com/
-[Candace Savonen]: https://www.cansavvy.com/
-[Carrie Wright]: https://carriewright11.github.io/
-[Ava Hoffman]: https://www.avahoffman.com/
-[Howard Baek]: https://www.linkedin.com/in/howard-baik/
-[Kate Isaac]: https://kweav.github.io/
-
-<!-- Links -->
-
-[ottrpal]: https://github.com/ottrproject/ottrpal
-```
-
-</details>
-
-<details id="johns-hopkins-credit-rows" class="template-choice">
-<summary>
-  <span class="choice-note">Johns Hopkins courses</span>
-</summary>
-
-``` markdown
-| Credits | Names |
-|:---|:---|
-| Content Publisher | [Ira Gooding] |
-| Content Publishing Reviewer | [Ira Gooding] |
-
-<!-- Author information -->
-
-[Ira Gooding]: https://publichealth.jhu.edu/faculty/4130/ira-gooding
-```
-
-</details>
-
-<details id="itcr-credit-rows" class="template-choice">
-<summary>
-  <span class="choice-note">ITCR courses</span>
-</summary>
-
-``` markdown
-| Credits | Names |
-|:---|:---|
-| Content Directors | [Jeff Leek] |
-
-<!-- Author information -->
-
-[Jeff Leek]: https://jtleek.com/
-```
-
-</details>
-
+| Illustrator(s) | Created graphics for the course | 
+| Figure Artist(s) | Created figures/plots for course | 
+| Videographer(s) | Filmed videos | 
+| Videography Editor(s)	| Edited film |
+| Audiographer(s) |	Recorded audio  | 
+| Audiography Editor(s)  | Edited audio recordings | 
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
