@@ -1,4 +1,5 @@
 
+
 - category: Conferences & Engagement
   description: |
     Cheatsheets to help trainees and PIs with scientific communication and networking.
@@ -73,3 +74,7 @@
       href: https://ottrproject.org/cheatsheets/ottr_style.html
       code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_style.Rmd
       thumbnail: pngs/ottr_style.png
+    - title: OTTR Giving Credits
+      href: https://ottrproject.org/cheatsheets/ottr_giving_credits.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_giving_credits.Rmd
+      thumbnail: pngs/ottr_giving_credits.png
