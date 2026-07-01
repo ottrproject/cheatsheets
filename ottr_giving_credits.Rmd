@@ -94,7 +94,7 @@ If a person both teaches the material and writes substantial course content, lis
 
 :::warning
 
-Ensure the following role allocations are **not** removed from your course:  
+Ensure the following role allocations are **not** removed from your course, this credits the developers of OTTR:  
 
 | Role | 
 |:---|
