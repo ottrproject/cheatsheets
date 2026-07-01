@@ -25,7 +25,7 @@ Use the credits table to make contributions easy to understand, especially when 
 
 <input type="checkbox"> Open `About.Rmd` or `About.md` in your course repository.
 
-<input type="checkbox"> Delete rows for roles that do not apply to your course.
+<input type="checkbox"> Delete rows for optional roles that do not apply to your course (please ensure that you keep rows that credit OTTR developers). 
 
 <input type="checkbox"> Use singular labels for one person and plural labels for multiple people.
 
