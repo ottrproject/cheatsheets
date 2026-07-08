@@ -8,7 +8,7 @@ css: css/ITN_style.css
 ---
 
 
-```{r, echo=FALSE, results='asis'}
+```{r, echo=FALSE, results='asis'} 
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_header.md",
   tag_replacement = list(
