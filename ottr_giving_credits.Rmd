@@ -25,7 +25,7 @@ Use the credits table to make contributions easy to understand, especially when 
 
 <input type="checkbox"> Open `About.qmd`, `About.Rmd` or `About.md` in your course repository.
 
-<input type="checkbox"> Delete rows for roles that do not apply to your course.
+<input type="checkbox"> Delete rows for optional roles that do not apply to your course (please ensure that you keep rows that credit OTTR developers). 
 
 <input type="checkbox"> Keep the required engineer role rows listed in the **Engineer Roles** section as-is.
 
@@ -96,7 +96,7 @@ If a person both teaches the material and writes substantial course content, lis
 
 :::warning
 
-Ensure the following role allocations are **not** removed from your course:  
+Ensure the following role allocations are **not** removed from your course, this credits the developers of OTTR:  
 
 | Role | 
 |:---|
