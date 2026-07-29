@@ -16,16 +16,18 @@ ottrpal::borrow_chapter(
   ))
 ```
 
-OTTR courses use an `About.Rmd` or `About.md` file to show who contributed to the course and what kind of work they did.
+OTTR courses use an `About.qmd`, `About.Rmd` or `About.md` file to show who contributed to the course and what kind of work they did.
 
 Use the credits table to make contributions easy to understand, especially when the same person appears in more than one role.
 
 
 ## Credits Table Checklist
 
-<input type="checkbox"> Open `About.Rmd` or `About.md` in your course repository.
+<input type="checkbox"> Open `About.qmd`, `About.Rmd` or `About.md` in your course repository.
 
-<input type="checkbox"> Delete rows for optional roles that do not apply to your course (please ensure that you keep rows that credit OTTR developers). 
+<input type="checkbox"> Keep the required engineer role rows listed in the **Engineer Roles** section as-is.
+
+<input type="checkbox"> Delete rows for optional roles that do not apply to your course (as a reminder, please ensure that you keep rows that credit OTTR developers). 
 
 <input type="checkbox"> Use singular labels for one person and plural labels for multiple people.
 
