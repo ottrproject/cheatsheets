@@ -78,3 +78,7 @@
       href: https://ottrproject.org/cheatsheets/ottr_giving_credits.html
       code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_giving_credits.Rmd
       thumbnail: pngs/ottr_giving_credits.png
+    - title: OTTR Troubleshooting
+      href: https://ottrproject.org/cheatsheets/ottr_troubleshooting.html
+      code: https://github.com/ottrproject/cheatsheets/blob/main/ottr_troubleshooting.Rmd
+      thumbnail: pngs/ottr_troubleshooting.png

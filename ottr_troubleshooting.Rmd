@@ -1,0 +1,152 @@
+---
+output:
+  html_document:
+    includes:
+      in_header: ottr_favicon.html
+css: css/OTTR_style.css
+---
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "OTTR Troubleshooting",
+    "{SUBTITLE}" = "Common Errors",
+    "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_troubleshooting.png?raw=true"
+  ))
+```
+
+Use this checklist when an OTTR course, website, or pull request preview does not render as expected.
+
+## Content Is Not Rendering or Updating
+
+- [ ] Confirm the repository `GH_PAT` secret is current.
+- [ ] If the action shows `exit code 128`, update the token using the [Update Token/Secret cheatsheet](ottr_token.html).
+- [ ] Compare your `config_automation.yml` with the template version in [OTTR_Template](https://github.com/ottrproject/OTTR_Template/blob/main/config_automation.yml).
+- [ ] Keep your custom configuration choices, but update outdated settings.
+- [ ] Check whether workflow files are out of date.
+- [ ] Request sync updates using the [OTTR Sync cheatsheet](ottr_sync.html).
+- [ ] Push a small change, such as a blank-space edit, to re-run the workflow.
+- [ ] Check [GitHub Status](https://www.githubstatus.com/) if actions do not start or fail before running your code.
+
+
+## Google Slide Image Is Not Showing
+
+- [ ] Check the `ottrpal::include_slide()` code chunk.
+- [ ] Confirm the `fig.alt` argument has no line breaks.
+- [ ] Use one quotation style around the full `fig.alt` value.
+- [ ] Avoid mixing quote styles in a way that closes the string early.
+- [ ] Confirm the Google Slides file is shared with **Anyone with a link**.
+
+```{r eval=FALSE}
+# Good: double quotes outside, single quotes inside
+fig.alt = "This slide highlights 'one phrase' in the image."
+
+# Good: single quotes outside, double quotes inside
+fig.alt = 'This slide highlights "one phrase" in the image.'
+```
+
+## Pull Request Checks Fail
+
+When a pull request check fails:
+
+- [ ] Click **Details** beside the failed check.
+- [ ] Find the named step that failed.
+- [ ] Match the error message below.
+- [ ] Fix the source file on your branch.
+- [ ] Commit the fix and wait for checks to run again.
+
+<details>
+<summary><strong><code>file is not in PNG format</code></strong></summary>
+
+This often means `ottrpal::include_slide()` could not retrieve a public image from Google Slides.
+
+- [ ] Open the Google Slides presentation.
+- [ ] Set sharing to **Anyone with a link**.
+- [ ] Re-check the slide URL in the code chunk.
+- [ ] Commit a small change to re-run the render.
+
+</details>
+
+<details>
+<summary><strong><code>Process completed with exit code 1</code></strong></summary>
+
+This can be expected when spell check, URL check, or quiz format check finds problems.
+
+- [ ] Return to the pull request page.
+- [ ] Find the automated comment for spelling, URL, or quiz errors.
+- [ ] Click **Download the errors here**.
+- [ ] Fix each listed file.
+- [ ] Commit the fixes to re-run the checks.
+
+</details>
+
+<details>
+<summary><strong><code>CONFLICT (modify/delete)</code></strong></summary>
+
+This can happen when the preview branch has stale rendered changes.
+
+- [ ] Note your pull request number.
+- [ ] Go to **Code** > **Branches** in GitHub.
+- [ ] Find the branch named `preview-<pull request number>`.
+- [ ] Delete that preview branch.
+- [ ] Re-trigger the GitHub Actions run.
+
+</details>
+
+<details>
+<summary><strong><code>Parser error: while parsing a flow sequence</code></strong></summary>
+
+This usually means `_bookdown.yml` has a missing comma, quote, or bracket.
+
+- [ ] Open `_bookdown.yml`.
+- [ ] Check that every file name is quoted.
+- [ ] Check that every file except the last one has a comma.
+- [ ] Check that the closing `]` is present.
+- [ ] Commit the corrected YAML.
+
+```{yaml}
+rmd_files: ["index.Rmd",
+            "01-intro.Rmd",
+            "02-chapter_of_course.Rmd",
+            "new_file.Rmd",
+            "About.Rmd",
+            "References.Rmd"]
+```
+
+</details>
+
+<details>
+<summary><strong>Word preview download link gives a <code>404 error</code></strong></summary>
+
+- [ ] Open `_output.yml`.
+- [ ] Add the Word output format below if it is missing.
+- [ ] Commit the change and re-run the preview action.
+
+```{yaml}
+bookdown::word_document2:
+  toc: true
+```
+
+</details>
+
+<details>
+<summary><strong><code>the condition has length > 1</code></strong></summary>
+
+This can happen when `GA_Script.Rhtml` includes extra HTML document wrappers.
+
+- [ ] Open `GA_Script.Rhtml`.
+- [ ] Remove opening `<html>`, `<head>`, `<title>`, and `<body>` tags if they are present.
+- [ ] Remove closing `</body>` and `</html>` tags if they are present.
+- [ ] Commit the cleaned file.
+
+</details>
+
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Padmashri Saravanan from [BioData Sage](https://www.biodatasage.com/) created the cheatsheet content. Carrie Wright reviewed the material. Kate Isaac created the original styling, Carrie Wright did the css styling and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet."
+  ))
+```
