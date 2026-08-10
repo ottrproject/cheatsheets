@@ -47,7 +47,7 @@ fig.alt = 'This slide highlights "one phrase" in the image.'
 
 ## Pull Request Render Fail
 
-When a pull request check fails:
+When the rendering check fails:
 
 - [ ] Click **Details** beside the failed check.
 - [ ] Find the named step that failed.
