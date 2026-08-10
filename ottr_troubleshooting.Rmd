@@ -27,16 +27,15 @@ Use this checklist when an OTTR course, website, or pull request preview does no
 - [ ] Check whether workflow files are out of date.
 - [ ] Request sync updates using the [OTTR Sync cheatsheet](ottr_sync.html).
 - [ ] Push a small change, such as a blank-space edit, to re-run the workflow.
-- [ ] Check [GitHub Status](https://www.githubstatus.com/) if actions do not start or fail before running your code. If there appears to be an issue, you may need to wait a bit until they are resolved and make a new arbitrary change. 
-
+- [ ] Check [GitHub Status](https://www.githubstatus.com/) if actions do not start or fail before running your code. If there appears to be an issue, you may need to wait a bit until they are resolved and make a new arbitrary change.
 
 ## Google Slide Image Is Not Showing
 
 - [ ] Check the `ottrpal::include_slide()` code chunk.
-- [ ] Confirm the `fig.alt` argument has no line breaks.
-- [ ] Use one quotation style around the full `fig.alt` value.
-- [ ] Avoid mixing quote styles in a way that closes the string early.
-- [ ] Confirm the Google Slides file is shared with **Anyone with a link** can view.
+  - [ ] Confirm the `fig.alt` argument has no line breaks.
+  - [ ] Use one quotation style around the full `fig.alt` value.
+  - [ ] Avoid mixing quote styles in a way that closes the string early.
+  - [ ] Confirm the Google Slides file is shared with **Anyone with a link** can view.
 
 ```{r eval=FALSE}
 # Good: double quotes outside, single quotes inside
@@ -57,6 +56,7 @@ When a pull request check fails:
 - [ ] Commit the fix and wait for checks to run again.
 
 <details>
+
 <summary><strong><code>file is not in PNG format</code></strong></summary>
 
 This often means `ottrpal::include_slide()` could not retrieve a public image from Google Slides.
@@ -69,6 +69,7 @@ This often means `ottrpal::include_slide()` could not retrieve a public image fr
 </details>
 
 <details>
+
 <summary><strong><code>Process completed with exit code 1</code></strong></summary>
 
 This can be expected when spell check, URL check, or quiz format check finds problems.
@@ -82,12 +83,13 @@ This can be expected when spell check, URL check, or quiz format check finds pro
 </details>
 
 <details>
+
 <summary><strong><code>CONFLICT (modify/delete)</code></strong></summary>
 
 This can happen when the preview branch has stale rendered changes.
 
 - [ ] Note your pull request number.
-- [ ] Go to **Code** > **Branches** in GitHub.
+- [ ] Go to **Code** \> **Branches** in GitHub.
 - [ ] Find the branch named `preview-<pull request number>`.
 - [ ] Delete that preview branch.
 - [ ] Re-trigger the GitHub Actions run.
@@ -95,6 +97,7 @@ This can happen when the preview branch has stale rendered changes.
 </details>
 
 <details>
+
 <summary><strong><code>Parser error: while parsing a flow sequence</code></strong></summary>
 
 This usually means `_bookdown.yml` has a missing comma, quote, or bracket.
@@ -117,6 +120,7 @@ rmd_files: ["index.Rmd",
 </details>
 
 <details>
+
 <summary><strong>Word preview download link gives a <code>404 error</code></strong></summary>
 
 - [ ] Open `_output.yml`.
@@ -131,7 +135,8 @@ bookdown::word_document2:
 </details>
 
 <details>
-<summary><strong><code>the condition has length > 1</code></strong></summary>
+
+<summary><strong><code>the condition has length \> 1</code></strong></summary>
 
 This can happen when `GA_Script.Rhtml` includes extra HTML document wrappers.
 
@@ -141,7 +146,6 @@ This can happen when `GA_Script.Rhtml` includes extra HTML document wrappers.
 - [ ] Commit the cleaned file.
 
 </details>
-
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
