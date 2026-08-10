@@ -46,7 +46,7 @@ fig.alt = "This slide highlights 'one phrase' in the image."
 fig.alt = 'This slide highlights "one phrase" in the image.'
 ```
 
-## Pull Request Checks Fail
+## Pull Request Render Fail
 
 When a pull request check fails:
 
