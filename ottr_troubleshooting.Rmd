@@ -36,7 +36,7 @@ Use this checklist when an OTTR course, website, or pull request preview does no
 - [ ] Confirm the `fig.alt` argument has no line breaks.
 - [ ] Use one quotation style around the full `fig.alt` value.
 - [ ] Avoid mixing quote styles in a way that closes the string early.
-- [ ] Confirm the Google Slides file is shared with **Anyone with a link**.
+- [ ] Confirm the Google Slides file is shared with **Anyone with a link** can view.
 
 ```{r eval=FALSE}
 # Good: double quotes outside, single quotes inside
