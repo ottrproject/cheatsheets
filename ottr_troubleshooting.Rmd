@@ -27,7 +27,7 @@ Use this checklist when an OTTR course, website, or pull request preview does no
 - [ ] Check whether workflow files are out of date.
 - [ ] Request sync updates using the [OTTR Sync cheatsheet](ottr_sync.html).
 - [ ] Push a small change, such as a blank-space edit, to re-run the workflow.
-- [ ] Check [GitHub Status](https://www.githubstatus.com/) if actions do not start or fail before running your code.
+- [ ] Check [GitHub Status](https://www.githubstatus.com/) if actions do not start or fail before running your code. If there appears to be an issue, you may need to wait a bit until they are resolved and make a new arbitrary change. 
 
 
 ## Google Slide Image Is Not Showing
