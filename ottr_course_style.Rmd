@@ -86,13 +86,14 @@ knitr::include_graphics("resources/images/style_change.png")
 Style sets are an alternative to changing CSS variables. If you use a style set, changes to `style_config_default.css` will not affect that style set.
 
 1. Choose a set from the template's `style-sets/` directory, such as `itcr` or `data-trail`.
-1. Copy the files for your course type as instructed in that style-set directory.
-1. Open a pull request and check the rendered preview before merging.
+2. Copy the files for your course type as instructed in that style-set directory.
+3. Copy all files from `style-sets/<set-name>/copy-to-assets` into the top-level `assets/` folder of your repository.
+4. Open a pull request and check the rendered preview before merging.
 
 ## Helpful Color Tools
 
 1. [Venngage Color Accessibility Tool](https://venngage.com/tools/accessible-color-palette-generator)
-1. [ColorBuddy](https://color-buddy.netlify.app/)
+2. [ColorBuddy](https://color-buddy.netlify.app/)
 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
