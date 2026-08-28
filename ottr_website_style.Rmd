@@ -64,8 +64,11 @@ See the [Quarto HTML themes](https://quarto.org/docs/output-formats/html-themes.
 
 ## Change the Favicon
 
-1. Create a favicon, for example with [favicon.io](https://favicon.io/favicon-converter/).
-1. Replace `resources/images/favicon.ico` with your new file.
+[favicon.io](https://favicon.io/) is a website that can create or convert favicons. The `.ico` in `favicon.ico` is the file extension for the icon file that a browser displays in its tab. They look similar, but they are different: use favicon.io to make the icon, then use the resulting `.ico` file in your website.
+
+1. Create or convert an image with [favicon.io](https://favicon.io/favicon-converter/).
+1. Download the generated `favicon.ico` file.
+1. Replace `resources/images/favicon.ico` with that file.
 1. Check the rendered preview and your browser tab.
 
 ## Helpful Color Tools
