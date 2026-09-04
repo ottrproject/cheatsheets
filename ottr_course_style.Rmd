@@ -1,0 +1,104 @@
+---
+output:
+  html_document:
+    includes:
+      in_header: ottr_favicon.html
+css: css/OTTR_style.css
+---
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "OTTR Course Style",
+    "{SUBTITLE}" = "Customizing Colors & Style",
+    "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_course_style.png?raw=true"
+  ))
+```
+
+## How Course Colors Are Controlled
+
+Two CSS files separate OTTR's defaults from your course customizations:
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
+
+<div>
+### `style_config_default.css`
+**Gets synced** from OTTR
+
+- Defines all default CSS variables
+- Ensures new variables exist before `style.css` references them
+- Do not edit it; sync updates can overwrite your changes
+</div>
+
+<div>
+### `style_config_custom.css`
+**Not synced**
+
+- Overrides the defaults
+- Store your course color choices here
+- Changes are safe from future sync updates
+</div>
+
+</div>
+
+## Customize Course Colors
+
+Edit `assets/style_config_custom.css` to override only the variables you want to change:
+
+```css
+:root {
+  --link-color: #a1005a;
+  --accent-color: #6e0040;
+  --highlight-color: #e754a6;
+  --caption-color: #4a4a4a;
+  --background-color: #ffffff;
+  --callout-background-color: #f6e9f1;
+}
+```
+
+- [ ] Open `assets/style_config_custom.css` in your repository.
+- [ ] Change only the variables you need.
+- [ ] Commit the change on a new branch and check the pull request preview.
+
+<p class="comment">
+<em>Variables not set in <code>style_config_custom.css</code> continue to use the defaults in <code>style_config_default.css</code>.</em>
+</p>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
+
+<div>
+```{r, echo=FALSE, fig.cap="Default colors", fig.align='center'}
+knitr::include_graphics("resources/images/style_default.png")
+```
+</div>
+
+<div>
+```{r, echo=FALSE, fig.cap="Changed colors", fig.align='center'}
+knitr::include_graphics("resources/images/style_change.png")
+```
+</div>
+
+</div>
+
+## Use a Course Style Set
+
+Style sets are an alternative to changing CSS variables. If you use a style set, changes to `style_config_default.css` will not affect that style set.
+
+1. Choose a set from the template's `style-sets/` directory, such as `itcr` or `data-trail`.
+2. Copy the files for your course type as instructed in that style-set directory.
+3. Copy all files from `style-sets/<set-name>/copy-to-assets` into the top-level `assets/` folder of your repository.
+4. Open a pull request and check the rendered preview before merging.
+
+## Helpful Color Tools
+
+1. [Venngage Color Accessibility Tool](https://venngage.com/tools/accessible-color-palette-generator)
+2. [ColorBuddy](https://color-buddy.netlify.app/)
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Padmashri Saravanan from [BioData Sage](https://www.biodatasage.com/) created the cheatsheet content. Katherine Cox structured OTTR's color customizations. Carrie Wright reviewed the material. Kate Isaac created the original styling, Carrie Wright did the CSS styling, and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet."
+  ))
+```

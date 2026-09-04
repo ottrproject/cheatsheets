@@ -1,0 +1,85 @@
+---
+output:
+  html_document:
+    includes:
+      in_header: ottr_favicon.html
+css: css/OTTR_style.css
+---
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_header.md",
+  tag_replacement = list(
+    "{TITLE}" = "OTTR Website Style",
+    "{SUBTITLE}" = "Customizing Colors & Style",
+    "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_website_style.png?raw=true"
+  ))
+```
+
+<p class="comment">
+<em>Websites look and are configured differently from courses. Use this cheat sheet for an OTTR website; course style instructions are not interchangeable.</em>
+</p>
+
+## Website Style Files
+
+An OTTR website has one color configuration file: `assets/style_config_default.css`. Unlike an OTTR course, it does **not** have `style_config_custom.css`.
+
+Use `style_config_default.css` to customize website color variables. Commit the change on a new branch and check the pull request preview.
+
+## Customize Website Colors
+
+Open `assets/style_config_default.css` and update the variables you want to change:
+
+```css
+:root {
+  --banner-color: #your-color-here;
+  --button-color: #your-color-here;
+}
+```
+
+- [ ] Open `assets/style_config_default.css` in your repository.
+- [ ] Update the color variables you want to change.
+- [ ] Commit the change on a new branch and check the pull request preview.
+
+## Change the Navigation Bar
+
+In `_quarto.yml`, change the website title to update the text shown in the navigation bar:
+
+```yaml
+website:
+  title: "My Website"
+```
+
+## Change the Overall Theme
+
+In `_quarto.yml`, set the HTML theme to change the website's overall color scheme and fonts:
+
+```yaml
+format:
+  html:
+    theme: cosmo
+```
+
+See the [Quarto HTML themes](https://quarto.org/docs/output-formats/html-themes.html) for available theme options.
+
+## Change the Favicon
+
+[favicon.io](https://favicon.io/) is a website that can create or convert favicons. The `.ico` in `favicon.ico` is the file extension for the icon file that a browser displays in its tab. They look similar, but they are different: use favicon.io to make the icon, then use the resulting `.ico` file in your website.
+
+1. Create or convert an image with [favicon.io](https://favicon.io/favicon-converter/).
+1. Download the generated `favicon.ico` file.
+1. Replace `resources/images/favicon.ico` with that file.
+1. Check the rendered preview and your browser tab.
+
+## Helpful Color Tools
+
+1. [Venngage Color Accessibility Tool](https://venngage.com/tools/accessible-color-palette-generator)
+1. [ColorBuddy](https://color-buddy.netlify.app/)
+
+```{r, echo=FALSE, results='asis'}
+ottrpal::borrow_chapter(
+  doc_path = "chunks/create_ottr_footer.md",
+  tag_replacement = list(
+    "{AUTHORS}" = "Padmashri Saravanan from [BioData Sage](https://www.biodatasage.com/) created the cheatsheet content. Katherine Cox structured OTTR's color customizations. Carrie Wright reviewed the material. Kate Isaac created the original styling, Carrie Wright did the CSS styling, and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet."
+  ))
+```
