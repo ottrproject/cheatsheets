@@ -107,6 +107,5 @@ jobs:
           git add --force docs/*
           git add --force pngs/*
           git commit -m 'Render site' || echo "No changes to commit"
-          git reset --hard HEAD
-          git pull --rebase --allow-unrelated-histories --strategy-option=ours
           git push --force -u origin main || echo "No changes to push"
+        shell: bash
