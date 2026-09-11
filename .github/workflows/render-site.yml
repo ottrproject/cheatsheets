@@ -109,4 +109,4 @@ jobs:
           git commit -m 'Render site' || echo "No changes to commit"
           git reset --hard HEAD
           git pull --rebase --allow-unrelated-histories --strategy-option=ours
-          git push origin main || echo "No changes to push"
+          git push --force -u origin main || echo "No changes to push"
