@@ -102,3 +102,4 @@ ottrpal::borrow_chapter(
     "{AUTHORS}" = "Padmashri Saravanan from [BioData Sage](https://www.biodatasage.com/) created the cheatsheet content. Katherine Cox structured OTTR's color customizations. Carrie Wright reviewed the material. Kate Isaac created the original styling, Carrie Wright did the CSS styling, and Carrie Wright and Candace Savonen did the publishing engineering for the cheatsheet."
   ))
 ```
+  
