@@ -1,42 +1,27 @@
----
-format:
-  html:
-    toc: true
-    toc-depth: 4
-    toc-location: left
-css: styles.css
----
-
 # Want to contribute to the cheatsheets?
 
-<div class="banner_color">
-Read this guide before opening a pull request.
-</div>
-
-Please review our [Contributor Covenant Code of Conduct](https://github.com/ottrproject/OTTR_Template/blob/main/code_of_conduct.md) before contributing.
+Thanks for helping improve the OTTR cheatsheets. Please read this guide before opening a pull request, and review the [Contributor Covenant Code of Conduct](https://github.com/ottrproject/OTTR_Template/blob/main/code_of_conduct.md) before contributing.
 
 ## Making a New Cheatsheet
 
-Create a `.Rmd` or `.md` file at the top level of the repository. **GitHub Actions will automatically render it as a PNG saved to the `docs` folder.**
+Create a `.Rmd` or `.md` file at the top level of the repository. GitHub Actions will automatically render the cheatsheet as a PNG saved to the `docs` folder.
 
 ### 1. Choose a Style
 
-Specify respective style in the yaml header: 
+Add one of the following style options to the file's YAML header.
 
 **OTTR style:**
 
-```{yaml}
+```yaml
 ---
 output: html_document
 css: css/OTTR_style.css
 ---
 ```
 
-or 
-
 **ITN style:**
 
-```{yaml}
+```yaml
 ---
 output:
   html_document:
@@ -47,16 +32,16 @@ css: css/ITN_style.css
 
 ### 2. Add a Header Chunk
 
-All cheatsheets should start with either `chunk/create_ottr_header.md` or `chunk/create_itn_header/md`. Specify the title, subtitle, and path to the PNG image.
+All cheatsheets should start with either `chunks/create_ottr_header.md` or `chunks/create_itn_header.md`. Specify the title, subtitle, and path to the PNG image.
 
 Example:
 
-```{r, eval=FALSE, results='asis'}
+```r
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_header.md",
   tag_replacement = list(
-    "{TITLE}"       = "Your Title",
-    "{SUBTITLE}"    = "Your Subtitle",
+    "{TITLE}" = "Your Title",
+    "{SUBTITLE}" = "Your Subtitle",
     "{PATH_TO_PNG}" = "path-to-image.png"
   ))
 ```
@@ -77,16 +62,15 @@ Every cheatsheet must end with a footer chunk. Use it to credit authors and cont
 
 Example with OTTR footer:
 
-```{r eval=FALSE, results='asis'}
+```r
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_ottr_footer.md",
   tag_replacement = list(
     "{AUTHORS}" = "[Author name] wrote the content. [Contributor name] reviewed and improved the cheatsheet."
   ))
-  
-  Fill in the [Author name] and [Contributor name] sections with your author info.
 ```
 
+Replace the placeholder author and contributor text with the correct names and roles.
 
 ## Reusing Content with Chunks
 
@@ -101,12 +85,12 @@ Chunks are especially useful for:
 
 **Example call:**
 
-```{r eval=FALSE, results='asis'}
+```r
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_itn_header.md",
   tag_replacement = list(
-    "{TITLE}"       = "Attending Conferences",
-    "{SUBTITLE}"    = "Helpful Tips",
+    "{TITLE}" = "Attending Conferences",
+    "{SUBTITLE}" = "Helpful Tips",
     "{PATH_TO_PNG}" = "https://raw.githubusercontent.com/ottrproject/cheatsheets/refs/heads/main/pngs/attending_conferences.png"
   ))
 ```
@@ -133,7 +117,7 @@ Use the following code to include icons that are already set up in this repo.
 
 ## Adding Cheatsheets to the Main Gallery
 
-Update `gallery.yml` with your cheatsheet's information under the appropriate category:
+Update `gallery.yml` with your cheatsheet's information under the appropriate category.
 
 - [Conferences & Engagement](https://www.ottrproject.org/cheatsheets/#conferences-engagement)
 - [Research & Software Development](https://www.ottrproject.org/cheatsheets/#research-software-development)
@@ -148,7 +132,7 @@ Example:
   thumbnail: pngs/google_analytics.png
 ```
 
-Make sure to check the render of index.Qmd! 
+Make sure to check the render of `index.Qmd`.
 
 ## Contributor Checklist
 

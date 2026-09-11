@@ -11,7 +11,7 @@
 
 
 
-<title>ottr_pr.knit</title>
+<title>ottr_website_style.knit</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -169,11 +169,11 @@ pre code {
 
 
 <div class="header_box">
-<p><u>OTTR Pull Requests</u><br><span style="color:#986753;"> Writing
-New Content </span></p>
+<p><u>OTTR Website Style</u><br><span style="color:#986753;">
+Customizing Colors &amp; Style </span></p>
 </div>
 <div class="png_button">
-<a href="https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_pr.png?raw=true">Download
+<a href="https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_website_style.png?raw=true">Download
 cheatsheet</a>
 </div>
 <div class="time">
@@ -181,158 +181,73 @@ cheatsheet</a>
 </div>
 <!-- Open all links in new tab-->
 <p><base target="_blank" rel="noopener noreferrer"/></p>
-<p>All OTTR content development revolves around <strong>pull
-requests</strong> where proposed changes trigger automated checks before
-publishing.</p>
-<blockquote>
-<p>⚠️ <strong>Never edit the <code>docs</code> folder directly or push
-rendered files.</strong> Automation handles those files.</p>
-</blockquote>
-<hr />
-<div id="writing-your-content" class="section level2">
-<h2>Writing Your Content</h2>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
-<div id="option-a-browser-entry-level" class="section level3">
-<h3>Option A: Browser (Entry Level)</h3>
-<ul class="task-list">
-<li><input type="checkbox" />On your repo page, click the branch button
-and create a <strong>new branch</strong></li>
-<li><input type="checkbox" />Navigate to a file, click the
-<strong>pencil icon</strong> to edit</li>
-<li><input type="checkbox" />Scroll down and <strong>Commit directly to
-your new branch</strong></li>
-<li><input type="checkbox" />Return to the main repo page and click
-<strong>Compare &amp; pull request</strong></li>
-<li><input type="checkbox" />Add a description and click <strong>Create
-Pull Request</strong></li>
-</ul>
-</div>
-<div id="option-b-local-advanced" class="section level3">
-<h3>Option B: Local (Advanced)</h3>
-<ul class="task-list">
-<li><input type="checkbox" /><strong>Clone</strong> your repo using
-GitKraken or Git</li>
-<li><input type="checkbox" />Create a <strong>new branch</strong> for
-your changes</li>
-<li><input type="checkbox" />Edit files locally, then <strong>stage and
-commit</strong> in GitKraken</li>
-<li><input type="checkbox" /><strong>Push</strong> your branch to
-GitHub</li>
-<li><input type="checkbox" />Go to GitHub and click <strong>Compare
-&amp; pull request</strong></li>
-<li><input type="checkbox" />Add a description and click <strong>Create
-Pull Request</strong></li>
-</ul>
-</div>
-</div>
 <p class="comment">
-<blockquote>
-<p>⚠️ <strong>Do not push rendered files</strong> (e.g. files in
-<code>docs/</code>). OTTR’s automation renders and manages these files
-automatically. Pushing rendered files can cause conflicts and break the
-automated workflow.</p>
-</blockquote>
+<em>Websites look and are configured differently from courses. Use this
+cheat sheet for an OTTR website; course style instructions are not
+interchangeable.</em>
 </p>
-<hr />
+<div id="website-style-files" class="section level2">
+<h2>Website Style Files</h2>
+<p>An OTTR website has one color configuration file:
+<code>assets/style_config_default.css</code>. Unlike an OTTR course, it
+does <strong>not</strong> have <code>style_config_custom.css</code>.</p>
+<p>Use <code>style_config_default.css</code> to customize website color
+variables. Commit the change on a new branch and check the pull request
+preview.</p>
 </div>
-<div id="ottr-automated-checks" class="section level2">
-<h2>OTTR Automated Checks</h2>
-<p>Once your PR is open, checks run automatically and post results as
-<strong>comments on the PR</strong>.</p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Check</th>
-<th align="left">What it does</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>URL check</strong></td>
-<td align="left">Verifies all links are valid</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Spell check</strong></td>
-<td align="left">Flags spelling errors</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Style check</strong></td>
-<td align="left">Checks code formatting</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Preview render</strong></td>
-<td align="left">Generates a rendered preview</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Quiz check</strong></td>
-<td align="left">Validates quiz formatting (if applicable)</td>
-</tr>
-</tbody>
-</table>
+<div id="customize-website-colors" class="section level2">
+<h2>Customize Website Colors</h2>
+<p>Open <code>assets/style_config_default.css</code> and update the
+variables you want to change:</p>
+<pre class="css"><code>:root {
+  --banner-color: #your-color-here;
+  --button-color: #your-color-here;
+}</code></pre>
 <ul class="task-list">
-<li><input type="checkbox" />Read the check comments on your PR</li>
-<li><input type="checkbox" />Commit fixes to your branch to re-trigger
-checks</li>
-<li><input type="checkbox" />Adjust which checks run in
-<code>config_automation.yml</code></li>
-</ul>
-<p class="comment">
-<em>If a check result looks unexpected, refresh the page or make a new
-commit to re-trigger.</em>
-</p>
-<hr />
-</div>
-<div id="adding-a-new-chapter" class="section level2">
-<h2>Adding a New Chapter</h2>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
-<div id="quarto" class="section level3">
-<h3>Quarto</h3>
-<ul class="task-list">
-<li><input type="checkbox" />Add a new <code>.qmd</code> file to your
-branch</li>
-<li><input type="checkbox" />Add the filename to
-<code>_quarto.yml</code> under <code>navar:</code></li>
-</ul>
-<pre class="yaml"><code>navbar:
-    left:
-    - text: &quot;&quot;
-      href: index.qmd
-      icon: fa-home
-    - text: 1. Setup
-      href: setup.qmd
-    - text: 2. New Chapter
-      href: new_chapter.qmd ## new!</code></pre>
-<ul class="task-list">
-<li><input type="checkbox" />Commit the updated
-<code>_quarto.yml</code></li>
-<li><input type="checkbox" />Check your PR for any new automated check
-results</li>
+<li><input type="checkbox" />Open
+<code>assets/style_config_default.css</code> in your repository.</li>
+<li><input type="checkbox" />Update the color variables you want to
+change.</li>
+<li><input type="checkbox" />Commit the change on a new branch and check
+the pull request preview.</li>
 </ul>
 </div>
-<div id="r-markdown" class="section level3">
-<h3>R Markdown</h3>
-<ul class="task-list">
-<li><input type="checkbox" />Add a new <code>.Rmd</code> file to your
-branch</li>
-<li><input type="checkbox" />Add the filename to
-<code>_bookdown.yml</code> under <code>rmd_files:</code></li>
-</ul>
-<pre class="yaml"><code>rmd_files: [&quot;index.Rmd&quot;,
-            &quot;01-intro.Rmd&quot;,
-            &quot;02-new_chapter.Rmd&quot;]  ## new!</code></pre>
-<ul class="task-list">
-<li><input type="checkbox" />Commit the updated
-<code>_bookdown.yml</code></li>
-<li><input type="checkbox" />Check your PR for any new automated check
-results</li>
-</ul>
+<div id="change-the-navigation-bar" class="section level2">
+<h2>Change the Navigation Bar</h2>
+<p>In <code>_quarto.yml</code>, change the website title to update the
+text shown in the navigation bar:</p>
+<pre class="yaml"><code>website:
+  title: &quot;My Website&quot;</code></pre>
 </div>
+<div id="change-the-overall-theme" class="section level2">
+<h2>Change the Overall Theme</h2>
+<p>In <code>_quarto.yml</code>, set the HTML theme to change the
+website’s overall color scheme and fonts:</p>
+<pre class="yaml"><code>format:
+  html:
+    theme: cosmo</code></pre>
+<p>See the <a
+href="https://quarto.org/docs/output-formats/html-themes.html">Quarto
+HTML themes</a> for available theme options.</p>
 </div>
-<blockquote>
-<p>Ensure you have checked that the quotation marks and commas align
-with the YAML and that you have the correct file names!</p>
-</blockquote>
-<hr />
+<div id="change-the-favicon" class="section level2">
+<h2>Change the Favicon</h2>
+<ol style="list-style-type: decimal">
+<li>Create a favicon, for example with <a
+href="https://favicon.io/favicon-converter/">favicon.io</a>.</li>
+<li>Replace <code>resources/images/favicon.ico</code> with your new
+file.</li>
+<li>Check the rendered preview and your browser tab.</li>
+</ol>
+</div>
+<div id="helpful-color-tools" class="section level2">
+<h2>Helpful Color Tools</h2>
+<ol style="list-style-type: decimal">
+<li><a
+href="https://venngage.com/tools/accessible-color-palette-generator">Venngage
+Color Accessibility Tool</a></li>
+<li><a href="https://color-buddy.netlify.app/">ColorBuddy</a></li>
+</ol>
 <br> <br>
 <center>
 <a href="https://www.ottrproject.org/">
@@ -341,9 +256,10 @@ with the YAML and that you have the correct file names!</p>
 <div class="authors">
 <p><strong>Authors</strong>: Padmashri Saravanan from <a
 href="https://www.biodatasage.com/">BioData Sage</a> created the
-cheatsheet content. Carrie Wright reviewed the material. Kate Isaac
-created the original styling, Carrie Wright did the css styling and
-Carrie Wright and Candace Savonen did the publishing engineering for the
+cheatsheet content. Katherine Cox structured OTTR’s color
+customizations. Carrie Wright reviewed the material. Kate Isaac created
+the original styling, Carrie Wright did the CSS styling, and Carrie
+Wright and Candace Savonen did the publishing engineering for the
 cheatsheet. <a href="https://www.ottrproject.org/">OTTR</a> was created
 and or is maintained by the following team: Candace Savonen, Carrie
 Wright, Kate Isaac, Ava Hoffman, Adam Coffman, Katherine Cox, Federick

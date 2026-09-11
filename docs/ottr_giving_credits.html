@@ -11,7 +11,7 @@
 
 
 
-<title>ottr_pr.knit</title>
+<title>ottr_giving_credits.knit</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -169,11 +169,11 @@ pre code {
 
 
 <div class="header_box">
-<p><u>OTTR Pull Requests</u><br><span style="color:#986753;"> Writing
-New Content </span></p>
+<p><u>OTTR Giving Credits</u><br><span style="color:#986753;"> Crediting
+contributors clearly </span></p>
 </div>
 <div class="png_button">
-<a href="https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_pr.png?raw=true">Download
+<a href="https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_giving_credits.png?raw=true">Download
 cheatsheet</a>
 </div>
 <div class="time">
@@ -181,158 +181,196 @@ cheatsheet</a>
 </div>
 <!-- Open all links in new tab-->
 <p><base target="_blank" rel="noopener noreferrer"/></p>
-<p>All OTTR content development revolves around <strong>pull
-requests</strong> where proposed changes trigger automated checks before
-publishing.</p>
-<blockquote>
-<p>⚠️ <strong>Never edit the <code>docs</code> folder directly or push
-rendered files.</strong> Automation handles those files.</p>
-</blockquote>
-<hr />
-<div id="writing-your-content" class="section level2">
-<h2>Writing Your Content</h2>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
-<div id="option-a-browser-entry-level" class="section level3">
-<h3>Option A: Browser (Entry Level)</h3>
-<ul class="task-list">
-<li><input type="checkbox" />On your repo page, click the branch button
-and create a <strong>new branch</strong></li>
-<li><input type="checkbox" />Navigate to a file, click the
-<strong>pencil icon</strong> to edit</li>
-<li><input type="checkbox" />Scroll down and <strong>Commit directly to
-your new branch</strong></li>
-<li><input type="checkbox" />Return to the main repo page and click
-<strong>Compare &amp; pull request</strong></li>
-<li><input type="checkbox" />Add a description and click <strong>Create
-Pull Request</strong></li>
-</ul>
+<p>OTTR courses use an <code>About.qmd</code>, <code>About.Rmd</code> or
+<code>About.md</code> file to show who contributed to the course and
+what kind of work they did.</p>
+<p>Use the credits table to make contributions easy to understand,
+especially when the same person appears in more than one role.</p>
+<div id="credits-table-checklist" class="section level2">
+<h2>Credits Table Checklist</h2>
+<p><input type="checkbox"> Open <code>About.qmd</code>,
+<code>About.Rmd</code> or <code>About.md</code> in your course
+repository.</p>
+<p><input type="checkbox"> Keep the required engineer role rows listed
+in the <strong>Engineer Roles</strong> section as-is.</p>
+<p><input type="checkbox"> Delete rows for optional roles that do not
+apply to your course (as a reminder, please ensure that you keep rows
+that credit OTTR developers).</p>
+<p><input type="checkbox"> Use singular labels for one person and plural
+labels for multiple people.</p>
+<p><input type="checkbox"> Add links below the table using bracket
+notation when you want names to link to personal websites. For
+example:</p>
+<pre class="markdown"><code>| Credits | Names |
+|:---|:---|
+| Lead Content Instructor | [FirstName LastName] |
+| Course Publishing Engineers | [FirstName LastName], [SecondName LastName] |
+
+&lt;!-- Author information --&gt;
+
+[FirstName LastName]: https://example.com
+[SecondName LastName]: https://example.org</code></pre>
 </div>
-<div id="option-b-local-advanced" class="section level3">
-<h3>Option B: Local (Advanced)</h3>
-<ul class="task-list">
-<li><input type="checkbox" /><strong>Clone</strong> your repo using
-GitKraken or Git</li>
-<li><input type="checkbox" />Create a <strong>new branch</strong> for
-your changes</li>
-<li><input type="checkbox" />Edit files locally, then <strong>stage and
-commit</strong> in GitKraken</li>
-<li><input type="checkbox" /><strong>Push</strong> your branch to
-GitHub</li>
-<li><input type="checkbox" />Go to GitHub and click <strong>Compare
-&amp; pull request</strong></li>
-<li><input type="checkbox" />Add a description and click <strong>Create
-Pull Request</strong></li>
-</ul>
+<div id="bracket-notation-for-repeated-authors" class="section level2">
+<h2>Bracket Notation for Repeated Authors</h2>
+<p>Bracket notation keeps the credits table readable when a person
+appears in multiple rows.</p>
+<p>Write the person’s name in square brackets every place the name
+should appear:</p>
+<pre class="markdown"><code>| Credits | Names |
+|:---|:---|
+| Lead Content Instructor | [Avery Example] |
+| Content Author | [Avery Example], [Sam Rivera] |
+| Course Publishing Engineer | [Sam Rivera] |</code></pre>
+<p>Then link each linked name to their personal website once below the
+table:</p>
+<pre class="markdown"><code>&lt;!-- Author information --&gt;
+
+[Avery Example]: https://avery.example.edu
+[Sam Rivera]: https://sam.example.org</code></pre>
+<p><strong>The same bracketed name can be reused as many times as
+needed.</strong> Markdown will link each <code>[Avery Example]</code>
+entry to the same website.</p>
 </div>
-</div>
-<p class="comment">
-<blockquote>
-<p>⚠️ <strong>Do not push rendered files</strong> (e.g. files in
-<code>docs/</code>). OTTR’s automation renders and manages these files
-automatically. Pushing rendered files can cause conflicts and break the
-automated workflow.</p>
-</blockquote>
-</p>
-<hr />
-</div>
-<div id="ottr-automated-checks" class="section level2">
-<h2>OTTR Automated Checks</h2>
-<p>Once your PR is open, checks run automatically and post results as
-<strong>comments on the PR</strong>.</p>
+<div id="instructor-roles" class="section level2">
+<h2>Instructor Roles</h2>
 <table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th align="left">Check</th>
-<th align="left">What it does</th>
+<th align="left">Role</th>
+<th align="left">Use When</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><strong>URL check</strong></td>
-<td align="left">Verifies all links are valid</td>
+<td align="left">Lead Content Instructor</td>
+<td align="left">The person leads the course content and takes on a
+large share of the teaching/content effort</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>Spell check</strong></td>
-<td align="left">Flags spelling errors</td>
+<td align="left">Lecturer</td>
+<td align="left">The person delivers the course online or in recorded
+teaching materials</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>Style check</strong></td>
-<td align="left">Checks code formatting</td>
+<td align="left">Content Author</td>
+<td align="left">The person writes a substantial amount of course
+content</td>
 </tr>
 <tr class="even">
-<td align="left"><strong>Preview render</strong></td>
-<td align="left">Generates a rendered preview</td>
+<td align="left">Content Contributor</td>
+<td align="left">The person writes a smaller amount of content, less
+than about one chapter</td>
 </tr>
 <tr class="odd">
-<td align="left"><strong>Quiz check</strong></td>
-<td align="left">Validates quiz formatting (if applicable)</td>
+<td align="left">Content Consultant</td>
+<td align="left">The person gives specialized content guidance but does
+not write or edit the content</td>
+</tr>
+<tr class="even">
+<td align="left">Content Editor</td>
+<td align="left">The person edits content without otherwise authoring
+it</td>
+</tr>
+<tr class="odd">
+<td align="left">Content Director</td>
+<td align="left">The person guides the course direction or content
+strategy</td>
 </tr>
 </tbody>
 </table>
-<ul class="task-list">
-<li><input type="checkbox" />Read the check comments on your PR</li>
-<li><input type="checkbox" />Commit fixes to your branch to re-trigger
-checks</li>
-<li><input type="checkbox" />Adjust which checks run in
-<code>config_automation.yml</code></li>
-</ul>
 <p class="comment">
-<em>If a check result looks unexpected, refresh the page or make a new
-commit to re-trigger.</em>
+If a person both teaches the material and writes substantial course
+content, list them in each role that applies.
 </p>
-<hr />
 </div>
-<div id="adding-a-new-chapter" class="section level2">
-<h2>Adding a New Chapter</h2>
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
-<div id="quarto" class="section level3">
-<h3>Quarto</h3>
-<ul class="task-list">
-<li><input type="checkbox" />Add a new <code>.qmd</code> file to your
-branch</li>
-<li><input type="checkbox" />Add the filename to
-<code>_quarto.yml</code> under <code>navar:</code></li>
-</ul>
-<pre class="yaml"><code>navbar:
-    left:
-    - text: &quot;&quot;
-      href: index.qmd
-      icon: fa-home
-    - text: 1. Setup
-      href: setup.qmd
-    - text: 2. New Chapter
-      href: new_chapter.qmd ## new!</code></pre>
-<ul class="task-list">
-<li><input type="checkbox" />Commit the updated
-<code>_quarto.yml</code></li>
-<li><input type="checkbox" />Check your PR for any new automated check
-results</li>
-</ul>
+<div id="engineer-roles" class="section level2">
+<h2>Engineer Roles</h2>
+<table>
+<colgroup>
+<col width="50%" />
+<col width="50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Role</th>
+<th align="left">Use When</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Course Publishing Engineer</td>
+<td align="left">The person works on the technical setup or generation
+for this specific course</td>
+</tr>
+</tbody>
+</table>
+<div class="warning">
+<p>Ensure the following role allocations are <strong>not</strong>
+removed from your course, this credits the developers of OTTR:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Role</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Template Publishing Engineer</td>
+</tr>
+<tr class="even">
+<td align="left">Publishing Maintenance Engineer</td>
+</tr>
+<tr class="odd">
+<td align="left">Technical Publishing Stylist</td>
+</tr>
+<tr class="even">
+<td align="left">Package Developer</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div id="r-markdown" class="section level3">
-<h3>R Markdown</h3>
-<ul class="task-list">
-<li><input type="checkbox" />Add a new <code>.Rmd</code> file to your
-branch</li>
-<li><input type="checkbox" />Add the filename to
-<code>_bookdown.yml</code> under <code>rmd_files:</code></li>
-</ul>
-<pre class="yaml"><code>rmd_files: [&quot;index.Rmd&quot;,
-            &quot;01-intro.Rmd&quot;,
-            &quot;02-new_chapter.Rmd&quot;]  ## new!</code></pre>
-<ul class="task-list">
-<li><input type="checkbox" />Commit the updated
-<code>_bookdown.yml</code></li>
-<li><input type="checkbox" />Check your PR for any new automated check
-results</li>
-</ul>
 </div>
-</div>
-<blockquote>
-<p>Ensure you have checked that the quotation marks and commas align
-with the YAML and that you have the correct file names!</p>
-</blockquote>
-<hr />
+<div id="art-and-design-roles" class="section level2">
+<h2>Art and Design Roles</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Role</th>
+<th align="left">Use When</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Illustrator(s)</td>
+<td align="left">Created graphics for the course</td>
+</tr>
+<tr class="even">
+<td align="left">Figure Artist(s)</td>
+<td align="left">Created figures/plots for course</td>
+</tr>
+<tr class="odd">
+<td align="left">Videographer(s)</td>
+<td align="left">Filmed videos</td>
+</tr>
+<tr class="even">
+<td align="left">Videography Editor(s)</td>
+<td align="left">Edited film</td>
+</tr>
+<tr class="odd">
+<td align="left">Audiographer(s)</td>
+<td align="left">Recorded audio</td>
+</tr>
+<tr class="even">
+<td align="left">Audiography Editor(s)</td>
+<td align="left">Edited audio recordings</td>
+</tr>
+</tbody>
+</table>
 <br> <br>
 <center>
 <a href="https://www.ottrproject.org/">
@@ -340,7 +378,7 @@ with the YAML and that you have the correct file names!</p>
 </center>
 <div class="authors">
 <p><strong>Authors</strong>: Padmashri Saravanan from <a
-href="https://www.biodatasage.com/">BioData Sage</a> created the
+href="https://www.biodatasage.com/">BioDataSage</a> created the
 cheatsheet content. Carrie Wright reviewed the material. Kate Isaac
 created the original styling, Carrie Wright did the css styling and
 Carrie Wright and Candace Savonen did the publishing engineering for the

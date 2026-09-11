@@ -10,5 +10,6 @@ listing:
 - id: general
   template: gallery.ejs
   contents: gallery.yml
+  type: grid
 ---
 

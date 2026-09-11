@@ -11,7 +11,7 @@
 
 
 
-<title>ottr_pr.knit</title>
+<title>ottr_course_style.knit</title>
 
 <script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -169,11 +169,11 @@ pre code {
 
 
 <div class="header_box">
-<p><u>OTTR Pull Requests</u><br><span style="color:#986753;"> Writing
-New Content </span></p>
+<p><u>OTTR Course Style</u><br><span style="color:#986753;"> Customizing
+Colors &amp; Style </span></p>
 </div>
 <div class="png_button">
-<a href="https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_pr.png?raw=true">Download
+<a href="https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_course_style.png?raw=true">Download
 cheatsheet</a>
 </div>
 <div class="time">
@@ -181,158 +181,99 @@ cheatsheet</a>
 </div>
 <!-- Open all links in new tab-->
 <p><base target="_blank" rel="noopener noreferrer"/></p>
-<p>All OTTR content development revolves around <strong>pull
-requests</strong> where proposed changes trigger automated checks before
-publishing.</p>
-<blockquote>
-<p>⚠️ <strong>Never edit the <code>docs</code> folder directly or push
-rendered files.</strong> Automation handles those files.</p>
-</blockquote>
-<hr />
-<div id="writing-your-content" class="section level2">
-<h2>Writing Your Content</h2>
+<div id="how-course-colors-are-controlled" class="section level2">
+<h2>How Course Colors Are Controlled</h2>
+<p>Two CSS files separate OTTR’s defaults from your course
+customizations:</p>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
-<div id="option-a-browser-entry-level" class="section level3">
-<h3>Option A: Browser (Entry Level)</h3>
-<ul class="task-list">
-<li><input type="checkbox" />On your repo page, click the branch button
-and create a <strong>new branch</strong></li>
-<li><input type="checkbox" />Navigate to a file, click the
-<strong>pencil icon</strong> to edit</li>
-<li><input type="checkbox" />Scroll down and <strong>Commit directly to
-your new branch</strong></li>
-<li><input type="checkbox" />Return to the main repo page and click
-<strong>Compare &amp; pull request</strong></li>
-<li><input type="checkbox" />Add a description and click <strong>Create
-Pull Request</strong></li>
+<div id="style_config_default.css" class="section level3">
+<h3><code>style_config_default.css</code></h3>
+<p><strong>Gets synced</strong> from OTTR</p>
+<ul>
+<li>Defines all default CSS variables</li>
+<li>Ensures new variables exist before <code>style.css</code> references
+them</li>
+<li>Do not edit it; sync updates can overwrite your changes</li>
 </ul>
 </div>
-<div id="option-b-local-advanced" class="section level3">
-<h3>Option B: Local (Advanced)</h3>
-<ul class="task-list">
-<li><input type="checkbox" /><strong>Clone</strong> your repo using
-GitKraken or Git</li>
-<li><input type="checkbox" />Create a <strong>new branch</strong> for
-your changes</li>
-<li><input type="checkbox" />Edit files locally, then <strong>stage and
-commit</strong> in GitKraken</li>
-<li><input type="checkbox" /><strong>Push</strong> your branch to
-GitHub</li>
-<li><input type="checkbox" />Go to GitHub and click <strong>Compare
-&amp; pull request</strong></li>
-<li><input type="checkbox" />Add a description and click <strong>Create
-Pull Request</strong></li>
+<div id="style_config_custom.css" class="section level3">
+<h3><code>style_config_custom.css</code></h3>
+<p><strong>Not synced</strong></p>
+<ul>
+<li>Overrides the defaults</li>
+<li>Store your course color choices here</li>
+<li>Changes are safe from future sync updates</li>
 </ul>
 </div>
 </div>
-<p class="comment">
-<blockquote>
-<p>⚠️ <strong>Do not push rendered files</strong> (e.g. files in
-<code>docs/</code>). OTTR’s automation renders and manages these files
-automatically. Pushing rendered files can cause conflicts and break the
-automated workflow.</p>
-</blockquote>
-</p>
-<hr />
 </div>
-<div id="ottr-automated-checks" class="section level2">
-<h2>OTTR Automated Checks</h2>
-<p>Once your PR is open, checks run automatically and post results as
-<strong>comments on the PR</strong>.</p>
-<table>
-<thead>
-<tr class="header">
-<th align="left">Check</th>
-<th align="left">What it does</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="left"><strong>URL check</strong></td>
-<td align="left">Verifies all links are valid</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Spell check</strong></td>
-<td align="left">Flags spelling errors</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Style check</strong></td>
-<td align="left">Checks code formatting</td>
-</tr>
-<tr class="even">
-<td align="left"><strong>Preview render</strong></td>
-<td align="left">Generates a rendered preview</td>
-</tr>
-<tr class="odd">
-<td align="left"><strong>Quiz check</strong></td>
-<td align="left">Validates quiz formatting (if applicable)</td>
-</tr>
-</tbody>
-</table>
+<div id="customize-course-colors" class="section level2">
+<h2>Customize Course Colors</h2>
+<p>Edit <code>assets/style_config_custom.css</code> to override only the
+variables you want to change:</p>
+<pre class="css"><code>:root {
+  --link-color: #a1005a;
+  --accent-color: #6e0040;
+  --highlight-color: #e754a6;
+  --caption-color: #4a4a4a;
+  --background-color: #ffffff;
+  --callout-background-color: #f6e9f1;
+}</code></pre>
 <ul class="task-list">
-<li><input type="checkbox" />Read the check comments on your PR</li>
-<li><input type="checkbox" />Commit fixes to your branch to re-trigger
-checks</li>
-<li><input type="checkbox" />Adjust which checks run in
-<code>config_automation.yml</code></li>
+<li><input type="checkbox" />Open
+<code>assets/style_config_custom.css</code> in your repository.</li>
+<li><input type="checkbox" />Change only the variables you need.</li>
+<li><input type="checkbox" />Commit the change on a new branch and check
+the pull request preview.</li>
 </ul>
 <p class="comment">
-<em>If a check result looks unexpected, refresh the page or make a new
-commit to re-trigger.</em>
+<em>Variables not set in <code>style_config_custom.css</code> continue
+to use the defaults in <code>style_config_default.css</code>.</em>
 </p>
-<hr />
-</div>
-<div id="adding-a-new-chapter" class="section level2">
-<h2>Adding a New Chapter</h2>
 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2em;">
-<div id="quarto" class="section level3">
-<h3>Quarto</h3>
-<ul class="task-list">
-<li><input type="checkbox" />Add a new <code>.qmd</code> file to your
-branch</li>
-<li><input type="checkbox" />Add the filename to
-<code>_quarto.yml</code> under <code>navar:</code></li>
-</ul>
-<pre class="yaml"><code>navbar:
-    left:
-    - text: &quot;&quot;
-      href: index.qmd
-      icon: fa-home
-    - text: 1. Setup
-      href: setup.qmd
-    - text: 2. New Chapter
-      href: new_chapter.qmd ## new!</code></pre>
-<ul class="task-list">
-<li><input type="checkbox" />Commit the updated
-<code>_quarto.yml</code></li>
-<li><input type="checkbox" />Check your PR for any new automated check
-results</li>
-</ul>
-</div>
-<div id="r-markdown" class="section level3">
-<h3>R Markdown</h3>
-<ul class="task-list">
-<li><input type="checkbox" />Add a new <code>.Rmd</code> file to your
-branch</li>
-<li><input type="checkbox" />Add the filename to
-<code>_bookdown.yml</code> under <code>rmd_files:</code></li>
-</ul>
-<pre class="yaml"><code>rmd_files: [&quot;index.Rmd&quot;,
-            &quot;01-intro.Rmd&quot;,
-            &quot;02-new_chapter.Rmd&quot;]  ## new!</code></pre>
-<ul class="task-list">
-<li><input type="checkbox" />Commit the updated
-<code>_bookdown.yml</code></li>
-<li><input type="checkbox" />Check your PR for any new automated check
-results</li>
-</ul>
+<div>
+<div class="figure" style="text-align: center">
+<img src="resources/images/style_default.png" alt="Default colors" width="381" />
+<p class="caption">
+Default colors
+</p>
 </div>
 </div>
-<blockquote>
-<p>Ensure you have checked that the quotation marks and commas align
-with the YAML and that you have the correct file names!</p>
-</blockquote>
-<hr />
+<div>
+<div class="figure" style="text-align: center">
+<img src="resources/images/style_change.png" alt="Changed colors" width="390" />
+<p class="caption">
+Changed colors
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="use-a-course-style-set" class="section level2">
+<h2>Use a Course Style Set</h2>
+<p>Style sets are an alternative to changing CSS variables. If you use a
+style set, changes to <code>style_config_default.css</code> will not
+affect that style set.</p>
+<ol style="list-style-type: decimal">
+<li>Choose a set from the template’s <code>style-sets/</code> directory,
+such as <code>itcr</code> or <code>data-trail</code>.</li>
+<li>Copy the files for your course type as instructed in that style-set
+directory.</li>
+<li>Copy all files from
+<code>style-sets/&lt;set-name&gt;/copy-to-assets</code> into the
+top-level <code>assets/</code> folder of your repository.</li>
+<li>Open a pull request and check the rendered preview before
+merging.</li>
+</ol>
+</div>
+<div id="helpful-color-tools" class="section level2">
+<h2>Helpful Color Tools</h2>
+<ol style="list-style-type: decimal">
+<li><a
+href="https://venngage.com/tools/accessible-color-palette-generator">Venngage
+Color Accessibility Tool</a></li>
+<li><a href="https://color-buddy.netlify.app/">ColorBuddy</a></li>
+</ol>
 <br> <br>
 <center>
 <a href="https://www.ottrproject.org/">
@@ -341,9 +282,10 @@ with the YAML and that you have the correct file names!</p>
 <div class="authors">
 <p><strong>Authors</strong>: Padmashri Saravanan from <a
 href="https://www.biodatasage.com/">BioData Sage</a> created the
-cheatsheet content. Carrie Wright reviewed the material. Kate Isaac
-created the original styling, Carrie Wright did the css styling and
-Carrie Wright and Candace Savonen did the publishing engineering for the
+cheatsheet content. Katherine Cox structured OTTR’s color
+customizations. Carrie Wright reviewed the material. Kate Isaac created
+the original styling, Carrie Wright did the CSS styling, and Carrie
+Wright and Candace Savonen did the publishing engineering for the
 cheatsheet. <a href="https://www.ottrproject.org/">OTTR</a> was created
 and or is maintained by the following team: Candace Savonen, Carrie
 Wright, Kate Isaac, Ava Hoffman, Adam Coffman, Katherine Cox, Federick
