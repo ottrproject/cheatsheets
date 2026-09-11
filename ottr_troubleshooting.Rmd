@@ -5,7 +5,7 @@ output:
       in_header: ottr_favicon.html
 css: css/OTTR_style.css
 ---
-
+ 
 ```{r, echo=FALSE, results='asis'}
 ottrpal::borrow_chapter(
   doc_path = "chunks/create_ottr_header.md",
@@ -16,7 +16,7 @@ ottrpal::borrow_chapter(
   ))
 ```
 
-Use this checklist when an OTTR course, website, or pull request preview does not render as expected.
+Use this checklist when an OTTR course, website, or pull request preview does not render as expected.  
 
 ## Content Is Not Rendering or Updating
 

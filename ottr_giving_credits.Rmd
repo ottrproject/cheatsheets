@@ -15,7 +15,7 @@ ottrpal::borrow_chapter(
     "{PATH_TO_PNG}" = "https://github.com/ottrproject/cheatsheets/blob/main/pngs/ottr_giving_credits.png?raw=true"
   ))
 ```
-
+ 
 OTTR courses use an `About.qmd`, `About.Rmd` or `About.md` file to show who contributed to the course and what kind of work they did.
 
 Use the credits table to make contributions easy to understand, especially when the same person appears in more than one role.
